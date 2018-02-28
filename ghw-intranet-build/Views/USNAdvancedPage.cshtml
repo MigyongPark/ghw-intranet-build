@@ -1,0 +1,11 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "USNMaster.cshtml";
+}
+
+@Html.Partial("USNAdvancedPageComponents/USN_AdvancedPageComponents", @Model.Content)	
+	
+@section BodyTag
+{
+    @Html.Raw(" class=\"advanced-page\"")
+}

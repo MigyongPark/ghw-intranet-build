@@ -1,0 +1,134 @@
+﻿ 2017-09-27 09:47:51,447 [P5328/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-09-27 09:47:51,541 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-09-27 09:47:51,588 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 36ms)
+ 2017-09-27 09:47:51,822 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-09-27 09:47:52,025 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 212ms)
+ 2017-09-27 09:47:52,197 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-09-27 09:47:52,197 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-09-27 09:47:52,197 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-09-27 09:47:52,291 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 92ms)
+ 2017-09-27 09:47:52,353 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-09-27 09:47:52,353 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-09-27 09:47:52,353 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-09-27 09:47:52,447 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 89ms)
+ 2017-09-27 09:47:52,525 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-09-27 09:47:52,525 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-09-27 09:47:52,541 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-09-27 09:47:52,541 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-09-27 09:47:55,869 [P5328/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-09-27 09:47:56,556 [P5328/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-09-27 09:47:56,556 [P5328/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-09-27 09:47:56,697 [P5328/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-09-27 09:47:57,041 [P5328/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-09-27 09:47:57,041 [P5328/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-09-27 09:47:57,056 [P5328/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-09-27 09:47:57,088 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-09-27 09:47:57,103 [P5328/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-09-27 09:47:57,931 [P5328/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6854ms)
+ 2017-09-27 09:48:03,744 [P5328/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-09-27 09:48:09,806 [P5328/D2/T5] INFO  umbraco.content - Load Xml from file...
+ 2017-09-27 09:48:09,853 [P5328/D2/T5] INFO  umbraco.content - Loaded Xml from file.
+ 2017-09-27 09:48:11,978 [P5328/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-09-27 09:48:11,978 [P5328/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-09-27 09:49:10,008 [P5328/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-09-26 09:49:09
+ 2017-09-27 12:36:24,722 [P5328/D2/T371] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 12:36:24,737 [P5328/D2/T371] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-09-27 12:36:25,175 [P5328/D2/T362] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-09-27 12:36:25,190 [P5328/D2/T362] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 14ms)
+ 2017-09-27 12:36:25,331 [P5328/D2/T360] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-09-27 12:36:25,331 [P5328/D2/T360] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2017-09-27 12:36:25,393 [P5328/D2/T360] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-09-27 12:36:25,393 [P5328/D2/T360] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-09-27 12:36:25,393 [P5328/D2/T360] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-09-27 12:36:25,393 [P5328/D2/T360] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-09-27 12:36:25,409 [P5328/D2/T362] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-09-27 12:36:25,425 [P5328/D2/T362] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 6ms)
+ 2017-09-27 12:40:25,451 [P5328/D2/T370] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-09-27 12:40:25,467 [P5328/D2/T370] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2017-09-27 13:21:40,779 [P5328/D2/T326] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-09-27 13:21:40,779 [P5328/D2/T326] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-09-27 13:40:35,023 [P5328/D2/T141] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-09-27 13:49:09,763 [P5328/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-09-26 13:49:09
+ 2017-09-27 13:52:11,150 [P5328/D2/T269] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jasmine.vickers from IP address 192.168.88.140
+ 2017-09-27 13:52:17,415 [P5328/D2/T265] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jasmine.vickers from IP address 192.168.88.140
+ 2017-09-27 13:52:30,212 [P5328/D2/T269] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username jasminevickers from IP address 192.168.88.140
+ 2017-09-27 13:52:40,821 [P5328/D2/T259] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 13:52:53,509 [P5328/D2/T269] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 13:52:53,509 [P5328/D2/T269] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-09-27 14:05:33,135 [P5328/D2/T312] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-09-27 14:05:33,135 [P5328/D2/T312] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-09-27 14:05:33,213 [P5328/D2/T314] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-09-27 14:05:33,213 [P5328/D2/T314] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-09-27 14:06:44,508 [P5328/D2/T308] INFO  Umbraco.Web.Editors.AuthenticationController - User BrianCarter from IP address 192.168.161.127 has logged out
+ 2017-09-27 14:06:59,305 [P5328/D2/T308] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.161.127
+ 2017-09-27 14:06:59,305 [P5328/D2/T308] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.161.127
+ 2017-09-27 14:07:13,242 [P5328/D2/T288] INFO  Umbraco.Web.Editors.AuthenticationController - User JasmineVickers from IP address 192.168.161.127 has logged out
+ 2017-09-27 14:07:15,539 [P5328/D2/T288] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-09-27 14:07:15,539 [P5328/D2/T288] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-09-27 14:12:23,564 [P5328/D2/T373] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-09-27 14:26:46,173 [P5328/D2/T97] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-09-27 14:26:52,422 [P5328/D2/T219] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-09-27 16:04:02,764 [P5328/D2/T159] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 16:04:09,514 [P5328/D2/T159] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 16:04:22,076 [P5328/D2/T166] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 16:04:41,888 [P5328/D2/T163] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-09-27 16:04:41,888 [P5328/D2/T163] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-09-27 16:04:41,935 [P5328/D2/T165] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-09-27 16:04:41,935 [P5328/D2/T165] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-09-27 16:24:11,928 [P5328/D2/T95] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-09-27 17:49:09,502 [P5328/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-09-26 17:49:09
+ 2017-09-27 19:24:57,970 [P5328/D2/T81] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:d3e49b39-b67b-4e8d-afad-a71eca76b411
+Error Number:-2,State:0,Class:11
+ 2017-09-27 20:51:46,495 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-09-27 20:51:46,495 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-09-27 20:51:46,495 [P5328/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-09-27 20:51:46,573 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-09-27 20:51:46,573 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-09-27 20:51:46,573 [P5328/D2/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-09-27 20:51:46,604 [P5328/D2/T309] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-09-27 20:51:46,604 [P5328/D2/T321] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-09-27 20:51:46,604 [P5328/D2/T314] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-09-27 20:52:16,713 [P5328/D2/T309] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

@@ -1,0 +1,10 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = null;
+}
+
+@{
+    var parent = Model.Content.Parent;
+	
+	Response.Redirect(parent.Url);
+}

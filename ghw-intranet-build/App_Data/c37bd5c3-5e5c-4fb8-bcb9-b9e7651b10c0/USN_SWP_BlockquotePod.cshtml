@@ -1,0 +1,15 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    <div class="item blockquote-pod">
+        <blockquote>
+            <p>@Html.Raw(umbraco.library.ReplaceLineBreaks(Model.Content.GetProperty("quote").Value.ToString()))</p>
+            @if (Model.Content.HasValue("cite"))
+            {
+                <cite>
+                    <span class="who">@Model.Content.GetProperty("cite").Value</span>
+                </cite>
+            }
+        </blockquote>
+    </div>
+}

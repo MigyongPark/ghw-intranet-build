@@ -1,0 +1,37 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBlog;
+
+@{
+    List<string> allCategories = new List<string>();
+      
+    // get landing page
+    var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+    if (Model.Content.HasValue("postCategories"))
+    { 
+        
+        var categories = Model.Content.GetProperty("postCategories").Value.ToString().Split(",".ToCharArray(), StringSplitOptions.RemoveEmptyEntries);
+        allCategories.AddRange(categories);
+
+        int currentCount = 1;  
+                                   
+        foreach (var c in allCategories)
+        {
+            if (!string.IsNullOrEmpty(c.Trim()))
+            {
+                var catNode = Umbraco.TypedContent(c);
+
+                if(catNode != null)
+                { 
+                    string lsCatURL = landing.Url + "?category=" + catNode.Id.ToString();
+  
+                    <span><a href="@lsCatURL" title="@catNode.Name" rel="NOINDEX, FOLLOW">@catNode.Name</a>@if (currentCount != allCategories.Count && allCategories.Count != 1){@Html.Raw(", "); }</span>
+                }
+            }
+
+            currentCount += 1;
+        }
+    }
+
+}

@@ -1,0 +1,156 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+    string podStyle = ViewData["podstyle"].ToString();
+    
+    string pods = String.Empty;
+    string pageLayout = String.Empty;
+    Boolean addPodContainer = false;
+
+    if (!Model.Content.HasValue("pageLayout"))
+    {
+        if (globalSettings.HasValue("defaultPageLayout"))
+        {
+            pageLayout = globalSettings.GetProperty("defaultPageLayout").Value.ToString();
+        }
+        else
+        {
+            pageLayout = "Content left, with sidebar";
+        }
+    }
+    else
+    {
+        pageLayout = Model.Content.GetProperty("pageLayout").Value.ToString();
+    }
+    
+    if ((podStyle == "vertical" && pageLayout != "Content full width") || (podStyle == "horizontal" && pageLayout == "Content full width"))
+    {
+        if (Model.Content.GetPropertyValue<bool>("overrideDefaultPods"))
+        {
+            if (Model.Content.HasValue("pagePods") && Model.Content.HasValue("pagePods"))
+            {
+                pods = Model.Content.GetProperty("pagePods").Value.ToString();
+            }
+        }
+        else
+        {
+            if (globalSettings.HasValue("defaultSitewidePods"))
+            {
+                pods = globalSettings.GetProperty("defaultSitewidePods").Value.ToString();
+            }
+        }
+
+        if (pods.Trim() != String.Empty)
+        {
+            if (pageLayout == "Content full width")
+            {
+                @Html.Raw("<section class=\"content\"><div class=\"container\"><div class=\"row\">")
+    
+                addPodContainer = true;
+            }
+
+            <div class="swp">
+                @foreach (var pod in Umbraco.TypedContent(pods.Split(',')))
+                {
+                    if(pod != null)
+                    { 
+                        string nodeTypeAlias = pod.DocumentTypeAlias;
+
+                        switch (nodeTypeAlias)
+                        {
+                            case "USN_SWP_GeneralPod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                @Html.Partial("USNSiteWidePods/USN_SWP_GeneralPod", @pod)
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                            case "USN_SWP_ImagePod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                @Html.Partial("USNSiteWidePods/USN_SWP_ImagePod", @pod)
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                            case "USN_SWP_VideoPod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                @Html.Partial("USNSiteWidePods/USN_SWP_VideoPod", @pod)
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                            case "USN_SWP_CodePod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                @Html.Partial("USNSiteWidePods/USN_SWP_CodePod", @pod)
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                            case "USN_SWP_ListingPod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                @Html.Partial("USNSiteWidePods/USN_SWP_ListingPod", @pod)
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                            case "USN_SWP_BlockquotePod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                @Html.Partial("USNSiteWidePods/USN_SWP_BlockquotePod", @pod)
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                            case "USN_SWP_NewsletterSignupPod":
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("<div class=\"col-md-4 col-sm-6 col-xs-12\">");
+                                }
+                                <div class="item newsletterpod">
+                                    @Html.Action("Index", "USNNewsletterSignupSurface", new { NodeID = pod.Id, ActualPageID = Model.Content.Id })
+                                </div>
+                                if (addPodContainer)
+                                {
+                                    @Html.Raw("</div>");
+                                }
+                                break;
+                        }
+                    }
+
+                }
+            </div>
+
+            if (pageLayout == "Content full width")
+            {
+                @Html.Raw("</div></div></section>")
+            }
+        }
+    }
+}

@@ -1,0 +1,77 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+    if (globalSettings.HasValue("socialHeading") || globalSettings.HasValue("facebookLink") ||
+        globalSettings.HasValue("twitterLink") || globalSettings.HasValue("linkedInLink") ||
+        globalSettings.HasValue("googleLink") || globalSettings.HasValue("pinterestLink") ||
+        globalSettings.HasValue("flickrLink") || globalSettings.HasValue("tumblrLink") ||
+        globalSettings.HasValue("vimeoLink") || globalSettings.HasValue("youTubeLink") ||
+        globalSettings.HasValue("behanceLink") || globalSettings.HasValue("soundCloudLink") ||
+        globalSettings.HasValue("rssFeedLink"))
+    {
+        <nav class="social">
+	    @if (globalSettings.HasValue("socialHeading"))
+        {
+	        <p class="heading">@globalSettings.GetProperty("socialHeading").Value</p>
+        }
+		    <ul>
+	            @if (globalSettings.HasValue("facebookLink"))
+                {
+			    <li class="facebook"><a href="@globalSettings.GetProperty("facebookLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">facebook</a></li>
+                }
+	            @if (globalSettings.HasValue("twitterLink"))
+                {
+			    <li class="twitter"><a href="@globalSettings.GetProperty("twitterLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">twitter</a></li>
+                }
+	            @if (globalSettings.HasValue("linkedInLink"))
+                {
+			    <li class="linkedin"><a href="@globalSettings.GetProperty("linkedInLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">linkedin</a></li>
+                }
+	            @if (globalSettings.HasValue("googleLink"))
+                {
+			    <li class="google_plus"><a href="@globalSettings.GetProperty("googleLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">googleplus</a></li>
+                }
+		        @if (globalSettings.HasValue("pinterestLink"))
+                {
+			    <li class="pinterest"><a href="@globalSettings.GetProperty("pinterestLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">pinterest</a></li>
+                }
+                @if (globalSettings.HasValue("instagramLink"))
+                {
+                <li class="instagram"><a href="@globalSettings.GetProperty("instagramLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">instagram</a></li>
+                }
+	            @if (globalSettings.HasValue("flickrLink"))
+                {
+			    <li class="flickr"><a href="@globalSettings.GetProperty("flickrLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">flickr</a></li>
+                }
+	            @if (globalSettings.HasValue("tumblrLink"))
+                {
+	            <li class="tumblr"><a href="@globalSettings.GetProperty("tumblrLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">tumblr</a></li>
+                }
+	            @if (globalSettings.HasValue("vimeoLink"))
+                {
+	            <li class="vimeo"><a href="@globalSettings.GetProperty("vimeoLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">vimeo</a></li>
+                }
+	            @if (globalSettings.HasValue("youTubeLink"))
+                {
+	            <li class="youtube"><a href="@globalSettings.GetProperty("youTubeLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">youtube</a></li>
+                }
+                @if (globalSettings.HasValue("behanceLink"))
+                {
+                    <li class="behance"><a href="@globalSettings.GetProperty("behanceLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">behance</a></li>
+                }
+                @if (globalSettings.HasValue("soundCloudLink"))
+                {
+                    <li class="soundcloud"><a href="@globalSettings.GetProperty("soundCloudLink").Value" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">soundcloud</a></li>
+                }
+                @if (globalSettings.HasValue("rssFeedLink") && umbraco.library.NiceUrl(Convert.ToInt32(globalSettings.GetProperty("rssFeedLink").Value)) != "#")
+                {
+	            <li class="rss"><a href="@umbraco.library.NiceUrl(Convert.ToInt32(globalSettings.GetProperty("rssFeedLink").Value))" class="symbol" target="_blank" title="@umbraco.library.GetDictionaryItem("USN New Window Title Tag")">rss</a></li>
+                }
+		</ul>
+    </nav>   
+    }
+}

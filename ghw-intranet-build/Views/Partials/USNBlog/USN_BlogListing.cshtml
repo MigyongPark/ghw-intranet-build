@@ -1,0 +1,80 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBusinessLogic;
+@using USNStarterKit.USNBlog;
+
+@{
+
+
+    // get item count
+    int count = int.TryParse(Model.Content.GetProperty("blogListingPageSize").Value.ToString(), out count) ? count : 10;
+    // get tag, category, or author from query string
+    int page = int.TryParse(Request.QueryString["page"], out page) ? page : 1;
+	int year = int.TryParse(Request.QueryString["year"], out year) ? year: 0;
+    int month = int.TryParse(Request.QueryString["month"], out month) ? month: 0;
+
+    string catID = Request.QueryString["category"];
+
+    IEnumerable<IPublishedContent> posts = USNPostService.Instance.GetPosts(Model.Content, catID, page - 1, count, month, year);
+
+    // get landing node
+    var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+    // only get posts where the path has the landing node's id.
+    posts = posts.Where(x => x.Path.Contains(landing.Id + ","));
+
+    IEnumerable<IPublishedContent> nodes = posts.Take(count).ToList();
+
+    int postCount = USNPostService.Instance.GetPosts(Model.Content, catID, 0, int.MaxValue, month, year).Count();
+
+    int summaryTextLength = 0;
+
+    if (posts.Count() > 0)
+    {
+    <!-- LISTING -->
+		foreach (IPublishedContent n in nodes)
+        {
+
+		<a href="@n.Url" >
+
+		@* container for the link - holding two divs ----- start *@
+		<div id="linkContainer">
+
+                    @{
+
+                        string postName = "";
+
+                        if (n.HasValue("pageTitle"))
+                        {
+                            postName = n.GetProperty("pageTitle").Value.ToString();
+                        }
+                        else
+                        {
+                            postName = n.Name;
+                        }
+
+                        if (n.HasValue("pageListingImage") && Umbraco.TypedMedia(n.GetProperty("pageListingImage").Value) != null)
+                        {
+
+						@* NEWS ICON IMAGE *@
+
+						<div id="newsListIcon">
+							<img src="@Umbraco.TypedMedia(n.GetProperty("pageListingImage").Value).GetCropUrl(width: 133, height: 80)" alt="@n.GetProperty("pageListingImageAltText").Value" itemprop="image">
+						</div>
+
+                        }
+
+                    }
+
+					<div id="newsListText">
+
+						@* headline *@
+					<h2 id="newsNews">@postName</h2>
+
+					</div>
+			</div>
+			@* container for the link - holding two divs ----- end *@
+                </a>
+        }
+    }
+}

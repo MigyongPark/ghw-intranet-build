@@ -1,0 +1,363 @@
+﻿ 2018-01-10 02:26:43,267 [P9464/D3/T374] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 02:26:43
+ 2018-01-10 06:26:43,222 [P9464/D3/T408] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 06:26:43
+ 2018-01-10 08:30:02,393 [P9464/D3/T511] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-10 08:30:02,393 [P9464/D3/T511] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-10 08:30:02,549 [P9464/D3/T517] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-10 08:30:02,565 [P9464/D3/T517] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-10 08:30:02,627 [P9464/D3/T771] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-10 08:30:02,659 [P9464/D3/T771] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 22ms)
+ 2018-01-10 08:49:37,729 [P9464/D3/T772] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-10 09:04:21,205 [P9464/D3/T533] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.182
+ 2018-01-10 09:04:21,205 [P9464/D3/T533] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.182
+ 2018-01-10 09:04:21,267 [P9464/D3/T773] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-10 09:04:21,267 [P9464/D3/T773] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-10 09:15:59,756 [P9464/D3/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '4641' has been published.
+ 2018-01-10 09:16:04,068 [P9464/D3/T480] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 09:16:04,396 [P9464/D3/T480] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 09:45:49,096 [P9464/D3/T773] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer information point' with Id '0' has been published.
+ 2018-01-10 09:45:53,424 [P9464/D3/T480] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 09:45:53,768 [P9464/D3/T480] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 09:45:58,049 [P9464/D3/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer information point' with Id '5939' has been published.
+ 2018-01-10 09:46:02,377 [P9464/D3/T480] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 09:46:02,815 [P9464/D3/T480] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:26:42,737 [P9464/D3/T526] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 10:26:42
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-10 10:32:12,297 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-10 10:32:12,297 [P9464/D3/T774] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-10 10:32:12,313 [P9464/D3/T47] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-10 10:32:12,313 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-10 10:32:12,313 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-10 10:32:12,313 [P9464/D3/T533] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-10 10:32:12,313 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-10 10:32:12,313 [P9464/D3/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-10 10:32:12,313 [P9464/D3/T526] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-10 10:32:42,422 [P9464/D3/T81] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2018-01-10 10:41:04,465 [P9464/D4/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-10 10:41:04,512 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-10 10:41:04,528 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2018-01-10 10:41:04,637 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-10 10:41:04,684 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 45ms)
+ 2018-01-10 10:41:04,747 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-10 10:41:04,747 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-01-10 10:41:04,747 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-10 10:41:04,762 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 19ms)
+ 2018-01-10 10:41:04,794 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-10 10:41:04,794 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-10 10:41:04,794 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-10 10:41:04,872 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 64ms)
+ 2018-01-10 10:41:04,919 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-10 10:41:04,919 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-10 10:41:04,919 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-10 10:41:04,919 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-10 10:41:07,215 [P9464/D4/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-10 10:41:07,544 [P9464/D4/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-10 10:41:07,544 [P9464/D4/T77] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-10 10:41:07,544 [P9464/D4/T77] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-10 10:41:07,590 [P9464/D4/T77] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-10 10:41:07,794 [P9464/D4/T77] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-10 10:41:07,794 [P9464/D4/T77] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-10 10:41:07,840 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-10 10:41:07,856 [P9464/D4/T77] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-10 10:41:08,231 [P9464/D4/T77] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3942ms)
+ 2018-01-10 10:41:10,075 [P9464/D4/T193] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-10 10:41:15,309 [P9464/D4/T193] INFO  umbraco.content - Load Xml from file...
+ 2018-01-10 10:41:15,387 [P9464/D4/T193] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-10 10:41:17,309 [P9464/D4/T193] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-10 10:41:17,309 [P9464/D4/T193] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-01-10 10:41:22,700 [P9464/D4/T71] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username LynneHall from IP address 192.168.186.20
+ 2018-01-10 10:41:22,700 [P9464/D4/T71] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Lynnehall logged in from IP address 192.168.186.20
+ 2018-01-10 10:41:23,153 [P9464/D4/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-10 10:41:23,153 [P9464/D4/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-01-10 10:41:24,090 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-01-10 10:41:24,090 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-01-10 10:41:24,153 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-10 10:41:24,168 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-01-10 10:41:24,200 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-10 10:41:24,200 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-10 10:41:24,200 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-10 10:41:24,200 [P9464/D4/T100] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2018-01-10 10:42:15,652 [P9464/D4/T213] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 10:42:15
+ 2018-01-10 10:42:24,590 [P9464/D4/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 10:42:24,871 [P9464/D4/T193] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-01-10 10:42:24,871 [P9464/D4/T193] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-01-10 10:42:29,277 [P9464/D4/T72] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:42:29,496 [P9464/D4/T72] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:42:48,387 [P9464/D4/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '4670' has been published.
+ 2018-01-10 10:42:53,699 [P9464/D4/T193] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:42:53,933 [P9464/D4/T193] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:43:06,230 [P9464/D4/T109] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-10 10:43:10,605 [P9464/D4/T193] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:43:10,840 [P9464/D4/T193] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:43:34,871 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2018-01-10 10:43:39,183 [P9464/D4/T193] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:43:39,777 [P9464/D4/T193] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:43:53,308 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4682' has been published.
+ 2018-01-10 10:43:54,511 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Senior Management Team' with Id '4683' has been published.
+ 2018-01-10 10:43:55,324 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Angus Waddell' with Id '5875' has been published.
+ 2018-01-10 10:43:55,855 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Judith Ratledge' with Id '5876' has been published.
+ 2018-01-10 10:43:56,386 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Koster' with Id '5877' has been published.
+ 2018-01-10 10:43:56,917 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gina Nash' with Id '5873' has been published.
+ 2018-01-10 10:43:57,402 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lindsay Whittam' with Id '4684' has been published.
+ 2018-01-10 10:43:57,902 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lyndel Moore' with Id '5872' has been published.
+ 2018-01-10 10:43:58,496 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vacant' with Id '5874' has been published.
+ 2018-01-10 10:43:59,027 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen Brown' with Id '5880' has been published.
+ 2018-01-10 10:43:59,558 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Helen Winter' with Id '5878' has been published.
+ 2018-01-10 10:44:00,058 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kevin Jenner' with Id '5879' has been published.
+ 2018-01-10 10:44:00,527 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Nurse Team' with Id '5297' has been published.
+ 2018-01-10 10:44:00,996 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General Admin Team' with Id '4685' has been published.
+ 2018-01-10 10:44:01,699 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Simon Abrook' with Id '4686' has been published.
+ 2018-01-10 10:44:02,246 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Steven Winter' with Id '4687' has been published.
+ 2018-01-10 10:44:02,808 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ranjeet Babbra' with Id '4688' has been published.
+ 2018-01-10 10:44:03,308 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Angela Wilkins' with Id '4689' has been published.
+ 2018-01-10 10:44:03,824 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lynne Hall' with Id '4690' has been published.
+ 2018-01-10 10:44:04,277 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'MDT Co-Ordinators' with Id '5298' has been published.
+ 2018-01-10 10:44:05,011 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karun Adhikari' with Id '5882' has been published.
+ 2018-01-10 10:44:05,558 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '5883' has been published.
+ 2018-01-10 10:44:06,308 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Gilmore' with Id '5885' has been published.
+ 2018-01-10 10:44:06,855 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Jackson' with Id '5886' has been published.
+ 2018-01-10 10:44:07,386 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jenny Peck' with Id '5884' has been published.
+ 2018-01-10 10:44:07,933 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Petherbridge' with Id '5881' has been published.
+ 2018-01-10 10:44:08,495 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Quesnel' with Id '5887' has been published.
+ 2018-01-10 10:44:09,105 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Patient Pathway Facilitators' with Id '5299' has been published.
+ 2018-01-10 10:44:09,870 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paula Allen' with Id '5888' has been published.
+ 2018-01-10 10:44:10,527 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Louise Gasson' with Id '5890' has been published.
+ 2018-01-10 10:44:11,136 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jackie Hollister' with Id '5891' has been published.
+ 2018-01-10 10:44:11,870 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Donna Lake' with Id '5892' has been published.
+ 2018-01-10 10:44:12,464 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claire Taylor' with Id '5889' has been published.
+ 2018-01-10 10:44:16,777 [P9464/D4/T193] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:44:17,042 [P9464/D4/T193] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:44:32,042 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '5588' has been published.
+ 2018-01-10 10:44:32,808 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services departmental structure chart' with Id '5589' has been published.
+ 2018-01-10 10:44:37,120 [P9464/D4/T193] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:44:37,370 [P9464/D4/T193] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:44:45,136 [P9464/D4/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4668' has been unpublished.
+ 2018-01-10 10:44:49,511 [P9464/D4/T193] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:44:49,886 [P9464/D4/T193] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:44:53,058 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services Team' with Id '4656' has been unpublished.
+ 2018-01-10 10:44:57,245 [P9464/D4/T91] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:44:57,495 [P9464/D4/T91] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '4670' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer information point' with Id '5939' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (including systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4682' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '5588' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '4657' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '4658' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support services' with Id '4660' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Thames Valley Cancer Alliance' with Id '4662' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Understanding cancer targets' with Id '4663' has been published.
+ 2018-01-10 10:45:07,979 [P9464/D4/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4661' has been published.
+ 2018-01-10 10:45:13,683 [P9464/D4/T82] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:45:14,011 [P9464/D4/T82] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:46:42,979 [P9464/D4/T526] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 10:46:47,323 [P9464/D4/T526] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:46:47,557 [P9464/D4/T526] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:47:55,728 [P9464/D4/T510] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contacts' with Id '4682' has been published.
+ 2018-01-10 10:48:00,041 [P9464/D4/T526] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:48:00,306 [P9464/D4/T526] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:48:59,494 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer information point' with Id '5939' has been published.
+ 2018-01-10 10:48:59,494 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-10 10:48:59,494 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contacts' with Id '4682' has been published.
+ 2018-01-10 10:48:59,494 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 10:48:59,494 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '4658' has been published.
+ 2018-01-10 10:48:59,494 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support services' with Id '4660' has been published.
+ 2018-01-10 10:48:59,509 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '5588' has been published.
+ 2018-01-10 10:48:59,509 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '4657' has been published.
+ 2018-01-10 10:48:59,509 [P9464/D4/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 10:49:04,869 [P9464/D4/T100] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:49:05,087 [P9464/D4/T100] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 10:59:16,318 [P9464/D4/T178] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 10:59:20,662 [P9464/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 10:59:20,958 [P9464/D4/T98] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:01:40,676 [P9464/D4/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:01:44,989 [P9464/D4/T408] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:01:45,286 [P9464/D4/T408] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:02:41,816 [P9464/D4/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:02:46,082 [P9464/D4/T236] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:02:46,363 [P9464/D4/T236] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:04:07,722 [P9464/D4/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:04:12,019 [P9464/D4/T239] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:04:12,316 [P9464/D4/T239] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:05:02,769 [P9464/D4/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:05:07,050 [P9464/D4/T239] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:05:07,316 [P9464/D4/T239] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:07:50,080 [P9464/D4/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 11:07:54,330 [P9464/D4/T408] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 11:07:54,393 [P9464/D4/T219] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:07:54,924 [P9464/D4/T219] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:07:58,689 [P9464/D4/T214] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:07:58,971 [P9464/D4/T214] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:09:20,080 [P9464/D4/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:09:24,392 [P9464/D4/T214] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:09:24,736 [P9464/D4/T214] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:09:26,064 [P9464/D4/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:09:30,376 [P9464/D4/T240] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:09:30,767 [P9464/D4/T240] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:00,095 [P9464/D4/T753] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '4670' has been published.
+ 2018-01-10 11:10:04,439 [P9464/D4/T236] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:04,736 [P9464/D4/T236] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:08,501 [P9464/D4/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer information point' with Id '5939' has been published.
+ 2018-01-10 11:10:12,829 [P9464/D4/T108] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:13,110 [P9464/D4/T108] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:17,860 [P9464/D4/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-10 11:10:22,189 [P9464/D4/T221] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:22,454 [P9464/D4/T221] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:26,626 [P9464/D4/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2018-01-10 11:10:30,970 [P9464/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:31,251 [P9464/D4/T98] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:33,860 [P9464/D4/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contacts' with Id '4682' has been published.
+ 2018-01-10 11:10:38,142 [P9464/D4/T238] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:38,454 [P9464/D4/T238] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:39,985 [P9464/D4/T278] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 11:10:44,438 [P9464/D4/T753] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:44,735 [P9464/D4/T753] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:46,548 [P9464/D4/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '4658' has been published.
+ 2018-01-10 11:10:50,845 [P9464/D4/T229] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:51,157 [P9464/D4/T229] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:10:53,876 [P9464/D4/T239] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support services' with Id '4660' has been published.
+ 2018-01-10 11:10:58,220 [P9464/D4/T229] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:10:58,532 [P9464/D4/T229] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:11:00,845 [P9464/D4/T238] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '5588' has been published.
+ 2018-01-10 11:11:05,110 [P9464/D4/T110] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:11:05,407 [P9464/D4/T110] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:11:08,798 [P9464/D4/T209] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '4657' has been published.
+ 2018-01-10 11:11:13,110 [P9464/D4/T98] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:11:13,469 [P9464/D4/T98] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:11:20,782 [P9464/D4/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Thames Valley Cancer Alliance' with Id '4662' has been published.
+ 2018-01-10 11:11:25,094 [P9464/D4/T223] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:11:25,391 [P9464/D4/T223] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:11:27,469 [P9464/D4/T178] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Understanding cancer targets' with Id '4663' has been published.
+ 2018-01-10 11:11:31,766 [P9464/D4/T223] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:11:32,063 [P9464/D4/T223] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:11:34,391 [P9464/D4/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4661' has been published.
+ 2018-01-10 11:11:38,704 [P9464/D4/T120] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:11:39,001 [P9464/D4/T120] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:13:55,828 [P9464/D4/T239] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Meetings' with Id '0' has been published.
+ 2018-01-10 11:14:00,140 [P9464/D4/T120] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:14:00,406 [P9464/D4/T120] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:14:25,953 [P9464/D4/T108] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-10 11:14:30,218 [P9464/D4/T178] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:14:30,531 [P9464/D4/T178] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:14:52,812 [P9464/D4/T753] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2018-01-10 11:14:57,124 [P9464/D4/T178] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:14:57,374 [P9464/D4/T178] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:17:21,764 [P9464/D4/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Thames Valley Cancer Alliance' with Id '4662' has been unpublished.
+ 2018-01-10 11:17:25,889 [P9464/D4/T108] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:17:26,155 [P9464/D4/T108] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contacts' with Id '4682' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '5588' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '4657' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Meetings' with Id '5940' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Understanding cancer targets' with Id '4663' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4661' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support services' with Id '4660' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 11:18:30,717 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '4658' has been published.
+ 2018-01-10 11:18:36,138 [P9464/D4/T116] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:18:36,404 [P9464/D4/T116] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:21:17,606 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support services' with Id '4660' has been published.
+ 2018-01-10 11:21:17,606 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Understanding cancer targets' with Id '4663' has been published.
+ 2018-01-10 11:21:17,606 [P9464/D4/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4661' has been published.
+ 2018-01-10 11:21:22,450 [P9464/D4/T214] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:21:22,825 [P9464/D4/T214] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:29:55,087 [P9464/D4/T240] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (inc systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2018-01-10 11:29:59,384 [P9464/D4/T214] INFO  umbraco.content - Save Xml to file...
+ 2018-01-10 11:29:59,665 [P9464/D4/T214] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-10 11:35:22,538 [P9464/D4/T111] INFO  Umbraco.Web.Editors.AuthenticationController - User LynneHall from IP address 192.168.186.20 has logged out
+ 2018-01-10 13:26:09,574 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-10 13:26:09,574 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-10 13:26:09,574 [P9464/D4/T213] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-10 13:26:09,590 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-10 13:26:09,590 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-10 13:26:09,590 [P9464/D4/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-10 13:26:09,636 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-10 13:26:09,636 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-10 13:26:09,636 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-10 13:26:09,636 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-10 13:26:09,636 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-10 13:26:09,636 [P9464/D4/T240] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-10 13:26:09,636 [P9464/D4/T178] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-10 13:26:09,636 [P9464/D4/T98] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-10 13:26:09,636 [P9464/D4/T108] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-10 13:26:39,714 [P9464/D4/T239] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2018-01-10 15:48:34,269 [P5416/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-10 15:48:34,332 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-10 15:48:34,379 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 40ms)
+ 2018-01-10 15:48:34,566 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-10 15:48:34,722 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 158ms)
+ 2018-01-10 15:48:34,863 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-10 15:48:34,863 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2018-01-10 15:48:34,863 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-10 15:48:34,879 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 8ms)
+ 2018-01-10 15:48:34,925 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-10 15:48:34,925 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-10 15:48:34,925 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-10 15:48:34,941 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 11ms)
+ 2018-01-10 15:48:35,035 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-10 15:48:35,035 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-10 15:48:35,035 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-10 15:48:35,035 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-10 15:48:38,019 [P5416/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-10 15:48:38,660 [P5416/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-10 15:48:38,675 [P5416/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-10 15:48:38,675 [P5416/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-10 15:48:38,738 [P5416/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-10 15:48:39,004 [P5416/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-10 15:48:39,004 [P5416/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-10 15:48:39,066 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-10 15:48:39,066 [P5416/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-10 15:48:39,863 [P5416/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5927ms)
+ 2018-01-10 15:48:42,082 [P5416/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-10 15:48:46,175 [P5416/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-10 15:48:46,175 [P5416/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-01-10 15:49:14,628 [P5416/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.133.16
+ 2018-01-10 15:49:14,628 [P5416/D2/T12] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.133.16
+ 2018-01-10 15:49:15,081 [P5416/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-10 15:49:15,081 [P5416/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2018-01-10 15:49:15,972 [P5416/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-01-10 15:49:15,972 [P5416/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-01-10 15:49:16,238 [P5416/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-10 15:49:16,238 [P5416/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-10 15:49:16,253 [P5416/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-10 15:49:16,253 [P5416/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-01-10 15:49:16,363 [P5416/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-10 15:49:16,378 [P5416/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-01-10 15:49:17,456 [P5416/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2018-01-10 15:49:17,566 [P5416/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-10 15:49:45,894 [P5416/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 15:49:45
+ 2018-01-10 19:49:45,418 [P5416/D2/T14] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 19:49:45
+ 2018-01-10 23:49:45,373 [P5416/D2/T320] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-09 23:49:45

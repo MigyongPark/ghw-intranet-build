@@ -1,0 +1,45 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.DepartmentLandingPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="departmentsHeadBackground">
+	<img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" />
+	<h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!----DEPARTMENTS GRID START------------------------------------------------------>
+<div id="depLandingGrid">	
+	@foreach (var childpage in CurrentPage.Children)
+	{
+	@*---ITEM---START---*@
+	<a href="@childpage.Url">
+	<div id="depListingItem">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+	<tr>
+	<td id="depListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
+	</tr>
+	<tr>
+	<td id="depListingText">@childpage.Name</td>
+	</tr>
+	</tbody>
+	</table>
+	</div>
+	</a>
+	@*---ITEM---END---*@
+	}
+</div>
+<!----DEPARTMENTS GRID END------------------------------------------------------>
+
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+
+
+
+

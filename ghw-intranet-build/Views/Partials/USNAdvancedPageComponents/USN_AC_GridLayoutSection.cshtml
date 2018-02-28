@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    string backgroundStyle = "c5-bg";
+
+    if (Model.Content.HasValue("backgroundColor"))
+    {
+        switch (Model.Content.GetProperty("backgroundColor").Value.ToString())
+        {
+			case "ed6d19":
+				backgroundStyle = "c1-bg";
+				break;
+			case "cccccc":
+				backgroundStyle = "c2-bg";
+				break;
+			case "181818":
+				backgroundStyle = "c3-bg";
+				break;
+			case "f4f4f4":
+				backgroundStyle = "c4-bg";
+				break;
+			case "ffffff":
+				backgroundStyle = "c5-bg";
+				break;
+			case "e3e3e3":
+				backgroundStyle = "c6-bg";
+				break;
+			default:
+				backgroundStyle = "c5-bg";
+				break;
+        }
+    }
+
+    string animateClass = String.Empty;
+
+    if (Model.Content.GetPropertyValue<bool>("animate"))
+    {
+        animateClass = "os-animation";
+    }
+
+    <section class="content apc umb-grid @backgroundStyle" id="pos_@Model.Content.Id">		
+        <div class="@animateClass" data-os-animation="fadeIn" data-os-animation-delay="0">
+	
+            @Html.GetGridHtml(Model.Content, "grid", "Bootstrap3")
+
+        </div>
+    </section>
+}

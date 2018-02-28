@@ -1,0 +1,150 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+@{
+     
+    if (Model.Content.Children.Where(x => x.IsDocumentType("USNAdvancedPageComponents")).Count() > 0)
+    {
+        var pageComponentsNode = Model.Content.Children.Where(x => x.IsDocumentType("USNAdvancedPageComponents")).First();
+
+        foreach (var section in pageComponentsNode.Children.OrderBy("SortOrder"))
+        {
+            string lsNodeTypeAlias = section.DocumentTypeAlias;
+
+            switch (lsNodeTypeAlias)
+            {
+                case "USN_AC_BannerSection_AN":
+                    @Html.Partial("USNAdvancedPageComponents/USN_AC_BannerSection", @section)
+                    break;
+                case "USN_AC_PodsSection_AN":
+                    @Html.Partial("USNAdvancedPageComponents/USN_AC_PodsSection", @section)
+                    break;
+                case "USN_AC_GridLayoutSection_AN":
+                    @Html.Partial("USNAdvancedPageComponents/USN_AC_GridLayoutSection", @section);
+                    break;
+                case "USN_AC_TextSignupSection_AN":
+                    @Html.Action("TextSignup", "USNNewsletterSignupSurface", new { NodeID = section.Id, ActualPageID = Model.Content.Id})
+                    break;
+                case "USN_AC_SignupSubpageListingSection_AN":
+                    @Html.Action("SubpageSignup", "USNNewsletterSignupSurface", new { NodeID = section.Id, ActualPageID = Model.Content.Id})
+                    break;
+                case "USN_AC_TextVideoOrImageSection_AN":
+                    @Html.Partial("USNAdvancedPageComponents/USN_AC_TextVideoOrImageSection", @section);
+                    break;
+                case "USN_AC_TabbedListingSection_AN":
+                    @Html.Partial("USNAdvancedPageComponents/USN_AC_TabbedListingSection", @section);
+                    break;
+                case "USN_AC_CTAStrip_AN":
+                    @Html.Partial("USNAdvancedPageComponents/USN_AC_CTAStrip", @section);
+                    break;
+                case "USN_SC_AccordionTabSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_AccordionTabSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_ResourcesSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_ResourcesSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_TextSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_TextSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_Alert_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_Alert", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_LinksSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_LinksSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_GallerySection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_GallerySection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_Blockquote_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_Blockquote", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_ListSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_ListSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_CodeSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_CodeSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_SC_SlideshowSection_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Partial("USNStandardPageComponents/USN_SC_SlideshowSection", @section)
+                            </div>
+                        </div>
+                    </section>
+                    break;
+                case "USN_NewsletterSignup_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Action("Index", "USNNewsletterSignupSurface", new { NodeID = section.Id, ActualPageID = Model.Content.Id })
+                            </div>
+                        </div>
+                    </section>   
+                    break;
+                case "USN_SC_ContactForm_AN":
+                    <section class="content apc standard-components" id="@Html.Raw("pos_" + section.Id)">
+                        <div class="container">
+                            <div class="row">
+                                @Html.Action("Index", "USNContactFormSurface", new { NodeID = section.Id })
+                            </div>
+                        </div>
+                    </section>
+                    break;
+            }
+        }
+    }
+}

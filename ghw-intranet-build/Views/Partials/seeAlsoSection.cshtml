@@ -1,0 +1,18 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@if(@CurrentPage.addSeeAlsoSection==true)
+{
+	<div id="seeAlsoWrapper">
+		<div id="seeAlso">
+			<h2 id="seeAlso">See also</h2>
+			<ul id="seeAlso">
+			@foreach (var item in @CurrentPage.seeAlso)
+			{
+			// get the dynamic node via the id
+
+            dynamic node = new umbraco.MacroEngines.DynamicNode(@item.Id); 
+            <li id="seeAlso"><a id="seeAlso" href="@item.Url">@node.GetPropertyValue("pageTitle")</a></li>
+			}
+			</ul>
+		</div>
+	</div>	
+}

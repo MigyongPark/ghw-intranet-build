@@ -1,0 +1,71 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBlog;
+
+@{
+    IPublishedContent landing = USNDataService.Instance.GetLanding(Model.Content);
+
+    var categoryFolder = landing.Children.Where(x => x.IsDocumentType("USNBlogCategories")).First();
+
+    if (categoryFolder.Children.Count() > 0)
+    {
+    <!-- SUB - FILTER -->
+    <nav class="sub filter categories has-borders c6-borders">
+    <p class="heading inner">@umbraco.library.GetDictionaryItem("USN Blog Categories")</p>
+        <div class="inner">
+            @traverse(categoryFolder, false)
+        </div>
+    </nav>
+    <!--// SUB -->
+    }
+}
+
+@helper traverse(IPublishedContent parent, Boolean subCategory)
+{
+    var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+    if (parent.Children.Count() > 0)
+    {
+        <ul>    
+        @foreach (var node in parent.Children)
+        {
+            if (node != null)
+            {
+                string categoryURL = landing.Url + "?category=" + node.Id;
+                
+
+                string selected = "";
+                
+                if (!String.IsNullOrEmpty(Request.QueryString["category"]))
+                {
+                    string catID = Request.QueryString["category"];
+                    
+                    var AllChildren = node.Descendants();
+                    
+                    foreach(var childNode in AllChildren)
+                    {
+                        if (catID == childNode.Id.ToString())
+                        {
+                            selected = " class=\"active\" ";
+                        }
+                    }
+
+                    if (catID == node.Id.ToString())
+                    {
+                        selected = " class=\"active\" ";
+                    }
+                }    
+                <li @Html.Raw(selected)>
+                    <a href="@categoryURL"  rel="NOINDEX, FOLLOW">  	
+				        @node.Name
+		            </a>
+                    @if(selected != String.Empty)
+                    {
+                        @traverse(node, true);
+                    }
+                </li>
+            }
+        }
+        </ul>
+    }
+}

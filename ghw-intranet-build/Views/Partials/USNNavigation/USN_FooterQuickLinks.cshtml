@@ -1,0 +1,46 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using Newtonsoft.Json.Linq;
+	
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var navigation = settingsFolder.Children.Where(x => x.IsDocumentType("USNNavigation")).First();
+
+    var footerQuickLinks = navigation.GetPropertyValue<JArray>("footerQuickLinks");
+
+    if (navigation.HasValue("footerQuickLinksHeading") || (footerQuickLinks != null && navigation.GetPropertyValue<string>("footerQuickLinks", true, "").Length > 2))
+    {
+        <nav class="quick-links">
+	    @if (navigation.HasValue("footerQuickLinksHeading"))
+        {
+	        <p class="heading">@navigation.GetProperty("footerQuickLinksHeading").Value</p>
+        }
+		@if (footerQuickLinks != null && navigation.GetPropertyValue<string>("footerQuickLinks", true, "").Length > 2)
+        {
+            <ul class="row">
+                @foreach (JObject link in footerQuickLinks)
+                {
+                    string linkTitle = String.Empty;
+                    string linkURL = String.Empty;
+                    string linkTarget = String.Empty;
+                    string linkIcon = String.Empty;
+                    IPublishedContent node = null;
+
+                    linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+
+                    if (linkURL != String.Empty)
+                    {
+
+                        <li class="col-xs-6">
+                            <a href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)>
+                               @(link.Value<string>("caption"))@Html.Raw(linkIcon)
+                            </a>
+                        </li>
+                    }
+                }
+            </ul>
+        }
+		</nav>
+    }
+}

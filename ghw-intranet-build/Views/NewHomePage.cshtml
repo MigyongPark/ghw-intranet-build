@@ -1,0 +1,297 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.NewHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = null;
+    string userName = System.Web.HttpContext.Current.User.Identity.Name;
+}
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+
+<head>
+	<title>@Umbraco.Field("pageName")</title>
+	<link rel="stylesheet" href="/css/index.css" media="screen">
+	<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/media/1047/favicon3.png" type="image/png" />
+</head>
+<body>
+
+<!----- H O M E   P A G E   C O N T A I N E R --- S T A R T ----->
+<div class="homePageContainer">
+<!-----<p>@userName</p>----->
+<div id="trustLogo"><img src="/media/1835/trustlogocolourontransparent210x62.png" /></div>
+
+<!--- A - Z --- L I N K S --- S T A R T --->
+	<div id="atozLetterLinksHomePage">
+		<a href="/a-to-z/a/"><div id="letter"><table><tr><td id="letter">A</td></tr></table></div></a>
+		<a href="/a-to-z/b/"><div id="letter"><table><tr><td id="letter">B</td></tr></table></div></a>
+		<a href="/a-to-z/c/"><div id="letter"><table><tr><td id="letter">C</td></tr></table></div></a>
+		<a href="/a-to-z/d/"><div id="letter"><table><tr><td id="letter">D</td></tr></table></div></a>
+		<a href="/a-to-z/e/"><div id="letter"><table><tr><td id="letter">E</td></tr></table></div></a>
+		<a href="/a-to-z/f/"><div id="letterNarrower"><table><tr><td id="letterNarrower">F</td></tr></table></div></a>
+		<a href="/a-to-z/g/"><div id="letter"><table><tr><td id="letter">G</td></tr></table></div></a>
+		<a href="/a-to-z/h/"><div id="letter"><table><tr><td id="letter">H</td></tr></table></div></a>
+		<a href="/a-to-z/i/"><div id="letterNarrower"><table><tr><td id="letterNarrower">I</td></tr></table></div></a>
+		<a href="/a-to-z/j/"><div id="letterNarrower"><table><tr><td id="letterNarrower">J</td></tr></table></div></a>
+		<a href="/a-to-z/k/"><div id="letter"><table><tr><td id="letter">K</td></tr></table></div></a>
+		<a href="/a-to-z/l/"><div id="letterNarrower"><table><tr><td id="letterNarrower">L</td></tr></table></div></a>
+		<a href="/a-to-z/m/"><div id="letter"><table><tr><td id="letter">M</td></tr></table></div></a>
+		<a href="/a-to-z/n/"><div id="letter"><table><tr><td id="letter">N</td></tr></table></div></a>
+		<a href="/a-to-z/o/"><div id="letter"><table><tr><td id="letter">O</td></tr></table></div></a>
+		<a href="/a-to-z/p/"><div id="letter"><table><tr><td id="letter">P</td></tr></table></div></a>
+		<a href="/a-to-z/q/"><div id="letter"><table><tr><td id="letter">Q</td></tr></table></div></a>
+		<a href="/a-to-z/r/"><div id="letter"><table><tr><td id="letter">R</td></tr></table></div></a>
+		<a href="/a-to-z/s/"><div id="letter"><table><tr><td id="letter">S</td></tr></table></div></a>
+		<a href="/a-to-z/t/"><div id="letterNarrower"><table><tr><td id="letterNarrower">T</td></tr></table></div></a>
+		<a href="/a-to-z/u/"><div id="letter"><table><tr><td id="letter">U</td></tr></table></div></a>
+		<a href="/a-to-z/v/"><div id="letter"><table><tr><td id="letter">V</td></tr></table></div></a>
+		<a href="/a-to-z/w/"><div id="letter"><table><tr><td id="letter">W</td></tr></table></div></a>
+		<a href="/a-to-z/x/"><div id="letter"><table><tr><td id="letter">X</td></tr></table></div></a>
+		<a href="/a-to-z/y/"><div id="letterNarrower"><table><tr><td id="letterNarrower">Y</td></tr></table></div></a>
+		<a href="/a-to-z/z/"><div id="letter"><table><tr><td id="letter">Z</td></tr></table></div></a>
+		<form role="search" action="/search-results/" method="get" name="searchForm">
+			<div id="search">
+				<div class="site-search">
+    				<label class="control-label hidden" for="email">Search</label>
+	    			<input type="text" class="form-control" id="search_field" name="search_field" placeholder='Search'>
+					<button type="submit" class="searchButton"><img src="/media/1836/searchicon20x20.png"></button>
+				</div>
+			</div>
+		</form>
+	</div>
+	<!--- A - Z --- L I N K S --- E N D --->
+
+	<!---NEWS-LIST----START--->
+		<div id="indexNewsList">
+			<table id="indexNewsList" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td id="indexNewsListMain">
+					<ul id="indexNewsList">
+
+					@*----- sets the 'News top story' folder location ---- *@
+					@{
+					var topStoryFolder = Umbraco.TypedContent(@Umbraco.Field("topStoryFolder").ToString());
+					}
+						@{
+							foreach (var child in topStoryFolder.Children.OrderBy("updateDate desc"))
+							{
+
+							<a href="@child.Url">
+							<li id="newsTopStory">
+							@*----- image size is constrained to 260x150  -----*@
+							<img id="newsTopStory" src="@Umbraco.TypedMedia(child.GetProperty("pageListingImage").Value).GetCropUrl(width: 260, height: 150)"
+								alt="@child.GetProperty("pageListingImageAltText").Value" itemprop="image">
+
+
+							</li>
+							<div id="newsTopStoryCaption">@child.Name</div></a>
+
+						}
+					}
+
+					@*----- sets the parent node (this month) ---- *@
+					@{
+					var thisMonthList = Umbraco.TypedContent(@Umbraco.Field("thisMonthID").ToString());
+					}
+						@*----- sets counter and then counts 4 items ----- *@
+						@{
+		    			int count = 1;
+
+							@*--- lists the six most-recently updated news articles from this month ---*@
+							@*--- if there are less than six, the next block continues by taking them from last month ---*@
+							foreach (var child in thisMonthList.Children.OrderBy("postDate desc"))
+							{
+								if (count <= 4)
+								{
+								<a href="@child.Url">
+								<li id="indexNewsList">
+								@*----- image size is constrained to 130x75  -----*@
+								<img id="indexNewsList" src="@Umbraco.TypedMedia(child.GetProperty("pageListingImage").Value).GetCropUrl(width: 130, height: 75)"
+									alt="@child.GetProperty("pageListingImageAltText").Value" itemprop="image"><p id="indexNews">@child.Name</p>
+								</li></a>
+								}
+								count = count + 1;
+							}
+						}
+
+						@*----- sets the parent node (last month) ----*@
+						@{
+						var lastMonthList = Umbraco.TypedContent(@Umbraco.Field("lastMonthID").ToString());
+						}
+								@{
+								@*---continues to list the most-recently updated news articles from this last month until the count gets to six---*@
+								foreach (var child in lastMonthList.Children.OrderBy("postDate desc"))
+								{
+								if (count <= 4)
+								{
+								<a href="@child.Url">
+								<li id="indexNewsList">
+								@*----- image size is constrained to 130x75  -----*@
+								<img id="indexNewsList" src="@Umbraco.TypedMedia(child.GetProperty("pageListingImage").Value).GetCropUrl(width: 130, height: 75)"
+								alt="@child.GetProperty("pageListingImageAltText").Value" itemprop="image"><p id="indexNews">@child.Name</p>
+								</li></a>
+								}
+								count = count + 1;
+							}
+						}
+					</ul>
+				</td>
+			</tr>
+			</table>
+		</div>
+	<!---NEWS-LIST----END--->
+
+	<!----FRONT PAGE GRID START------------------------------------------------------>
+	<!---1---START--->
+		<a href="/services/">
+		<div id="gridPosition1">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition1"><img src="/media/1016/icon-support.png"><br />Services</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---1---END--->
+	<!---2 --->
+		<a href="/clinical-systems/">
+		<div id="gridPosition2">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition2"><img src="/media/1019/icon-clinical.png"><br />Clinical<br />systems</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---2 ---END--->
+	<!---3---START--->
+		<a href="/patient-support/">
+		<div id="gridPosition3">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition3"><img src="/media/1908/icon-support2.png" /><br />Patient support</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---3---END--->
+	<!---4---START--->
+		<a href="/incidents-risks-emergencies/">
+		<div id="gridPosition4">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition4">
+			<img src="/media/1907/icon-incident2.png"><br />
+			Emergencies, incidents, risks</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---4---END--->
+	<!---5---START--->
+		<a href="/find-a-colleague/">
+		<div id="gridPosition5">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition5"><img src="/media/1018/icon-colleague.png"><br />Find a<br />colleague</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---5---END--->
+	<!---6---START--->
+		<a href="/trust-wide-documents/">
+		<div id="gridPosition6">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition6"><img src="/media/1024/icon-trustwidedocuments.png"><br />Trust-wide<br />documents</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---6---END--->
+	<!---7---START--->
+		<a href="/news/">
+		<div id="gridPosition7">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition7"><img src="/media/1023/icon-news.png" /><br />More news</td>
+			</tr>
+			</table>
+		</div>
+		</a>
+	<!---7---END--->
+	<!---8 ---START--->
+		<a href="/staffroom/">
+		<div id="gridPosition8">
+			<table cellpadding="0" cellspacing="0">
+			<tr>
+			<td id="gridPosition8"><img src="/media/1022/icon-staffroom.png"><br />Staff area</td>
+			</tr>
+			</table>
+		</div>
+
+
+
+	<!---8 ---END--->
+	<!---9---START-->
+		</a>
+			<a href="/careers/">
+			<div id="gridPosition9">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+				<td id="gridPosition9"><img src="/media/1017/icon-careers.png" /><br />Careers<br />and training</td>
+				</tr>
+				</table>
+			</div>
+		</a>
+	<!---9---END--->
+	<!----FRONT PAGE GRID END------------------------------------------------------>
+
+	<!---GRAPEVINE---START--->
+		<div id="grapevine">
+			<table id="grapevine" cellpadding="0" cellspacing="0">
+			<tr>
+				<td id="grapevineMain">
+					<ul id="grapevineMain">
+						@{
+	var grapevineFolder = Umbraco.TypedContent(@Umbraco.Field("startNodeID").ToString());
+	}
+		@{
+
+			foreach (var child in grapevineFolder.Children.OrderBy("updateDate desc"))
+			{
+
+				<a id="speechBubbleHomePage" href="@child.Url">
+				<li id="grapevineMain">
+
+				<p class="speechBubble">@child.Name</p>
+				</li></a>
+			}
+		}
+					</ul>
+				</td>
+			</tr>
+				<tr>
+				<td id="grapevineFooter">
+				<a href="/staffroom/grapevine/"><div id="grapevineFooter">See all Grapevine messages or add your own</div></a>
+				</td>
+			</tr>
+			<tr>
+				<td id="grapevineSocial">
+				<div id="grapevineStatus2"><img src="@Umbraco.TypedMedia(Model.Content.GetPropertyValue("opelStatusImage")).Url"/></div>
+				<div id="grapevineSocial2"><!---has to stay in single line---><a href="https://twitter.com/GWH_NHS" target="-blank"><img id="twitter" src="/media/1169/twitter95.png" /></a><a href="https://www.facebook.com/GWHNHS" target="_blank"><img id="facebook" src="/media/1168/facebook95.png" /></a></div>
+				</td>
+			</tr>
+
+			</table>
+		</div>
+	<!---GRAPEVINE---END--->
+
+<div id="footer">
+	<img src="/media/1909/icon-twitter40.png" />
+	<img src="/media/1910/icon-facebook40.png" />
+	<img src="/media/1911/icon-help40a.png" />
+</div>
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->

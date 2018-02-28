@@ -1,0 +1,1292 @@
+﻿ 2017-11-02 03:26:44,616 [P13164/D2/T223] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 03:26:44
+ 2017-11-02 07:26:44,371 [P13164/D2/T241] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 07:26:44
+ 2017-11-02 08:21:17,230 [P13164/D2/T208] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-02 08:21:17,230 [P13164/D2/T208] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-02 08:21:17,511 [P13164/D2/T194] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 08:21:17,511 [P13164/D2/T194] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-11-02 08:21:17,589 [P13164/D2/T212] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-02 08:21:17,589 [P13164/D2/T212] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 3ms)
+ 2017-11-02 08:24:07,414 [P13164/D2/T209] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blue Light Card' with Id '4591' has been published.
+ 2017-11-02 08:24:11,742 [P13164/D2/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 08:24:12,070 [P13164/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 08:38:56,241 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-02 08:38:56,241 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-02 08:38:56,241 [P13164/D2/T212] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-02 08:38:56,288 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-02 08:38:56,288 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-02 08:38:56,288 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-02 08:38:56,288 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-02 08:38:56,288 [P13164/D2/T241] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-02 08:38:56,288 [P13164/D2/T190] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-02 08:38:56,303 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-02 08:38:56,303 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-02 08:38:56,303 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-02 08:38:56,303 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-02 08:38:56,303 [P13164/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-02 08:38:56,303 [P13164/D2/T192] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-02 08:38:57,616 [P13164/D3/T264] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-02 08:38:57,647 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-02 08:38:57,678 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Hash determined (took 23ms)
+ 2017-11-02 08:38:57,788 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-02 08:38:57,819 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 27ms)
+ 2017-11-02 08:38:57,866 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-02 08:38:57,866 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-02 08:38:57,866 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-02 08:38:57,881 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-11-02 08:38:57,913 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-02 08:38:57,913 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-02 08:38:57,913 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-02 08:38:57,928 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-11-02 08:38:57,991 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-02 08:38:57,991 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-02 08:38:57,991 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-02 08:38:57,991 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-02 08:39:00,460 [P13164/D3/T264] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 08:39:00,819 [P13164/D3/T264] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 08:39:00,819 [P13164/D3/T264] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 08:39:00,866 [P13164/D3/T264] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-02 08:39:01,053 [P13164/D3/T264] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-02 08:39:01,053 [P13164/D3/T264] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-02 08:39:01,069 [P13164/D3/T264] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-02 08:39:01,100 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-02 08:39:01,100 [P13164/D3/T264] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-11-02 08:39:01,585 [P13164/D3/T264] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4121ms)
+ 2017-11-02 08:39:02,397 [P13164/D3/T49] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 08:39:05,272 [P13164/D3/T209] INFO  umbraco.content - Load Xml from file...
+ 2017-11-02 08:39:05,334 [P13164/D3/T209] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-02 08:39:05,397 [P13164/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-02 08:39:05,397 [P13164/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-02 08:39:05,569 [P13164/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 08:39:05,569 [P13164/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-02 08:39:05,584 [P13164/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-02 08:39:05,584 [P13164/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-02 08:39:07,100 [P13164/D3/T209] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-02 08:39:07,100 [P13164/D3/T209] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-02 08:39:26,334 [P13164/D2/T171] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-02 08:39:45,740 [P13164/D3/T183] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-02 08:39:45,740 [P13164/D3/T183] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2017-11-02 08:40:05,490 [P13164/D3/T205] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 08:40:05
+ 2017-11-02 08:50:55,762 [P13164/D3/T192] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-11-02 08:50:55,762 [P13164/D3/T192] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 3ms)
+ 2017-11-02 08:53:02,372 [P13164/D3/T206] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vodaphone Advantage - NHS' with Id '0' has been published.
+ 2017-11-02 08:53:06,763 [P13164/D3/T266] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 08:53:07,138 [P13164/D3/T266] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:01:13,554 [P13164/D3/T207] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rewards for Rescue' with Id '0' has been published.
+ 2017-11-02 09:01:17,851 [P13164/D3/T192] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:01:18,070 [P13164/D3/T192] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:13:39,791 [P13164/D3/T209] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health Service Discounts' with Id '0' has been published.
+ 2017-11-02 09:13:44,056 [P13164/D3/T183] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:13:44,259 [P13164/D3/T183] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:22:22,468 [P13164/D3/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blue Light Card' with Id '4591' has been published.
+ 2017-11-02 09:22:26,874 [P13164/D3/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:22:27,109 [P13164/D3/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:22:33,983 [P13164/D3/T194] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vodaphone Advantage - NHS' with Id '4594' has been published.
+ 2017-11-02 09:22:38,265 [P13164/D3/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:22:38,483 [P13164/D3/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:22:51,936 [P13164/D3/T192] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rewards for Rescue' with Id '4596' has been published.
+ 2017-11-02 09:22:56,217 [P13164/D3/T192] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:22:56,467 [P13164/D3/T192] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:23:01,795 [P13164/D3/T189] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health Service Discounts' with Id '4598' has been published.
+ 2017-11-02 09:23:06,077 [P13164/D3/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:23:06,295 [P13164/D3/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:38:10,559 [P13164/D3/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-02 09:38:10,559 [P13164/D3/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 13ms)
+ 2017-11-02 09:40:50,415 [P13164/D3/T204] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health Service Discounts' with Id '4598' has been published.
+ 2017-11-02 09:40:50,415 [P13164/D3/T204] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vodaphone Advantage - NHS' with Id '4594' has been published.
+ 2017-11-02 09:40:54,822 [P13164/D3/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:40:55,087 [P13164/D3/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:41:10,806 [P13164/D3/T194] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National NHS staff discounts' with Id '4574' has been published.
+ 2017-11-02 09:41:15,087 [P13164/D3/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:41:15,368 [P13164/D3/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:41:27,134 [P13164/D3/T183] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-02 09:45:22,676 [P13164/D3/T204] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aqua G Hair and Beauty Salon, Swindon' with Id '0' has been published.
+ 2017-11-02 09:45:26,957 [P13164/D3/T7] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:45:27,207 [P13164/D3/T7] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:46:19,690 [P13164/D3/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aqua G Hair and Beauty Salon, Swindon' with Id '4605' has been published.
+ 2017-11-02 09:46:23,972 [P13164/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:46:24,253 [P13164/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:46:49,127 [P13164/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aqua G Hair and Beauty Salon, Swindon' with Id '4605' has been published.
+ 2017-11-02 09:46:53,455 [P13164/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:46:53,737 [P13164/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:47:36,533 [P13164/D3/T204] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'aqua-G hair and beauty salon, Swindon' with Id '4605' has been published.
+ 2017-11-02 09:47:40,814 [P13164/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:47:41,126 [P13164/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:47:55,860 [P13164/D3/T266] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'aqua-G hair and beauty salon, Swindon' with Id '4605' has been published.
+ 2017-11-02 09:48:00,079 [P13164/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 09:48:00,407 [P13164/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 09:48:57,484 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-02 09:48:57,484 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-02 09:48:57,500 [P13164/D3/T258] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-02 09:48:57,562 [P13164/D3/T209] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-02 09:48:57,562 [P13164/D3/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-02 09:48:57,562 [P13164/D3/T49] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-02 09:48:57,562 [P13164/D3/T208] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-02 09:48:57,562 [P13164/D3/T262] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-02 09:49:08,312 [P13164/D4/T220] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-02 09:49:08,343 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-02 09:49:08,359 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2017-11-02 09:49:08,468 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-02 09:49:08,515 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 37ms)
+ 2017-11-02 09:49:08,578 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-02 09:49:08,578 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-02 09:49:08,578 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-02 09:49:08,593 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2017-11-02 09:49:08,625 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-02 09:49:08,625 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-02 09:49:08,625 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-02 09:49:08,640 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-11-02 09:49:08,703 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-02 09:49:08,703 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-02 09:49:08,703 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-02 09:49:08,703 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-02 09:49:10,890 [P13164/D4/T220] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 09:49:11,234 [P13164/D4/T220] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 09:49:11,234 [P13164/D4/T220] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 09:49:11,281 [P13164/D4/T220] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-02 09:49:11,468 [P13164/D4/T220] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-02 09:49:11,468 [P13164/D4/T220] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-02 09:49:11,484 [P13164/D4/T220] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-02 09:49:11,500 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-02 09:49:11,500 [P13164/D4/T220] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-02 09:49:11,937 [P13164/D4/T220] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3814ms)
+ 2017-11-02 09:49:12,890 [P13164/D4/T83] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 09:49:12,890 [P13164/D4/T211] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 09:49:12,890 [P13164/D4/T209] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 09:49:12,906 [P13164/D4/T191] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 09:49:17,531 [P13164/D4/T182] INFO  umbraco.content - Load Xml from file...
+ 2017-11-02 09:49:17,593 [P13164/D4/T182] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-02 09:49:18,203 [P13164/D4/T182] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-02 09:49:18,203 [P13164/D4/T182] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-02 09:49:20,265 [P13164/D4/T182] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-02 09:49:20,265 [P13164/D4/T182] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-02 09:49:27,624 [P13164/D3/T208] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\58cc86dd\f5e83518\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-02 09:50:15,623 [P13164/D4/T183] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-02 09:50:15,623 [P13164/D4/T183] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-02 09:50:18,451 [P13164/D4/T245] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 09:50:18
+ 2017-11-02 09:56:43,788 [P13164/D4/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 09:56:43,788 [P13164/D4/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2017-11-02 09:56:43,788 [P13164/D4/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-02 09:56:43,788 [P13164/D4/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-02 09:56:53,256 [P13164/D4/T209] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpParseException (0x80004005): An opening "(" is missing the corresponding closing ")".
+
+   at System.Web.WebPages.Razor.RazorBuildProvider.EnsureGeneratedCode()
+   at System.Web.WebPages.Razor.RazorBuildProvider.get_CodeCompilerType()
+   at System.Web.Compilation.BuildProvider.GetCompilerTypeFromBuildProvider(BuildProvider buildProvider)
+   at System.Web.Compilation.BuildProvidersCompiler.ProcessBuildProviders()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-11-02 10:05:20,434 [P13164/D4/T196] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-02 10:05:20,434 [P13164/D4/T196] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 3ms)
+ 2017-11-02 10:07:56,244 [P13164/D4/T265] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-11-02 10:07:56,244 [P13164/D4/T265] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 2ms)
+ 2017-11-02 10:09:26,961 [P13164/D4/T269] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots' with Id '0' has been published.
+ 2017-11-02 10:09:31,461 [P13164/D4/T251] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:09:31,695 [P13164/D4/T251] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:10:33,475 [P13164/D4/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots discount and offers' with Id '0' has been published.
+ 2017-11-02 10:10:37,741 [P13164/D4/T209] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:10:37,975 [P13164/D4/T209] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:10:43,334 [P13164/D4/T247] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots discount and offers' with Id '4608' has been published.
+ 2017-11-02 10:10:43,334 [P13164/D4/T247] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Local NHS staff discounts' with Id '4575' has been published.
+ 2017-11-02 10:10:43,334 [P13164/D4/T247] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National NHS staff discounts' with Id '4574' has been published.
+ 2017-11-02 10:10:47,881 [P13164/D4/T196] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:10:48,131 [P13164/D4/T196] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:11:29,474 [P13164/D4/T206] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots' with Id '4607' has been published.
+ 2017-11-02 10:11:33,771 [P13164/D4/T210] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:11:33,989 [P13164/D4/T210] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:12:24,770 [P13164/D4/T272] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots discount and offers' with Id '4608' has been unpublished.
+ 2017-11-02 10:12:28,895 [P13164/D4/T269] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:12:29,129 [P13164/D4/T269] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:12:53,004 [P13164/D4/T209] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots discounts and offers' with Id '0' has been published.
+ 2017-11-02 10:12:57,253 [P13164/D4/T198] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:12:57,519 [P13164/D4/T198] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:13:02,066 [P13164/D4/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots discounts and offers' with Id '4609' has been published.
+ 2017-11-02 10:13:06,300 [P13164/D4/T201] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:13:06,519 [P13164/D4/T201] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:15:16,126 [P13164/D4/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '0' has been published.
+ 2017-11-02 10:15:20,391 [P13164/D4/T256] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:15:20,610 [P13164/D4/T256] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:19:41,996 [P13164/D4/T262] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '4610' has been published.
+ 2017-11-02 10:19:46,527 [P13164/D4/T256] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:19:46,855 [P13164/D4/T256] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:21:38,603 [P13164/D4/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots' with Id '0' has been published.
+ 2017-11-02 10:21:40,540 [P13164/D4/T200] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-02 10:21:42,853 [P13164/D4/T256] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:21:43,087 [P13164/D4/T256] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:22:30,399 [P13164/D4/T247] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '4610' has been published.
+ 2017-11-02 10:22:34,664 [P13164/D4/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:22:34,977 [P13164/D4/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:22:37,242 [P13164/D4/T256] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '4610' has been published.
+ 2017-11-02 10:22:41,930 [P13164/D4/T17] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:22:42,211 [P13164/D4/T17] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:23:44,850 [P13164/D4/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '4610' has been published.
+ 2017-11-02 10:23:49,100 [P13164/D4/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:23:49,350 [P13164/D4/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:26:40,160 [P13164/D4/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots offers' with Id '0' has been published.
+ 2017-11-02 10:26:44,425 [P13164/D4/T177] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:26:44,644 [P13164/D4/T177] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:30:02,562 [P13164/D4/T212] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots Offers of the Week - expiring 2 November 2017' with Id '0' has been published.
+ 2017-11-02 10:30:06,874 [P13164/D4/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:30:07,093 [P13164/D4/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:30:56,030 [P13164/D4/T192] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '4610' has been published.
+ 2017-11-02 10:31:00,311 [P13164/D4/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:31:00,545 [P13164/D4/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:31:36,826 [P13164/D4/T212] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots offers' with Id '4612' has been published.
+ 2017-11-02 10:31:41,154 [P13164/D4/T219] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:31:41,373 [P13164/D4/T219] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:34:26,244 [P13164/D4/T208] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots staff discount' with Id '4610' has been published.
+ 2017-11-02 10:34:30,494 [P13164/D4/T543] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:34:30,744 [P13164/D4/T543] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:34:47,447 [P13164/D4/T208] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Boots offers' with Id '4612' has been published.
+ 2017-11-02 10:34:51,744 [P13164/D4/T205] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:34:51,978 [P13164/D4/T205] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:36:57,679 [P13164/D4/T267] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shopping and discounts' with Id '4565' has been published.
+ 2017-11-02 10:37:01,976 [P13164/D4/T255] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:37:02,257 [P13164/D4/T255] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:45:13,654 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-02 10:45:13,654 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-02 10:45:13,669 [P13164/D4/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-02 10:45:13,716 [P13164/D4/T255] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-02 10:45:13,716 [P13164/D4/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-02 10:45:13,716 [P13164/D4/T262] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-02 10:45:13,716 [P13164/D4/T210] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-02 10:45:13,716 [P13164/D4/T265] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-02 10:45:16,638 [P13164/D5/T203] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-02 10:45:16,669 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-02 10:45:16,685 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Hash determined (took 23ms)
+ 2017-11-02 10:45:16,810 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-02 10:45:16,826 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 20ms)
+ 2017-11-02 10:45:16,872 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-02 10:45:16,872 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-02 10:45:16,872 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-02 10:45:16,888 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-11-02 10:45:16,919 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-02 10:45:16,919 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-02 10:45:16,919 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-02 10:45:16,935 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2017-11-02 10:45:16,982 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-02 10:45:16,997 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-02 10:45:16,997 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-02 10:45:16,997 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-02 10:45:19,232 [P13164/D5/T203] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 10:45:19,576 [P13164/D5/T203] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 10:45:19,576 [P13164/D5/T203] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 10:45:19,622 [P13164/D5/T203] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-02 10:45:19,810 [P13164/D5/T203] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-02 10:45:19,810 [P13164/D5/T203] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-02 10:45:19,826 [P13164/D5/T203] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-02 10:45:19,841 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-02 10:45:19,841 [P13164/D5/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-02 10:45:20,263 [P13164/D5/T203] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3791ms)
+ 2017-11-02 10:45:20,904 [P13164/D5/T262] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 10:45:22,138 [P13164/D5/T262] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-02 10:45:22,138 [P13164/D5/T262] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-02 10:45:23,497 [P13164/D5/T262] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-11-02 10:45:23,497 [P13164/D5/T262] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 2ms)
+ 2017-11-02 10:45:25,029 [P13164/D5/T245] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 10:45:25,029 [P13164/D5/T245] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 2ms)
+ 2017-11-02 10:45:25,044 [P13164/D5/T245] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-02 10:45:25,044 [P13164/D5/T245] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-02 10:45:26,529 [P13164/D5/T245] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-02 10:45:26,529 [P13164/D5/T245] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-02 10:45:43,731 [P13164/D4/T262] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-02 10:46:10,621 [P13164/D5/T262] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery' with Id '0' has been published.
+ 2017-11-02 10:46:11,918 [P13164/D5/T262] INFO  umbraco.content - Load Xml from file...
+ 2017-11-02 10:46:12,012 [P13164/D5/T262] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-02 10:46:16,168 [P13164/D5/T179] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:46:16,371 [P13164/D5/T179] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:46:22,356 [P13164/D5/T197] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 10:46:22
+ 2017-11-02 10:47:04,824 [P13164/D5/T207] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery Salary Sacrifice Scheme' with Id '4616' has been published.
+ 2017-11-02 10:47:09,167 [P13164/D5/T207] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:47:09,402 [P13164/D5/T207] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:47:09,620 [P13164/D5/T184] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-02 10:47:09,620 [P13164/D5/T184] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-02 10:47:13,777 [P13164/D5/T185] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery Salary Sacrifice Scheme' with Id '4616' has been published.
+ 2017-11-02 10:47:13,777 [P13164/D5/T185] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Local NHS staff discounts' with Id '4575' has been published.
+ 2017-11-02 10:47:13,777 [P13164/D5/T185] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National NHS staff discounts' with Id '4574' has been published.
+ 2017-11-02 10:47:18,245 [P13164/D5/T185] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:47:18,464 [P13164/D5/T185] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:49:13,102 [P13164/D5/T184] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Marketplace' with Id '0' has been published.
+ 2017-11-02 10:49:17,415 [P13164/D5/T201] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:49:17,680 [P13164/D5/T201] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:49:23,618 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Marketplace' with Id '4617' has been published.
+ 2017-11-02 10:49:23,618 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Military reservists' with Id '3985' has been published.
+ 2017-11-02 10:49:23,618 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our values' with Id '4514' has been published.
+ 2017-11-02 10:49:23,618 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Parking and travel' with Id '4471' has been published.
+ 2017-11-02 10:49:23,618 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pensions' with Id '4320' has been published.
+ 2017-11-02 10:49:23,618 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Personal security' with Id '4323' has been published.
+ 2017-11-02 10:49:23,633 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shopping and discounts' with Id '4565' has been published.
+ 2017-11-02 10:49:23,633 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Lottery' with Id '4294' has been published.
+ 2017-11-02 10:49:23,633 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4274' has been published.
+ 2017-11-02 10:49:23,633 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support, health and wellbeing' with Id '4447' has been published.
+ 2017-11-02 10:49:23,633 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-11-02 10:49:29,165 [P13164/D5/T201] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:49:29,571 [P13164/D5/T201] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:50:44,679 [P13164/D5/T269] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Marketplace' with Id '4617' has been published.
+ 2017-11-02 10:50:48,944 [P13164/D5/T185] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:50:49,241 [P13164/D5/T185] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:52:26,520 [P13164/D5/T201] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Grapevine' with Id '0' has been published.
+ 2017-11-02 10:52:30,817 [P13164/D5/T185] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:52:31,083 [P13164/D5/T185] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:57:20,765 [P13164/D5/T269] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: A' with Id '1379' has been published.
+ 2017-11-02 10:57:24,734 [P13164/D5/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: A' with Id '1379' has been published.
+ 2017-11-02 10:57:29,030 [P13164/D5/T17] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:57:29,280 [P13164/D5/T17] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:57:48,952 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leave' with Id '0' has been published.
+ 2017-11-02 10:57:53,327 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:57:53,577 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:58:05,951 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leave' with Id '4619' has been published.
+ 2017-11-02 10:58:05,951 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Legal [Emergency Department]' with Id '2791' has been published.
+ 2017-11-02 10:58:05,951 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Legal Services' with Id '2556' has been published.
+ 2017-11-02 10:58:05,951 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Library' with Id '2557' has been published.
+ 2017-11-02 10:58:05,951 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'LocSSIPs' with Id '2932' has been published.
+ 2017-11-02 10:58:05,951 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lymphoedema (Tissue Viability)' with Id '2601' has been published.
+ 2017-11-02 10:58:10,701 [P13164/D5/T222] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:58:11,061 [P13164/D5/T222] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:59:10,919 [P13164/D5/T264] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shopping and discounts' with Id '4566' has been published.
+ 2017-11-02 10:59:15,200 [P13164/D5/T222] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 10:59:15,481 [P13164/D5/T222] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 10:59:57,996 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Celebrating staff' with Id '0' has been published.
+ 2017-11-02 11:00:02,246 [P13164/D5/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:00:02,527 [P13164/D5/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Celebrating staff' with Id '4620' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Central Venous Catheter (CVC)' with Id '2581' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chaplaincy' with Id '2841' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Charity' with Id '2515' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cherwell Unit' with Id '2518' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Childcare' with Id '4476' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children's [Women's, Children's & Sexual Health]' with Id '3264' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children's Services' with Id '2519' has been published.
+ 2017-11-02 11:00:06,652 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Choir' with Id '4293' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chronic obstructive pulmonary disease (COPD)/Oxygen Service' with Id '3311' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CICT (Community Intermediate Care Team) - Nursing' with Id '3272' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CICT (Community Intermediate Care Team) - Therapy' with Id '3284' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cleaning [Core task]' with Id '2937' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clincial resources' with Id '2867' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Audit and Effectiveness' with Id '2520' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Nurse Specialists' with Id '2521' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Risk' with Id '2930' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical skills training' with Id '2942' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Supervision (Stepping Up)' with Id '2863' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Communications' with Id '2753' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community [Swindon Community Health Services]' with Id '3268' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dental Service' with Id '2522' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dermatology' with Id '3321' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Equipment Store' with Id '2523' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Inpatients [Wiltshire Health and Care]' with Id '3622' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Nursing' with Id '3270' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Therapy' with Id '3283' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intravenous Therapy' with Id '3289' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Matrons' with Id '3295' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Pathways Team' with Id '3343' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Podiatry' with Id '3348' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Services Patient Record [Wiltshire Health and Care]' with Id '3623' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Team for People with Learning Disabilities (CTPLD) [Wiltshire Health and Care]' with Id '3624' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Teams [Wiltshire Health and Care]' with Id '3625' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Confidentiality' with Id '2921' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Consent' with Id '2920' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Service' with Id '3306' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Team [Wiltshire Health and Care]' with Id '3626' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continuing Professional Development (CPD)' with Id '2718' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'COPD/Oxygen Service' with Id '3310' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Core cleaning task' with Id '2936' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate Governance' with Id '2524' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate identity' with Id '2888' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Courses' with Id '2865' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CPD (Continuing Professional Development)' with Id '2719' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CQC (Care Quality Commission) inspections' with Id '2917' has been published.
+ 2017-11-02 11:00:06,668 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CVC (Central Venous Catheter)' with Id '2577' has been published.
+ 2017-11-02 11:00:15,761 [P13164/D5/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:00:16,011 [P13164/D5/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:01:07,573 [P13164/D5/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery' with Id '0' has been published.
+ 2017-11-02 11:01:11,870 [P13164/D5/T151] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:01:12,151 [P13164/D5/T151] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery' with Id '4621' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Communications' with Id '2753' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community [Swindon Community Health Services]' with Id '3268' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dental Service' with Id '2522' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dermatology' with Id '3321' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Equipment Store' with Id '2523' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Inpatients [Wiltshire Health and Care]' with Id '3622' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Nursing' with Id '3270' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Therapy' with Id '3283' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intravenous Therapy' with Id '3289' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Matrons' with Id '3295' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Pathways Team' with Id '3343' has been published.
+ 2017-11-02 11:01:23,104 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Podiatry' with Id '3348' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Services Patient Record [Wiltshire Health and Care]' with Id '3623' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Team for People with Learning Disabilities (CTPLD) [Wiltshire Health and Care]' with Id '3624' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Teams [Wiltshire Health and Care]' with Id '3625' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Confidentiality' with Id '2921' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Consent' with Id '2920' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Service' with Id '3306' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Team [Wiltshire Health and Care]' with Id '3626' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continuing Professional Development (CPD)' with Id '2718' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'COPD/Oxygen Service' with Id '3310' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Core cleaning task' with Id '2936' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate Governance' with Id '2524' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate identity' with Id '2888' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Courses' with Id '2865' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CPD (Continuing Professional Development)' with Id '2719' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CQC (Care Quality Commission) inspections' with Id '2917' has been published.
+ 2017-11-02 11:01:23,120 [P13164/D5/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CVC (Central Venous Catheter)' with Id '2577' has been published.
+ 2017-11-02 11:01:30,448 [P13164/D5/T229] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:01:30,698 [P13164/D5/T229] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:02:01,806 [P13164/D5/T216] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nursery [Co-operative Nursery]' with Id '0' has been published.
+ 2017-11-02 11:02:06,087 [P13164/D5/T229] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:02:06,322 [P13164/D5/T229] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:02:13,478 [P13164/D5/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nursery [Co-operative Nursery]' with Id '4622' has been published.
+ 2017-11-02 11:02:13,478 [P13164/D5/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nursing [Emergency Department]' with Id '2797' has been published.
+ 2017-11-02 11:02:17,853 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:02:18,103 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:02:44,696 [P13164/D5/T269] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diversity [Equality and Diversity]' with Id '0' has been published.
+ 2017-11-02 11:02:48,993 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:02:49,259 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:02:56,087 [P13164/D5/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diversity [Equality and Diversity]' with Id '4623' has been published.
+ 2017-11-02 11:02:56,087 [P13164/D5/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'DOME (Department of Medicine for the Elderly)' with Id '2528' has been published.
+ 2017-11-02 11:02:56,087 [P13164/D5/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Domestic abuse' with Id '2843' has been published.
+ 2017-11-02 11:02:56,087 [P13164/D5/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Duty of Candour' with Id '2925' has been published.
+ 2017-11-02 11:03:00,774 [P13164/D5/T229] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:03:01,024 [P13164/D5/T229] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:03:37,867 [P13164/D5/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Freedom to Speak Up' with Id '0' has been published.
+ 2017-11-02 11:03:42,148 [P13164/D5/T229] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:03:42,508 [P13164/D5/T229] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:04:59,319 [P13164/D5/T202] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whistleblowing' with Id '0' has been published.
+ 2017-11-02 11:05:03,615 [P13164/D5/T193] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:05:03,959 [P13164/D5/T193] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Whistleblowing' with Id '4625' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WHO Surgical Safety Checklist' with Id '3138' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire Health and Care' with Id '2603' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Women's, Children's & Sexual Health' with Id '3263' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wookbooks [Training]' with Id '2960' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Work and life skills' with Id '2959' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Work experience' with Id '2723' has been published.
+ 2017-11-02 11:05:08,787 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workforce Information' with Id '4268' has been published.
+ 2017-11-02 11:05:14,053 [P13164/D5/T193] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:05:14,303 [P13164/D5/T193] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:05:35,599 [P13164/D5/T270] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Grapevine' with Id '0' has been published.
+ 2017-11-02 11:05:39,865 [P13164/D5/T219] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:05:40,130 [P13164/D5/T219] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:05:44,536 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Grapevine' with Id '4626' has been published.
+ 2017-11-02 11:05:44,536 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Great Western Harmony Choir' with Id '4292' has been published.
+ 2017-11-02 11:05:44,536 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gynaecology' with Id '2546' has been published.
+ 2017-11-02 11:05:49,021 [P13164/D5/T194] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:05:49,271 [P13164/D5/T194] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:05:52,599 [P13164/D5/T219] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 11:05:52,599 [P13164/D5/T219] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Grapevine' with Id '4618' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Great Western Harmony Choir' with Id '4288' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Marketplace' with Id '4617' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Military reservists' with Id '3985' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our values' with Id '4514' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Parking and travel' with Id '4471' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pensions' with Id '4320' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Personal security' with Id '4323' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Shopping and discounts' with Id '4565' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Lottery' with Id '4294' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4274' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support, health and wellbeing' with Id '4447' has been published.
+ 2017-11-02 11:06:43,692 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-11-02 11:06:49,223 [P13164/D5/T193] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:06:49,473 [P13164/D5/T193] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:07:13,363 [P13164/D5/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Marketplace' with Id '0' has been published.
+ 2017-11-02 11:07:17,644 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:07:18,066 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Marketplace' with Id '4627' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Maternity' with Id '2558' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Matrons [Community]' with Id '3296' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Maxillofacial [Emergency Department]' with Id '2792' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Media relations' with Id '2889' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical device training' with Id '2948' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Photography' with Id '2848' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce' with Id '4205' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medicine [Emergency Department]' with Id '2793' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medicine Monthly Rota' with Id '2559' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Meeting rooms' with Id '2941' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health' with Id '2849' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health and alcohol liaison [Emergency Department]' with Id '2794' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Message of the Month' with Id '2752' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Military reservists' with Id '4477' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Minors [Emergency Department]' with Id '2796' has been published.
+ 2017-11-02 11:07:22,003 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mortuary' with Id '2850' has been published.
+ 2017-11-02 11:07:28,128 [P13164/D5/T185] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:07:28,363 [P13164/D5/T185] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:07:46,987 [P13164/D5/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Values' with Id '0' has been published.
+ 2017-11-02 11:07:51,393 [P13164/D5/T185] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:07:51,628 [P13164/D5/T185] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:07:56,925 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Values' with Id '4628' has been published.
+ 2017-11-02 11:07:56,925 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vascular (Tissue Viability)' with Id '2600' has been published.
+ 2017-11-02 11:07:56,925 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vascular Pathways' with Id '2545' has been published.
+ 2017-11-02 11:08:01,378 [P13164/D5/T262] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:08:01,612 [P13164/D5/T262] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:08:13,424 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our values' with Id '0' has been published.
+ 2017-11-02 11:08:17,690 [P13164/D5/T191] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:08:17,955 [P13164/D5/T191] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:08:26,830 [P13164/D5/T196] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our values' with Id '4629' has been published.
+ 2017-11-02 11:08:26,830 [P13164/D5/T196] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Out-of-hours GP Service' with Id '3333' has been published.
+ 2017-11-02 11:08:26,830 [P13164/D5/T196] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Outpatient Welcome Liaison Service (OWLS)' with Id '2886' has been published.
+ 2017-11-02 11:08:26,830 [P13164/D5/T196] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Outpatients' with Id '2570' has been published.
+ 2017-11-02 11:08:26,830 [P13164/D5/T196] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'OWLS (Outpatient Welcome Liaison Service)' with Id '2887' has been published.
+ 2017-11-02 11:08:26,830 [P13164/D5/T196] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oxygen Service' with Id '3312' has been published.
+ 2017-11-02 11:08:31,596 [P13164/D5/T191] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:08:31,893 [P13164/D5/T191] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:09:11,376 [P13164/D5/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Car parking' with Id '0' has been published.
+ 2017-11-02 11:09:15,642 [P13164/D5/T191] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:09:15,954 [P13164/D5/T191] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Car parking' with Id '4630' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cardiology' with Id '2517' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cardiology [Emergency Department]' with Id '2787' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Care Quality Commission (CQC) inspections' with Id '2916' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Carers' with Id '2840' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Celebrating staff' with Id '4620' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Central Venous Catheter (CVC)' with Id '2581' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chaplaincy' with Id '2841' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Charity' with Id '2515' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cherwell Unit' with Id '2518' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Childcare' with Id '4476' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children's [Women's, Children's & Sexual Health]' with Id '3264' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children's Services' with Id '2519' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Choir' with Id '4293' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chronic obstructive pulmonary disease (COPD)/Oxygen Service' with Id '3311' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CICT (Community Intermediate Care Team) - Nursing' with Id '3272' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CICT (Community Intermediate Care Team) - Therapy' with Id '3284' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cleaning [Core task]' with Id '2937' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clincial resources' with Id '2867' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Audit and Effectiveness' with Id '2520' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Nurse Specialists' with Id '2521' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Risk' with Id '2930' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical skills training' with Id '2942' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Supervision (Stepping Up)' with Id '2863' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery' with Id '4621' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Communications' with Id '2753' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community [Swindon Community Health Services]' with Id '3268' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dental Service' with Id '2522' has been published.
+ 2017-11-02 11:09:34,876 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dermatology' with Id '3321' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Equipment Store' with Id '2523' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Inpatients [Wiltshire Health and Care]' with Id '3622' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Nursing' with Id '3270' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Therapy' with Id '3283' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intravenous Therapy' with Id '3289' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Matrons' with Id '3295' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Pathways Team' with Id '3343' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Podiatry' with Id '3348' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Services Patient Record [Wiltshire Health and Care]' with Id '3623' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Team for People with Learning Disabilities (CTPLD) [Wiltshire Health and Care]' with Id '3624' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Teams [Wiltshire Health and Care]' with Id '3625' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Confidentiality' with Id '2921' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Consent' with Id '2920' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Service' with Id '3306' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Team [Wiltshire Health and Care]' with Id '3626' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continuing Professional Development (CPD)' with Id '2718' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'COPD/Oxygen Service' with Id '3310' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Core cleaning task' with Id '2936' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate Governance' with Id '2524' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate identity' with Id '2888' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Courses' with Id '2865' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CPD (Continuing Professional Development)' with Id '2719' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CQC (Care Quality Commission) inspections' with Id '2917' has been published.
+ 2017-11-02 11:09:34,891 [P13164/D5/T193] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CVC (Central Venous Catheter)' with Id '2577' has been published.
+ 2017-11-02 11:09:44,688 [P13164/D5/T270] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:09:44,938 [P13164/D5/T270] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:11:48,217 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Personal security' with Id '4323' has been published.
+ 2017-11-02 11:11:52,514 [P13164/D5/T270] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:11:52,811 [P13164/D5/T270] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:14:00,527 [P13164/D5/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergencies' with Id '4362' has been published.
+ 2017-11-02 11:14:05,433 [P13164/D5/T270] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:14:05,886 [P13164/D5/T270] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:14:53,667 [P13164/D5/T207] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergencies' with Id '4362' has been published.
+ 2017-11-02 11:14:57,932 [P13164/D5/T270] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:14:58,276 [P13164/D5/T270] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:16:36,680 [P13164/D5/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk management' with Id '2927' has been published.
+ 2017-11-02 11:16:41,008 [P13164/D5/T222] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:16:41,289 [P13164/D5/T222] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:17:09,601 [P13164/D5/T7] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk management [Wiltshire Health and Care]' with Id '3674' has been published.
+ 2017-11-02 11:17:13,883 [P13164/D5/T195] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:17:14,148 [P13164/D5/T195] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:18:10,788 [P13164/D5/T7] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff benefits' with Id '0' has been published.
+ 2017-11-02 11:18:15,163 [P13164/D5/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:18:15,428 [P13164/D5/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff benefits' with Id '4631' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff directory' with Id '2912' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff discounts' with Id '4567' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Lottery' with Id '4306' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '4458' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4276' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom' with Id '2868' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom [newspaper]' with Id '3089' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stepping Up (Clinical Supervision)' with Id '2864' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stoma Care' with Id '2593' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Student placement' with Id '2720' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support, health and wellbeing' with Id '4481' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgery [Emergency Department]' with Id '2802' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Assessment Unit (SAU)' with Id '2594' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Safety (WHO) Checklist' with Id '3137' has been published.
+ 2017-11-02 11:18:20,256 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services' with Id '3267' has been published.
+ 2017-11-02 11:18:26,350 [P13164/D5/T190] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:18:26,616 [P13164/D5/T190] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:21:19,909 [P13164/D5/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staffroom newspaper' with Id '4632' has been published.
+ 2017-11-02 11:21:24,190 [P13164/D5/T216] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:21:24,472 [P13164/D5/T216] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:21:33,206 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staffroom newspaper' with Id '4632' has been published.
+ 2017-11-02 11:21:33,206 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support, health and wellbeing' with Id '4447' has been published.
+ 2017-11-02 11:21:33,206 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-11-02 11:21:37,956 [P13164/D5/T216] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:21:38,221 [P13164/D5/T216] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:22:33,736 [P13164/D5/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staffroom newspaper' with Id '4632' has been published.
+ 2017-11-02 11:22:38,033 [P13164/D5/T216] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:22:38,314 [P13164/D5/T216] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:23:29,844 [P13164/D5/T190] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Competition answers' with Id '0' has been published.
+ 2017-11-02 11:23:34,157 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:23:34,500 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:24:13,968 [P13164/D5/T222] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic copies' with Id '0' has been published.
+ 2017-11-02 11:24:18,187 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:24:18,468 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:24:52,311 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom - May 2017' with Id '0' has been published.
+ 2017-11-02 11:24:56,717 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:24:57,171 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:25:16,295 [P13164/D5/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom - March 2017' with Id '0' has been published.
+ 2017-11-02 11:25:20,717 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:25:20,983 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:25:47,263 [P13164/D5/T221] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom - January 2017' with Id '0' has been published.
+ 2017-11-02 11:25:51,544 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:25:51,841 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:26:22,263 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom - November 2016' with Id '0' has been published.
+ 2017-11-02 11:26:26,497 [P13164/D5/T211] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:26:26,825 [P13164/D5/T211] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:29:11,306 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom newspaper' with Id '2321' has been unpublished.
+ 2017-11-02 11:29:11,963 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Competition answers' with Id '2322' has been unpublished.
+ 2017-11-02 11:29:12,181 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic copies' with Id '2312' has been unpublished.
+ 2017-11-02 11:29:12,338 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom 1701' with Id '3088' has been unpublished.
+ 2017-11-02 11:29:12,478 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom 1703' with Id '2320' has been unpublished.
+ 2017-11-02 11:29:12,697 [P13164/D5/T241] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom - May 2017' with Id '2314' has been unpublished.
+ 2017-11-02 11:29:15,494 [P13164/D5/T221] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:29:15,837 [P13164/D5/T221] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:29:39,712 [P13164/D5/T270] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom newspaper' with Id '0' has been published.
+ 2017-11-02 11:29:43,993 [P13164/D5/T195] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:29:44,290 [P13164/D5/T195] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:30:31,586 [P13164/D5/T184] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom newspaper' with Id '0' has been published.
+ 2017-11-02 11:30:35,867 [P13164/D5/T7] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:30:36,883 [P13164/D5/T7] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom newspaper' with Id '4640' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stepping Up (Clinical Supervision)' with Id '2864' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stoma Care' with Id '2593' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Student placement' with Id '2720' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support, health and wellbeing' with Id '4481' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgery [Emergency Department]' with Id '2802' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Assessment Unit (SAU)' with Id '2594' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Safety (WHO) Checklist' with Id '3137' has been published.
+ 2017-11-02 11:30:47,008 [P13164/D5/T211] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services' with Id '3267' has been published.
+ 2017-11-02 11:30:52,429 [P13164/D5/T7] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:30:52,695 [P13164/D5/T7] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:31:26,382 [P13164/D5/T270] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom newspaper' with Id '4640' has been unpublished.
+ 2017-11-02 11:31:30,554 [P13164/D5/T222] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:31:30,882 [P13164/D5/T222] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:31:45,100 [P13164/D5/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom [newspaper]' with Id '3089' has been published.
+ 2017-11-02 11:31:49,397 [P13164/D5/T222] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:31:49,678 [P13164/D5/T222] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stepping Up (Clinical Supervision)' with Id '2864' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stoma Care' with Id '2593' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Student placement' with Id '2720' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support, health and wellbeing' with Id '4481' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgery [Emergency Department]' with Id '2802' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Assessment Unit (SAU)' with Id '2594' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Safety (WHO) Checklist' with Id '3137' has been published.
+ 2017-11-02 11:31:55,475 [P13164/D5/T151] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services' with Id '3267' has been published.
+ 2017-11-02 11:32:00,616 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 11:32:00,912 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 11:47:34,801 [P13164/D5/T151] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-02 13:48:52,239 [P13164/D5/T81] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-02 13:48:52,255 [P13164/D5/T81] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-02 13:50:57,893 [P13164/D5/T484] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '0' has been published.
+ 2017-11-02 13:51:02,174 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:51:02,455 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 13:51:22,283 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tumour site-specific information' with Id '0' has been published.
+ 2017-11-02 13:51:26,564 [P13164/D5/T111] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:51:26,846 [P13164/D5/T111] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 13:57:13,292 [P13164/D5/T476] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services' with Id '1554' has been published.
+ 2017-11-02 13:57:17,604 [P13164/D5/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:57:17,901 [P13164/D5/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 13:58:54,853 [P13164/D5/T484] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Acute Oncology' with Id '0' has been published.
+ 2017-11-02 13:58:59,102 [P13164/D5/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:58:59,462 [P13164/D5/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 13:59:06,868 [P13164/D5/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Acute Oncology' with Id '4643' has been published.
+ 2017-11-02 13:59:11,133 [P13164/D5/T485] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:59:11,462 [P13164/D5/T485] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 13:59:35,227 [P13164/D5/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tumour site-specific information' with Id '4642' has been published.
+ 2017-11-02 13:59:39,539 [P13164/D5/T485] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:59:39,836 [P13164/D5/T485] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 13:59:48,992 [P13164/D5/T484] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services: General information' with Id '4641' has been published.
+ 2017-11-02 13:59:53,226 [P13164/D5/T485] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 13:59:53,633 [P13164/D5/T485] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:00:01,836 [P13164/D5/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tumour site-specific information' with Id '4642' has been published.
+ 2017-11-02 14:00:06,070 [P13164/D5/T485] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:00:06,367 [P13164/D5/T485] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:00:24,163 [P13164/D5/T476] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '4641' has been published.
+ 2017-11-02 14:00:28,991 [P13164/D5/T484] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:00:29,288 [P13164/D5/T484] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:01:33,818 [P13164/D5/T482] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Brain and central nervous system' with Id '0' has been published.
+ 2017-11-02 14:01:38,115 [P13164/D5/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:01:38,412 [P13164/D5/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:02:00,224 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Breast' with Id '0' has been published.
+ 2017-11-02 14:02:04,443 [P13164/D5/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:02:04,927 [P13164/D5/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:02:35,020 [P13164/D5/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer of Unknown Primary (CUP)' with Id '0' has been published.
+ 2017-11-02 14:02:39,301 [P13164/D5/T111] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:02:39,676 [P13164/D5/T111] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:03:03,942 [P13164/D5/T524] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gastro-intestinal' with Id '0' has been published.
+ 2017-11-02 14:03:08,254 [P13164/D5/T478] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:03:08,582 [P13164/D5/T478] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:03:51,769 [P13164/D5/T520] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gastro-intestinal' with Id '4647' has been published.
+ 2017-11-02 14:03:56,066 [P13164/D5/T508] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:03:56,347 [P13164/D5/T508] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:04:37,565 [P13164/D5/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '0' has been published.
+ 2017-11-02 14:04:41,862 [P13164/D5/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:04:42,127 [P13164/D5/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:04:54,939 [P13164/D5/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '4648' has been published.
+ 2017-11-02 14:04:59,361 [P13164/D5/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:04:59,721 [P13164/D5/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:05:36,564 [P13164/D5/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Head and neck (including Thyroid)' with Id '0' has been published.
+ 2017-11-02 14:05:40,860 [P13164/D5/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:05:41,173 [P13164/D5/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:05:59,032 [P13164/D5/T521] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lung' with Id '0' has been published.
+ 2017-11-02 14:06:03,344 [P13164/D5/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:06:03,719 [P13164/D5/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:06:25,422 [P13164/D5/T482] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paediatric' with Id '0' has been published.
+ 2017-11-02 14:06:29,750 [P13164/D5/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:06:30,063 [P13164/D5/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:07:23,218 [P13164/D5/T508] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarcoma' with Id '0' has been published.
+ 2017-11-02 14:07:27,530 [P13164/D5/T485] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:07:27,921 [P13164/D5/T485] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:07:51,686 [P13164/D5/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Skin' with Id '0' has been published.
+ 2017-11-02 14:07:55,967 [P13164/D5/T524] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:07:56,264 [P13164/D5/T524] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:08:27,326 [P13164/D5/T478] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Teenage and Young Adult (TYA)' with Id '0' has been published.
+ 2017-11-02 14:08:31,638 [P13164/D5/T530] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:08:31,935 [P13164/D5/T530] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:08:49,763 [P13164/D5/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Urology' with Id '0' has been published.
+ 2017-11-02 14:08:53,997 [P13164/D5/T482] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:08:54,325 [P13164/D5/T482] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:10:52,386 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services Team' with Id '0' has been published.
+ 2017-11-02 14:10:56,667 [P13164/D5/T482] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:10:56,948 [P13164/D5/T482] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:11:47,072 [P13164/D5/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '0' has been published.
+ 2017-11-02 14:11:51,416 [P13164/D5/T482] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:11:51,744 [P13164/D5/T482] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:15:22,834 [P13164/D5/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '0' has been published.
+ 2017-11-02 14:15:27,052 [P13164/D5/T520] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:15:27,333 [P13164/D5/T520] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:16:10,739 [P13164/D5/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (including systemic anti-cancer treatment)' with Id '0' has been published.
+ 2017-11-02 14:16:14,973 [P13164/D5/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:16:15,301 [P13164/D5/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:16:41,988 [P13164/D5/T520] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Support services' with Id '0' has been published.
+ 2017-11-02 14:16:46,254 [P13164/D5/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:16:46,598 [P13164/D5/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:17:06,535 [P13164/D5/T484] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '0' has been published.
+ 2017-11-02 14:17:10,753 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:17:11,113 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:17:35,237 [P13164/D5/T484] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Thames Valley Cancer Alliance' with Id '0' has been published.
+ 2017-11-02 14:17:39,518 [P13164/D5/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:17:39,800 [P13164/D5/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:18:09,705 [P13164/D5/T485] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Understanding cancer targets' with Id '0' has been published.
+ 2017-11-02 14:18:13,924 [P13164/D5/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:18:14,221 [P13164/D5/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:18:20,861 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy (including systemic anti-cancer treatment)' with Id '4659' has been published.
+ 2017-11-02 14:18:20,861 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '4657' has been published.
+ 2017-11-02 14:18:20,861 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '4658' has been published.
+ 2017-11-02 14:18:20,861 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Thames Valley Cancer Alliance' with Id '4662' has been published.
+ 2017-11-02 14:18:20,861 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Understanding cancer targets' with Id '4663' has been published.
+ 2017-11-02 14:18:20,861 [P13164/D5/T488] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4661' has been published.
+ 2017-11-02 14:18:25,643 [P13164/D5/T478] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:18:25,939 [P13164/D5/T478] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:18:47,173 [P13164/D5/T530] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services' with Id '1554' has been published.
+ 2017-11-02 14:18:51,455 [P13164/D5/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:18:51,767 [P13164/D5/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:20:05,141 [P13164/D5/T521] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services' with Id '1554' has been published.
+ 2017-11-02 14:20:09,469 [P13164/D5/T504] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:20:09,734 [P13164/D5/T504] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:21:02,327 [P13164/D5/T504] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-11-02 14:21:06,593 [P13164/D5/T524] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:21:06,858 [P13164/D5/T524] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:22:00,107 [P13164/D5/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '0' has been published.
+ 2017-11-02 14:22:04,373 [P13164/D5/T524] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:22:04,935 [P13164/D5/T524] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:22:24,794 [P13164/D5/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '0' has been published.
+ 2017-11-02 14:22:29,091 [P13164/D5/T484] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:22:29,404 [P13164/D5/T484] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:22:51,825 [P13164/D5/T521] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '0' has been published.
+ 2017-11-02 14:22:56,091 [P13164/D5/T488] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:22:56,387 [P13164/D5/T488] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:23:28,980 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2017-11-02 14:23:28,980 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2017-11-02 14:23:28,980 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4664' has been published.
+ 2017-11-02 14:23:28,980 [P13164/D5/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '4665' has been published.
+ 2017-11-02 14:23:33,699 [P13164/D5/T488] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:23:34,012 [P13164/D5/T488] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:24:47,182 [P13164/D5/T524] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-02 14:24:47,198 [P13164/D5/T524] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 3ms)
+ 2017-11-02 14:24:54,854 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-02 14:24:54,854 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-02 14:24:54,869 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-02 14:24:54,869 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-02 14:24:54,869 [P13164/D5/T64] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-02 14:24:54,869 [P13164/D5/T245] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-02 14:24:54,932 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-02 14:24:54,932 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-02 14:24:54,932 [P13164/D5/T520] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-02 14:24:54,932 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-02 14:24:54,932 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-02 14:24:54,932 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-02 14:24:54,932 [P13164/D5/T476] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-02 14:24:54,932 [P13164/D5/T197] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-02 14:24:54,932 [P13164/D5/T100] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-02 14:25:14,650 [P13164/D6/T190] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-02 14:25:14,682 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-02 14:25:14,713 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Hash determined (took 24ms)
+ 2017-11-02 14:25:14,822 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-02 14:25:14,838 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 26ms)
+ 2017-11-02 14:25:14,900 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-02 14:25:14,900 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-02 14:25:14,900 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-02 14:25:14,900 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-11-02 14:25:14,932 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-02 14:25:14,947 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-02 14:25:14,947 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-02 14:25:14,963 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-11-02 14:25:15,025 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-02 14:25:15,025 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-02 14:25:15,025 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-02 14:25:15,025 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-02 14:25:17,369 [P13164/D6/T190] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 14:25:17,713 [P13164/D6/T190] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 14:25:17,713 [P13164/D6/T190] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 14:25:17,744 [P13164/D6/T190] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-02 14:25:17,947 [P13164/D6/T190] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-02 14:25:17,947 [P13164/D6/T190] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-02 14:25:17,963 [P13164/D6/T190] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-02 14:25:17,978 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-02 14:25:17,978 [P13164/D6/T190] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-02 14:25:18,400 [P13164/D6/T190] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3919ms)
+ 2017-11-02 14:25:19,103 [P13164/D6/T530] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 14:25:22,150 [P13164/D6/T530] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-11-02 14:25:22,150 [P13164/D6/T530] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
+ 2017-11-02 14:25:23,025 [P13164/D6/T520] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 14:25:23,025 [P13164/D6/T520] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-02 14:25:23,025 [P13164/D6/T520] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-02 14:25:23,041 [P13164/D6/T520] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-02 14:25:24,541 [P13164/D6/T520] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-02 14:25:24,541 [P13164/D6/T520] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-02 14:25:24,947 [P13164/D5/T479] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-02 14:26:01,618 [P13164/D6/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '0' has been published.
+ 2017-11-02 14:26:02,774 [P13164/D6/T73] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-02 14:26:02,774 [P13164/D6/T73] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-02 14:26:02,790 [P13164/D6/T73] INFO  umbraco.content - Load Xml from file...
+ 2017-11-02 14:26:02,853 [P13164/D6/T73] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-02 14:26:07,009 [P13164/D6/T196] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:26:07,290 [P13164/D6/T196] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:26:20,962 [P13164/D6/T484] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 14:26:20
+ 2017-11-02 14:29:13,271 [P13164/D6/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '0' has been published.
+ 2017-11-02 14:29:17,505 [P13164/D6/T519] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:29:17,849 [P13164/D6/T519] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:29:42,114 [P13164/D6/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '0' has been published.
+ 2017-11-02 14:29:46,380 [P13164/D6/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:29:46,708 [P13164/D6/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:29:48,395 [P13164/D6/T81] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-02 14:29:48,395 [P13164/D6/T81] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-02 14:29:54,832 [P13164/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '4670' has been published.
+ 2017-11-02 14:29:54,832 [P13164/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2017-11-02 14:29:54,832 [P13164/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2017-11-02 14:29:54,832 [P13164/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4664' has been published.
+ 2017-11-02 14:29:54,832 [P13164/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '4665' has been published.
+ 2017-11-02 14:29:54,832 [P13164/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4668' has been published.
+ 2017-11-02 14:29:59,723 [P13164/D6/T111] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:30:00,035 [P13164/D6/T111] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:34:26,937 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services Team' with Id '4656' has been published.
+ 2017-11-02 14:34:27,780 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '4670' has been published.
+ 2017-11-02 14:34:28,218 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2017-11-02 14:34:28,687 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2017-11-02 14:34:29,093 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4664' has been published.
+ 2017-11-02 14:34:29,499 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Departmental structure' with Id '4665' has been published.
+ 2017-11-02 14:34:29,905 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4669' has been published.
+ 2017-11-02 14:34:30,327 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User involvement' with Id '4668' has been published.
+ 2017-11-02 14:34:34,561 [P13164/D6/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:34:34,843 [P13164/D6/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:35:14,951 [P13164/D6/T487] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services Team' with Id '4656' has been published.
+ 2017-11-02 14:35:14,951 [P13164/D6/T487] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '4641' has been published.
+ 2017-11-02 14:35:14,951 [P13164/D6/T487] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tumour site-specific information' with Id '4642' has been published.
+ 2017-11-02 14:35:19,498 [P13164/D6/T521] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:35:19,795 [P13164/D6/T521] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:40:56,601 [P13164/D6/T487] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-11-02 14:41:00,882 [P13164/D6/T521] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:41:01,195 [P13164/D6/T521] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:41:23,350 [P13164/D6/T524] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway information' with Id '0' has been published.
+ 2017-11-02 14:41:27,632 [P13164/D6/T482] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:41:27,913 [P13164/D6/T482] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:41:50,256 [P13164/D6/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '0' has been published.
+ 2017-11-02 14:41:54,522 [P13164/D6/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:41:54,803 [P13164/D6/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:42:11,990 [P13164/D6/T476] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '0' has been published.
+ 2017-11-02 14:42:16,271 [P13164/D6/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:42:16,599 [P13164/D6/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:42:45,302 [P13164/D6/T255] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '0' has been published.
+ 2017-11-02 14:42:49,568 [P13164/D6/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:42:50,818 [P13164/D6/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:42:54,068 [P13164/D6/T524] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '4675' has been published.
+ 2017-11-02 14:42:54,068 [P13164/D6/T524] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4671' has been published.
+ 2017-11-02 14:42:54,068 [P13164/D6/T524] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway information' with Id '4672' has been published.
+ 2017-11-02 14:42:58,552 [P13164/D6/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:42:58,771 [P13164/D6/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:54:26,726 [P13164/D6/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'faq example' with Id '0' has been published.
+ 2017-11-02 14:54:31,007 [P13164/D6/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:54:31,320 [P13164/D6/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 14:55:30,397 [P13164/D6/T504] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'faq example' with Id '4676' has been unpublished.
+ 2017-11-02 14:55:34,584 [P13164/D6/T479] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 14:55:34,881 [P13164/D6/T479] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:01:58,155 [P13164/D6/T255] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '0' has been published.
+ 2017-11-02 15:02:02,483 [P13164/D6/T111] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:02:02,811 [P13164/D6/T111] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '4677' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Online communications' with Id '2891' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Operating Theatres' with Id '2602' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ophthalmology' with Id '2565' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oral and Maxillofacial Surgery' with Id '2566' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orchard Ward' with Id '3331' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Organ donation' with Id '2852' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Organisational Development' with Id '2924' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orthopaedics' with Id '2567' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orthoptics and Optical' with Id '2569' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orthotics' with Id '2568' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orthotics (Community) [Wiltshire Health and Care]' with Id '3675' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our values' with Id '4629' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Out-of-hours GP Service' with Id '3333' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Outpatient Welcome Liaison Service (OWLS)' with Id '2886' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Outpatients' with Id '2570' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'OWLS (Outpatient Welcome Liaison Service)' with Id '2887' has been published.
+ 2017-11-02 15:02:34,529 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oxygen Service' with Id '3312' has been published.
+ 2017-11-02 15:02:40,467 [P13164/D6/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:02:40,857 [P13164/D6/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:02:58,654 [P13164/D6/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: O' with Id '1464' has been published.
+ 2017-11-02 15:03:02,872 [P13164/D6/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:03:03,185 [P13164/D6/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:04:16,184 [P13164/D6/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '0' has been published.
+ 2017-11-02 15:04:20,433 [P13164/D6/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:04:20,762 [P13164/D6/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:04:28,355 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy' with Id '4678' has been published.
+ 2017-11-02 15:04:28,355 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Radiotherapy Appeal' with Id '3708' has been published.
+ 2017-11-02 15:04:28,355 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recognition and management of the deteriorating patient' with Id '3143' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording' with Id '2892' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3915' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Report an incident' with Id '2869' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research and Innovation' with Id '2584' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Research Team [Emergency Department]' with Id '2801' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Reservists' with Id '4478' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resilience' with Id '2585' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Respiratory' with Id '2586' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Respiratory Team and Oxygen Service [Wiltshire Health and Care]' with Id '3679' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resuscitation training' with Id '2952' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Return to practice' with Id '2721' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rheumatology' with Id '2587' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk management' with Id '2927' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk management [Wiltshire Health and Care]' with Id '3674' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Room bookings' with Id '2722' has been published.
+ 2017-11-02 15:04:28,371 [P13164/D6/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Royal College of Radiologists iRefer Guidelines' with Id '3128' has been published.
+ 2017-11-02 15:04:34,699 [P13164/D6/T487] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:04:35,527 [P13164/D6/T487] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:05:25,151 [P13164/D6/T479] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy' with Id '0' has been published.
+ 2017-11-02 15:05:29,432 [P13164/D6/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:05:29,760 [P13164/D6/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chemotherapy' with Id '4679' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cherwell Unit' with Id '2518' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Childcare' with Id '4476' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children's [Women's, Children's & Sexual Health]' with Id '3264' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children's Services' with Id '2519' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Choir' with Id '4293' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chronic obstructive pulmonary disease (COPD)/Oxygen Service' with Id '3311' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CICT (Community Intermediate Care Team) - Nursing' with Id '3272' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CICT (Community Intermediate Care Team) - Therapy' with Id '3284' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cleaning [Core task]' with Id '2937' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clincial resources' with Id '2867' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Audit and Effectiveness' with Id '2520' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Nurse Specialists' with Id '2521' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Risk' with Id '2930' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical skills training' with Id '2942' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Clinical Supervision (Stepping Up)' with Id '2863' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Co-operative Nursery' with Id '4621' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Communications' with Id '2753' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community [Swindon Community Health Services]' with Id '3268' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dental Service' with Id '2522' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dermatology' with Id '3321' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Equipment Store' with Id '2523' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Inpatients [Wiltshire Health and Care]' with Id '3622' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Nursing' with Id '3270' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intermediate Care Team (CICT) - Therapy' with Id '3283' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Intravenous Therapy' with Id '3289' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Matrons' with Id '3295' has been published.
+ 2017-11-02 15:05:47,494 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Pathways Team' with Id '3343' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Podiatry' with Id '3348' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Services Patient Record [Wiltshire Health and Care]' with Id '3623' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Team for People with Learning Disabilities (CTPLD) [Wiltshire Health and Care]' with Id '3624' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Teams [Wiltshire Health and Care]' with Id '3625' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Confidentiality' with Id '2921' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Consent' with Id '2920' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Service' with Id '3306' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Team [Wiltshire Health and Care]' with Id '3626' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continuing Professional Development (CPD)' with Id '2718' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'COPD/Oxygen Service' with Id '3310' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Core cleaning task' with Id '2936' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate Governance' with Id '2524' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Corporate identity' with Id '2888' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Courses' with Id '2865' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CPD (Continuing Professional Development)' with Id '2719' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CQC (Care Quality Commission) inspections' with Id '2917' has been published.
+ 2017-11-02 15:05:47,510 [P13164/D6/T519] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'CVC (Central Venous Catheter)' with Id '2577' has been published.
+ 2017-11-02 15:05:56,697 [P13164/D6/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:05:56,978 [P13164/D6/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:16:04,264 [P13164/D6/T528] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services' with Id '1554' has been published.
+ 2017-11-02 15:16:08,592 [P13164/D6/T195] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:16:08,904 [P13164/D6/T195] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:21:10,492 [P13164/D6/T514] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appraisal workshops' with Id '4123' has been published.
+ 2017-11-02 15:21:14,898 [P13164/D6/T195] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:21:15,211 [P13164/D6/T195] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:22:13,788 [P13164/D6/T531] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appraisal Toolkit' with Id '4234' has been published.
+ 2017-11-02 15:22:18,038 [P13164/D6/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:22:18,350 [P13164/D6/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:27:38,110 [P13164/D6/T551] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker mandatory modules' with Id '4349' has been published.
+ 2017-11-02 15:27:42,391 [P13164/D6/T476] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:27:42,782 [P13164/D6/T476] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:29:06,592 [P13164/D6/T551] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker mandatory modules' with Id '4349' has been published.
+ 2017-11-02 15:29:11,202 [P13164/D6/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:29:11,764 [P13164/D6/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:30:21,263 [P13164/D6/T526] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker mandatory modules' with Id '4349' has been published.
+ 2017-11-02 15:30:25,560 [P13164/D6/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:30:25,935 [P13164/D6/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:31:50,792 [P13164/D6/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker' with Id '4111' has been published.
+ 2017-11-02 15:31:55,089 [P13164/D6/T512] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:31:55,402 [P13164/D6/T512] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:33:28,603 [P13164/D6/T245] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker mandatory modules' with Id '4349' has been published.
+ 2017-11-02 15:33:32,869 [P13164/D6/T512] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:33:33,197 [P13164/D6/T512] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:37:11,661 [P13164/D6/T526] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-02 15:37:11,661 [P13164/D6/T526] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 3ms)
+ 2017-11-02 15:39:45,908 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-02 15:39:45,908 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-02 15:39:45,908 [P13164/D6/T245] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-02 15:39:45,924 [P13164/D6/T199] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-02 15:39:45,924 [P13164/D6/T484] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-02 15:39:45,924 [P13164/D6/T527] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-02 15:39:45,924 [P13164/D6/T535] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-02 15:39:45,924 [P13164/D6/T526] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-02 15:39:59,142 [P13164/D7/T543] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-02 15:39:59,158 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-02 15:39:59,174 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Hash determined (took 22ms)
+ 2017-11-02 15:39:59,283 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-02 15:39:59,314 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 28ms)
+ 2017-11-02 15:39:59,361 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-02 15:39:59,377 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-02 15:39:59,377 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-02 15:39:59,377 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-11-02 15:39:59,408 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-02 15:39:59,408 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-02 15:39:59,408 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-02 15:39:59,424 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 16ms)
+ 2017-11-02 15:39:59,486 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-02 15:39:59,486 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-02 15:39:59,486 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-02 15:39:59,486 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-02 15:40:01,736 [P13164/D7/T543] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 15:40:02,080 [P13164/D7/T543] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 15:40:02,080 [P13164/D7/T543] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-02 15:40:02,127 [P13164/D7/T543] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-02 15:40:02,299 [P13164/D7/T543] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-02 15:40:02,299 [P13164/D7/T543] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-02 15:40:02,314 [P13164/D7/T543] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-02 15:40:02,330 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-02 15:40:02,330 [P13164/D7/T543] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-02 15:40:02,767 [P13164/D7/T543] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3825ms)
+ 2017-11-02 15:40:03,392 [P13164/D7/T527] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-02 15:40:14,314 [P13164/D7/T533] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-02 15:40:14,314 [P13164/D7/T533] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-02 15:40:16,080 [P13164/D6/T199] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-02 15:40:16,876 [P13164/D7/T535] INFO  umbraco.content - Load Xml from file...
+ 2017-11-02 15:40:16,939 [P13164/D7/T535] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-02 15:40:19,517 [P13164/D7/T535] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-02 15:40:19,517 [P13164/D7/T535] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-02 15:40:31,970 [P13164/D7/T535] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-02 15:40:31,970 [P13164/D7/T535] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-02 15:40:31,985 [P13164/D7/T535] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-02 15:40:31,985 [P13164/D7/T535] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-02 15:41:14,407 [P13164/D7/T531] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 15:41:14
+ 2017-11-02 15:42:15,671 [P13164/D7/T476] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker mandatory modules' with Id '4349' has been published.
+ 2017-11-02 15:42:20,437 [P13164/D7/T7] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:42:20,733 [P13164/D7/T7] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:42:45,405 [P13164/D7/T551] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-02 15:42:45,405 [P13164/D7/T551] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-02 15:43:51,700 [P13164/D7/T527] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker login' with Id '4111' has been published.
+ 2017-11-02 15:43:55,982 [P13164/D7/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:43:56,325 [P13164/D7/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:44:49,777 [P13164/D7/T528] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker mandatory modules' with Id '4349' has been published.
+ 2017-11-02 15:44:54,027 [P13164/D7/T245] INFO  umbraco.content - Save Xml to file...
+ 2017-11-02 15:44:54,293 [P13164/D7/T245] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-02 15:55:33,078 [P13164/D7/T478] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-02 19:41:14,167 [P13164/D7/T531] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-01 19:41:14
+ 2017-11-02 20:21:15,262 [P13164/D7/T84] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:10ed142d-2fff-45b9-9e55-198a4f27319d
+Error Number:-2,State:0,Class:11
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-02 20:25:30,694 [P13164/D7/T75] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-02 20:25:30,694 [P13164/D7/T106] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-02 20:25:30,694 [P13164/D7/T101] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-02 20:25:30,694 [P13164/D7/T499] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-02 20:25:30,694 [P13164/D7/T120] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-02 20:26:00,772 [P13164/D7/T120] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()

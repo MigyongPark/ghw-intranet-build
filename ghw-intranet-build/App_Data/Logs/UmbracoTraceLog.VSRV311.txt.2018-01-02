@@ -1,0 +1,285 @@
+﻿ 2018-01-02 10:31:36,954 [P9644/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-02 10:31:37,001 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-02 10:31:37,064 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 55ms)
+ 2018-01-02 10:31:37,298 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-02 10:31:37,501 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 197ms)
+ 2018-01-02 10:31:37,704 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-02 10:31:37,704 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-01-02 10:31:37,704 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-02 10:31:37,814 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 94ms)
+ 2018-01-02 10:31:37,907 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-02 10:31:37,923 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-02 10:31:37,923 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-02 10:31:38,017 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 96ms)
+ 2018-01-02 10:31:38,173 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-02 10:31:38,173 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-02 10:31:38,189 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-02 10:31:38,189 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-02 10:31:41,470 [P9644/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-02 10:31:42,173 [P9644/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-02 10:31:42,173 [P9644/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-02 10:31:42,173 [P9644/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-02 10:31:42,329 [P9644/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-02 10:31:42,751 [P9644/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-02 10:31:42,751 [P9644/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-02 10:31:42,798 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-02 10:31:42,814 [P9644/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-02 10:31:43,439 [P9644/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6771ms)
+ 2018-01-02 10:31:50,345 [P9644/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-02 10:31:50,454 [P9644/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-02 10:31:58,298 [P9644/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2018-01-02 10:31:58,470 [P9644/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-02 10:32:01,126 [P9644/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-02 10:32:01,126 [P9644/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2018-01-02 10:32:58,579 [P9644/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-01 10:32:58
+ 2018-01-02 13:17:57,797 [P9644/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username LynneHall from IP address 192.168.186.20
+ 2018-01-02 13:17:57,797 [P9644/D2/T47] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Lynnehall logged in from IP address 192.168.186.20
+ 2018-01-02 13:17:58,328 [P9644/D2/T45] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-02 13:17:58,328 [P9644/D2/T45] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2018-01-02 13:17:58,437 [P9644/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-02 13:17:58,453 [P9644/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2018-01-02 13:17:58,484 [P9644/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-02 13:17:58,484 [P9644/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-02 13:17:58,500 [P9644/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-02 13:17:58,500 [P9644/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2018-01-02 13:17:58,515 [P9644/D2/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-01-02 13:17:58,515 [P9644/D2/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-01-02 13:25:34,247 [P9644/D2/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5081' has been published.
+ 2018-01-02 13:25:34,637 [P9644/D2/T199] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-01-02 13:25:34,653 [P9644/D2/T199] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 3ms)
+ 2018-01-02 13:25:39,184 [P9644/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:25:39,591 [P9644/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:25:58,340 [P9644/D2/T141] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5081' has been published.
+ 2018-01-02 13:25:58,340 [P9644/D2/T141] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5047' has been published.
+ 2018-01-02 13:25:58,340 [P9644/D2/T141] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5059' has been published.
+ 2018-01-02 13:25:58,340 [P9644/D2/T141] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5092' has been published.
+ 2018-01-02 13:26:03,028 [P9644/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:26:03,356 [P9644/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:37:29,352 [P9644/D2/T141] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: LynneHall, IP Address: 192.168.186.20
+ 2018-01-02 13:37:32,039 [P9644/D2/T199] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username LynneHall from IP address 192.168.186.20
+ 2018-01-02 13:37:32,039 [P9644/D2/T199] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Lynnehall logged in from IP address 192.168.186.20
+ 2018-01-02 13:39:22,523 [P9644/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5081' has been published.
+ 2018-01-02 13:39:26,851 [P9644/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:39:27,242 [P9644/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:44:20,318 [P9644/D2/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Richard Payne' with Id '0' has been published.
+ 2018-01-02 13:44:24,661 [P9644/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:44:24,974 [P9644/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:46:33,942 [P9644/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Philip Burgess' with Id '0' has been published.
+ 2018-01-02 13:46:38,223 [P9644/D2/T39] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:46:38,551 [P9644/D2/T39] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:47:09,785 [P9644/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rod Alexander' with Id '0' has been published.
+ 2018-01-02 13:47:14,082 [P9644/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:47:14,395 [P9644/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:47:37,629 [P9644/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chris Thorn' with Id '0' has been published.
+ 2018-01-02 13:47:41,926 [P9644/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:47:42,254 [P9644/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:48:12,098 [P9644/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anwar Owais' with Id '0' has been published.
+ 2018-01-02 13:48:16,410 [P9644/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:48:16,754 [P9644/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:48:51,144 [P9644/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeff Lim' with Id '0' has been published.
+ 2018-01-02 13:48:55,457 [P9644/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:48:55,769 [P9644/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:49:37,909 [P9644/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Richard Glass' with Id '0' has been published.
+ 2018-01-02 13:49:42,159 [P9644/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:49:42,488 [P9644/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:53:46,533 [P9644/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Andrew Planner' with Id '0' has been published.
+ 2018-01-02 13:53:50,845 [P9644/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:53:51,267 [P9644/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:54:17,751 [P9644/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lawrence John' with Id '0' has been published.
+ 2018-01-02 13:54:22,048 [P9644/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:54:22,392 [P9644/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:56:58,813 [P9644/D2/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Robert Owens' with Id '0' has been published.
+ 2018-01-02 13:57:03,063 [P9644/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:57:03,391 [P9644/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 13:57:41,031 [P9644/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Lowndes' with Id '0' has been published.
+ 2018-01-02 13:57:45,328 [P9644/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 13:57:45,656 [P9644/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:00:23,874 [P9644/D2/T327] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gail Daley' with Id '0' has been published.
+ 2018-01-02 14:00:28,171 [P9644/D2/T141] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:00:28,483 [P9644/D2/T141] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:08:17,902 [P9644/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gail Daley' with Id '5821' has been published.
+ 2018-01-02 14:08:22,168 [P9644/D2/T328] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:08:22,496 [P9644/D2/T328] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:09:18,183 [P9644/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tracey O'Nions' with Id '0' has been published.
+ 2018-01-02 14:09:22,511 [P9644/D2/T199] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:09:22,855 [P9644/D2/T199] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:09:59,761 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alicia Messiah' with Id '0' has been published.
+ 2018-01-02 14:10:04,074 [P9644/D2/T42] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:10:04,449 [P9644/D2/T42] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:10:29,120 [P9644/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Bye' with Id '0' has been published.
+ 2018-01-02 14:10:33,433 [P9644/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:10:33,776 [P9644/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:11:06,479 [P9644/D2/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '0' has been published.
+ 2018-01-02 14:11:10,792 [P9644/D2/T177] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:11:11,182 [P9644/D2/T177] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:11:54,307 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jackie Hollister' with Id '0' has been published.
+ 2018-01-02 14:11:58,620 [P9644/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:11:58,948 [P9644/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:12:05,416 [P9644/D2/T328] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5059' has been published.
+ 2018-01-02 14:12:09,713 [P9644/D2/T199] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:12:10,057 [P9644/D2/T199] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nicky Peregrine' with Id '5318' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sally Black' with Id '5319' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lynda Lark' with Id '5320' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Quick' with Id '5321' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Louise Clark' with Id '5322' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claire Scott' with Id '5325' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catherine Piggin' with Id '5327' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sue Ellingham' with Id '5449' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jenny Peck' with Id '5316' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Louise Gasson' with Id '5317' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catherine Bailey' with Id '5323' has been published.
+ 2018-01-02 14:15:18,806 [P9644/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Suzie Ferrari' with Id '5324' has been published.
+ 2018-01-02 14:15:24,431 [P9644/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:15:24,759 [P9644/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:16:45,258 [P9644/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sue Ellingham' with Id '5449' has been published.
+ 2018-01-02 14:16:45,258 [P9644/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catherine Bailey' with Id '5323' has been published.
+ 2018-01-02 14:16:45,258 [P9644/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Suzie Ferrari' with Id '5324' has been published.
+ 2018-01-02 14:16:45,258 [P9644/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claire Scott' with Id '5325' has been published.
+ 2018-01-02 14:16:50,024 [P9644/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:16:50,383 [P9644/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:17:58,086 [P9644/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gail Daley' with Id '5821' has been published.
+ 2018-01-02 14:18:02,399 [P9644/D2/T41] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:18:02,742 [P9644/D2/T41] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:19:26,367 [P9644/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5082' has been published.
+ 2018-01-02 14:19:30,679 [P9644/D2/T141] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:19:31,007 [P9644/D2/T141] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:19:35,523 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5082' has been published.
+ 2018-01-02 14:19:35,523 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5056' has been published.
+ 2018-01-02 14:19:35,523 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5060' has been published.
+ 2018-01-02 14:19:35,523 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5091' has been published.
+ 2018-01-02 14:19:40,148 [P9644/D2/T141] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:19:40,507 [P9644/D2/T141] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:31:47,893 [P9644/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5082' has been published.
+ 2018-01-02 14:31:52,206 [P9644/D2/T141] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:31:52,581 [P9644/D2/T141] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:32:58,533 [P9644/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-01 14:32:58
+ 2018-01-02 14:34:44,330 [P9644/D2/T328] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ajeya Shetty' with Id '0' has been published.
+ 2018-01-02 14:34:48,627 [P9644/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:34:48,955 [P9644/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:41:25,655 [P9644/D2/T328] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jane Bowles' with Id '0' has been published.
+ 2018-01-02 14:41:29,936 [P9644/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:41:30,452 [P9644/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:41:51,968 [P9644/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ajeya Shetty' with Id '5827' has been published.
+ 2018-01-02 14:41:56,202 [P9644/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:41:56,577 [P9644/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:42:34,030 [P9644/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Manish Hegde' with Id '0' has been published.
+ 2018-01-02 14:42:38,327 [P9644/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:42:38,749 [P9644/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:43:06,217 [P9644/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Andrew Claridge' with Id '0' has been published.
+ 2018-01-02 14:43:10,514 [P9644/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:43:10,920 [P9644/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:44:40,404 [P9644/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Moby Joseph' with Id '0' has been published.
+ 2018-01-02 14:44:44,685 [P9644/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:44:45,326 [P9644/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:45:29,044 [P9644/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Martin Maida' with Id '0' has been published.
+ 2018-01-02 14:45:33,326 [P9644/D2/T177] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:45:33,747 [P9644/D2/T177] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:46:30,388 [P9644/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Khalid Keshk' with Id '0' has been published.
+ 2018-01-02 14:46:34,669 [P9644/D2/T141] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:46:35,200 [P9644/D2/T141] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:47:05,028 [P9644/D2/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Andrew Planner' with Id '0' has been published.
+ 2018-01-02 14:47:09,294 [P9644/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:47:09,700 [P9644/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:47:56,700 [P9644/D2/T328] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lawrence John' with Id '0' has been published.
+ 2018-01-02 14:48:00,981 [P9644/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:48:01,496 [P9644/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:49:18,777 [P9644/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Robert Owens' with Id '0' has been published.
+ 2018-01-02 14:49:23,074 [P9644/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:49:23,465 [P9644/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:50:50,073 [P9644/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gail Daley' with Id '0' has been published.
+ 2018-01-02 14:50:54,386 [P9644/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:50:54,777 [P9644/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:51:30,745 [P9644/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tracey O'Nions' with Id '0' has been published.
+ 2018-01-02 14:51:35,042 [P9644/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:51:35,448 [P9644/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:52:01,542 [P9644/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alicia Messiah' with Id '0' has been published.
+ 2018-01-02 14:52:05,870 [P9644/D2/T327] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:52:06,260 [P9644/D2/T327] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:52:34,776 [P9644/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Bye' with Id '0' has been published.
+ 2018-01-02 14:52:39,042 [P9644/D2/T327] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:52:39,432 [P9644/D2/T327] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:53:07,682 [P9644/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Gilmore' with Id '0' has been published.
+ 2018-01-02 14:53:11,963 [P9644/D2/T177] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:53:12,385 [P9644/D2/T177] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:53:44,838 [P9644/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jackie Hollister' with Id '0' has been published.
+ 2018-01-02 14:53:49,135 [P9644/D2/T177] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:53:49,525 [P9644/D2/T177] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 14:56:06,665 [P9644/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5082' has been published.
+ 2018-01-02 14:56:10,962 [P9644/D2/T49] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 14:56:11,415 [P9644/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 15:11:33,284 [P9644/D2/T59] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: LynneHall, IP Address: 192.168.186.20
+ 2018-01-02 15:16:21,814 [P9644/D2/T40] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username LynneHall from IP address 192.168.186.20
+ 2018-01-02 15:16:21,814 [P9644/D2/T40] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Lynnehall logged in from IP address 192.168.186.20
+ 2018-01-02 15:25:42,263 [P9644/D2/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5084' has been published.
+ 2018-01-02 15:25:46,638 [P9644/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 15:25:47,107 [P9644/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 15:25:56,201 [P9644/D2/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5084' has been published.
+ 2018-01-02 15:25:56,201 [P9644/D2/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5049' has been published.
+ 2018-01-02 15:25:56,201 [P9644/D2/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5062' has been published.
+ 2018-01-02 15:25:56,201 [P9644/D2/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5073' has been published.
+ 2018-01-02 15:26:00,982 [P9644/D2/T173] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 15:26:02,091 [P9644/D2/T173] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 15:27:50,434 [P9644/D2/T188] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5084' has been published.
+ 2018-01-02 15:27:54,778 [P9644/D2/T163] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 15:27:55,247 [P9644/D2/T163] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 15:39:31,086 [P9644/D2/T149] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5084' has been published.
+ 2018-01-02 15:39:35,399 [P9644/D2/T163] INFO  umbraco.content - Save Xml to file...
+ 2018-01-02 15:39:35,805 [P9644/D2/T163] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-02 15:58:39,516 [P9644/D2/T84] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: LynneHall, IP Address: 192.168.186.20
+ 2018-01-02 18:32:58,488 [P9644/D2/T361] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-01 18:32:58
+ 2018-01-02 19:16:45,550 [P9644/D2/T240] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:2c104b46-9a44-438d-a707-cf61e8ab5b56
+Error Number:-2,State:0,Class:11
+ 2018-01-02 20:29:41,816 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-02 20:29:41,816 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-02 20:29:41,816 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-02 20:29:41,816 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-02 20:29:41,816 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-02 20:29:41,832 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-02 20:29:41,832 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-02 20:29:41,832 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-02 20:29:41,832 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-02 20:29:41,832 [P9644/D2/T650] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-02 20:29:41,832 [P9644/D2/T596] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-02 20:29:41,832 [P9644/D2/T361] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-02 20:29:41,878 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-02 20:29:41,878 [P9644/D2/T658] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-02 20:29:41,894 [P9644/D2/T650] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-02 20:30:11,925 [P9644/D2/T361] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

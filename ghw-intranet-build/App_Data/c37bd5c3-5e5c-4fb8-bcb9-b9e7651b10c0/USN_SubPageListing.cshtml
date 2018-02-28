@@ -1,0 +1,121 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+@{	
+    if (Model.Content.HasProperty("displaySubpageListing") && Model.Content.GetPropertyValue<bool>("displaySubpageListing"))
+    {
+        int summaryTextLength = 0;
+
+        if (Model.Content.HasValue("pageSummaryTextCharacterCount"))
+        {
+            summaryTextLength = Convert.ToInt32(Model.Content.GetProperty("pageSummaryTextCharacterCount").Value);
+        }
+        
+        string layoutClass = "";
+
+        if (Model.Content.Children.Where(x => x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")).Count() > 0)
+        {
+            if (Model.Content.HasValue("subpageListingLayout") && Model.Content.GetProperty("subpageListingLayout").Value.ToString() == "Grid")
+            {
+                layoutClass = "grid row";
+            }
+            
+        	<!-- LISTING  -->   
+			<div class="listing section @layoutClass">
+                @foreach (var item in Model.Content.Children.Where(x => x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")).OrderBy("SortOrder"))
+                {
+                    Boolean displaySummaryText = false;
+                    string introText = "";
+
+                    if (item.HasValue("pageSummary"))
+                    {
+                        introText = item.GetProperty("pageSummary").Value.ToString();
+                        displaySummaryText = true;
+                    }
+                    else
+                    {
+                        if (summaryTextLength > 0 && item.HasProperty("bodyText"))
+                        {
+                            introText = item.GetProperty("bodyText").Value.ToString().StripHtml().Trim();
+
+                            displaySummaryText = true;
+
+                            if (introText.Length >= summaryTextLength)
+                            {
+                                introText = introText.Substring(0, summaryTextLength);
+                            }
+
+                            if (introText.Length > 0)
+                            {
+                                introText = "<p>" + introText + " ...</p>";
+                            }
+                        }
+                    }
+
+                    string pageName = "";
+
+                    if (item.HasValue("subpageListingLinkText"))
+                    {
+                        pageName = item.GetProperty("subpageListingLinkText").Value.ToString();
+                    }
+                    else
+                    {
+                        pageName = @item.Name;
+                    }
+
+                    if(layoutClass == String.Empty)
+                    {
+                        string textClass = "";
+                        
+                    <div class="row item">
+						   
+                        @if (item.HasValue("pageListingImage") && Umbraco.TypedMedia(item.GetProperty("pageListingImage").Value) != null)
+                        {
+                            textClass = "col-sm-7 pull-left";
+                            
+                            <div class="col-sm-4 pull-right col-xs-12 text-right">
+                                <div class="image">
+                                    <a href="@item.Url">
+                                        <img src="@Umbraco.TypedMedia(item.GetProperty("pageListingImage").Value).GetCropUrl(width: 400, height: 300)" alt="@item.GetProperty("pageListingImageAltText").Value">
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                        <div class="info @textClass col-xs-12">
+                            <a href="@item.Url"><p class="heading">@Html.Raw(pageName)</p></a>
+                            @if (displaySummaryText && introText != String.Empty)
+                            {
+                                <div class="text">@Html.Raw(introText)</div>
+                            }
+                        </div>
+                           
+					</div>
+                    }
+                    else
+                    {
+                        //If wide col-lg-3 col-sm-4 col-xs-12
+                        
+                        <div class="item col-sm-4 col-xs-12">
+                            <a href="@item.Url">
+                                @if (item.HasValue("pageListingImage") && Umbraco.TypedMedia(item.GetProperty("pageListingImage").Value) != null)
+                                {
+                                    <div class="image">
+                                        <img src="@Umbraco.TypedMedia(item.GetProperty("pageListingImage").Value).GetCropUrl(width: 400, height: 300)" alt="@item.GetProperty("pageListingImageAltText").Value">
+                                    </div>
+                                }
+                                <p class="heading">@Html.Raw(pageName)</p>
+                            </a>
+                            @if (displaySummaryText && introText != String.Empty)
+                            {
+                                <div class="text">@Html.Raw(introText)</div>
+                            }
+                        </div>
+                    }
+                }
+            </div>
+        }
+    }
+}
+
+
+  

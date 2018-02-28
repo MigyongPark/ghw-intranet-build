@@ -1,0 +1,48 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "USNMaster.cshtml";
+}
+
+@Html.Partial("USNMiscPageElements/USN_HeaderImageSection", @Model.Content)
+
+<!-- CONTENT -->
+<section class="content">
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- CONTENT COL -->
+            <div @Html.Partial("USNLayout/USN_ContentColumnStyle", @Model.Content)>
+
+                @Html.Partial("USNMiscPageElements/USN_StandardPageTitle", @Model.Content)
+
+                <!-- IMAGE -->
+                @Html.Partial("USNMiscPageElements/USN_MainImage", @Model.Content)
+                <!--// IMAGE -->
+
+                @Umbraco.Field("bodyText")
+
+                @Html.Partial("USNListings/USN_SubpageListing", @Model.Content)
+
+                @Html.Partial("USNStandardPageComponents/USN_StandardPageComponents", @Model.Content)
+
+            </div>
+            <!--// CONTENT COL -->
+
+            @Html.Partial("USNLayout/USN_PodAndNavColumn", @Model.Content)
+
+        </div>
+        <!--// ROW -->
+    
+    </div>
+    <!--// CONTAINER -->
+
+</section>
+<!--// CONTENT -->
+
+@Html.Partial("USNSiteWidePods/USN_SitewidePods", @Model.Content, new ViewDataDictionary { { "podstyle", "horizontal" } })
+
+@section BodyTag{@Html.Raw(" class=\"standard-page\"")}

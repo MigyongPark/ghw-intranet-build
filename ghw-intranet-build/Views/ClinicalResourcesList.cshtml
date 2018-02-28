@@ -1,0 +1,44 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.ClinicalResourcesList>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div class="cliHeader" id="zoneClinical">
+<img id="zonePageIcon" src="/media/1074/zonepageiconclinical.png" />
+<h1 id="zoneWhite">Clinical systems</h1>
+</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+	<!----CLINICAL RESOURCES GRID START----------------------------------------->
+	<div class="cliGrid">
+
+		@foreach (var item in CurrentPage.Children)
+		{
+			<a href="@item.linkURL" target="_blank">					
+				<div id="cliSquare">
+					<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="cliIcon"><img src="@Umbraco.Media(@item.icon).Url"></td>
+						</tr>
+						<tr>
+							<td id="cliText">@item.linkText</td>
+						</tr>
+					</table>
+				</div>
+			</a>
+		}	
+
+	</div>
+	<!----CLINICAL RESOURCES GRID END--------------------------------------------->
+
+
+
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+
+</body>
+</html>

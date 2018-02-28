@@ -1,0 +1,52 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "USNMaster.cshtml";
+
+    if (CurrentPage.Name == "Page not found")
+    {
+        Response.Status = "404 Not Found";
+        Response.StatusCode = 404;
+    }
+}
+
+@Html.Partial("USNMiscPageElements/USN_HeaderImageSection", @Model.Content)
+
+<!-- CONTENT -->
+<section class="content">
+
+    <!-- CONTAINER -->
+    <div class="container">
+		
+	    <!-- ROW -->
+	    <div class="row">
+			
+		    <!-- CONTENT COL -->
+		    <div @Html.Partial("USNLayout/USN_ContentColumnStyle",@Model.Content)>
+				
+                @Html.Partial("USNMiscPageElements/USN_StandardPageTitle", @Model.Content)
+		
+			    <!-- IMAGE -->
+			    @Html.Partial("USNMiscPageElements/USN_MainImage",@Model.Content)
+			    <!--// IMAGE -->
+	       
+			    @Umbraco.Field("bodyText")
+		
+			    @Html.Partial("USNNavigation/USN_Sitemap",@Model.Content)
+				
+		    </div>
+		    <!--// CONTENT COL -->
+			
+		    @Html.Partial("USNLayout/USN_PodAndNavColumn", @Model.Content)
+						
+	    </div>
+	    <!--// ROW -->
+
+    </div>
+    <!--// CONTAINER -->
+
+</section>	
+<!--// CONTENT -->
+
+@Html.Partial("USNSiteWidePods/USN_SitewidePods", @Model.Content, new ViewDataDictionary { { "podstyle", "horizontal" } })
+		
+@section BodyTag{@Html.Raw(" class=\"standard-page\"")}

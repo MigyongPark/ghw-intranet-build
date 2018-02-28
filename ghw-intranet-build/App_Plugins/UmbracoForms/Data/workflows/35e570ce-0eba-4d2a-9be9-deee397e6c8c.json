@@ -1,0 +1,16 @@
+{
+  "id": "35e570ce-0eba-4d2a-9be9-deee397e6c8c",
+  "name": "Send email to Brian Carter",
+  "form": "ece1d0c6-9dbd-438a-9782-24fa189f06fc",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "brian.carter3@nhs.net",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "Message": "The Form '{form_name} was submitted, this is the list of values it contained. You can turn this email off under workflows in Umbraco Forms.",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

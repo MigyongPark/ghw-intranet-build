@@ -1,0 +1,153 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<USNStarterKit.USNModels.USNNewsletterFormViewModel>
+
+@using USN.Heading.Umbraco.Models;
+@using USN.UrlPicker.Umbraco.Models;
+
+@{
+    var currentPage = Umbraco.TypedContent(Model.CurrentNodeID);
+
+    string backgroundStyle = "c5-bg";
+    string headingStyle = "c3-text";
+    string textStyle = "c3-text";
+
+    if (currentPage.HasValue("backgroundColor"))
+    {
+        switch (currentPage.GetProperty("backgroundColor").Value.ToString())
+        {
+            case "ed6d19":
+                backgroundStyle = "c1-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "cccccc":
+                backgroundStyle = "c2-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "181818":
+                backgroundStyle = "c3-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "f4f4f4":
+                backgroundStyle = "c4-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "ffffff":
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "e3e3e3":
+                backgroundStyle = "c6-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            default:
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+        }
+    }
+
+    string buttonStyle = "c1-bg c5-text";
+
+    if (currentPage.HasValue("buttonColor"))
+    {
+        switch (currentPage.GetProperty("buttonColor").Value.ToString())
+        {
+            case "ed6d19":
+                buttonStyle = "c1-bg c5-text";
+                break;
+            case "cccccc":
+                buttonStyle = "c2-bg c3-text";
+                break;
+            case "181818":
+                buttonStyle = "c3-bg c5-text";
+                break;
+            case "f4f4f4":
+                buttonStyle = "c4-bg c3-text";
+                break;
+            case "ffffff":
+                buttonStyle = "c5-bg c1-text";
+                break;
+            case "e3e3e3":
+                buttonStyle = "c6-bg c5-text";
+                break;
+            default:
+                buttonStyle = "c1-bg c5-text";
+                break;
+        }
+    }
+    
+    string firstDivClass = "col-md-6 col-xs-12 pull-left";
+    string secondDivClass = "col-md-4 col-xs-12 pull-right";
+    string formFadeInDirection = "fadeInRight";
+    string textFadeInDirection = "fadeInLeft";
+    string animateClass = String.Empty;
+    
+    if (currentPage.HasValue("textSectionPosition") && currentPage.GetProperty("textSectionPosition").Value.ToString() == "Right")
+    {
+        firstDivClass = "col-md-6 col-xs-12 pull-right";
+        secondDivClass = "col-md-4 col-xs-12 pull-left";
+        formFadeInDirection = "fadeInLeft";
+        textFadeInDirection = "fadeInRight";
+    }
+
+    if (currentPage.GetPropertyValue<bool>("animate"))
+    {
+        animateClass = "os-animation";
+    }
+
+    <section class="content apc text-with-form @backgroundStyle" id="pos_@currentPage.Id">
+        <div class="container">
+
+            <!-- ROW -->
+            <div class="row">
+
+                <div class="@firstDivClass @animateClass" data-os-animation="@textFadeInDirection" data-os-animation-delay="0">
+                    <!-- INFO -->
+                    <div class="info">
+
+                        @if (currentPage.HasValue("heading"))
+                        {
+                            var heading = currentPage.GetPropertyValue<USNHeading>("heading");
+
+                            if (heading != null && !String.IsNullOrEmpty(heading.Heading))
+                            {
+                                @Html.Raw("<" + heading.HeadingStyle + " class=\"heading main " + headingStyle + "\">")
+                                @heading.Heading
+                                @Html.Raw("</" + heading.HeadingStyle + ">")
+                            }
+                        }
+                        @if (currentPage.HasValue("text"))
+                        {
+                            <div class="text @textStyle">
+                                @Html.Raw(currentPage.GetProperty("text").Value)
+                            </div>
+                        }
+                        @{
+                            LinkInfo link = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(currentPage.GetPropertyValue<UrlPicker>("link"));
+
+                            if (link != null)
+                            {
+                                <p class="link"><a class="btn @buttonStyle" href="@link.LinkURL" @Html.Raw(link.LinkTarget) @Html.Raw(link.LinkTitle)>@link.LinkCaption@Html.Raw(link.LinkIcon)</a></p>
+                            }
+                        }
+                    </div>
+                    <!--// INFO -->
+                </div>
+
+                <div class="@secondDivClass @animateClass" data-os-animation="@formFadeInDirection" data-os-animation-delay="0">
+                    @Html.Partial("USNForms/USN_NewsletterSignup", @Model)
+                </div>
+
+            </div>
+            <!--// ROW -->
+
+        </div>
+    </section>
+
+}

@@ -1,0 +1,967 @@
+﻿ 2018-01-03 07:48:14,770 [P1896/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-03 07:48:14,817 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-03 07:48:14,848 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 20ms)
+ 2018-01-03 07:48:14,973 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-03 07:48:15,051 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 84ms)
+ 2018-01-03 07:48:15,176 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-03 07:48:15,176 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-01-03 07:48:15,176 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-03 07:48:15,223 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 51ms)
+ 2018-01-03 07:48:15,270 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-03 07:48:15,270 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-03 07:48:15,270 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-03 07:48:15,332 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 53ms)
+ 2018-01-03 07:48:15,395 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-03 07:48:15,395 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-03 07:48:15,395 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-03 07:48:15,395 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-03 07:48:17,926 [P1896/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-03 07:48:18,270 [P1896/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-03 07:48:18,270 [P1896/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-03 07:48:18,270 [P1896/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-03 07:48:18,317 [P1896/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-03 07:48:18,520 [P1896/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-03 07:48:18,520 [P1896/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-03 07:48:18,582 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-03 07:48:18,582 [P1896/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-03 07:48:18,989 [P1896/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4386ms)
+ 2018-01-03 07:48:21,879 [P1896/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-03 07:48:24,270 [P1896/D2/T13] INFO  umbraco.content - Load Xml from file...
+ 2018-01-03 07:48:24,411 [P1896/D2/T13] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-03 07:48:26,473 [P1896/D2/T13] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-03 07:48:26,473 [P1896/D2/T13] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2018-01-03 07:48:56,176 [P1896/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username LynneHall from IP address 192.168.186.20
+ 2018-01-03 07:48:56,176 [P1896/D2/T18] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Lynnehall logged in from IP address 192.168.186.20
+ 2018-01-03 07:48:56,582 [P1896/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-03 07:48:56,582 [P1896/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-01-03 07:48:56,754 [P1896/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-01-03 07:48:56,754 [P1896/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-01-03 07:48:56,770 [P1896/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-03 07:48:56,770 [P1896/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2018-01-03 07:48:56,817 [P1896/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-03 07:48:56,817 [P1896/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-03 07:48:56,817 [P1896/D2/T19] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-03 07:48:56,817 [P1896/D2/T19] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2018-01-03 07:49:24,582 [P1896/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-02 07:49:24
+ 2018-01-03 07:52:46,518 [P1896/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Graham Banfield' with Id '0' has been published.
+ 2018-01-03 07:52:46,987 [P1896/D2/T32] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-01-03 07:52:46,987 [P1896/D2/T32] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-01-03 07:52:51,174 [P1896/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:52:51,362 [P1896/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:53:26,909 [P1896/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Andrew Carswell' with Id '0' has been published.
+ 2018-01-03 07:53:31,221 [P1896/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:53:31,471 [P1896/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:54:16,049 [P1896/D2/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Angus Waddell' with Id '0' has been published.
+ 2018-01-03 07:54:20,330 [P1896/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:54:20,549 [P1896/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:55:14,080 [P1896/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ganesh Sittampalam' with Id '0' has been published.
+ 2018-01-03 07:55:18,392 [P1896/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:55:18,611 [P1896/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:56:00,923 [P1896/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'John Cook' with Id '0' has been published.
+ 2018-01-03 07:56:05,220 [P1896/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:56:05,439 [P1896/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:56:50,782 [P1896/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kim Billingham' with Id '0' has been published.
+ 2018-01-03 07:56:55,064 [P1896/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:56:55,298 [P1896/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:57:23,110 [P1896/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Firth' with Id '0' has been published.
+ 2018-01-03 07:57:27,407 [P1896/D2/T40] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:57:27,626 [P1896/D2/T40] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:58:44,532 [P1896/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen King' with Id '0' has been published.
+ 2018-01-03 07:58:48,813 [P1896/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 07:58:49,047 [P1896/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 07:59:55,609 [P1896/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '0' has been published.
+ 2018-01-03 07:59:59,906 [P1896/D2/T26] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:00:00,140 [P1896/D2/T26] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:16:47,447 [P1896/D2/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5062' has been published.
+ 2018-01-03 08:16:51,837 [P1896/D2/T98] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:16:52,072 [P1896/D2/T98] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:19:09,321 [P1896/D2/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5086' has been published.
+ 2018-01-03 08:19:13,586 [P1896/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:19:13,821 [P1896/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:19:36,805 [P1896/D2/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5086' has been published.
+ 2018-01-03 08:19:41,133 [P1896/D2/T95] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:19:41,352 [P1896/D2/T95] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:19:49,398 [P1896/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5086' has been published.
+ 2018-01-03 08:19:49,398 [P1896/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5051' has been published.
+ 2018-01-03 08:19:49,398 [P1896/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5064' has been published.
+ 2018-01-03 08:19:49,398 [P1896/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5075' has been published.
+ 2018-01-03 08:19:54,055 [P1896/D2/T95] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:19:54,273 [P1896/D2/T95] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:27:58,598 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5086' has been published.
+ 2018-01-03 08:28:02,911 [P1896/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:28:03,145 [P1896/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:28:21,442 [P1896/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5086' has been published.
+ 2018-01-03 08:28:25,723 [P1896/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:28:26,020 [P1896/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:29:44,270 [P1896/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5086' has been published.
+ 2018-01-03 08:29:48,535 [P1896/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:29:48,879 [P1896/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:31:56,800 [P1896/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Helen Price' with Id '0' has been published.
+ 2018-01-03 08:32:01,097 [P1896/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:32:01,394 [P1896/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:33:24,190 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Harshan Lamabadusuriya' with Id '0' has been published.
+ 2018-01-03 08:33:28,471 [P1896/D2/T102] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:33:28,878 [P1896/D2/T102] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:34:24,612 [P1896/D2/T116] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Caroline Critchley' with Id '0' has been published.
+ 2018-01-03 08:34:27,830 [P1896/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Caroline Critchley' with Id '5854' has been published.
+ 2018-01-03 08:34:32,143 [P1896/D2/T102] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:34:32,440 [P1896/D2/T102] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:34:42,283 [P1896/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Caroline Critchley' with Id '5854' has been published.
+ 2018-01-03 08:34:46,533 [P1896/D2/T102] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:34:46,908 [P1896/D2/T102] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:36:28,423 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bea Reeves' with Id '0' has been published.
+ 2018-01-03 08:36:32,173 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bea Reeves' with Id '5855' has been published.
+ 2018-01-03 08:36:36,470 [P1896/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:36:36,736 [P1896/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:37:11,736 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Helen Good' with Id '0' has been published.
+ 2018-01-03 08:37:16,032 [P1896/D2/T5] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:37:16,282 [P1896/D2/T5] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:37:53,610 [P1896/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lys Kirby' with Id '0' has been published.
+ 2018-01-03 08:37:57,892 [P1896/D2/T5] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:37:58,188 [P1896/D2/T5] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:38:32,969 [P1896/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Quesnel' with Id '0' has been published.
+ 2018-01-03 08:38:35,782 [P1896/D2/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Quesnel' with Id '5858' has been published.
+ 2018-01-03 08:38:40,094 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:38:40,391 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:40:42,625 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5087' has been published.
+ 2018-01-03 08:40:46,922 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:40:47,234 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:40:52,422 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5087' has been published.
+ 2018-01-03 08:40:52,422 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5052' has been published.
+ 2018-01-03 08:40:52,422 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5065' has been published.
+ 2018-01-03 08:40:52,437 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5076' has been published.
+ 2018-01-03 08:40:57,109 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:40:57,359 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:45:25,982 [P1896/D2/T106] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5088' has been published.
+ 2018-01-03 08:45:30,389 [P1896/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:45:30,967 [P1896/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:45:46,435 [P1896/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5088' has been published.
+ 2018-01-03 08:45:46,435 [P1896/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5053' has been published.
+ 2018-01-03 08:45:46,435 [P1896/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5066' has been published.
+ 2018-01-03 08:45:46,435 [P1896/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5077' has been published.
+ 2018-01-03 08:45:51,498 [P1896/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 08:45:51,842 [P1896/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 08:59:58,383 [P1896/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5088' has been published.
+ 2018-01-03 09:00:02,711 [P1896/D2/T18] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:00:03,071 [P1896/D2/T18] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:03:15,647 [P1896/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5088' has been published.
+ 2018-01-03 09:03:19,960 [P1896/D2/T135] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:03:20,226 [P1896/D2/T135] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:05:37,178 [P1896/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lindsay Whittam' with Id '0' has been published.
+ 2018-01-03 09:05:41,475 [P1896/D2/T150] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:05:41,725 [P1896/D2/T150] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:06:07,584 [P1896/D2/T135] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sam Gibbs' with Id '0' has been published.
+ 2018-01-03 09:06:11,849 [P1896/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:06:12,115 [P1896/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:06:22,318 [P1896/D2/T135] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lindsay Whittam' with Id '5859' has been published.
+ 2018-01-03 09:06:26,662 [P1896/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:06:27,052 [P1896/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:06:57,240 [P1896/D2/T141] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mohamed Alrawi' with Id '0' has been published.
+ 2018-01-03 09:07:01,505 [P1896/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:07:01,755 [P1896/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:07:46,271 [P1896/D2/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lawrence John' with Id '0' has been published.
+ 2018-01-03 09:07:50,568 [P1896/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:07:50,864 [P1896/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:10:24,551 [P1896/D2/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mei Chin' with Id '0' has been published.
+ 2018-01-03 09:10:28,848 [P1896/D2/T139] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:10:29,113 [P1896/D2/T139] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:11:23,894 [P1896/D2/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hartmut Hempel' with Id '0' has been published.
+ 2018-01-03 09:11:28,707 [P1896/D2/T137] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:11:28,972 [P1896/D2/T137] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:13:02,831 [P1896/D2/T126] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jeremy Birch' with Id '0' has been published.
+ 2018-01-03 09:13:07,128 [P1896/D2/T130] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:13:07,394 [P1896/D2/T130] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:13:57,565 [P1896/D2/T161] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nicki Petrie' with Id '0' has been published.
+ 2018-01-03 09:14:01,893 [P1896/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:14:02,159 [P1896/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:18:03,142 [P1896/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tina Phillips' with Id '0' has been published.
+ 2018-01-03 09:18:07,439 [P1896/D2/T47] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:18:07,704 [P1896/D2/T47] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:18:46,313 [P1896/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sue Toft' with Id '0' has been published.
+ 2018-01-03 09:18:49,501 [P1896/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sue Toft' with Id '5868' has been published.
+ 2018-01-03 09:18:53,829 [P1896/D2/T90] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:18:54,313 [P1896/D2/T90] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:19:22,048 [P1896/D2/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Quesnel' with Id '0' has been published.
+ 2018-01-03 09:19:26,329 [P1896/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:19:26,563 [P1896/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:19:28,313 [P1896/D2/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Quesnel' with Id '5869' has been published.
+ 2018-01-03 09:19:32,626 [P1896/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:19:32,922 [P1896/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:20:04,750 [P1896/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Donna Lake' with Id '0' has been published.
+ 2018-01-03 09:20:07,578 [P1896/D2/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Donna Lake' with Id '5870' has been published.
+ 2018-01-03 09:20:11,875 [P1896/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:20:12,094 [P1896/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:20:59,250 [P1896/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mei Chin' with Id '5863' has been published.
+ 2018-01-03 09:20:59,250 [P1896/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hartmut Hempel' with Id '5864' has been published.
+ 2018-01-03 09:20:59,250 [P1896/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lawrence John' with Id '5862' has been published.
+ 2018-01-03 09:21:03,828 [P1896/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:21:04,078 [P1896/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:23:07,046 [P1896/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5089' has been published.
+ 2018-01-03 09:23:11,343 [P1896/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:23:11,609 [P1896/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:23:16,952 [P1896/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5089' has been published.
+ 2018-01-03 09:23:16,952 [P1896/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audits' with Id '5054' has been published.
+ 2018-01-03 09:23:16,952 [P1896/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5067' has been published.
+ 2018-01-03 09:23:16,952 [P1896/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents and guidelines' with Id '5078' has been published.
+ 2018-01-03 09:23:21,593 [P1896/D2/T29] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:23:21,858 [P1896/D2/T29] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:26:42,982 [P1896/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5089' has been published.
+ 2018-01-03 09:26:48,326 [P1896/D2/T123] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:26:48,638 [P1896/D2/T123] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:31:15,152 [P1896/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nick Ridley' with Id '5311' has been published.
+ 2018-01-03 09:31:15,152 [P1896/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anushka Chaudhry' with Id '5308' has been published.
+ 2018-01-03 09:31:15,152 [P1896/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Simon Hawkins' with Id '5309' has been published.
+ 2018-01-03 09:31:15,152 [P1896/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nathan Coombes' with Id '5310' has been published.
+ 2018-01-03 09:31:19,840 [P1896/D2/T123] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:31:20,184 [P1896/D2/T123] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:32:07,777 [P1896/D2/T126] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Quick' with Id '5321' has been published.
+ 2018-01-03 09:32:12,089 [P1896/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:32:12,371 [P1896/D2/T92] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:32:23,168 [P1896/D2/T126] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Louise Clark' with Id '5322' has been published.
+ 2018-01-03 09:32:27,480 [P1896/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:32:27,792 [P1896/D2/T92] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:32:38,667 [P1896/D2/T131] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sue Ellingham' with Id '5449' has been published.
+ 2018-01-03 09:32:42,980 [P1896/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:32:43,292 [P1896/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:33:07,370 [P1896/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '5036' has been published.
+ 2018-01-03 09:33:11,730 [P1896/D2/T132] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:33:12,042 [P1896/D2/T132] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:49:13,661 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kate Wilton' with Id '5686' has been published.
+ 2018-01-03 09:49:18,036 [P1896/D2/T132] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:49:18,708 [P1896/D2/T132] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:50:25,973 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jan Dodge' with Id '5292' has been published.
+ 2018-01-03 09:50:30,270 [P1896/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:50:30,567 [P1896/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:50:46,801 [P1896/D2/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catherine Piggin' with Id '5293' has been unpublished.
+ 2018-01-03 09:50:51,004 [P1896/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:50:51,301 [P1896/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:52:35,832 [P1896/D2/T140] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5083' has been published.
+ 2018-01-03 09:52:40,144 [P1896/D2/T131] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:52:40,425 [P1896/D2/T131] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:54:59,956 [P1896/D2/T139] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kim Davies' with Id '5584' has been published.
+ 2018-01-03 09:55:04,268 [P1896/D2/T139] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:55:04,565 [P1896/D2/T139] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:56:50,767 [P1896/D2/T156] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5084' has been published.
+ 2018-01-03 09:56:55,096 [P1896/D2/T162] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:56:55,408 [P1896/D2/T162] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:57:02,955 [P1896/D2/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5084' has been published.
+ 2018-01-03 09:57:07,549 [P1896/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:57:07,861 [P1896/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:57:23,720 [P1896/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Firth' with Id '5849' has been published.
+ 2018-01-03 09:57:29,064 [P1896/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:57:29,377 [P1896/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 09:58:02,423 [P1896/D2/T162] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Firth' with Id '5849' has been published.
+ 2018-01-03 09:58:06,736 [P1896/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 09:58:07,126 [P1896/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:00:02,235 [P1896/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anita Robertson' with Id '0' has been published.
+ 2018-01-03 10:00:06,844 [P1896/D2/T139] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:00:07,188 [P1896/D2/T139] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:00:15,360 [P1896/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anita Robertson' with Id '5871' has been published.
+ 2018-01-03 10:00:15,360 [P1896/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen King' with Id '5850' has been published.
+ 2018-01-03 10:00:15,360 [P1896/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '5851' has been published.
+ 2018-01-03 10:00:19,922 [P1896/D2/T82] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:00:20,219 [P1896/D2/T82] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:05:39,795 [P1896/D2/T93] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jo O'Connell' with Id '5460' has been published.
+ 2018-01-03 10:05:44,123 [P1896/D2/T74] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:05:44,420 [P1896/D2/T74] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:06:01,498 [P1896/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jo Galt' with Id '5461' has been published.
+ 2018-01-03 10:06:05,811 [P1896/D2/T74] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:06:06,123 [P1896/D2/T74] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:06:22,061 [P1896/D2/T140] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jo Galt' with Id '5461' has been published.
+ 2018-01-03 10:06:26,373 [P1896/D2/T90] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:06:26,686 [P1896/D2/T90] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:06:53,311 [P1896/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catherine Piggin' with Id '5462' has been unpublished.
+ 2018-01-03 10:06:57,498 [P1896/D2/T90] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:06:57,826 [P1896/D2/T90] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Andy Beale' with Id '5463' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen Litton' with Id '5464' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kim Billingham' with Id '5465' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Darko Lazic' with Id '5466' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Michael Dusmet' with Id '5456' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amanda Horne' with Id '5457' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Omar Khan' with Id '5458' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rachel Smith' with Id '5459' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jo O'Connell' with Id '5460' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jo Galt' with Id '5461' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Gilmore' with Id '5467' has been published.
+ 2018-01-03 10:07:58,107 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claire Taylor' with Id '5468' has been published.
+ 2018-01-03 10:08:03,716 [P1896/D2/T74] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:08:04,013 [P1896/D2/T74] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:08:19,747 [P1896/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Michael Dusmet' with Id '5456' has been unpublished.
+ 2018-01-03 10:08:23,935 [P1896/D2/T144] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:08:24,247 [P1896/D2/T144] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:09:03,419 [P1896/D2/T149] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Andy Beale' with Id '5463' has been published.
+ 2018-01-03 10:09:07,919 [P1896/D2/T149] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:09:08,200 [P1896/D2/T149] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:09:29,622 [P1896/D2/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen Litton' with Id '5464' has been published.
+ 2018-01-03 10:09:33,934 [P1896/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:09:34,231 [P1896/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:09:48,731 [P1896/D2/T115] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kim Billingham' with Id '5465' has been published.
+ 2018-01-03 10:09:53,044 [P1896/D2/T115] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:09:53,341 [P1896/D2/T115] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:10:04,622 [P1896/D2/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Darko Lazic' with Id '5466' has been published.
+ 2018-01-03 10:10:08,966 [P1896/D2/T133] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:10:09,262 [P1896/D2/T133] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:10:47,247 [P1896/D2/T121] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amanda Horne' with Id '5457' has been published.
+ 2018-01-03 10:10:51,559 [P1896/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:10:51,840 [P1896/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:14:07,136 [P1896/D2/T133] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5087' has been published.
+ 2018-01-03 10:14:11,448 [P1896/D2/T97] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:14:11,745 [P1896/D2/T97] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:14:54,401 [P1896/D2/T144] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Us' with Id '5088' has been published.
+ 2018-01-03 10:14:58,729 [P1896/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:14:59,042 [P1896/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:16:27,416 [P1896/D2/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Catherine Piggin' with Id '5281' has been unpublished.
+ 2018-01-03 10:16:31,604 [P1896/D2/T86] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:16:31,916 [P1896/D2/T86] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:16:55,932 [P1896/D2/T138] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mark Hawkins' with Id '5560' has been published.
+ 2018-01-03 10:16:55,932 [P1896/D2/T138] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sian Fletcher' with Id '5278' has been published.
+ 2018-01-03 10:16:55,947 [P1896/D2/T138] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Samantha Richards' with Id '5279' has been published.
+ 2018-01-03 10:16:55,947 [P1896/D2/T138] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Judy Hanley' with Id '5280' has been published.
+ 2018-01-03 10:16:55,947 [P1896/D2/T138] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karun Adhikari' with Id '5283' has been published.
+ 2018-01-03 10:16:55,947 [P1896/D2/T138] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paula Allen' with Id '5330' has been published.
+ 2018-01-03 10:17:00,853 [P1896/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:17:01,369 [P1896/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:17:24,541 [P1896/D2/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mark Hawkins' with Id '5560' has been published.
+ 2018-01-03 10:17:28,869 [P1896/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:17:29,166 [P1896/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:18:27,665 [P1896/D2/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anne Kendall' with Id '5676' has been published.
+ 2018-01-03 10:18:32,259 [P1896/D2/T42] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:18:32,540 [P1896/D2/T42] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:18:41,743 [P1896/D2/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Lowndes' with Id '5677' has been published.
+ 2018-01-03 10:18:46,009 [P1896/D2/T124] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:18:46,290 [P1896/D2/T124] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:18:53,134 [P1896/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Omar Khan' with Id '5678' has been published.
+ 2018-01-03 10:18:57,462 [P1896/D2/T151] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:18:57,743 [P1896/D2/T151] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:19:21,040 [P1896/D2/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lyndel Moore' with Id '5683' has been published.
+ 2018-01-03 10:19:21,040 [P1896/D2/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Helen Winter' with Id '5680' has been published.
+ 2018-01-03 10:19:21,040 [P1896/D2/T128] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Donna Lake' with Id '5681' has been published.
+ 2018-01-03 10:19:25,603 [P1896/D2/T42] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 10:19:25,899 [P1896/D2/T42] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 10:38:39,501 [P1896/D2/T166] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: LynneHall, IP Address: 192.168.186.20
+ 2018-01-03 11:17:09,362 [P1896/D2/T360] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username LynneHall from IP address 192.168.186.20
+ 2018-01-03 11:17:09,362 [P1896/D2/T360] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: Lynnehall logged in from IP address 192.168.186.20
+ 2018-01-03 11:33:52,277 [P1896/D2/T254] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-03 11:33:56,668 [P1896/D2/T254] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:33:56,965 [P1896/D2/T254] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:35:16,355 [P1896/D2/T261] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-03 11:35:20,667 [P1896/D2/T254] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:35:20,964 [P1896/D2/T254] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:35:48,683 [P1896/D2/T261] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-03 11:35:53,011 [P1896/D2/T261] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:35:53,308 [P1896/D2/T261] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:36:07,026 [P1896/D2/T228] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-03 11:36:11,464 [P1896/D2/T228] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:36:11,745 [P1896/D2/T228] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:36:58,495 [P1896/D2/T229] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Delivery Steering Group meetings' with Id '4667' has been published.
+ 2018-01-03 11:37:02,807 [P1896/D2/T228] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:37:03,135 [P1896/D2/T228] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:43:29,742 [P1896/D2/T192] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer management meetings' with Id '4666' has been published.
+ 2018-01-03 11:43:34,070 [P1896/D2/T192] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:43:34,367 [P1896/D2/T192] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:49:24,537 [P1896/D2/T108] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-02 11:49:24
+ 2018-01-03 11:50:17,708 [P1896/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lyndel Moore' with Id '0' has been published.
+ 2018-01-03 11:50:22,036 [P1896/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:50:22,349 [P1896/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:50:53,911 [P1896/D2/T16] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gina Nash' with Id '0' has been published.
+ 2018-01-03 11:50:58,333 [P1896/D2/T25] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:50:58,646 [P1896/D2/T25] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:51:28,833 [P1896/D2/T21] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vacant' with Id '0' has been published.
+ 2018-01-03 11:51:33,083 [P1896/D2/T50] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:51:33,364 [P1896/D2/T50] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:52:31,864 [P1896/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Angus Waddell' with Id '0' has been published.
+ 2018-01-03 11:52:36,192 [P1896/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:52:36,489 [P1896/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:53:06,832 [P1896/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Judith Ratledge' with Id '0' has been published.
+ 2018-01-03 11:53:11,129 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:53:11,410 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:53:40,988 [P1896/D2/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Koster' with Id '0' has been published.
+ 2018-01-03 11:53:45,301 [P1896/D2/T32] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:53:45,582 [P1896/D2/T32] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:54:53,957 [P1896/D2/T22] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Helen Winter' with Id '0' has been published.
+ 2018-01-03 11:54:58,269 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:54:58,738 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:55:31,550 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kevin Jenner' with Id '0' has been published.
+ 2018-01-03 11:55:35,847 [P1896/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:55:36,144 [P1896/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:56:47,706 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen Brown' with Id '0' has been published.
+ 2018-01-03 11:56:52,284 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:56:52,596 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Angus Waddell' with Id '5875' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Judith Ratledge' with Id '5876' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Koster' with Id '5877' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gina Nash' with Id '5873' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lindsay Whittam' with Id '4684' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lyndel Moore' with Id '5872' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vacant' with Id '5874' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karen Brown' with Id '5880' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Helen Winter' with Id '5878' has been published.
+ 2018-01-03 11:57:21,424 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kevin Jenner' with Id '5879' has been published.
+ 2018-01-03 11:57:26,909 [P1896/D2/T171] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:57:27,831 [P1896/D2/T171] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 11:59:49,955 [P1896/D2/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Petherbridge' with Id '0' has been published.
+ 2018-01-03 11:59:54,283 [P1896/D2/T195] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 11:59:54,580 [P1896/D2/T195] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:00:44,329 [P1896/D2/T104] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karun Adhikari' with Id '0' has been published.
+ 2018-01-03 12:00:48,626 [P1896/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:00:48,907 [P1896/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:01:24,767 [P1896/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '0' has been published.
+ 2018-01-03 12:01:29,079 [P1896/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:01:29,392 [P1896/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:01:58,563 [P1896/D2/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jenny Peck' with Id '0' has been published.
+ 2018-01-03 12:02:02,844 [P1896/D2/T190] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:02:03,141 [P1896/D2/T190] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:02:37,547 [P1896/D2/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Gilmore' with Id '0' has been published.
+ 2018-01-03 12:02:41,891 [P1896/D2/T190] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:02:42,204 [P1896/D2/T190] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:03:15,641 [P1896/D2/T175] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Jackson' with Id '0' has been published.
+ 2018-01-03 12:03:19,953 [P1896/D2/T190] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:03:20,250 [P1896/D2/T190] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:04:12,062 [P1896/D2/T226] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pamela Quesnel' with Id '0' has been published.
+ 2018-01-03 12:04:16,344 [P1896/D2/T192] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:04:16,625 [P1896/D2/T192] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:05:30,109 [P1896/D2/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '5883' has been published.
+ 2018-01-03 12:05:34,390 [P1896/D2/T169] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:05:34,718 [P1896/D2/T169] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:06:05,405 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Karun Adhikari' with Id '5882' has been published.
+ 2018-01-03 12:06:05,405 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Davies' with Id '5883' has been published.
+ 2018-01-03 12:06:05,405 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Melanie Gilmore' with Id '5885' has been published.
+ 2018-01-03 12:06:05,405 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sarah Jackson' with Id '5886' has been published.
+ 2018-01-03 12:06:05,405 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jenny Peck' with Id '5884' has been published.
+ 2018-01-03 12:06:05,405 [P1896/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Petherbridge' with Id '5881' has been published.
+ 2018-01-03 12:06:10,327 [P1896/D2/T88] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:06:10,640 [P1896/D2/T88] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:07:25,077 [P1896/D2/T195] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paula Allen' with Id '0' has been published.
+ 2018-01-03 12:07:30,452 [P1896/D2/T182] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:07:30,749 [P1896/D2/T182] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:09:18,123 [P1896/D2/T154] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claire Taylor' with Id '0' has been published.
+ 2018-01-03 12:09:22,388 [P1896/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:09:22,685 [P1896/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:10:01,951 [P1896/D2/T154] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Louise Gasson' with Id '0' has been published.
+ 2018-01-03 12:10:06,404 [P1896/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:10:06,701 [P1896/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:11:05,716 [P1896/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jackie Hollister' with Id '0' has been published.
+ 2018-01-03 12:11:10,013 [P1896/D2/T58] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:11:10,310 [P1896/D2/T58] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:11:17,513 [P1896/D2/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jackie Hollister' with Id '5891' has been published.
+ 2018-01-03 12:11:21,872 [P1896/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:11:22,185 [P1896/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:11:58,544 [P1896/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Donna Lake' with Id '0' has been published.
+ 2018-01-03 12:12:02,841 [P1896/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:12:03,137 [P1896/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:12:26,403 [P1896/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Louise Gasson' with Id '5890' has been published.
+ 2018-01-03 12:12:26,403 [P1896/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jackie Hollister' with Id '5891' has been published.
+ 2018-01-03 12:12:26,403 [P1896/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Donna Lake' with Id '5892' has been published.
+ 2018-01-03 12:12:26,403 [P1896/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claire Taylor' with Id '5889' has been published.
+ 2018-01-03 12:12:32,106 [P1896/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 12:12:32,419 [P1896/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 12:13:27,965 [P1896/D2/T56] INFO  Umbraco.Web.Editors.AuthenticationController - User LynneHall from IP address 192.168.186.20 has logged out
+ 2018-01-03 14:13:30,235 [P1896/D2/T513] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-03 14:13:30,235 [P1896/D2/T513] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-03 14:13:30,267 [P1896/D2/T537] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-03 14:13:30,267 [P1896/D2/T537] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-03 14:21:29,826 [P1896/D2/T522] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-01-03 14:21:29,842 [P1896/D2/T522] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 3ms)
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-03 14:21:32,482 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-03 14:21:32,498 [P1896/D2/T513] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-03 14:21:32,498 [P1896/D2/T540] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-03 14:21:32,498 [P1896/D2/T530] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-03 14:21:32,498 [P1896/D2/T108] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-03 14:21:32,545 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-03 14:21:32,545 [P1896/D2/T539] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-03 14:21:32,545 [P1896/D2/T534] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-03 14:21:35,451 [P1896/D3/T574] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-03 14:21:35,498 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-03 14:21:35,513 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2018-01-03 14:21:35,638 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-03 14:21:35,670 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 33ms)
+ 2018-01-03 14:21:35,717 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-03 14:21:35,717 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-01-03 14:21:35,717 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-03 14:21:35,732 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 10ms)
+ 2018-01-03 14:21:35,763 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-03 14:21:35,763 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-03 14:21:35,763 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-03 14:21:35,779 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 10ms)
+ 2018-01-03 14:21:35,842 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-03 14:21:35,842 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-03 14:21:35,842 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-03 14:21:35,842 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-03 14:21:38,170 [P1896/D3/T574] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-03 14:21:38,529 [P1896/D3/T574] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-03 14:21:38,529 [P1896/D3/T574] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-03 14:21:38,529 [P1896/D3/T574] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-03 14:21:38,576 [P1896/D3/T574] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-03 14:21:38,748 [P1896/D3/T574] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-03 14:21:38,748 [P1896/D3/T574] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-03 14:21:38,795 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-03 14:21:38,795 [P1896/D3/T574] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-03 14:21:39,217 [P1896/D3/T574] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3934ms)
+ 2018-01-03 14:21:39,998 [P1896/D3/T530] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-03 14:21:42,388 [P1896/D3/T530] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-01-03 14:21:42,388 [P1896/D3/T530] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-01-03 14:21:49,185 [P1896/D3/T564] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-03 14:21:49,185 [P1896/D3/T564] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-01-03 14:21:49,185 [P1896/D3/T564] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-03 14:21:49,185 [P1896/D3/T564] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-01-03 14:21:51,091 [P1896/D3/T564] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-03 14:21:51,091 [P1896/D3/T564] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2018-01-03 14:22:01,951 [P1896/D3/T513] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '2018' with Id '0' has been published.
+ 2018-01-03 14:22:02,576 [P1896/D2/T539] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2018-01-03 14:22:03,216 [P1896/D3/T513] INFO  umbraco.content - Load Xml from file...
+ 2018-01-03 14:22:03,294 [P1896/D3/T513] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-03 14:22:07,451 [P1896/D3/T552] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:22:07,841 [P1896/D3/T552] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:22:38,794 [P1896/D3/T401] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'January 2018' with Id '0' has been published.
+ 2018-01-03 14:22:42,779 [P1896/D3/T541] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-02 14:22:42
+ 2018-01-03 14:22:43,091 [P1896/D3/T566] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:22:43,404 [P1896/D3/T566] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:24:08,403 [P1896/D3/T401] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Intranet Home Page' with Id '1288' has been published.
+ 2018-01-03 14:24:12,762 [P1896/D3/T565] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:24:13,059 [P1896/D3/T565] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:24:32,512 [P1896/D3/T540] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-01-03 14:24:32,512 [P1896/D3/T540] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2018-01-03 14:25:56,918 [P1896/D3/T490] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_NewHomePage_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml:line 79
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 14:27:01,949 [P1896/D3/T573] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Intranet Home Page' with Id '1288' has been published.
+ 2018-01-03 14:27:06,293 [P1896/D3/T573] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:27:06,605 [P1896/D3/T573] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:27:10,964 [P1896/D3/T564] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_NewHomePage_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml:line 79
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 14:27:13,168 [P1896/D3/T566] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_NewHomePage_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml:line 79
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 14:30:09,838 [P1896/D3/T533] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Intranet Home Page' with Id '1288' has been published.
+ 2018-01-03 14:30:14,151 [P1896/D3/T10] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:30:14,463 [P1896/D3/T10] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:32:32,103 [P1896/D3/T401] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Juliet is our latest STAR' with Id '0' has been published.
+ 2018-01-03 14:32:36,415 [P1896/D3/T108] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:32:36,712 [P1896/D3/T108] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:39:49,803 [P1896/D3/T536] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(103): error CS0103: The name 'child' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 14:42:54,193 [P1896/D3/T540] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(103): error CS0103: The name 'child2' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 14:45:28,864 [P1896/D3/T570] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our Week Ahead: 2 January 2018' with Id '0' has been published.
+ 2018-01-03 14:45:33,192 [P1896/D3/T108] INFO  umbraco.content - Save Xml to file...
+ 2018-01-03 14:45:33,504 [P1896/D3/T108] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-03 14:56:25,016 [P1896/D3/T567] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(101): error CS1061: 'Umbraco.Core.Models.IPublishedContent' does not contain a definition for 'id' and no extension method 'id' accepting a first argument of type 'Umbraco.Core.Models.IPublishedContent' could be found (are you missing a using directive or an assembly reference?)
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:01:14,826 [P1896/D3/T513] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(101): error CS0103: The name 'child' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:02:40,529 [P1896/D3/T536] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(105): error CS0103: The name 'child' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:03:28,966 [P1896/D3/T519] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(105): error CS0103: The name 'child2' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:05:34,762 [P1896/D3/T10] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(106): error CS0103: The name 'again' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:06:02,137 [P1896/D3/T537] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(88): error CS0103: The name 'again' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:07:43,324 [P1896/D3/T565] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(98): error CS0103: The name 'child' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:11:23,541 [P1896/D3/T533] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(104): error CS0103: The name 'child' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:12:32,213 [P1896/D3/T568] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml(114): error CS0103: The name 'child' does not exist in the current context
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-03 15:26:28,879 [P1896/D3/T534] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-03 18:22:42,733 [P1896/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-02 18:22:42
+ 2018-01-03 19:21:22,258 [P1896/D3/T80] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:d055d5bc-99d2-49b4-9d0e-34cb57bbea64
+Error Number:-2,State:0,Class:11
+ 2018-01-03 22:22:42,325 [P1896/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-02 22:22:42
+ 2018-01-03 22:31:11,767 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-03 22:31:11,767 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-03 22:31:11,767 [P1896/D3/T287] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-03 22:31:11,814 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-03 22:31:11,814 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-03 22:31:11,814 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-03 22:31:11,814 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-03 22:31:11,814 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-03 22:31:11,814 [P1896/D3/T489] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-03 22:31:11,830 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-03 22:31:11,830 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-03 22:31:11,830 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-03 22:31:11,830 [P1896/D3/T283] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-03 22:31:11,830 [P1896/D3/T307] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-03 22:31:11,830 [P1896/D3/T277] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-03 22:31:41,907 [P1896/D3/T317] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

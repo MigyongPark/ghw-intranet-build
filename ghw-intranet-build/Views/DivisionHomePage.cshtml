@@ -1,0 +1,150 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.DivisionHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="departmentsHeadBackground"><img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="departmentsMainArea">
+
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+	<div id="depNav">
+		<div id="thisDep"><a href="@CurrentPage.url">@CurrentPage.name</a></div>
+	</div>
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<div id="contentWide">
+		
+				@*------optional intro------*@
+				@if(@CurrentPage.addIntro==true)
+				{
+				@Umbraco.Field("intro")
+				}
+			
+
+			<table id="divisionPeople" cellpadding="0" cellspacing="0">
+				<tr>
+				@if (CurrentPage.HasValue("person1Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person1Photo).Url" /><br />
+					<strong>@CurrentPage.person1Name</strong><br />
+					@CurrentPage.person1Position
+				</td>
+				}
+
+				@if (CurrentPage.HasValue("person2Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person2Photo).Url" /><br />
+					<strong>@CurrentPage.person2Name</strong><br />
+					@CurrentPage.person2Position
+				</td>
+				}
+
+				@if (CurrentPage.HasValue("person3Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person3Photo).Url" /><br />
+					<strong>@CurrentPage.person3Name</strong><br />
+					@CurrentPage.person3Position
+				</td>
+				}
+
+				@if (CurrentPage.HasValue("person4Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person4Photo).Url" /><br />
+					<strong>@CurrentPage.person4Name</strong><br />
+					@CurrentPage.person4Position
+				</td>
+				}
+
+				@if (CurrentPage.HasValue("person5Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person5Photo).Url" /><br />
+					<strong>@CurrentPage.person5Name</strong><br />
+					@CurrentPage.person5Position
+				</td>
+				}
+
+				</tr><tr>
+
+				@if (CurrentPage.HasValue("person6Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person6Photo).Url" /><br />
+					<strong>@CurrentPage.person6Name</strong><br />
+					@CurrentPage.person6Position
+				</td>
+				}
+
+				@if (CurrentPage.HasValue("person7Name"))
+				{
+				<td id="divisionPeople">
+					<img src="@Umbraco.Media(CurrentPage.person7Photo).Url" /><br />
+					<strong>@CurrentPage.person7Name</strong><br />
+					@CurrentPage.person7Position
+				</td>
+				}
+				</tr>
+				</table>
+					
+				@*------optional outro------*@
+				@if(@CurrentPage.addOutro==true)
+				{
+				@Umbraco.Field("outro")
+				}
+					
+				<h2>Key contacts</h2>
+				
+				<table id="teamMember" cellpadding="0" cellspacing="0">
+				@foreach (var item in CurrentPage.Children)
+				{
+				<tr>
+				<td id="teamMemberPhoto"><img src="@Umbraco.Media(item.teamMemberPhoto).Url" width="80" /></td>
+				<td id="teamMemberName">@item.teamMemberName</td>
+				<td id="teamMemberJobTitle">@item.teamMemberJobTitle</td>
+				<td id="teamMemberDetailsLink"><a href="@item.teamMemberDetailsLink" target="_blank">Contact details for @item.teamMemberName</a></td>
+				</tr>					
+				}
+				</table>
+					
+			@*-----Optional 'See also' section----- *@
+			@if(@CurrentPage.addSeeAlsoSection==true)
+			{
+				<div id="seeAlsoWrapper">
+					<div id="seeAlso">
+						<h2 id="seeAlso">See also</h2>
+						<ul id="seeAlso">
+						@foreach (var item in @CurrentPage.seeAlso)
+						{
+						<li id="seeAlso"><a id="seeAlso" href="@item.Url">@item.Name</a></li>
+						}
+						</ul>
+					</div>
+				</div>	
+			}
+
+				@Html.Partial("advertisingBanner")
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="pageInfo">
+					<div id="pageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(4).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(4).pageOwnersPosition</div>
+					<div id="pageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(4).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(4).subEditor</a></div>
+					<div id="pageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>
+				<!----- P A G E   I N F O ----- E N D ----->
+
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->

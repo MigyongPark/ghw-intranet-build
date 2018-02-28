@@ -1,0 +1,28 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+    if (globalSettings.HasValue("footerCompanyName") || globalSettings.HasValue("footerAddress") ||
+        globalSettings.HasValue("footerOtherContactInformation"))
+    {
+    <div class="company-details">
+    @if (globalSettings.HasValue("footerCompanyName"))
+	{	
+		<p class="heading">@globalSettings.GetProperty("footerCompanyName").Value</p>
+	}
+	@if (globalSettings.HasValue("footerAddress"))
+	{
+		<address>
+			@Html.Raw(globalSettings.GetProperty("footerAddress").Value)
+		</address>
+	}
+	@if (globalSettings.HasValue("footerOtherContactInformation"))
+	{	
+		@Html.Raw(globalSettings.GetProperty("footerOtherContactInformation").Value)
+	}                                                       
+	</div> 
+    }
+}

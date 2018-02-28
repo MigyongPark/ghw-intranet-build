@@ -1,0 +1,22 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div id="atozHeadBackground"><h1 id="atoz">Search results</h1></div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+
+
+
+			    @Umbraco.Field("bodyText")	       
+			    
+		
+			    @Html.Partial("USNListings/USN_SearchResultsCopy",@Model.Content)
+	
+	
+	
+
+	
+	

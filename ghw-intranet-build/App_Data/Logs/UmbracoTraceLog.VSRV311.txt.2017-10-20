@@ -1,0 +1,562 @@
+﻿ 2017-10-20 00:37:15,527 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-10-20 00:37:15,527 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-10-20 00:37:15,527 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-10-20 00:37:15,527 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-10-20 00:37:15,527 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-10-20 00:37:15,527 [P6856/D3/T346] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-10-20 00:37:15,543 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-10-20 00:37:15,543 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-10-20 00:37:15,543 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-10-20 00:37:15,543 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-10-20 00:37:15,543 [P6856/D3/T23] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-10-20 00:37:15,558 [P6856/D3/T97] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-10-20 00:37:15,589 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-10-20 00:37:15,589 [P6856/D3/T19] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-10-20 00:37:15,589 [P6856/D3/T7] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-10-20 00:37:45,698 [P6856/D3/T19] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-10-20 08:52:43,315 [P10520/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-10-20 08:52:43,394 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-20 08:52:43,440 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 34ms)
+ 2017-10-20 08:52:43,659 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-20 08:52:43,831 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 178ms)
+ 2017-10-20 08:52:44,003 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-20 08:52:44,003 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-10-20 08:52:44,003 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-20 08:52:44,097 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 89ms)
+ 2017-10-20 08:52:44,159 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-10-20 08:52:44,159 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-10-20 08:52:44,159 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-20 08:52:44,206 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 56ms)
+ 2017-10-20 08:52:44,300 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-10-20 08:52:44,300 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-10-20 08:52:44,300 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-10-20 08:52:44,300 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-10-20 08:52:47,472 [P10520/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-20 08:52:48,097 [P10520/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-20 08:52:48,097 [P10520/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-20 08:52:48,222 [P10520/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-20 08:52:48,518 [P10520/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-20 08:52:48,518 [P10520/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-20 08:52:48,534 [P10520/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-10-20 08:52:48,565 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-20 08:52:48,581 [P10520/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-10-20 08:52:49,362 [P10520/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6380ms)
+ 2017-10-20 08:52:54,018 [P10520/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-10-20 08:52:59,846 [P10520/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-20 08:52:59,846 [P10520/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-10-20 08:53:30,033 [P10520/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 08:53:30,033 [P10520/D2/T14] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 08:53:30,502 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 08:53:30,502 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-10-20 08:53:30,846 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-10-20 08:53:30,861 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-10-20 08:53:31,049 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 08:53:31,049 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-20 08:53:31,065 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-20 08:53:31,065 [P10520/D2/T14] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-10-20 08:53:31,424 [P10520/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-20 08:53:31,424 [P10520/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-10-20 08:53:33,565 [P10520/D2/T18] INFO  umbraco.content - Load Xml from file...
+ 2017-10-20 08:53:33,643 [P10520/D2/T18] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-20 08:53:59,470 [P10520/D2/T5] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-19 08:53:59
+ 2017-10-20 09:09:36,171 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Closer support programme' with Id '3758' has been published.
+ 2017-10-20 09:09:36,437 [P10520/D2/T82] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-10-20 09:09:36,452 [P10520/D2/T82] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 14ms)
+ 2017-10-20 09:09:40,890 [P10520/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:09:41,062 [P10520/D2/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:12:46,495 [P10520/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-20 09:12:46,495 [P10520/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-20 09:12:46,527 [P10520/D2/T85] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 09:12:46,527 [P10520/D2/T85] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-20 09:15:22,196 [P10520/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical terminology' with Id '3809' has been published.
+ 2017-10-20 09:15:26,508 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:15:26,649 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:17:26,568 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical terminology' with Id '0' has been published.
+ 2017-10-20 09:17:30,881 [P10520/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:17:31,037 [P10520/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:24:00,576 [P10520/D2/T62] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 09:24:00,576 [P10520/D2/T62] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-20 09:26:58,354 [P10520/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical terminology' with Id '3884' has been published.
+ 2017-10-20 09:27:02,635 [P10520/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:27:02,807 [P10520/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:31:12,724 [P10520/D2/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical terminology' with Id '3809' has been published.
+ 2017-10-20 09:31:16,974 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:31:17,146 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:32:20,098 [P10520/D2/T40] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-20 09:37:11,749 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 09:37:16,030 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:37:16,202 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:38:59,387 [P10520/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 09:39:03,668 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:39:03,871 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:40:48,448 [P10520/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blood glucose monitoring' with Id '3811' has been published.
+ 2017-10-20 09:40:52,697 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:40:52,901 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 09:45:24,724 [P10520/D2/T46] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-20 09:45:24,724 [P10520/D2/T46] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-20 09:45:24,770 [P10520/D2/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 09:45:24,770 [P10520/D2/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-20 09:45:56,520 [P10520/D2/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Blood glucose monitoring' with Id '3811' has been published.
+ 2017-10-20 09:46:00,801 [P10520/D2/T64] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 09:46:00,973 [P10520/D2/T64] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:00:19,581 [P10520/D2/T76] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 10:01:00,393 [P10520/D2/T82] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 10:01:00,393 [P10520/D2/T82] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 10:02:03,236 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3815' has been unpublished.
+ 2017-10-20 10:02:07,407 [P10520/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:02:07,595 [P10520/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:04:57,123 [P10520/D2/T62] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-20 10:07:29,948 [P10520/D2/T57] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 10:07:34,214 [P10520/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:07:34,495 [P10520/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:08:06,713 [P10520/D2/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 10:08:11,010 [P10520/D2/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:08:11,229 [P10520/D2/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:08:14,697 [P10520/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 10:08:18,963 [P10520/D2/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:08:19,166 [P10520/D2/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:20:30,683 [P10520/D2/T85] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 10:29:59,328 [P10520/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 10:29:59,328 [P10520/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 10:33:49,355 [P10520/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 10:33:53,605 [P10520/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:33:53,840 [P10520/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:41:34,815 [P10520/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 10:41:39,096 [P10520/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:41:39,268 [P10520/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:41:42,190 [P10520/D2/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 10:41:46,424 [P10520/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:41:46,690 [P10520/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 10:45:02,139 [P10520/D2/T61] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-20 10:45:02,139 [P10520/D2/T61] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-20 10:48:17,010 [P10520/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 10:48:21,526 [P10520/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 10:48:21,807 [P10520/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:00:13,028 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 11:00:17,872 [P10520/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:00:18,090 [P10520/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:04:35,179 [P10520/D2/T64] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-20 11:10:00,501 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 11:10:04,798 [P10520/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:10:05,032 [P10520/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:15:39,198 [P10520/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Female catheterisation' with Id '3822' has been published.
+ 2017-10-20 11:15:43,479 [P10520/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:15:43,729 [P10520/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:23:25,642 [P10520/D2/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 11:23:25,642 [P10520/D2/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-20 11:26:24,295 [P10520/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-20 11:26:24,295 [P10520/D2/T41] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-20 11:29:03,448 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3885' has been published.
+ 2017-10-20 11:29:07,713 [P10520/D2/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:29:07,963 [P10520/D2/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:29:27,572 [P10520/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '0' has been published.
+ 2017-10-20 11:29:31,822 [P10520/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:29:32,104 [P10520/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:29:41,619 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3886' has been published.
+ 2017-10-20 11:29:41,619 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust Equipment' with Id '2826' has been published.
+ 2017-10-20 11:29:41,619 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Uniforms' with Id '2827' has been published.
+ 2017-10-20 11:29:46,103 [P10520/D2/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:29:46,385 [P10520/D2/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:35:12,988 [P10520/D2/T48] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 11:38:12,500 [P10520/D2/T70] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 11:38:12,500 [P10520/D2/T70] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 11:38:26,937 [P10520/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Female catheterisation' with Id '3822' has been published.
+ 2017-10-20 11:38:31,203 [P10520/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:38:31,468 [P10520/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:43:22,994 [P10520/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Male catheterisation' with Id '3823' has been published.
+ 2017-10-20 11:43:27,275 [P10520/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:43:27,509 [P10520/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:44:34,336 [P10520/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Male catheterisation training' with Id '0' has been published.
+ 2017-10-20 11:44:38,586 [P10520/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:44:38,805 [P10520/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:44:46,383 [P10520/D2/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-20 11:44:46,383 [P10520/D2/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-20 11:46:00,225 [P10520/D2/T55] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-20 11:57:42,009 [P10520/D2/T75] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 11:58:09,789 [P10520/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 11:58:09,789 [P10520/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 11:58:44,164 [P10520/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cannulation' with Id '3824' has been published.
+ 2017-10-20 11:58:48,460 [P10520/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:58:48,695 [P10520/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 11:59:07,101 [P10520/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cannulation' with Id '3824' has been published.
+ 2017-10-20 11:59:11,382 [P10520/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 11:59:11,632 [P10520/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:04:49,094 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aseptic non-touch technique' with Id '3825' has been published.
+ 2017-10-20 12:04:53,375 [P10520/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:04:53,625 [P10520/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:10:24,291 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 12:10:29,056 [P10520/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:10:29,322 [P10520/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:15:08,801 [P10520/D2/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-20 12:15:08,801 [P10520/D2/T33] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-20 12:23:19,293 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:23:23,559 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:23:23,809 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Room bookings' with Id '2444' has been published.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Safeguarding' with Id '2824' has been published.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Security' with Id '2825' has been published.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3886' has been published.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust Equipment' with Id '2826' has been published.
+ 2017-10-20 12:23:31,277 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Uniforms' with Id '2827' has been published.
+ 2017-10-20 12:23:36,152 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:23:36,777 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:29:25,177 [P10520/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:29:29,411 [P10520/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:29:29,677 [P10520/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:29:42,489 [P10520/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:29:46,755 [P10520/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:29:47,020 [P10520/D2/T92] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:29:57,145 [P10520/D2/T85] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 12:30:04,848 [P10520/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:30:09,114 [P10520/D2/T67] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:30:09,395 [P10520/D2/T67] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:30:46,847 [P10520/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '0' has been published.
+ 2017-10-20 12:30:51,050 [P10520/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:30:51,316 [P10520/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:31:15,597 [P10520/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 12:31:15,597 [P10520/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 12:31:53,581 [P10520/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - external' with Id '0' has been published.
+ 2017-10-20 12:31:57,830 [P10520/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:31:58,096 [P10520/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:32:22,814 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:32:27,080 [P10520/D2/T92] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:32:27,361 [P10520/D2/T92] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:34:03,219 [P10520/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - internal' with Id '0' has been published.
+ 2017-10-20 12:34:07,484 [P10520/D2/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:34:07,750 [P10520/D2/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:34:31,234 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - external' with Id '3890' has been published.
+ 2017-10-20 12:34:35,452 [P10520/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:34:35,718 [P10520/D2/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:34:47,140 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - external' with Id '3890' has been published.
+ 2017-10-20 12:34:51,405 [P10520/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:34:51,718 [P10520/D2/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:37:26,215 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources (HR)' with Id '3893' has been published.
+ 2017-10-20 12:37:30,480 [P10520/D2/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:37:30,637 [P10520/D2/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:37:49,917 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:37:54,355 [P10520/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:37:54,495 [P10520/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:38:01,527 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources (HR)' with Id '3893' has been published.
+ 2017-10-20 12:38:01,527 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Interpreting' with Id '2810' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'IT' with Id '2812' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learning disabilities' with Id '2814' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Library' with Id '2493' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Photography' with Id '2815' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health' with Id '2816' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mortuary' with Id '2817' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Non-emergency patient transport' with Id '2818' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Organ donation' with Id '2819' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Outpatient Welcome Liaison Service (OWLS)' with Id '2884' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pain Management' with Id '2820' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Palliative Care' with Id '2822' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Patient Advice and Liaison Service (PALS)' with Id '2821' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pharmacy' with Id '2823' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Room bookings' with Id '2444' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Safeguarding' with Id '2824' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Security' with Id '2825' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3886' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust Equipment' with Id '2826' has been published.
+ 2017-10-20 12:38:01,542 [P10520/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Uniforms' with Id '2827' has been published.
+ 2017-10-20 12:38:08,042 [P10520/D2/T64] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:38:08,151 [P10520/D2/T64] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:39:02,166 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 12:39:06,010 [P10520/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 12:39:10,291 [P10520/D2/T64] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:39:10,463 [P10520/D2/T64] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:43:11,349 [P10520/D2/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - external' with Id '3890' has been published.
+ 2017-10-20 12:43:15,614 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:43:15,771 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:43:31,192 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - internal' with Id '3891' has been published.
+ 2017-10-20 12:43:35,411 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:43:35,536 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:43:39,973 [P10520/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Jobs - external' with Id '3890' has been published.
+ 2017-10-20 12:43:44,239 [P10520/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:43:44,426 [P10520/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:48:25,233 [P10520/D2/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '0' has been published.
+ 2017-10-20 12:48:29,452 [P10520/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:48:29,624 [P10520/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:48:59,780 [P10520/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3894' has been published.
+ 2017-10-20 12:49:04,029 [P10520/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:49:04,154 [P10520/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:49:08,967 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3894' has been published.
+ 2017-10-20 12:49:08,967 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '3889' has been published.
+ 2017-10-20 12:49:13,311 [P10520/D2/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:49:13,482 [P10520/D2/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:49:13,623 [P10520/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3894' has been published.
+ 2017-10-20 12:49:17,904 [P10520/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:49:18,060 [P10520/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:51:02,543 [P10520/D2/T48] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 12:51:06,777 [P10520/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:51:06,902 [P10520/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bereavement support' with Id '2120' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Carers' with Id '2604' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chaplaincy' with Id '2119' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Communications' with Id '2269' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia care' with Id '2606' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Domestic abuse' with Id '2607' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment and Stationery Exchange' with Id '2608' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health Records' with Id '2609' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hospital Sterilisation and Decontamination Unit (HSDU)' with Id '2807' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources (HR)' with Id '3893' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Interpreting' with Id '2810' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'IT' with Id '2812' has been published.
+ 2017-10-20 12:51:13,261 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learning disabilities' with Id '2814' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Library' with Id '2493' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Photography' with Id '2815' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health' with Id '2816' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mortuary' with Id '2817' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Non-emergency patient transport' with Id '2818' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Organ donation' with Id '2819' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Outpatient Welcome Liaison Service (OWLS)' with Id '2884' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pain Management' with Id '2820' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Palliative Care' with Id '2822' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Patient Advice and Liaison Service (PALS)' with Id '2821' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pharmacy' with Id '2823' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Room bookings' with Id '2444' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Safeguarding' with Id '2824' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Security' with Id '2825' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3886' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust Equipment' with Id '2826' has been published.
+ 2017-10-20 12:51:13,277 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Uniforms' with Id '2827' has been published.
+ 2017-10-20 12:51:20,480 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:51:20,652 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:52:29,713 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 12:52:33,963 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:52:34,088 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:52:39,900 [P10520/D2/T40] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 12:52:44,119 [P10520/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:52:44,432 [P10520/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:52:47,947 [P10520/D2/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3894' has been unpublished.
+ 2017-10-20 12:52:52,134 [P10520/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:52:52,463 [P10520/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:53:31,571 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3888' has been published.
+ 2017-10-20 12:53:35,837 [P10520/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 12:53:36,040 [P10520/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 12:53:59,227 [P10520/D2/T5] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-19 12:53:59
+ 2017-10-20 13:09:30,303 [P10520/D2/T78] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-20 13:15:50,077 [P10520/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-20 13:15:50,077 [P10520/D2/T19] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-20 13:17:07,200 [P10520/D2/T33] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 13:22:00,663 [P10520/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job vacancies' with Id '0' has been published.
+ 2017-10-20 13:22:04,945 [P10520/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:22:05,179 [P10520/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continuing Professional Development (CPD)' with Id '3767' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job vacancies' with Id '3896' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Postgraduate medical education information' with Id '3766' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Return to practice' with Id '2681' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Student placement' with Id '2680' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training courses' with Id '2362' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust induction information' with Id '3760' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Undergraduate teaching' with Id '3765' has been published.
+ 2017-10-20 13:22:10,991 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Work experience' with Id '2146' has been published.
+ 2017-10-20 13:22:15,976 [P10520/D2/T53] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:22:16,179 [P10520/D2/T53] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:22:16,616 [P10520/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job vacancies' with Id '3896' has been published.
+ 2017-10-20 13:22:21,069 [P10520/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:22:21,272 [P10520/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:23:41,208 [P10520/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job vacancies' with Id '0' has been published.
+ 2017-10-20 13:23:45,568 [P10520/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:23:45,755 [P10520/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:23:54,239 [P10520/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job vacancies' with Id '3897' has been published.
+ 2017-10-20 13:23:54,239 [P10520/D2/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'John Radcliffe Major Trauma Centre' with Id '3121' has been published.
+ 2017-10-20 13:23:58,599 [P10520/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:23:58,786 [P10520/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:23:59,192 [P10520/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: J' with Id '1459' has been published.
+ 2017-10-20 13:24:03,474 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:24:03,661 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:24:33,707 [P10520/D2/T64] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vacancies' with Id '0' has been published.
+ 2017-10-20 13:24:37,926 [P10520/D2/T48] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:24:38,129 [P10520/D2/T48] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:24:50,520 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vacancies' with Id '3898' has been published.
+ 2017-10-20 13:24:50,520 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vascular (Tissue Viability)' with Id '2600' has been published.
+ 2017-10-20 13:24:50,520 [P10520/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vascular Pathways' with Id '2545' has been published.
+ 2017-10-20 13:24:54,816 [P10520/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: V' with Id '1471' has been published.
+ 2017-10-20 13:24:54,957 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:24:55,301 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:24:59,097 [P10520/D2/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:24:59,316 [P10520/D2/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:26:22,408 [P10520/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '0' has been published.
+ 2017-10-20 13:26:26,721 [P10520/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:26:26,924 [P10520/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:26:27,861 [P10520/D2/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment' with Id '3899' has been published.
+ 2017-10-20 13:26:32,111 [P10520/D2/T57] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:26:32,299 [P10520/D2/T57] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:26:40,080 [P10520/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '3899' has been published.
+ 2017-10-20 13:26:44,299 [P10520/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:26:44,486 [P10520/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:26:54,580 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '3899' has been published.
+ 2017-10-20 13:26:58,861 [P10520/D2/T75] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:26:59,095 [P10520/D2/T75] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:27:06,001 [P10520/D2/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '3899' has been published.
+ 2017-10-20 13:27:09,501 [P10520/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '3899' has been published.
+ 2017-10-20 13:27:13,782 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:27:13,986 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:29:36,998 [P10520/D2/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 13:29:41,233 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:29:41,436 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:31:37,387 [P10520/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 13:31:41,684 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:31:41,871 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:33:41,009 [P10520/D2/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bank' with Id '3895' has been published.
+ 2017-10-20 13:33:45,228 [P10520/D2/T70] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 13:33:45,431 [P10520/D2/T70] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 13:45:40,339 [P10520/D2/T85] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-20 14:20:36,658 [P10520/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 14:20:36,658 [P10520/D2/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 14:40:06,902 [P10520/D2/T61] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 14:41:19,994 [P10520/D2/T98] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 14:41:19,994 [P10520/D2/T98] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 15:16:01,641 [P10520/D2/T32] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-20 15:16:11,501 [P10520/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-20 15:16:11,501 [P10520/D2/T56] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-20 15:16:24,000 [P10520/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Closer support programme' with Id '3758' has been published.
+ 2017-10-20 15:16:28,594 [P10520/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:16:28,782 [P10520/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:34:30,495 [P10520/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Closer support programme' with Id '3758' has been published.
+ 2017-10-20 15:34:34,776 [P10520/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:34:34,995 [P10520/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:40:29,645 [P10520/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 15:40:33,941 [P10520/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:40:34,160 [P10520/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:42:38,892 [P10520/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 15:42:43,158 [P10520/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:42:43,376 [P10520/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:42:53,985 [P10520/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Female catheterisation' with Id '3822' has been published.
+ 2017-10-20 15:42:58,251 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:42:58,470 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:42:59,251 [P10520/D2/T109] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Female catheterisation' with Id '3822' has been published.
+ 2017-10-20 15:43:03,532 [P10520/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:43:03,735 [P10520/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:43:09,345 [P10520/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Male catheterisation' with Id '3823' has been published.
+ 2017-10-20 15:43:13,610 [P10520/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:43:13,829 [P10520/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:45:51,826 [P10520/D2/T112] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cannulation' with Id '3824' has been published.
+ 2017-10-20 15:45:56,060 [P10520/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:45:56,341 [P10520/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:46:49,809 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cannulation' with Id '3824' has been published.
+ 2017-10-20 15:46:54,075 [P10520/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:46:54,278 [P10520/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:53:29,067 [P10520/D2/T106] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aseptic non-touch technique' with Id '3825' has been published.
+ 2017-10-20 15:53:33,348 [P10520/D2/T123] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:53:33,583 [P10520/D2/T123] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:54:47,472 [P10520/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recording ECG (how to take an ECG)' with Id '3810' has been published.
+ 2017-10-20 15:54:51,722 [P10520/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:54:51,940 [P10520/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:54:58,643 [P10520/D2/T106] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 15:55:02,878 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:55:03,096 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:55:53,986 [P10520/D2/T116] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 15:55:58,236 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:55:58,439 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 15:56:00,111 [P10520/D2/T92] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 15:56:04,392 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 15:56:04,627 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:00:50,371 [P10520/D2/T43] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 16:00:54,637 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:00:54,840 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:02:15,557 [P10520/D2/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Female catheterisation' with Id '3822' has been published.
+ 2017-10-20 16:02:19,807 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:02:20,026 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:03:35,149 [P10520/D2/T116] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 16:03:39,430 [P10520/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:03:39,649 [P10520/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:06:05,678 [P10520/D2/T104] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 16:06:09,959 [P10520/D2/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:06:10,177 [P10520/D2/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:06:31,193 [P10520/D2/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 16:06:35,489 [P10520/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:06:35,693 [P10520/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:07:32,770 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Care certificate (support worker induction)' with Id '3719' has been published.
+ 2017-10-20 16:07:37,051 [P10520/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:07:37,269 [P10520/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:08:28,519 [P10520/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Closer support programme' with Id '3758' has been published.
+ 2017-10-20 16:08:32,800 [P10520/D2/T104] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:08:33,065 [P10520/D2/T104] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:09:12,549 [P10520/D2/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Closer support programme' with Id '3758' has been published.
+ 2017-10-20 16:09:16,799 [P10520/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:09:16,986 [P10520/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:09:59,829 [P10520/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical terminology' with Id '3809' has been published.
+ 2017-10-20 16:10:04,048 [P10520/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:10:04,267 [P10520/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:14:22,730 [P10520/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 16:14:27,027 [P10520/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:14:27,246 [P10520/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:14:35,855 [P10520/D2/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes and blood glucose meter training' with Id '3811' has been published.
+ 2017-10-20 16:14:40,121 [P10520/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:14:40,324 [P10520/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:14:54,574 [P10520/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 16:14:58,839 [P10520/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:14:59,105 [P10520/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:15:04,823 [P10520/D2/T107] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 16:15:09,120 [P10520/D2/T64] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:15:09,323 [P10520/D2/T64] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:15:12,323 [P10520/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Observations and pain management' with Id '3812' has been published.
+ 2017-10-20 16:15:16,573 [P10520/D2/T106] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:15:16,792 [P10520/D2/T106] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:18:45,382 [P10520/D2/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Female catheterisation' with Id '3822' has been published.
+ 2017-10-20 16:18:49,647 [P10520/D2/T106] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:18:49,866 [P10520/D2/T106] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:19:15,100 [P10520/D2/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Male catheterisation' with Id '3823' has been published.
+ 2017-10-20 16:19:19,397 [P10520/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:19:19,615 [P10520/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:19:49,146 [P10520/D2/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Venepuncture' with Id '3837' has been published.
+ 2017-10-20 16:19:53,412 [P10520/D2/T79] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:19:53,615 [P10520/D2/T79] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:20:16,583 [P10520/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aseptic non-touch technique' with Id '3825' has been published.
+ 2017-10-20 16:20:20,786 [P10520/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-10-20 16:20:21,083 [P10520/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-20 16:53:58,982 [P10520/D2/T5] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-19 16:53:58
+ 2017-10-20 19:49:23,686 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-10-20 19:49:23,686 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-10-20 19:49:23,686 [P10520/D2/T106] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-10-20 19:49:23,748 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-10-20 19:49:23,748 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-10-20 19:49:23,748 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-10-20 19:49:23,748 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-10-20 19:49:23,764 [P10520/D2/T89] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-10-20 19:49:23,764 [P10520/D2/T54] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-10-20 19:49:23,889 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-10-20 19:49:23,889 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-10-20 19:49:23,889 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-10-20 19:49:23,889 [P10520/D2/T58] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-10-20 19:49:23,889 [P10520/D2/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-10-20 19:49:23,889 [P10520/D2/T93] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-10-20 19:49:53,998 [P10520/D2/T115] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

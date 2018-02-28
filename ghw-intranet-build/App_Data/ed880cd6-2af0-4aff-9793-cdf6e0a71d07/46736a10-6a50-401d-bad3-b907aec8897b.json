@@ -1,0 +1,16 @@
+{
+  "id": "46736a10-6a50-401d-bad3-b907aec8897b",
+  "name": "Send email to joe.mccrea@northstaffs.nhs.uk",
+  "form": "a538f20a-ee07-4093-9cb0-1ae864b7468d",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "joe.mccrea@northstaffs.nhs.uk",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "Message": "The Form '{form_name} was submitted, this is the list of values it contained. You can turn this email off under workflows in Umbraco Forms.",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}

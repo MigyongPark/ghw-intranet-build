@@ -1,0 +1,238 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+@using USN.Heading.Umbraco.Models;
+
+@{
+    int totalCount = Model.Content.Children.Where(x => x.IsDocumentType("USN_AC_Banner")).Count();
+
+    if (totalCount > 0)
+    {
+        <section class="content apc banner no-padding" id="pos_@Model.Content.Id">
+            <div class="slides">
+                @foreach (var banner in Model.Content.Children.Where(x => x.IsDocumentType("USN_AC_Banner")))
+                {
+                    string parallaxClass = String.Empty;
+
+                    if (banner.GetPropertyValue<bool>("parallax"))
+                    {
+                        parallaxClass = "parallax";
+                    }
+
+                    string animateClass = "";
+
+                    if (banner.GetPropertyValue<bool>("animate"))
+                    {
+                        animateClass = "os-animation";
+                    }
+
+                    string bannerStyle = "medium";
+                    int imgHeight = 700;
+
+                    if (banner.HasValue("bannerStyle"))
+                    {
+                        switch (banner.GetProperty("bannerStyle").Value.ToString())
+                        {
+                            case "Short":
+                                bannerStyle = "short";
+
+                                if (parallaxClass != String.Empty)
+                                { imgHeight = 1600; }
+                                else
+                                { imgHeight = 500; }
+                                
+                                break;
+                            case "Medium":
+                                bannerStyle = "medium";
+                                
+                                if (parallaxClass != String.Empty)
+                                { imgHeight = 1600; }
+                                else
+                                { imgHeight = 700; }
+                                
+                                break;
+                            case "Takeover":
+                                bannerStyle = "takeover";
+                                imgHeight = 1600;
+                                break;
+                            default:
+                                bannerStyle = "medium";
+
+                                if (parallaxClass != String.Empty)
+                                { imgHeight = 1600; }
+                                else
+                                { imgHeight = 700; }
+                                
+                                break;
+                        }
+                    }
+                    
+                    string bgImage = String.Empty;
+
+                    if (banner.HasValue("bannerImage") && Umbraco.TypedMedia(banner.GetProperty("bannerImage").Value) != null)
+                    {
+                        bgImage = "style=\"background-image:url('" + Umbraco.TypedMedia(banner.GetProperty("bannerImage").Value).GetCropUrl(width: 1600, height: imgHeight) + "')\"";
+                    }
+
+                    string backgroundStyle = "c5-bg";
+                    string headingStyle = "c3-text";
+                    string textStyle = "";
+                    
+                    if (banner.HasValue("backgroundColor"))
+                    {
+                        switch (banner.GetProperty("backgroundColor").Value.ToString())
+                        {
+                            case "ed6d19":
+                                backgroundStyle = "c1-bg";
+                                headingStyle = "c5-text";
+                                textStyle = "c5-text";
+                                break;
+                            case "cccccc":
+                                backgroundStyle = "c2-bg";
+                                headingStyle = "c3-text";
+                                textStyle = "";
+                                break;
+                            case "181818":
+                                backgroundStyle = "c3-bg";
+                                headingStyle = "c5-text";
+                                textStyle = "c5-text";
+                                break;
+                            case "f4f4f4":
+                                backgroundStyle = "c4-bg";
+                                headingStyle = "c3-text";
+                                textStyle = "";
+                                break;
+                            case "ffffff":
+                                backgroundStyle = "c5-bg";
+                                headingStyle = "c3-text";
+                                textStyle = "";
+                                break;
+                            case "e3e3e3":
+                                backgroundStyle = "c6-bg";
+                                headingStyle = "c3-text";
+                                textStyle = "";
+                                break;
+                            default:
+                                backgroundStyle = "c5-bg";
+                                headingStyle = "c3-text";
+                                textStyle = "c3-text";
+                                break;
+                        }
+                    }
+
+                    string buttonStyle = "c1-bg c5-text";
+
+                    if (banner.HasValue("buttonColor"))
+                    {
+                        switch (banner.GetProperty("buttonColor").Value.ToString())
+                        {
+                            case "ed6d19":
+                                buttonStyle = "c1-bg c5-text";
+                                break;
+                            case "cccccc":
+                                buttonStyle = "c2-bg c3-text";
+                                break;
+                            case "181818":
+                                buttonStyle = "c3-bg c5-text";
+                                break;
+                            case "f4f4f4":
+                                buttonStyle = "c4-bg c3-text";
+                                break;
+                            case "ffffff":
+                                buttonStyle = "c5-bg c1-text";
+                                break;
+                            case "e3e3e3":
+                                buttonStyle = "c6-bg c5-text";
+                                break;
+                            default:
+                                buttonStyle = "c1-bg c5-text";
+                                break;
+                        }
+                    }
+
+                    LinkInfo bannerLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(banner.GetPropertyValue<UrlPicker>("bannerLink"));
+
+                    <div class="item @bannerStyle @parallaxClass @backgroundStyle" @Html.Raw(bgImage)>
+                        @if (banner.HasValue("bannerImage") && Umbraco.TypedMedia(banner.GetProperty("bannerImage").Value) != null && bannerStyle != "takeover")
+                        {
+                        <div class="image hidden-lg hidden-md">
+                            <img src="@Umbraco.TypedMedia(banner.GetProperty("bannerImage").Value).GetCropUrl(width: 1140, height: 600)" alt="@banner.GetProperty("bannerImageAltText").Value">
+                        </div>
+                        }
+                        @if (banner.HasValue("bannerHeading") || banner.HasValue("bannerText") || bannerLink != null)
+                        {
+                            string textAlignment = "text-left";
+
+                            if (banner.HasValue("bannerTextAlignment"))
+                            {
+                                switch (banner.GetProperty("bannerTextAlignment").Value.ToString())
+                                {
+                                    case "Left":
+                                        textAlignment = "col-md-8 col-sm-10 col-sm-offset-1 col-xs-12 text-left";
+                                        break;
+                                    case "Center":
+                                        textAlignment = "col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 text-center";
+                                        break;
+                                    case "Right":
+                                        textAlignment = "col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12 text-right";
+                                        break;
+                                    default:
+                                        textAlignment = "col-md-8 col-xs-12 text-left";
+                                        break;
+                                }
+                            }
+
+                            <div class="info">
+                                <div class="container">
+                                    <!-- ROW -->
+                                    <div class="row">
+
+                                        <div class="table">
+				                            <div class="table-cell">
+
+                                                <div class="@textAlignment @animateClass" data-os-animation="fadeInUp" data-os-animation-delay="0s">
+                                                    @if (banner.HasValue("bannerHeading"))
+                                                    {
+                                                        var bannerHeading = banner.GetPropertyValue<USNHeading>("bannerHeading");
+
+                                                        if (bannerHeading != null && !String.IsNullOrEmpty(bannerHeading.Heading))
+                                                        {
+                                                            @Html.Raw("<" + bannerHeading.HeadingStyle + " class=\"heading main " + headingStyle + "\"  >")
+                                                            @bannerHeading.Heading
+                                                            @Html.Raw("</" + bannerHeading.HeadingStyle + ">")
+                                                        }
+                                                    }
+                                                    @if (banner.HasValue("bannerText"))
+                                                    {
+                                                        <div class="text @textStyle">
+                                                            @Html.Raw(banner.GetProperty("bannerText").Value)
+                                                        </div>
+                                                    }
+                                                    @if (bannerLink != null)
+                                                    {
+                                                        <p class="link"><a class="btn @buttonStyle" href="@bannerLink.LinkURL" @Html.Raw(bannerLink.LinkTarget) @Html.Raw(bannerLink.LinkTitle)>@bannerLink.LinkCaption@Html.Raw(bannerLink.LinkIcon)</a></p>
+                                                    }
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--// ROW -->
+                                </div>
+                            </div>
+
+                            if (banner.GetPropertyValue<bool>("scrollPrompt"))
+                            {
+                                <!-- SCROLL PROMPT -->
+                                <div class="scroll-prompt text-center">
+                                    <a class="c5-text hidden-lg"><i class="ion-ios-arrow-down"></i></a>
+                                    <a class="c5-text hidden-md hidden-sm hidden-xs"><div class="mouse-scroll"></div><span>@umbraco.library.GetDictionaryItem("USN Banner Component Scroll Prompt")</span></a>
+                                </div>
+                                <!--// SCROLL PROMPT -->
+                            }
+                        }
+                    </div>
+                }
+            </div>
+        </section>
+    }
+}

@@ -1,0 +1,92 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    string anchorID = string.Empty;
+    
+    int tabHeadingCount = 1;
+    int tabContentCount = 1;
+    int accordionCount = 1;
+
+    if (Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_AccordionTabItem")).Count() > 0)
+    {
+        @* Add div for column width on Advanced Pages *@
+        if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+        {
+            if (Model.Content.HasValue("width") && Model.Content.GetProperty("width").Value.ToString() == "Centered")
+            {
+                @Html.Raw("<div id=\"mid-col\" class=\"col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\">")            
+            }
+            else
+            {
+                @Html.Raw("<div id=\"wide-col\" class=\"col-xs-12\">")
+            }
+        }
+        else
+        {
+            anchorID = "id=\"pos_" + Model.Content.Id + "\" ";
+        }
+
+        if (Model.Content.GetProperty("repeaterStyle").Value.ToString() == "Tabbed")
+        {
+		    <!-- PAGE COMPONENT TABBED -->
+            <div class="spc tabbed" role="tabpanel" @Html.Raw(anchorID)>
+                <nav class="tabs">
+                    <ul class="nav nav-tabs" role="tablist">
+                        @foreach (var item in Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_AccordionTabItem")).OrderBy("SortOrder"))
+                        {
+                            <li role="presentation" @if (tabHeadingCount == 1) { @Html.Raw("class=\"active\"") }><a href="#tabname-@Model.Content.Id-@tabHeadingCount" aria-controls="tabname-@Model.Content.Id-@tabHeadingCount" role="tab" data-toggle="tab">@item.Name</a></li>
+                            tabHeadingCount += 1;
+                        }
+                    </ul>
+                </nav>
+
+                <div class="tab-content">
+                    @foreach (var item in Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_AccordionTabItem")).OrderBy("SortOrder"))
+                    {
+                        <div id="tabname-@Model.Content.Id-@tabContentCount" role="tabpanel" class="tab-pane  @if(tabContentCount == 1){@Html.Raw("active")}">
+                            @Html.Raw(item.GetProperty("repeaterText").Value.ToString().Trim())
+                        </div>
+
+                        tabContentCount += 1;
+                    }
+                </div>
+            </div>
+			<!--// PAGE COMPONENT TABBED -->
+        }
+        else
+        {
+    		<!-- PAGE COMPONENT ACCORDION -->
+            <div class="spc accordion" @Html.Raw(anchorID)>
+                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                @foreach (var item in Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_AccordionTabItem")).OrderBy("SortOrder"))
+                {
+                    <div class="panel">
+                        <div role="tab" id="heading-@accordionCount">
+                            <p class="heading">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse-@Model.Content.Id-@accordionCount" aria-expanded="true" aria-controls="collapse-@Model.Content.Id-@accordionCount">
+                                    @item.Name<i class="ion-plus c1-text"></i>
+                                </a>
+                            </p>
+                        </div>
+                        <div id="collapse-@Model.Content.Id-@accordionCount" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapse-@Model.Content.Id-@accordionCount">
+                            <div class="panel-body">
+                                @Html.Raw(item.GetProperty("repeaterText").Value.ToString().Trim())
+                            </div>
+                        </div>
+                    </div>
+                    
+                    accordionCount += 1;
+                }
+                </div>
+            </div>
+		    <!--// PAGE COMPONENT ACCORDION -->
+        }
+
+        @* Close div for column width on Advanced Pages *@
+        if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+        {
+            @Html.Raw("</div>")
+        }
+    }
+
+}

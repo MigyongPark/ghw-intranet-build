@@ -1,0 +1,49 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+
+@{
+    LinkInfo podLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(Model.Content.GetPropertyValue<UrlPicker>("podLink"));
+    
+    string podText = Model.Content.GetProperty("podText").Value.ToString();
+
+    <div class="item general-pod has-borders c6-borders">
+        <div class="inner">
+        @if (Model.Content.HasValue("podHeading"))
+        {
+            <p class="heading">
+                @if (podLink != null)
+                {
+                    @Html.Raw("<a class=\"c3-text\" href=\"" + podLink.LinkURL + "\" " + podLink.LinkTitle + " " + podLink.LinkTarget + ">")
+                }
+                @Html.Raw(Model.Content.GetProperty("podHeading").Value)
+                @if (podLink != null)
+                {
+                    @Html.Raw(podLink.LinkIcon + "</a>")
+                }
+            </p>
+        }
+
+        @if (podText != String.Empty || podLink != null)
+        {
+            @Html.Raw("<div class=\"info\">");
+        }
+
+        @if (podText != String.Empty)
+        {
+            <div class="text">@Html.Raw(podText)</div>
+        }
+
+        @if (podLink != null)
+        {
+            <p class="link"><a href="@podLink.LinkURL" @Html.Raw(podLink.LinkTitle) @Html.Raw(podLink.LinkTarget) class="btn c1-bg c5-text">@podLink.LinkCaption@Html.Raw(podLink.LinkIcon)</a></p>
+        }
+
+        @if (podText != String.Empty || podLink != null)
+        {
+            @Html.Raw("</div>");
+        }
+        </div>
+    </div>
+    
+}

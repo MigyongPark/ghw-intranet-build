@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+
+    <div class="item code-pod">
+        @Html.Raw(Model.Content.GetProperty("code").Value)
+    </div>
+   
+}

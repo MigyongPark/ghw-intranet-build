@@ -1,0 +1,40 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.CareersHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="careersHeadBackground"><img id="zonePageIcon" src="/media/1071/contentpageiconcareers.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1></div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----content container---start----->
+<div id="careersCourseContainer">
+
+	<!----CAREERS GRID START------------------------------------------------------>
+	<div class="carCourseGrid">
+
+		@foreach (var item in CurrentPage.Children)
+		{
+	 		<a href="@item.url">
+			<div id="carSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="carIcon"><img src="/media/1051/zonearrow40.png" /></td>
+				</tr>
+				<tr>
+					<td id="carText">@item.Name</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		}
+
+
+
+	</div>
+	<!----CAREERS GRID END------------------------------------------------------>
+
+
+</div>
+<!-----content container---end----->

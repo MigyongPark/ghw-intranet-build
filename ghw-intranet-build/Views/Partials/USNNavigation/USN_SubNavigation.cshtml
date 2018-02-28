@@ -1,0 +1,70 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{	
+    if (Model.Content.HasProperty("hideSubNavigation") && !Model.Content.GetPropertyValue<bool>("hideSubNavigation"))
+	{
+		var parent = Model.Content.AncestorOrSelf(2);
+
+        var pages = parent.Children.Where(x => (x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")) && x.IsVisible());
+
+        if (pages.Count() > 0)
+		{
+		
+		<!-- SUB -->
+		<nav class="sub has-borders c6-borders">
+			<p class="heading inner">
+				<a href="@parent.Url()">
+			        @if (parent.HasValue("subNavigationLinkText"))
+			        {
+				        @parent.GetProperty("subNavigationLinkText").Value
+			        }
+			        else
+			        {
+				        @parent.Name
+			        }
+				</a>
+			</p>
+            <div class="inner">
+                @traverse(parent)
+            </div>
+		</nav>
+		<!--// SUB -->		
+	    }
+    }
+}
+	
+@helper traverse(IPublishedContent parent)
+{
+    int count = parent.Children.Where(x => (x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")) && x.IsVisible()).Count();
+
+    if (count > 0)
+    { 
+        <ul>
+            @foreach (var node in parent.Children.Where(x => (x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")) && x.IsVisible()))
+            {
+                if (node != null)
+                {
+                    string selected = Array.IndexOf(Model.Content.Path.Split(','), node.Id.ToString()) >= 0 ? " class=\"active\"" : "";
+
+                    <li @Html.Raw(selected)>
+                        <a href="@node.Url()">
+                            @if (node.HasValue("subNavigationLinkText"))
+                            {
+                                @node.GetProperty("subNavigationLinkText").Value
+                            }
+                            else
+                            {
+                                @node.Name
+                            }
+                        </a>
+                        @if (selected != String.Empty)
+                        {
+                            @traverse(node)
+                        }
+                    </li>
+                }
+            }
+        </ul>
+    }
+}   
+  

@@ -1,0 +1,1039 @@
+﻿ 2017-11-07 00:49:54,200 [P7528/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-07 00:49:54,247 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-07 00:49:54,278 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 26ms)
+ 2017-11-07 00:49:54,403 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-07 00:49:54,528 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 122ms)
+ 2017-11-07 00:49:54,637 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-07 00:49:54,637 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-07 00:49:54,637 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-07 00:49:54,716 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 81ms)
+ 2017-11-07 00:49:54,762 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-07 00:49:54,762 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-07 00:49:54,762 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-07 00:49:54,825 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 52ms)
+ 2017-11-07 00:49:54,887 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-07 00:49:54,887 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-07 00:49:54,887 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-07 00:49:54,887 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-07 00:49:57,294 [P7528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 00:49:57,622 [P7528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 00:49:57,622 [P7528/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 00:49:57,669 [P7528/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-07 00:49:57,887 [P7528/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-07 00:49:57,887 [P7528/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-07 00:49:57,903 [P7528/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-07 00:49:57,919 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-07 00:49:57,919 [P7528/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-11-07 00:49:58,341 [P7528/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4313ms)
+ 2017-11-07 00:50:01,012 [P7528/D2/T12] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-07 00:50:01,122 [P7528/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-07 00:50:03,465 [P7528/D2/T11] INFO  umbraco.content - Load Xml from file...
+ 2017-11-07 00:50:03,528 [P7528/D2/T11] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-07 00:50:05,481 [P7528/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-07 00:50:05,481 [P7528/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-11-07 00:51:03,667 [P7528/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 00:51:03
+ 2017-11-07 04:51:03,422 [P7528/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 04:51:03
+ 2017-11-07 05:28:47,566 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-07 05:28:47,566 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-07 05:28:47,582 [P7528/D2/T380] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-07 05:28:47,847 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-07 05:28:47,847 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-07 05:28:47,847 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-07 05:28:47,847 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-07 05:28:47,847 [P7528/D2/T420] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-07 05:28:47,847 [P7528/D2/T396] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-07 05:28:47,847 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-07 05:28:47,847 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-07 05:28:47,847 [P7528/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-07 05:28:47,863 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-07 05:28:47,863 [P7528/D2/T394] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-07 05:28:47,863 [P7528/D2/T397] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-07 05:29:17,972 [P7528/D2/T396] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-07 08:17:36,829 [P7032/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-07 08:17:36,969 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-07 08:17:37,001 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2017-11-07 08:17:37,141 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-07 08:17:37,266 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 123ms)
+ 2017-11-07 08:17:37,344 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-07 08:17:37,344 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-07 08:17:37,344 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-07 08:17:37,360 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 19ms)
+ 2017-11-07 08:17:37,407 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-07 08:17:37,422 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-07 08:17:37,422 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-07 08:17:37,469 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 55ms)
+ 2017-11-07 08:17:37,563 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-07 08:17:37,563 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-07 08:17:37,563 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-07 08:17:37,563 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-07 08:17:40,016 [P7032/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 08:17:40,376 [P7032/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 08:17:40,376 [P7032/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 08:17:40,422 [P7032/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-07 08:17:40,657 [P7032/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-07 08:17:40,657 [P7032/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-07 08:17:40,672 [P7032/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-07 08:17:40,719 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-07 08:17:40,719 [P7032/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-11-07 08:17:41,157 [P7032/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4677ms)
+ 2017-11-07 08:17:43,313 [P7032/D2/T13] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-07 08:17:45,172 [P7032/D2/T12] INFO  umbraco.content - Load Xml from file...
+ 2017-11-07 08:17:45,266 [P7032/D2/T12] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-07 08:17:46,907 [P7032/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-07 08:17:46,907 [P7032/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-07 08:18:45,406 [P7032/D2/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 08:18:45
+ 2017-11-07 08:24:50,024 [P7032/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-07 08:24:50,039 [P7032/D2/T28] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-07 08:24:50,461 [P7032/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-07 08:24:50,461 [P7032/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2017-11-07 08:24:50,633 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-07 08:24:50,633 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-07 08:24:50,711 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-07 08:24:50,711 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-07 08:24:50,742 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-07 08:24:50,758 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-11-07 08:24:50,758 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-07 08:24:50,758 [P7032/D2/T28] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-11-07 08:25:27,195 [P7032/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4814' has been published.
+ 2017-11-07 08:25:27,601 [P7032/D2/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-07 08:25:27,601 [P7032/D2/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-07 08:25:32,163 [P7032/D2/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:25:32,351 [P7032/D2/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:25:39,554 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '2769' has been published.
+ 2017-11-07 08:25:39,554 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Metabolic and Endocrine Conditions' with Id '4765' has been published.
+ 2017-11-07 08:25:39,554 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '2767' has been published.
+ 2017-11-07 08:25:39,554 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Respiratory' with Id '2761' has been published.
+ 2017-11-07 08:25:39,554 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resuscitation' with Id '4691' has been published.
+ 2017-11-07 08:25:39,554 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4814' has been published.
+ 2017-11-07 08:25:44,554 [P7032/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:25:44,819 [P7032/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:26:34,709 [P7032/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4814' has been unpublished.
+ 2017-11-07 08:26:38,896 [P7032/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:26:39,100 [P7032/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:26:54,552 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '0' has been published.
+ 2017-11-07 08:26:58,849 [P7032/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:26:59,052 [P7032/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:27:03,052 [P7032/D2/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4824' has been published.
+ 2017-11-07 08:27:07,365 [P7032/D2/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:27:07,568 [P7032/D2/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:27:57,348 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General guidelines' with Id '4813' has been published.
+ 2017-11-07 08:27:58,067 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Guideline on PEP for Rabies' with Id '4817' has been published.
+ 2017-11-07 08:27:58,520 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HIV Post-Exposure Prophylaxis (PEP) - Sexual and Non-Sexual Exposures - Presentation' with Id '4821' has been published.
+ 2017-11-07 08:27:58,942 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HIV Post-Exposure Prophylaxis (PEP) Consultation Record Sheet Sexual and Non Sexual - Non-Occupational Exposures - Proforma' with Id '4822' has been published.
+ 2017-11-07 08:27:59,364 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HIV Post-Exposure Prophylaxis (PEP) Sharps-Contamination Incident - Guidance' with Id '4823' has been published.
+ 2017-11-07 08:27:59,879 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Notifiable diseases and causative organisms: how to report (UK Government website)' with Id '4815' has been published.
+ 2017-11-07 08:28:04,114 [P7032/D2/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:28:04,348 [P7032/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:28:09,145 [P7032/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sepsis' with Id '2764' has been unpublished.
+ 2017-11-07 08:28:13,316 [P7032/D2/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:28:13,520 [P7032/D2/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:28:29,582 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sepsis' with Id '4813' has been published.
+ 2017-11-07 08:28:33,863 [P7032/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:28:34,082 [P7032/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:28:38,269 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sepsis' with Id '4813' has been published.
+ 2017-11-07 08:28:42,613 [P7032/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:28:43,050 [P7032/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:29:36,393 [P7032/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sepsis' with Id '4813' has been published.
+ 2017-11-07 08:29:40,690 [P7032/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:29:40,893 [P7032/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:33:04,842 [P7032/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4824' has been published.
+ 2017-11-07 08:33:09,201 [P7032/D2/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:33:09,405 [P7032/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:34:19,700 [P7032/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller 2' with Id '0' has been published.
+ 2017-11-07 08:34:23,981 [P7032/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:34:24,184 [P7032/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:34:24,887 [P7032/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4824' has been unpublished.
+ 2017-11-07 08:34:29,059 [P7032/D2/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:34:29,325 [P7032/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:34:33,950 [P7032/D2/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4825' has been published.
+ 2017-11-07 08:34:38,231 [P7032/D2/T59] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:34:38,434 [P7032/D2/T59] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:34:42,215 [P7032/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4825' has been published.
+ 2017-11-07 08:34:46,418 [P7032/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4825' has been published.
+ 2017-11-07 08:34:46,653 [P7032/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:34:47,215 [P7032/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:34:50,981 [P7032/D2/T22] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:34:51,184 [P7032/D2/T22] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:35:23,355 [P7032/D2/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sepsis' with Id '4813' has been published.
+ 2017-11-07 08:35:27,636 [P7032/D2/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:35:27,839 [P7032/D2/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:38:28,555 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '0' has been published.
+ 2017-11-07 08:38:32,820 [P7032/D2/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:38:32,976 [P7032/D2/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:38:58,523 [P7032/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '0' has been published.
+ 2017-11-07 08:39:02,788 [P7032/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:39:03,038 [P7032/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:39:10,851 [P7032/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:39:15,163 [P7032/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:39:15,366 [P7032/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:39:41,553 [P7032/D2/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appropriate investigations' with Id '0' has been published.
+ 2017-11-07 08:39:45,803 [P7032/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:39:46,053 [P7032/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:39:50,053 [P7032/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appropriate investigations' with Id '4828' has been published.
+ 2017-11-07 08:39:50,053 [P7032/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:39:50,053 [P7032/D2/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 08:39:54,522 [P7032/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:39:54,819 [P7032/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:41:27,536 [P7032/D2/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4825' has been published.
+ 2017-11-07 08:41:31,848 [P7032/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:41:32,098 [P7032/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:41:53,910 [P7032/D2/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4825' has been published.
+ 2017-11-07 08:41:58,254 [P7032/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:41:58,488 [P7032/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:42:43,940 [P7032/D2/T71] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Returning traveller' with Id '4825' has been published.
+ 2017-11-07 08:42:48,222 [P7032/D2/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:42:48,378 [P7032/D2/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:43:57,345 [P7032/D2/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:44:01,642 [P7032/D2/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:44:01,876 [P7032/D2/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:51:20,446 [P7032/D2/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:51:24,712 [P7032/D2/T85] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:51:24,946 [P7032/D2/T85] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:53:19,506 [P7032/D2/T91] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:53:23,803 [P7032/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:53:24,006 [P7032/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:54:11,380 [P7032/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:54:15,661 [P7032/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:54:15,958 [P7032/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:55:01,536 [P7032/D2/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:55:06,598 [P7032/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:55:07,332 [P7032/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:55:45,800 [P7032/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:55:50,082 [P7032/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:55:50,285 [P7032/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 08:56:15,409 [P7032/D2/T17] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 08:56:19,706 [P7032/D2/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 08:56:19,940 [P7032/D2/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:10:20,315 [P7032/D2/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 09:10:24,565 [P7032/D2/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:10:25,080 [P7032/D2/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:11:32,892 [P7032/D2/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Geographical distribution of infections' with Id '4826' has been published.
+ 2017-11-07 09:11:37,188 [P7032/D2/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:11:37,438 [P7032/D2/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:12:12,360 [P7032/D2/T106] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:12:16,656 [P7032/D2/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:12:16,922 [P7032/D2/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:12:46,656 [P7032/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:12:50,937 [P7032/D2/T153] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:12:51,249 [P7032/D2/T153] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:15:53,387 [P7032/D2/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:15:57,746 [P7032/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:15:57,996 [P7032/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:16:29,651 [P7032/D2/T98] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:16:33,948 [P7032/D2/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:16:34,183 [P7032/D2/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:17:50,166 [P7032/D2/T108] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:17:54,447 [P7032/D2/T108] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:17:54,837 [P7032/D2/T108] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:24:49,783 [P7032/D2/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:24:54,064 [P7032/D2/T41] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:24:54,345 [P7032/D2/T41] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:25:14,563 [P7032/D2/T155] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:25:18,907 [P7032/D2/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:25:19,173 [P7032/D2/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:25:28,829 [P7032/D2/T137] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Incubation periods' with Id '4827' has been published.
+ 2017-11-07 09:25:33,141 [P7032/D2/T150] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:25:33,407 [P7032/D2/T150] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:27:14,967 [P7032/D2/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appropriate investigations' with Id '4828' has been published.
+ 2017-11-07 09:27:19,280 [P7032/D2/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:27:19,530 [P7032/D2/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:29:36,121 [P7032/D2/T125] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appropriate investigations' with Id '4828' has been published.
+ 2017-11-07 09:29:40,449 [P7032/D2/T124] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:29:40,902 [P7032/D2/T124] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:29:44,855 [P7032/D2/T125] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appropriate investigations' with Id '4828' has been published.
+ 2017-11-07 09:29:49,167 [P7032/D2/T114] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:29:49,402 [P7032/D2/T114] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:33:12,429 [P7032/D2/T112] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appropriate investigations' with Id '4828' has been published.
+ 2017-11-07 09:33:16,710 [P7032/D2/T114] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:33:16,960 [P7032/D2/T114] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:34:36,662 [P7032/D2/T121] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '2767' has been unpublished.
+ 2017-11-07 09:34:40,834 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:34:41,099 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:38:55,813 [P7032/D2/T162] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '0' has been published.
+ 2017-11-07 09:39:00,126 [P7032/D2/T121] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:39:00,422 [P7032/D2/T121] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:39:04,344 [P7032/D2/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '4829' has been published.
+ 2017-11-07 09:39:08,657 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:39:09,063 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:40:09,062 [P7032/D2/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Oncology' with Id '4829' has been published.
+ 2017-11-07 09:40:13,312 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:40:13,718 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:49:02,239 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Assessment and Treatment Guidelines for Management Of Adult Patients With Neutropenic Sepsis' with Id '0' has been published.
+ 2017-11-07 09:49:07,192 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:49:07,536 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:49:41,410 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hypercalcaemia of Malignancy' with Id '0' has been published.
+ 2017-11-07 09:49:45,691 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:49:45,973 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:50:01,894 [P7032/D2/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Management of Malignant Pericardial Effusion' with Id '0' has been published.
+ 2017-11-07 09:50:06,144 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:50:06,785 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:50:36,097 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Diagnostic Algorithm for the Investigation of a Pleural Effusion for Patients With Known Malignancy for Use in OncologyHaematology Outpatients' with Id '0' has been published.
+ 2017-11-07 09:50:40,378 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:50:40,721 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:50:56,315 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Referral Form for Management of Spinal Oncology Patients' with Id '0' has been published.
+ 2017-11-07 09:51:00,565 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:51:00,830 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:51:13,315 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway for Management of Suspected Metastatic Spinal Cord Compression (MSCC) – for use in EDAMU' with Id '0' has been published.
+ 2017-11-07 09:51:17,549 [P7032/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:51:17,861 [P7032/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:51:34,783 [P7032/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Suspected Neutropenic Sepsis Pathway' with Id '0' has been published.
+ 2017-11-07 09:51:39,064 [P7032/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:51:39,345 [P7032/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:51:49,970 [P7032/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Superior Vena Cava Obstruction' with Id '0' has been published.
+ 2017-11-07 09:51:54,251 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:51:54,454 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:52:08,407 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway for Management of Suspected Metastatic Spinal Cord Compression (MSCC) – for use in EDAMU' with Id '4843' has been published.
+ 2017-11-07 09:52:08,407 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Superior Vena Cava Obstruction' with Id '4845' has been published.
+ 2017-11-07 09:52:08,423 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Diagnostic Algorithm for the Investigation of a Pleural Effusion for Patients With Known Malignancy for Use in OncologyHaematology Outpatients' with Id '4841' has been published.
+ 2017-11-07 09:52:13,454 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:52:14,032 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:52:44,719 [P7032/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway for Management of Suspected Metastatic Spinal Cord Compression (MSCC) – for use in ED/AMU' with Id '4843' has been published.
+ 2017-11-07 09:52:48,985 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:52:49,266 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:52:52,313 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway for Management of Suspected Metastatic Spinal Cord Compression (MSCC) – for use in ED/AMU' with Id '4843' has been published.
+ 2017-11-07 09:52:56,641 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:52:56,906 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:53:34,015 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Diagnostic Algorithm for the Investigation of a Pleural Effusion for Patients With Known Malignancy for Use in Oncology/Haematology Outpatients' with Id '4841' has been published.
+ 2017-11-07 09:53:38,249 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:53:38,499 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:55:45,184 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Seizure guideline' with Id '0' has been published.
+ 2017-11-07 09:55:49,497 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:55:49,934 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:55:54,122 [P7032/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke and neurology' with Id '2768' has been published.
+ 2017-11-07 09:55:58,387 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:55:58,731 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:57:04,089 [P7032/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Seizure guideline' with Id '4846' has been published.
+ 2017-11-07 09:57:08,386 [P7032/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:57:08,855 [P7032/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:57:17,589 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Policies and procedures' with Id '2143' has been published.
+ 2017-11-07 09:57:21,886 [P7032/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:57:22,183 [P7032/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:57:36,885 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Seizure guideline' with Id '4846' has been published.
+ 2017-11-07 09:57:41,182 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:57:41,432 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 09:59:32,524 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '0' has been published.
+ 2017-11-07 09:59:36,805 [P7032/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 09:59:37,086 [P7032/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:00:37,163 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transient Ischaemic Attack (TIA)' with Id '0' has been published.
+ 2017-11-07 10:00:41,382 [P7032/D2/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:00:41,772 [P7032/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:01:04,256 [P7032/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke and neurology' with Id '2768' has been published.
+ 2017-11-07 10:01:08,616 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:01:08,913 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:01:52,115 [P7032/D2/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Seizure guideline' with Id '4846' has been published.
+ 2017-11-07 10:01:56,380 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:01:56,724 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:04:22,315 [P7032/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Seizure guideline' with Id '4846' has been published.
+ 2017-11-07 10:04:26,674 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:04:27,034 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:08:40,498 [P7032/D2/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transient Ischaemic Attack (TIA)' with Id '4848' has been published.
+ 2017-11-07 10:08:45,107 [P7032/D2/T165] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:08:45,388 [P7032/D2/T165] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:09:11,575 [P7032/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transient Ischaemic Attack (TIA) pathway' with Id '0' has been published.
+ 2017-11-07 10:09:15,872 [P7032/D2/T165] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:09:16,169 [P7032/D2/T165] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:09:37,465 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transient Ischaemic Attack (TIA)' with Id '4848' has been published.
+ 2017-11-07 10:09:41,840 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:09:42,137 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:10:12,465 [P7032/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transient Ischaemic Attack (TIA)' with Id '4848' has been published.
+ 2017-11-07 10:10:16,746 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:10:16,996 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:13:52,882 [P7032/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:13:57,492 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:13:57,804 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:14:24,397 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:14:28,710 [P7032/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:14:29,085 [P7032/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:15:11,412 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Acute Stroke Unit [Falcon Ward]' with Id '0' has been published.
+ 2017-11-07 10:15:15,709 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:15:16,037 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Acute Stroke Unit [Falcon Ward]' with Id '4851' has been published.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Admissions' with Id '1346' has been published.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alcohol Liaison' with Id '1347' has been published.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Aldbourne Ward' with Id '1349' has been published.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anaesthetics' with Id '1548' has been published.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anticoagulation Service' with Id '1549' has been published.
+ 2017-11-07 10:15:20,146 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Audiology' with Id '1550' has been published.
+ 2017-11-07 10:15:25,099 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:15:25,380 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:16:39,379 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:16:43,691 [P7032/D2/T74] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:16:44,004 [P7032/D2/T74] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:16:45,082 [P7032/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:16:49,394 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:16:49,754 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:17:11,535 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:17:15,847 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:17:16,160 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:21:54,357 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ED Stroke Proforma' with Id '0' has been published.
+ 2017-11-07 10:21:58,654 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:21:58,951 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:22:15,654 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National Institute of Health Stroke Scale (NIHSS)' with Id '0' has been published.
+ 2017-11-07 10:22:19,966 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:22:20,263 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:22:34,075 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ED Stroke Thrombolysis Proforma' with Id '0' has been published.
+ 2017-11-07 10:22:38,325 [P7032/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:22:38,669 [P7032/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:23:33,059 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke and transient ischaemic attack in over 16s: diagnosis and initial management' with Id '0' has been published.
+ 2017-11-07 10:23:37,340 [P7032/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:23:37,668 [P7032/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:23:51,465 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ED Stroke Thrombolysis Proforma' with Id '4857' has been published.
+ 2017-11-07 10:23:51,465 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National Institute of Health Stroke Scale (NIHSS)' with Id '4856' has been published.
+ 2017-11-07 10:23:55,277 [P7032/D2/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:23:59,574 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:23:59,871 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:25:04,526 [P7032/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National Institute of Health Stroke Scale (NIHSS) online training website' with Id '0' has been published.
+ 2017-11-07 10:25:08,822 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:25:09,135 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:25:10,229 [P7032/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National Institute of Health Stroke Scale (NIHSS) online training website' with Id '4859' has been published.
+ 2017-11-07 10:25:14,479 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:25:14,885 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:25:25,135 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'National Institute of Health Stroke Scale (NIHSS) online training website' with Id '4859' has been published.
+ 2017-11-07 10:25:25,135 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke and transient ischaemic attack in over 16s: diagnosis and initial management' with Id '4858' has been published.
+ 2017-11-07 10:25:28,822 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stroke' with Id '4847' has been published.
+ 2017-11-07 10:25:33,103 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:25:33,384 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:26:17,196 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '2769' has been unpublished.
+ 2017-11-07 10:26:21,352 [P7032/D2/T102] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:26:21,743 [P7032/D2/T102] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:28:19,772 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '0' has been published.
+ 2017-11-07 10:28:24,053 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:28:24,334 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:31:58,815 [P7032/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '4860' has been published.
+ 2017-11-07 10:32:03,096 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:32:03,393 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:32:28,861 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '4860' has been published.
+ 2017-11-07 10:32:33,095 [P7032/D2/T171] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:32:33,361 [P7032/D2/T171] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:32:37,486 [P7032/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Haematology' with Id '4860' has been published.
+ 2017-11-07 10:32:41,782 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:32:42,095 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:35:12,186 [P7032/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pathway for Adult Patients with Inherited Bleeding Disorders Attending ED' with Id '0' has been published.
+ 2017-11-07 10:35:16,467 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:35:16,779 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:36:57,434 [P7032/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General surgery' with Id '2784' has been unpublished.
+ 2017-11-07 10:37:01,215 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vascular surgery' with Id '2785' has been unpublished.
+ 2017-11-07 10:37:01,590 [P7032/D2/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:37:01,949 [P7032/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:37:05,340 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Urology' with Id '2786' has been unpublished.
+ 2017-11-07 10:37:09,496 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:37:09,902 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:37:39,120 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General surgery' with Id '0' has been published.
+ 2017-11-07 10:37:43,386 [P7032/D2/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:37:43,730 [P7032/D2/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:37:58,136 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Urology' with Id '0' has been published.
+ 2017-11-07 10:38:02,417 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:38:02,729 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:38:20,276 [P7032/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Vascular surgery' with Id '0' has been published.
+ 2017-11-07 10:38:24,557 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:38:24,885 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:42:25,256 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General surgery' with Id '4863' has been published.
+ 2017-11-07 10:42:29,537 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:42:29,912 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:47:22,516 [P7032/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Modified Glasgow/PANCREAS Score' with Id '0' has been published.
+ 2017-11-07 10:47:26,812 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:47:27,062 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:47:56,187 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mesenteric Ischaemia' with Id '0' has been published.
+ 2017-11-07 10:48:00,546 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:48:00,890 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:48:14,046 [P7032/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mesenteric Ischaemia' with Id '4870' has been published.
+ 2017-11-07 10:48:18,327 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:48:18,749 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:50:12,106 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gall Bladder Disease' with Id '4871' has been published.
+ 2017-11-07 10:50:16,372 [P7032/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:50:16,793 [P7032/D2/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:51:05,980 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gall Bladder Disease' with Id '4871' has been published.
+ 2017-11-07 10:51:10,308 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:51:10,761 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:51:35,901 [P7032/D2/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gall Bladder Disease' with Id '4871' has been published.
+ 2017-11-07 10:51:40,198 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:51:40,714 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:51:51,182 [P7032/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gall Bladder Disease' with Id '4871' has been published.
+ 2017-11-07 10:51:55,448 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:51:55,823 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:52:09,713 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alvarado Score for Acute Appendicitis' with Id '0' has been published.
+ 2017-11-07 10:52:13,979 [P7032/D2/T72] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:52:14,338 [P7032/D2/T72] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:52:51,884 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appendicitis (RCEM learning module)' with Id '0' has been published.
+ 2017-11-07 10:52:56,165 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:52:56,494 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:53:12,431 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ranson's Criteria for Pancreatitis Mortality' with Id '0' has been published.
+ 2017-11-07 10:53:16,696 [P7032/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:53:16,977 [P7032/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:53:40,430 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pancreatitis (RCEM learning module)' with Id '0' has been published.
+ 2017-11-07 10:53:44,727 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:53:45,071 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:54:06,758 [P7032/D2/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Abdominal Pain without Shock (RCEM learning module)' with Id '0' has been published.
+ 2017-11-07 10:54:10,992 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:54:11,351 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:54:34,335 [P7032/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bowel Obstruction (RCEM learning module)' with Id '0' has been published.
+ 2017-11-07 10:54:38,570 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:54:38,913 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:54:47,398 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Abdominal Pain without Shock (RCEM learning module)' with Id '4876' has been published.
+ 2017-11-07 10:54:47,398 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alvarado Score for Acute Appendicitis' with Id '4872' has been published.
+ 2017-11-07 10:54:47,398 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appendicitis (RCEM learning module)' with Id '4873' has been published.
+ 2017-11-07 10:54:47,398 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bowel Obstruction (RCEM learning module)' with Id '4877' has been published.
+ 2017-11-07 10:54:47,398 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Gall Bladder Disease' with Id '4871' has been published.
+ 2017-11-07 10:54:47,413 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mesenteric Ischaemia' with Id '4870' has been published.
+ 2017-11-07 10:54:47,413 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Modified Glasgow/PANCREAS Score' with Id '4869' has been published.
+ 2017-11-07 10:54:47,413 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pancreatitis (RCEM learning module)' with Id '4875' has been published.
+ 2017-11-07 10:54:47,413 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ranson's Criteria for Pancreatitis Mortality' with Id '4874' has been published.
+ 2017-11-07 10:54:52,491 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:54:52,851 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:56:39,239 [P7032/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Renal Colic - Clerking Proforma' with Id '0' has been published.
+ 2017-11-07 10:56:43,536 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:56:43,911 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 10:58:16,128 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Urology' with Id '4864' has been published.
+ 2017-11-07 10:58:20,425 [P7032/D2/T74] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 10:58:20,800 [P7032/D2/T74] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:01:46,061 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cheltenham/Swindon Vascular HUB and Spoke Clinical Pathways' with Id '0' has been published.
+ 2017-11-07 11:01:50,311 [P7032/D2/T102] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:01:50,764 [P7032/D2/T102] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:07:10,946 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paediatrics' with Id '2770' has been published.
+ 2017-11-07 11:07:15,227 [P7032/D2/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:07:15,586 [P7032/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:07:45,680 [P7032/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bristol Children's Hospital guidelines' with Id '0' has been published.
+ 2017-11-07 11:07:49,929 [P7032/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:07:50,242 [P7032/D2/T10] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:08:29,601 [P7032/D2/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Child protection/safeguarding' with Id '0' has been published.
+ 2017-11-07 11:08:33,882 [P7032/D2/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:08:34,210 [P7032/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:09:12,709 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resuscitation drug calculations' with Id '0' has been published.
+ 2017-11-07 11:09:16,990 [P7032/D2/T165] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:09:17,318 [P7032/D2/T165] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:09:42,771 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingested foreign body' with Id '0' has been published.
+ 2017-11-07 11:09:47,052 [P7032/D2/T24] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:09:47,380 [P7032/D2/T24] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:10:38,395 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetic Ketoacidosis (DKA)' with Id '0' has been published.
+ 2017-11-07 11:10:42,676 [P7032/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:10:43,036 [P7032/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:11:03,723 [P7032/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health' with Id '0' has been published.
+ 2017-11-07 11:11:08,019 [P7032/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:11:08,566 [P7032/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:11:29,566 [P7032/D2/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alcohol/substance misuse' with Id '0' has been published.
+ 2017-11-07 11:11:33,847 [P7032/D2/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:11:34,191 [P7032/D2/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:13:04,111 [P7032/D2/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paediatric meetings minutes' with Id '0' has been published.
+ 2017-11-07 11:13:08,392 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:13:08,767 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alcohol/substance misuse' with Id '4888' has been published.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bristol Children's Hospital guidelines' with Id '4882' has been published.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Child protection/safeguarding' with Id '4883' has been published.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetic Ketoacidosis (DKA)' with Id '4886' has been published.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingested foreign body' with Id '4885' has been published.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paediatric meetings minutes' with Id '4889' has been published.
+ 2017-11-07 11:16:20,888 [P7032/D2/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resuscitation drug calculations' with Id '4884' has been published.
+ 2017-11-07 11:16:26,013 [P7032/D2/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:16:26,326 [P7032/D2/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:17:25,372 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '14-02-17' with Id '0' has been published.
+ 2017-11-07 11:17:29,731 [P7032/D2/T102] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:17:30,262 [P7032/D2/T102] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:18:46,011 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '31-10-16' with Id '0' has been published.
+ 2017-11-07 11:18:50,261 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:18:50,604 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:19:15,557 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '06-09-19' with Id '0' has been published.
+ 2017-11-07 11:19:19,854 [P7032/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:19:20,182 [P7032/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:19:40,369 [P7032/D2/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '06-09-16' with Id '4896' has been published.
+ 2017-11-07 11:19:44,884 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:19:45,197 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:19:55,259 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paediatric meetings minutes' with Id '4889' has been published.
+ 2017-11-07 11:19:59,540 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:19:59,837 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:25:43,581 [P7032/D2/T24] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bristol Royal Hospital for Children guidelines' with Id '4882' has been published.
+ 2017-11-07 11:25:47,862 [P7032/D2/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:25:48,206 [P7032/D2/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:26:50,048 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bristol Royal Hospital for Children guidelines' with Id '0' has been published.
+ 2017-11-07 11:26:54,314 [P7032/D2/T74] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:26:54,720 [P7032/D2/T74] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:29:51,420 [P7032/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Notification Pathway of Non-accidental injury (NAI) to Children's Social Care' with Id '0' has been published.
+ 2017-11-07 11:29:55,701 [P7032/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:29:56,013 [P7032/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:31:37,027 [P7032/D2/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Child Protection Procedures for the South West Region' with Id '0' has been published.
+ 2017-11-07 11:31:41,246 [P7032/D2/T73] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:31:41,699 [P7032/D2/T73] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:31:48,902 [P7032/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Child Protection Procedures for the South West Region' with Id '4900' has been published.
+ 2017-11-07 11:31:53,183 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:31:53,605 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:34:51,695 [P7032/D2/T74] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'WATCh Paediatric Emergency Drug Sheet' with Id '0' has been published.
+ 2017-11-07 11:34:55,992 [P7032/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:34:56,320 [P7032/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:36:02,850 [P7032/D2/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ingested foreign body' with Id '4885' has been published.
+ 2017-11-07 11:36:07,209 [P7032/D2/T165] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:36:07,631 [P7032/D2/T165] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:38:40,597 [P7032/D2/T99] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hand-held Metal Detector (HHMD) Algorithm for Children Who Have Swallowed Metal Objects' with Id '0' has been published.
+ 2017-11-07 11:38:44,878 [P7032/D2/T165] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:38:45,222 [P7032/D2/T165] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:38:58,019 [P7032/D2/T73] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Metal Detector Technique' with Id '0' has been published.
+ 2017-11-07 11:39:02,269 [P7032/D2/T99] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:39:02,675 [P7032/D2/T99] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:42:36,139 [P7032/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children and Young People with Diabetic Ketoacidosis (Southwest Paediatric Diabetes Regional Network Integrated Care Pathway)' with Id '0' has been published.
+ 2017-11-07 11:42:40,421 [P7032/D2/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:42:40,749 [P7032/D2/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 11:46:07,354 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-07 11:46:07,354 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-07 11:46:07,354 [P7032/D2/T102] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-07 11:46:07,417 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-07 11:46:07,417 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-07 11:46:07,417 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-07 11:46:07,417 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-07 11:46:07,417 [P7032/D2/T72] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-07 11:46:07,417 [P7032/D2/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-07 11:46:07,604 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-07 11:46:07,604 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-07 11:46:07,604 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-07 11:46:07,604 [P7032/D2/T171] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-07 11:46:07,604 [P7032/D2/T97] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-07 11:46:07,604 [P7032/D2/T119] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-07 11:46:36,963 [P7032/D3/T95] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-07 11:46:37,025 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-07 11:46:37,041 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Hash determined (took 15ms)
+ 2017-11-07 11:46:37,150 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-07 11:46:37,197 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 39ms)
+ 2017-11-07 11:46:37,260 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-07 11:46:37,260 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-07 11:46:37,260 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-07 11:46:37,275 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2017-11-07 11:46:37,307 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-07 11:46:37,307 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-07 11:46:37,307 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-07 11:46:37,338 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 26ms)
+ 2017-11-07 11:46:37,400 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-07 11:46:37,400 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-07 11:46:37,400 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-07 11:46:37,400 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-11-07 11:46:37,729 [P7032/D2/T171] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\58cc86dd\f5e83518\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-07 11:46:39,869 [P7032/D3/T95] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 11:46:40,275 [P7032/D3/T95] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 11:46:40,275 [P7032/D3/T95] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-07 11:46:40,307 [P7032/D3/T95] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-07 11:46:40,525 [P7032/D3/T95] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-07 11:46:40,525 [P7032/D3/T95] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-07 11:46:40,541 [P7032/D3/T95] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-07 11:46:40,557 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-07 11:46:40,557 [P7032/D3/T95] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 1ms)
+ 2017-11-07 11:46:40,978 [P7032/D3/T95] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4189ms)
+ 2017-11-07 11:46:42,885 [P7032/D3/T74] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-07 11:59:06,745 [P7032/D3/T105] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-07 11:59:06,745 [P7032/D3/T105] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 3ms)
+ 2017-11-07 11:59:07,948 [P7032/D3/T116] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Children and Young People with Diabetic Ketoacidosis (Southwest Paediatric Diabetes Regional Network Integrated Care Pathway)' with Id '4908' has been published.
+ 2017-11-07 11:59:08,277 [P7032/D3/T116] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-07 11:59:08,277 [P7032/D3/T116] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-07 11:59:08,339 [P7032/D3/T116] INFO  umbraco.content - Load Xml from file...
+ 2017-11-07 11:59:08,417 [P7032/D3/T116] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-07 11:59:14,855 [P7032/D3/T114] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 11:59:15,073 [P7032/D3/T114] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:00:03,916 [P7032/D3/T85] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 12:00:03
+ 2017-11-07 12:03:14,975 [P7032/D3/T81] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-11-07 12:03:14,975 [P7032/D3/T81] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 2ms)
+ 2017-11-07 12:03:18,850 [P7032/D3/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health' with Id '4887' has been unpublished.
+ 2017-11-07 12:03:23,022 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:03:23,256 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:04:09,990 [P7032/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-07 12:04:09,990 [P7032/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 3ms)
+ 2017-11-07 12:04:09,990 [P7032/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-07 12:04:09,990 [P7032/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-07 12:07:20,330 [P7032/D3/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Protocol for Young People (Under 18 Years) Attending ED with Substance and Alcohol Presentation' with Id '0' has been published.
+ 2017-11-07 12:07:24,626 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:07:24,876 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:10:18,233 [P7032/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-07 12:10:18,233 [P7032/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2017-11-07 12:13:39,713 [P7032/D3/T46] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health and alcohol liaison' with Id '2771' has been unpublished.
+ 2017-11-07 12:13:43,854 [P7032/D3/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:13:44,104 [P7032/D3/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:14:27,525 [P7032/D3/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health and alcohol liaison' with Id '0' has been published.
+ 2017-11-07 12:14:31,821 [P7032/D3/T49] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:14:32,040 [P7032/D3/T49] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:15:19,445 [P7032/D3/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General and team information' with Id '0' has been published.
+ 2017-11-07 12:15:23,664 [P7032/D3/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:15:23,899 [P7032/D3/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:19:00,972 [P7032/D3/T121] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General and team information' with Id '4915' has been published.
+ 2017-11-07 12:19:05,222 [P7032/D3/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:19:05,644 [P7032/D3/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:20:20,174 [P7032/D3/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General and team information' with Id '4915' has been published.
+ 2017-11-07 12:20:24,471 [P7032/D3/T90] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:20:24,690 [P7032/D3/T90] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:21:56,250 [P7032/D3/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Mental Capacity Acts' with Id '0' has been published.
+ 2017-11-07 12:22:00,563 [P7032/D3/T90] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:22:00,828 [P7032/D3/T90] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:22:48,281 [P7032/D3/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General and team information' with Id '4915' has been published.
+ 2017-11-07 12:22:52,765 [P7032/D3/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:22:53,015 [P7032/D3/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:22:58,671 [P7032/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health and alcohol liaison' with Id '4914' has been published.
+ 2017-11-07 12:23:02,999 [P7032/D3/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:23:03,249 [P7032/D3/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:25:24,074 [P7032/D3/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '0' has been published.
+ 2017-11-07 12:25:28,028 [P7032/D3/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:25:28,340 [P7032/D3/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:25:28,824 [P7032/D3/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:25:32,402 [P7032/D3/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:25:32,762 [P7032/D3/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:28:17,477 [P7032/D3/T49] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:28:21,774 [P7032/D3/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:28:22,009 [P7032/D3/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:28:49,352 [P7032/D3/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:28:53,633 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:28:53,883 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:31:03,834 [P7032/D3/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '4915' has been published.
+ 2017-11-07 12:31:08,255 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:31:08,615 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:31:29,005 [P7032/D3/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:31:33,286 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:31:33,692 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:34:58,845 [P7032/D3/T120] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-11-07 12:35:03,157 [P7032/D3/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:35:03,391 [P7032/D3/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:35:34,360 [P7032/D3/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:35:38,641 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:35:38,875 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:36:24,968 [P7032/D3/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4918' has been published.
+ 2017-11-07 12:36:29,202 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:36:29,499 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:37:00,952 [P7032/D3/T90] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '0' has been published.
+ 2017-11-07 12:37:05,170 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:37:05,905 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:37:27,951 [P7032/D3/T125] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:37:32,295 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:37:32,623 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:37:56,201 [P7032/D3/T125] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4918' has been published.
+ 2017-11-07 12:38:00,419 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:38:00,904 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:39:17,824 [P7032/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Information file' with Id '0' has been published.
+ 2017-11-07 12:39:22,074 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:39:22,590 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:39:57,261 [P7032/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk assessment' with Id '0' has been published.
+ 2017-11-07 12:40:01,526 [P7032/D3/T80] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:40:01,917 [P7032/D3/T80] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:40:19,729 [P7032/D3/T118] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '0' has been published.
+ 2017-11-07 12:40:23,995 [P7032/D3/T117] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:40:24,245 [P7032/D3/T117] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:40:35,026 [P7032/D3/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '4922' has been published.
+ 2017-11-07 12:40:39,291 [P7032/D3/T117] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:40:39,713 [P7032/D3/T117] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:40:56,400 [P7032/D3/T97] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '0' has been published.
+ 2017-11-07 12:41:00,666 [P7032/D3/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:41:00,916 [P7032/D3/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:41:12,869 [P7032/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 12:41:17,119 [P7032/D3/T114] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:41:17,291 [P7032/D3/T114] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:41:21,290 [P7032/D3/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '4922' has been published.
+ 2017-11-07 12:41:21,290 [P7032/D3/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 12:41:21,290 [P7032/D3/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '4919' has been published.
+ 2017-11-07 12:41:21,290 [P7032/D3/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk assessment' with Id '4921' has been published.
+ 2017-11-07 12:41:25,915 [P7032/D3/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:41:26,181 [P7032/D3/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:41:51,040 [P7032/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:41:55,321 [P7032/D3/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:41:55,696 [P7032/D3/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:42:15,024 [P7032/D3/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:42:19,321 [P7032/D3/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:42:19,727 [P7032/D3/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:42:37,867 [P7032/D3/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:42:42,164 [P7032/D3/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:42:42,570 [P7032/D3/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 12:43:00,742 [P7032/D3/T145] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 12:43:05,054 [P7032/D3/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 12:43:05,351 [P7032/D3/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:00:38,050 [P7032/D3/T76] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-07 13:14:19,003 [P7032/D3/T50] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-07 13:14:19,018 [P7032/D3/T50] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-07 13:17:37,936 [P7032/D3/T71] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Child protection and safeguarding' with Id '4883' has been published.
+ 2017-11-07 13:17:42,233 [P7032/D3/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:17:42,561 [P7032/D3/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:30:56,952 [P7032/D3/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ward information file' with Id '4920' has been published.
+ 2017-11-07 13:31:01,577 [P7032/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:31:01,905 [P7032/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:32:02,560 [P7032/D3/T153] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 13:32:06,888 [P7032/D3/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:32:07,185 [P7032/D3/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:32:30,669 [P7032/D3/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 13:32:34,966 [P7032/D3/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:32:35,263 [P7032/D3/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:32:39,044 [P7032/D3/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 13:32:39,044 [P7032/D3/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '4919' has been published.
+ 2017-11-07 13:32:39,044 [P7032/D3/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk assessment' with Id '4921' has been published.
+ 2017-11-07 13:32:39,044 [P7032/D3/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ward information file' with Id '4920' has been published.
+ 2017-11-07 13:32:43,638 [P7032/D3/T127] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:32:43,903 [P7032/D3/T127] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:33:07,075 [P7032/D3/T82] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4917' has been published.
+ 2017-11-07 13:33:11,403 [P7032/D3/T127] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:33:11,715 [P7032/D3/T127] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:33:34,715 [P7032/D3/T37] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team OLD' with Id '4917' has been published.
+ 2017-11-07 13:33:39,011 [P7032/D3/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:33:39,293 [P7032/D3/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:33:55,089 [P7032/D3/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team OLD' with Id '4917' has been published.
+ 2017-11-07 13:33:59,386 [P7032/D3/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:33:59,699 [P7032/D3/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:35:01,526 [P7032/D3/T5] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '0' has been published.
+ 2017-11-07 13:35:05,822 [P7032/D3/T82] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:35:06,213 [P7032/D3/T82] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:37:03,726 [P7032/D3/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '4919' has been published.
+ 2017-11-07 13:37:07,976 [P7032/D3/T26] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:37:08,523 [P7032/D3/T26] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:38:04,006 [P7032/D3/T120] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '4922' has been published.
+ 2017-11-07 13:38:08,397 [P7032/D3/T5] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:38:08,803 [P7032/D3/T5] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:38:34,053 [P7032/D3/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 13:38:38,303 [P7032/D3/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:38:38,615 [P7032/D3/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:39:00,771 [P7032/D3/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk assessment' with Id '4921' has been published.
+ 2017-11-07 13:39:05,005 [P7032/D3/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:39:05,411 [P7032/D3/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 13:45:26,873 [P7032/D3/T83] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Cancer Services' with Id '1554' has been published.
+ 2017-11-07 13:45:31,217 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 13:45:31,560 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:02:42,119 [P7032/D3/T141] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-07 14:10:14,329 [P7032/D3/T53] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-07 14:10:14,329 [P7032/D3/T53] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-07 14:49:05,221 [P7032/D3/T198] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-07 14:52:34,499 [P7032/D3/T100] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-07 14:52:34,499 [P7032/D3/T100] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-07 14:54:10,216 [P7032/D3/T72] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-07 14:54:10,216 [P7032/D3/T72] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-11-07 14:54:10,997 [P7032/D3/T72] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-07 14:54:11,012 [P7032/D3/T72] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2017-11-07 14:54:49,918 [P7032/D3/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ward information file' with Id '4920' has been published.
+ 2017-11-07 14:54:54,262 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:54:54,683 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:55:43,167 [P7032/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-11-07 14:55:47,417 [P7032/D3/T179] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:55:47,761 [P7032/D3/T179] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:56:16,010 [P7032/D3/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 14:56:20,369 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:56:20,760 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:56:41,635 [P7032/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4925' has been published.
+ 2017-11-07 14:56:45,947 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:56:46,384 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:56:48,791 [P7032/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team OLD' with Id '4917' has been unpublished.
+ 2017-11-07 14:56:49,228 [P7032/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4918' has been unpublished.
+ 2017-11-07 14:56:52,962 [P7032/D3/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:56:53,416 [P7032/D3/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:56:56,947 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4925' has been published.
+ 2017-11-07 14:56:56,947 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '4922' has been published.
+ 2017-11-07 14:56:56,947 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 14:56:56,947 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '4919' has been published.
+ 2017-11-07 14:57:01,962 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:57:02,478 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:58:37,257 [P7032/D3/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 14:58:41,539 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:58:41,898 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:58:51,835 [P7032/D3/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '4922' has been published.
+ 2017-11-07 14:58:56,101 [P7032/D3/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:58:56,507 [P7032/D3/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:59:05,022 [P7032/D3/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '4919' has been published.
+ 2017-11-07 14:59:09,319 [P7032/D3/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:59:09,710 [P7032/D3/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:59:13,929 [P7032/D3/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk assessment' with Id '4921' has been published.
+ 2017-11-07 14:59:18,194 [P7032/D3/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:59:18,632 [P7032/D3/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 14:59:25,241 [P7032/D3/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ward information file' with Id '4920' has been published.
+ 2017-11-07 14:59:29,522 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 14:59:29,944 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:01:02,801 [P7032/D3/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ward information file' with Id '4920' has been published.
+ 2017-11-07 15:01:07,098 [P7032/D3/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:01:07,458 [P7032/D3/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:02:26,894 [P7032/D3/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ward information file' with Id '4920' has been published.
+ 2017-11-07 15:02:31,190 [P7032/D3/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:02:31,550 [P7032/D3/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:07:26,028 [P7032/D3/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Risk Assessment Matrix' with Id '0' has been published.
+ 2017-11-07 15:07:30,325 [P7032/D3/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:07:30,669 [P7032/D3/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:07:46,231 [P7032/D3/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Referrals Flowchart' with Id '0' has been published.
+ 2017-11-07 15:07:50,528 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:07:50,840 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:08:46,668 [P7032/D3/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '4915' has been published.
+ 2017-11-07 15:08:50,964 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:08:51,371 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:09:17,683 [P7032/D3/T243] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'General information' with Id '4915' has been published.
+ 2017-11-07 15:09:21,995 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:09:22,448 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:10:08,244 [P7032/D3/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 15:10:12,572 [P7032/D3/T103] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:10:12,931 [P7032/D3/T103] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:10:32,790 [P7032/D3/T198] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 15:10:37,087 [P7032/D3/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:10:37,556 [P7032/D3/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:10:56,899 [P7032/D3/T198] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 15:11:01,196 [P7032/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:11:01,556 [P7032/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:11:23,790 [P7032/D3/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 15:11:28,086 [P7032/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:11:28,664 [P7032/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:11:48,477 [P7032/D3/T101] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 15:11:52,805 [P7032/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:11:53,086 [P7032/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:12:16,351 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Liaison Team' with Id '4924' has been published.
+ 2017-11-07 15:12:20,773 [P7032/D3/T243] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:12:21,070 [P7032/D3/T243] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:12:48,741 [P7032/D3/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4925' has been published.
+ 2017-11-07 15:12:53,053 [P7032/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:12:53,428 [P7032/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:14:43,614 [P7032/D3/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Risk assessment' with Id '4921' has been published.
+ 2017-11-07 15:14:47,895 [P7032/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:14:48,864 [P7032/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:18:26,047 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '4922' has been published.
+ 2017-11-07 15:18:30,344 [P7032/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:18:30,656 [P7032/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:19:08,749 [P7032/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Older People's Hospital Mental Health Liaison Service' with Id '4923' has been published.
+ 2017-11-07 15:19:13,062 [P7032/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:19:13,421 [P7032/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:24:21,962 [P7032/D3/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ligature Risk Proforma - ED and ED Observation Unit Only' with Id '0' has been published.
+ 2017-11-07 15:24:26,243 [P7032/D3/T179] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:24:26,571 [P7032/D3/T179] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:24:43,540 [P7032/D3/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Admission Ligature Risk Proforma - ICU-HDU-ACU and Base Wards' with Id '0' has been published.
+ 2017-11-07 15:24:47,821 [P7032/D3/T66] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:24:48,290 [P7032/D3/T66] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:25:08,461 [P7032/D3/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hospital Mental Health Liaison Service - Referral Form' with Id '0' has been published.
+ 2017-11-07 15:25:12,727 [P7032/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:25:13,055 [P7032/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:25:20,008 [P7032/D3/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Admission Ligature Risk Proforma - ICU-HDU-ACU and Base Wards' with Id '4934' has been published.
+ 2017-11-07 15:25:20,008 [P7032/D3/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Hospital Mental Health Liaison Service - Referral Form' with Id '4935' has been published.
+ 2017-11-07 15:25:20,008 [P7032/D3/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ligature Risk Proforma - ED and ED Observation Unit Only' with Id '4933' has been published.
+ 2017-11-07 15:25:24,508 [P7032/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:25:24,851 [P7032/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:27:01,318 [P7032/D3/T94] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Glasgow Modified Alcohol Withdrawal Score' with Id '0' has been published.
+ 2017-11-07 15:27:05,600 [P7032/D3/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:27:06,021 [P7032/D3/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:27:18,271 [P7032/D3/T66] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rapid Tranquilisation Guidance for Emergency Department and Observation Ward' with Id '0' has been published.
+ 2017-11-07 15:27:22,568 [P7032/D3/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:27:22,912 [P7032/D3/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:28:10,489 [P7032/D3/T198] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '4919' has been published.
+ 2017-11-07 15:28:14,848 [P7032/D3/T105] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:28:15,270 [P7032/D3/T105] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:38:02,649 [P7032/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Services for Patients and Carers leaflet - AWP and GWHNHSFT' with Id '0' has been published.
+ 2017-11-07 15:38:06,915 [P7032/D3/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:38:07,415 [P7032/D3/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:38:19,493 [P7032/D3/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Information Following an Overdose leaflet - AWP and GWHNHSFT' with Id '0' has been published.
+ 2017-11-07 15:38:23,805 [P7032/D3/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:38:24,165 [P7032/D3/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:41:20,536 [P7032/D3/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Mental Capacity Acts' with Id '4916' has been published.
+ 2017-11-07 15:41:24,802 [P7032/D3/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:41:25,130 [P7032/D3/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:43:21,956 [P7032/D3/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Mental Capacity Acts' with Id '4916' has been published.
+ 2017-11-07 15:43:26,268 [P7032/D3/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:43:26,596 [P7032/D3/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:46:18,249 [P7032/D3/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Mental Capacity Acts' with Id '4916' has been published.
+ 2017-11-07 15:46:22,530 [P7032/D3/T38] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:46:22,843 [P7032/D3/T38] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:47:01,280 [P7032/D3/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Mental Capacity Acts' with Id '4916' has been published.
+ 2017-11-07 15:47:05,608 [P7032/D3/T215] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:47:05,936 [P7032/D3/T215] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:56:52,534 [P7032/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Department of Health - Mental Health Act 1983-Code of Practice' with Id '0' has been published.
+ 2017-11-07 15:56:56,815 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:56:57,128 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:57:14,768 [P7032/D3/T72] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Capacity Act - ED Summary' with Id '0' has been published.
+ 2017-11-07 15:57:19,033 [P7032/D3/T101] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:57:19,471 [P7032/D3/T101] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:57:41,221 [P7032/D3/T103] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Capacity Assessment - Two Stage Test' with Id '0' has been published.
+ 2017-11-07 15:57:45,502 [P7032/D3/T179] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:57:45,830 [P7032/D3/T179] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:57:59,736 [P7032/D3/T165] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Capacity Assessment (MCA) Flowchart' with Id '0' has been published.
+ 2017-11-07 15:58:04,017 [P7032/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:58:04,439 [P7032/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:58:08,111 [P7032/D3/T198] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Capacity Assessment (MCA) Flowchart' with Id '4950' has been published.
+ 2017-11-07 15:58:12,392 [P7032/D3/T53] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:58:12,704 [P7032/D3/T53] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:58:24,017 [P7032/D3/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health Act 1983 - Summary Guide for ED' with Id '0' has been published.
+ 2017-11-07 15:58:28,313 [P7032/D3/T188] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:58:28,735 [P7032/D3/T188] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 15:58:33,313 [P7032/D3/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Capacity Assessment (MCA) Flowchart' with Id '4950' has been published.
+ 2017-11-07 15:58:33,313 [P7032/D3/T179] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Capacity Assessment - Two Stage Test' with Id '4949' has been published.
+ 2017-11-07 15:58:37,298 [P7032/D3/T215] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental Health and Mental Capacity Acts' with Id '4916' has been published.
+ 2017-11-07 15:58:41,579 [P7032/D3/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 15:58:41,907 [P7032/D3/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 16:00:03,671 [P7032/D3/T35] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-06 16:00:03
+ 2017-11-07 16:02:18,075 [P7032/D3/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Obs (Observation) Unit' with Id '2777' has been published.
+ 2017-11-07 16:02:22,403 [P7032/D3/T94] INFO  umbraco.content - Save Xml to file...
+ 2017-11-07 16:02:22,762 [P7032/D3/T94] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-07 18:08:54,398 [P7032/D3/T179] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:77fb2b85-9793-4dd7-9f35-78aeb64e6d91
+Error Number:-2,State:0,Class:11
+ 2017-11-07 19:23:10,343 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-07 19:23:10,343 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-07 19:23:10,343 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-07 19:23:10,343 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-07 19:23:10,343 [P7032/D3/T71] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-07 19:23:10,343 [P7032/D3/T71] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-07 19:23:10,421 [P7032/D3/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-07 19:23:10,421 [P7032/D3/T243] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-07 19:23:10,421 [P7032/D3/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-07 19:23:40,499 [P7032/D3/T189] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

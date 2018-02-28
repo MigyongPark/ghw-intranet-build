@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.DepartmentsLetter>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="departmentsHeadBackground">
+	<img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" />
+	<h1 id="zoneWhite">Departments and services</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+	
+<div class="letterHeading">@Umbraco.Field("pageTitle")</div>
+
+<!----DEPARTMENTS LETTER LISTING GRID ---------START----------->
+<div id="depListingGrid">	
+	@foreach (var childpage in CurrentPage.Children)
+	{
+	@*---ITEM---START---*@
+	<a href="@childpage.Url">
+	<div id="depListingItem">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+	<tr>
+	<td id="depListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
+	</tr>
+	<tr>
+	<td id="depListingText">@childpage.Name</td>
+	</tr>
+	</tbody>
+	</table>
+	</div>
+	</a>
+	@*---ITEM---END---*@
+	}
+</div>
+<!----DEPARTMENTS LETTER LISTING GRID ---------END--------------->
+<!-------BACK BUTTON---START-------->
+<a href="/departments/"><div id="depBack">
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td id="depBackIcon"><img src="/media/1069/backarrow40.png" alt="" /></td>
+<td id="depBackText"><ul><li>Back</li></ul></td>
+</tr>
+</table>
+</div></a>
+<!-------BACK BUTTON---END-------->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+

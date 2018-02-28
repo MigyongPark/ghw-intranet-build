@@ -1,0 +1,174 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using System.Globalization;
+@using USNStarterKit.USNBusinessLogic;
+@using USNStarterKit.USNBlog;
+
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+    string canonical = String.Empty;
+    string metaTitle = String.Empty;
+    string metaDescription = String.Empty;
+    string openGraphTitle = String.Empty;
+    string openGraphImage = String.Empty;
+    string openGraphDescription = String.Empty;
+    string siteName = String.Empty;
+
+    var category = Request.QueryString["category"];
+
+    if (globalSettings.HasValue("websiteName"))
+    {
+        siteName = globalSettings.GetProperty("websiteName").Value.ToString();
+    }
+
+    if (!Model.Content.IsDocumentType("USNBlogLandingPage") || (Model.Content.IsDocumentType("USNBlogLandingPage") && category == null))
+    {
+        canonical = Request.Url.Scheme + "://" + Request.Url.Host + Model.Content.Url;
+
+        if (Model.Content.HasValue("pageTitle"))
+        {
+            metaTitle = Model.Content.GetProperty("pageTitle").Value.ToString();
+        }
+        else
+        {
+            metaTitle = Model.Content.Name + " | " + siteName;
+        }
+
+        metaDescription = Model.Content.GetProperty("metaDescription").Value.ToString();
+
+        if (Model.Content.HasValue("openGraphTitle"))
+        {
+            openGraphTitle = Model.Content.GetProperty("openGraphTitle").Value.ToString();
+        }
+        else
+        {
+            openGraphTitle = Model.Content.Name + " | " + siteName;
+        }
+
+        if (Model.Content.HasValue("openGraphImage") && Umbraco.TypedMedia(Model.Content.GetProperty("openGraphImage").Value) != null)
+        {
+            openGraphImage = Request.Url.Scheme + "://" + Request.Url.Host + Umbraco.TypedMedia(Model.Content.GetProperty("openGraphImage").Value).Url;
+        }
+        else if (globalSettings.HasValue("openGraphDefaultImage") && Umbraco.TypedMedia(globalSettings.GetProperty("openGraphDefaultImage").Value) != null)
+        {
+            openGraphImage = Request.Url.Scheme + "://" + Request.Url.Host + Umbraco.TypedMedia(globalSettings.GetProperty("openGraphDefaultImage").Value).Url;
+        }
+
+        if (Model.Content.HasValue("openGraphDescription"))
+        {
+            openGraphDescription = Model.Content.GetProperty("openGraphDescription").Value.ToString();
+        }
+    }
+
+
+    //Category listing page logic
+    if(Model.Content.IsDocumentType("USNBlogLandingPage") && category != null)
+    {
+        var categoryNode = Umbraco.TypedContent(category);
+
+        if (categoryNode.HasValue("pageTitle"))
+        {
+            metaTitle = categoryNode.GetProperty("pageTitle").Value.ToString();
+        }
+        else
+        {
+            metaTitle = categoryNode.Name + " | " + Model.Content.Name + " | " + siteName; 
+        }
+
+        metaDescription = categoryNode.GetProperty("metaDescription").Value.ToString();
+
+        if (categoryNode.HasValue("openGraphTitle"))
+        {
+            openGraphTitle = categoryNode.GetProperty("openGraphTitle").Value.ToString();
+        }
+        else
+        {
+            openGraphTitle = categoryNode.Name + " | " + Model.Content.Name + " | " + siteName;
+        }
+
+        if (categoryNode.HasValue("openGraphImage") && Umbraco.TypedMedia(categoryNode.GetProperty("openGraphImage").Value) != null)
+        {
+            openGraphImage = Request.Url.Scheme + "://" + Request.Url.Host + Umbraco.TypedMedia(categoryNode.GetProperty("openGraphImage").Value).Url;
+        }
+        else if (globalSettings.HasValue("openGraphDefaultImage") && Umbraco.TypedMedia(globalSettings.GetProperty("openGraphDefaultImage").Value) != null)
+        {
+            openGraphImage = Request.Url.Scheme + "://" + Request.Url.Host + Umbraco.TypedMedia(globalSettings.GetProperty("openGraphDefaultImage").Value).Url;
+        }
+
+        if (categoryNode.HasValue("openGraphDescription"))
+        {
+            openGraphDescription = categoryNode.GetProperty("openGraphDescription").Value.ToString();
+        }
+    }
+    
+    //Blog listing logic, all scenarios    
+    if(Model.Content.IsDocumentType("USNBlogLandingPage"))
+    { 
+        // get item count
+        int count = int.TryParse(Model.Content.GetProperty("blogListingPageSize").Value.ToString(), out count) ? count : 10;
+
+        int page = int.TryParse(Request.QueryString["page"], out page) ? page : 1;
+        int year = int.TryParse(Request.QueryString["year"], out year) ? year : 0;
+        int month = int.TryParse(Request.QueryString["month"], out month) ? month : 0;
+
+        if (year != 0 && month == 0)
+        {
+            metaTitle = year + " | " + metaTitle + " | " + siteName;
+            openGraphTitle = metaTitle;
+        }
+        else if(year!= 0 && month != 0)
+        {
+            metaTitle = @CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(month) + " | " + year + " | " + metaTitle + " | " + siteName;
+            openGraphTitle = metaTitle;
+        }
+
+        IEnumerable<IPublishedContent> posts = USNPostService.Instance.GetPosts(Model.Content, category, page - 1, count, month, year);
+
+        // get landing node
+        var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+        // only get posts where the path has the landing node's id.
+        posts = posts.Where(x => x.Path.Contains(landing.Id + ","));
+
+        IEnumerable<IPublishedContent> nodes = posts.Take(count).ToList();
+
+        int postCount = USNPostService.Instance.GetPosts(Model.Content, category, 0, int.MaxValue, month, year).Count();
+
+        int pages = (int)Math.Ceiling((double)postCount / (double)count);
+
+        string querystring = Request.Url.Query;
+
+        canonical = Request.Url.Scheme + "://" + Request.Url.Host + Model.Content.Url + querystring;
+
+        if (page > 1)
+        {
+            string prevUrl = canonical.ReplaceQueryStringItem("page", (page - 1).ToString());
+
+            <link rel="prev" href="@prevUrl"/>
+        }
+
+        if (pages > 1 && page < Math.Ceiling((double)postCount / count))
+        {
+            string nextUrl = canonical.ReplaceQueryStringItem("page", (page + 1).ToString());
+            <link rel="next" href="@nextUrl"/>
+        }
+    }
+    
+    <link rel="canonical" href="@canonical"/>
+    <title>@metaTitle</title>
+    <meta name="description" content="@metaDescription">
+	<meta property="og:type" content="website">
+    <meta property="og:title" content="@openGraphTitle" />
+    <meta property="og:image" content="@openGraphImage" />
+    <meta property="og:url" content="@canonical" />
+    <meta property="og:description" content="@openGraphDescription" />
+    <meta property="og:site_name" content="@siteName" />	
+		
+    if (Model.Content.IsDocumentType("USNHomepage") && globalSettings.HasValue("googleBusinessLink"))
+	{
+	<link href="@globalSettings.GetProperty("googleBusinessLink").Value" rel="publisher" />
+	}
+}

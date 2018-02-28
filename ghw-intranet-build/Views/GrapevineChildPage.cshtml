@@ -1,0 +1,75 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.GrapevineChildPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+	
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="grapevineHeadBackground">
+	<img id="contentPageIcon" src="/media/1904/zonepageicongrapevine.png" />
+	<h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="grapevineMainArea">
+		
+		<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+		<div id="newsNav">
+		<div id="thisNews"><a href="@CurrentPage.AncestorOrSelf(3).url">@CurrentPage.AncestorOrSelf(3).name</a></div>
+			<ul id="newsNav1">
+
+			@*------------CONTROLS FOR LEVEL 4--(This page has to be Level 4!-----------*@
+				
+					@*-----displays all siblings (indented)----- *@
+					@foreach (var sibling in CurrentPage.Parent.Children)
+					{
+						if(@sibling.Name != @CurrentPage.Name)
+						{
+							<li><a href="@sibling.Url">@sibling.Name</a></li>
+						}else{
+					@*-----displays self (highlighted)----- *@									
+							
+							<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+							@*-----displays all children of the current page (double indented)-----*@
+							foreach (var childpage in CurrentPage.Children)
+							{
+								<li id="indent20"><a href="@childpage.Url">@childpage.Name</a></li>
+							}
+						}
+					}
+					<li><a href="/staffroom/grapevine/">All current messages</a></li>
+
+			</ul>
+	</div>
+<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentNews">
+				
+				
+				<!---News-Article-Column----start--->
+			<div id="newsArticleColumn">
+		
+                @if (@CurrentPage.Name == "Add a message")
+                {
+                    @Html.Action("Index", "CommentFormSurface")
+                }
+                else
+                {
+                    @Umbraco.Field("bodyText")
+
+                }
+				
+				</div>							
+			<!---News-Article-Column----end--->			
+
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+			

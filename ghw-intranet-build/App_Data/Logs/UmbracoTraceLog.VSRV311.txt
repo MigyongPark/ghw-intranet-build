@@ -1,0 +1,379 @@
+﻿ 2018-01-31 03:34:12,821 [P6428/D5/T157] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-30 03:34:12
+ 2018-01-31 07:34:12,320 [P6428/D5/T426] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-30 07:34:12
+ 2018-01-31 08:26:16,519 [P6428/D5/T369] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-31 08:26:16,535 [P6428/D5/T369] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-31 08:26:16,847 [P6428/D5/T395] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-31 08:26:16,847 [P6428/D5/T395] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-31 08:40:40,014 [P6428/D5/T390] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our latest STARs' with Id '0' has been published.
+ 2018-01-31 08:40:44,451 [P6428/D5/T144] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 08:40:44,779 [P6428/D5/T144] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 08:40:52,467 [P6428/D5/T374] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our latest STARs' with Id '6077' has been published.
+ 2018-01-31 08:40:56,873 [P6428/D5/T144] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 08:40:57,264 [P6428/D5/T144] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 08:41:08,904 [P6428/D5/T353] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Juliet is our latest STAR' with Id '5897' has been published.
+ 2018-01-31 08:41:13,263 [P6428/D5/T144] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 08:41:13,592 [P6428/D5/T144] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 08:54:42,477 [P6428/D5/T541] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2018-01-31 08:54:42,508 [P6428/D5/T541] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 32ms)
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-31 08:56:10,555 [P6428/D5/T633] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-31 08:56:10,555 [P6428/D5/T396] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-31 08:56:10,555 [P6428/D5/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-31 08:56:10,555 [P6428/D5/T426] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-31 08:56:10,555 [P6428/D5/T543] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-31 08:56:13,180 [P6428/D6/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-31 08:56:13,258 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-31 08:56:13,289 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 23ms)
+ 2018-01-31 08:56:13,508 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-31 08:56:13,555 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 58ms)
+ 2018-01-31 08:56:13,664 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-31 08:56:13,664 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2018-01-31 08:56:13,664 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-31 08:56:13,680 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 17ms)
+ 2018-01-31 08:56:13,726 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-31 08:56:13,726 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-31 08:56:13,726 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-31 08:56:13,758 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 25ms)
+ 2018-01-31 08:56:13,836 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-31 08:56:13,836 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-31 08:56:13,836 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-31 08:56:13,836 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-31 08:56:17,008 [P6428/D6/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-31 08:56:17,648 [P6428/D6/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-31 08:56:17,664 [P6428/D6/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-31 08:56:17,664 [P6428/D6/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-31 08:56:17,742 [P6428/D6/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-31 08:56:18,023 [P6428/D6/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-31 08:56:18,023 [P6428/D6/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-31 08:56:18,070 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-31 08:56:18,070 [P6428/D6/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-31 08:56:18,836 [P6428/D6/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6028ms)
+ 2018-01-31 08:56:19,898 [P6428/D6/T541] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-31 08:56:28,242 [P6428/D6/T541] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-31 08:56:28,242 [P6428/D6/T541] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-01-31 08:56:28,867 [P6428/D6/T541] INFO  umbraco.content - Load Xml from file...
+ 2018-01-31 08:56:28,976 [P6428/D6/T541] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-31 08:56:40,726 [P6428/D5/T537] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+CONFIG change
+CONFIG change
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\58cc86dd\f5e83518\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2018-01-31 08:56:50,054 [P6428/D6/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our Week Ahead: 2 January 2018' with Id '5898' has been published.
+ 2018-01-31 08:56:50,320 [P6428/D6/T119] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-01-31 08:56:50,320 [P6428/D6/T119] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-01-31 08:56:55,585 [P6428/D6/T528] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 08:56:55,898 [P6428/D6/T528] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 08:57:25,554 [P6428/D6/T548] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-30 08:57:25
+ 2018-01-31 09:14:11,016 [P6428/D6/T456] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-31 09:14:17,001 [P6428/D6/T456] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-31 09:39:38,350 [P6428/D6/T411] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-31 09:39:38,350 [P6428/D6/T411] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-31 09:39:38,585 [P6428/D6/T530] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2018-01-31 09:39:38,585 [P6428/D6/T530] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 2ms)
+ 2018-01-31 09:40:31,913 [P6428/D6/T530] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-31 09:40:31,913 [P6428/D6/T530] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-01-31 09:40:31,913 [P6428/D6/T530] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-31 09:40:31,928 [P6428/D6/T530] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-01-31 09:55:05,579 [P6428/D6/T431] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:f7bf0250-02b7-439b-8961-c5d4c422557f
+Error Number:-2,State:0,Class:11
+ 2018-01-31 12:56:52,993 [P6428/D6/T483] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-31 12:56:52,993 [P6428/D6/T483] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-31 12:56:53,118 [P6428/D6/T492] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-31 12:56:53,118 [P6428/D6/T492] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-31 12:56:53,181 [P6428/D6/T380] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-31 12:56:53,181 [P6428/D6/T380] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2018-01-31 12:57:17,837 [P6428/D6/T449] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'End of life care' with Id '0' has been published.
+ 2018-01-31 12:57:22,243 [P6428/D6/T475] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:57:22,618 [P6428/D6/T475] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:57:25,509 [P6428/D6/T569] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-30 12:57:25
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ED (Emergency Department)' with Id '2536' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'EEG (Electroencephalogram)' with Id '2561' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electroencephalogram (EEG)' with Id '2562' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electromyography (EMG)' with Id '2564' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Rostering' with Id '2534' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR)' with Id '4128' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Email [managing]' with Id '2894' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergencies' with Id '4371' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergency Department' with Id '2535' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'EMG (Electromyography)' with Id '2563' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4149' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'End of life care' with Id '6080' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '2538' has been published.
+ 2018-01-31 12:57:31,196 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment [GWH]' with Id '2878' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment and Stationery Exchange [GWH]' with Id '2844' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment Store [Community]' with Id '2903' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ESR (Electronic Staff Record)' with Id '4129' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Estates and Facilities Management' with Id '2539' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ethics and Legal [Emergency]' with Id '2790' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Executive Directors' with Id '3380' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extranet' with Id '3153' has been published.
+ 2018-01-31 12:57:31,212 [P6428/D6/T450] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Eye Clinic' with Id '2906' has been published.
+ 2018-01-31 12:57:38,227 [P6428/D6/T368] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:57:38,540 [P6428/D6/T368] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:57:58,243 [P6428/D6/T449] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: E' with Id '1454' has been published.
+ 2018-01-31 12:58:02,555 [P6428/D6/T368] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:58:03,040 [P6428/D6/T368] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:58:13,415 [P6428/D6/T548] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: A' with Id '1379' has been published.
+ 2018-01-31 12:58:17,727 [P6428/D6/T368] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:58:18,165 [P6428/D6/T368] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:58:27,711 [P6428/D6/T431] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: B' with Id '1380' has been published.
+ 2018-01-31 12:58:32,024 [P6428/D6/T368] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:58:32,336 [P6428/D6/T368] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:58:44,274 [P6428/D6/T548] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: D' with Id '1453' has been published.
+ 2018-01-31 12:58:48,649 [P6428/D6/T449] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:58:49,071 [P6428/D6/T449] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:58:57,602 [P6428/D6/T568] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: F' with Id '1455' has been published.
+ 2018-01-31 12:59:01,899 [P6428/D6/T449] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:59:02,321 [P6428/D6/T449] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:59:11,071 [P6428/D6/T497] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: H' with Id '1457' has been published.
+ 2018-01-31 12:59:15,383 [P6428/D6/T449] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:59:15,758 [P6428/D6/T449] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:59:20,086 [P6428/D6/T475] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: H' with Id '1457' has been published.
+ 2018-01-31 12:59:24,414 [P6428/D6/T564] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:59:24,977 [P6428/D6/T564] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:59:34,242 [P6428/D6/T477] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: P' with Id '1390' has been published.
+ 2018-01-31 12:59:38,555 [P6428/D6/T564] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:59:39,055 [P6428/D6/T564] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 12:59:50,352 [P6428/D6/T475] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: I' with Id '1458' has been published.
+ 2018-01-31 12:59:54,680 [P6428/D6/T473] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 12:59:55,195 [P6428/D6/T473] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:00:17,195 [P6428/D6/T483] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: M' with Id '1462' has been published.
+ 2018-01-31 13:00:21,492 [P6428/D6/T473] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 13:00:21,930 [P6428/D6/T473] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:00:33,554 [P6428/D6/T568] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: O' with Id '1464' has been published.
+ 2018-01-31 13:00:37,836 [P6428/D6/T492] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 13:00:38,242 [P6428/D6/T492] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:00:53,336 [P6428/D6/T578] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: T' with Id '1469' has been published.
+ 2018-01-31 13:00:57,664 [P6428/D6/T492] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 13:00:57,976 [P6428/D6/T492] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:01:08,117 [P6428/D6/T546] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: W' with Id '1472' has been published.
+ 2018-01-31 13:01:12,429 [P6428/D6/T492] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 13:01:12,882 [P6428/D6/T492] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:02:05,054 [P6428/D6/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Intranet Home Page' with Id '1288' has been published.
+ 2018-01-31 13:02:09,351 [P6428/D6/T492] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 13:02:09,819 [P6428/D6/T492] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:03:10,710 [P6428/D6/T563] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our latest STARs of the Month' with Id '6077' has been published.
+ 2018-01-31 13:03:15,053 [P6428/D6/T546] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 13:03:15,428 [P6428/D6/T546] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 13:16:25,611 [P6428/D6/T477] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-31 13:29:16,090 [P6428/D6/T556] WARN  RJP.MultiUrlPicker.Models.MultiUrls - MultiUrlPicker value converter skipped a link as the node has been upublished/deleted (Id: 2608), 
+ 2018-01-31 13:41:49,070 [P6428/D6/T546] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-31 13:41:49,070 [P6428/D6/T546] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-31 14:04:36,277 [P6428/D6/T484] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-31 14:04:36,277 [P6428/D6/T484] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 0ms)
+ 2018-01-31 14:04:36,390 [P6428/D6/T484] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.cms.businesslogic.macro.IMacroEngine
+ 2018-01-31 14:04:36,390 [P6428/D6/T484] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.cms.businesslogic.macro.IMacroEngine, found 0 (took 3ms)
+ 2018-01-31 14:04:38,693 [P6428/D6/T484] WARN  umbraco.macro - Error loading partial view macro (View: ~/Views/MacroPartials/InsertUmbracoForm.cshtml). Exception: System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.InvalidOperationException: The partial view '~/Views/Partials/Forms\Form.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Partials/Forms\Form.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at ASP._Page_Views_MacroPartials_InsertUmbracoForm_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\MacroPartials\InsertUmbracoForm.cshtml:line 17
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2018-01-31 14:04:38,693 [P6428/D6/T484] WARN  umbraco.macro - Error loading Partial View (file: ~/Views/MacroPartials/InsertUmbracoForm.cshtml). Exception: System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.InvalidOperationException: The partial view '~/Views/Partials/Forms\Form.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Partials/Forms\Form.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at ASP._Page_Views_MacroPartials_InsertUmbracoForm_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\MacroPartials\InsertUmbracoForm.cshtml:line 17
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2018-01-31 14:04:40,278 [P6428/D6/T548] WARN  umbraco.macro - Error loading partial view macro (View: ~/Views/MacroPartials/InsertUmbracoForm.cshtml). Exception: System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.InvalidOperationException: The partial view '~/Views/Partials/Forms\Form.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Partials/Forms\Form.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at ASP._Page_Views_MacroPartials_InsertUmbracoForm_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\MacroPartials\InsertUmbracoForm.cshtml:line 17
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2018-01-31 14:04:40,278 [P6428/D6/T548] WARN  umbraco.macro - Error loading Partial View (file: ~/Views/MacroPartials/InsertUmbracoForm.cshtml). Exception: System.Web.HttpException (0x80004005): Error executing child request for handler 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'. ---> System.InvalidOperationException: The partial view '~/Views/Partials/Forms\Form.cshtml' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Partials/Forms\Form.cshtml
+   at System.Web.Mvc.PartialViewResult.FindView(ControllerContext context)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   at System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   at System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   at System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.RenderAction(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at ASP._Page_Views_MacroPartials_InsertUmbracoForm_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\MacroPartials\InsertUmbracoForm.cshtml:line 17
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Web.Mvc.ControllerExtensions.RenderViewResultAsString(ControllerBase controller, ViewResultBase viewResult)
+   at Umbraco.Web.Macros.PartialViewMacroEngine.Execute(MacroModel macro, IPublishedContent content)
+   at umbraco.macro.LoadPartialViewMacro(MacroModel macro)
+   at umbraco.macro.renderMacro(Hashtable pageElements, Int32 pageId)
+ 2018-01-31 14:33:59,112 [P6428/D6/T483] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Intranet Home Page' with Id '1288' has been published.
+ 2018-01-31 14:34:03,455 [P6428/D6/T484] INFO  umbraco.content - Save Xml to file...
+ 2018-01-31 14:34:03,893 [P6428/D6/T484] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-31 14:34:09,502 [P6428/D6/T449] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at ASP._Page_Views_NewHomePage_cshtml.Execute() in d:\build2016\docs\docs-21sep17\Views\NewHomePage.cshtml:line 101
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2018-01-31 14:49:43,459 [P6428/D6/T563] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-31 14:52:11,909 [P6428/D6/T556] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-31 14:52:11,909 [P6428/D6/T556] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-31 15:11:46,447 [P6428/D6/T492] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-31 15:44:46,892 [P6428/D6/T452] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username PatrickEdmonds from IP address 192.168.129.94
+ 2018-01-31 15:45:12,598 [P6428/D6/T425] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username PatrickEdmonds from IP address 192.168.129.94
+ 2018-01-31 15:45:28,666 [P6428/D6/T128] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username Patrick Edmonds from IP address 192.168.129.94
+ 2018-01-31 15:46:14,022 [P6428/D6/T397] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username PatrickEdmonds from IP address 192.168.129.94
+ 2018-01-31 15:46:45,674 [P6428/D6/T397] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username PatrickEdmonds from IP address 192.168.129.94
+ 2018-01-31 15:54:57,203 [P6428/D6/T454] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-31 15:54:57,203 [P6428/D6/T454] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127

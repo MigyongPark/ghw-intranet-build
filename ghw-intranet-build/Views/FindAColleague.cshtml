@@ -1,0 +1,20 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.FindAcolleague>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+		<div class="zoneHeader" id="zoneColleague"><img id="zonePageIcon" src="/media/1073/zonepageiconcolleague.png" />Find a colleague</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+			
+<!----- I F R A M E --- S T A R T ------>
+<div id="iframe"><iframe id="findAColleague" src="http://vsrv153/StandAloneStaffDirectory" frameborder="0" scrolling="no"></iframe></div>
+</div>
+<!----- I F R A M E --- E N D------>
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+</body>
+</html>

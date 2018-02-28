@@ -1,0 +1,70 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.MarketplaceHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+	
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div id="staHeadBackground">
+<img id="zonePageIcon" src="/media/1075/contentpageiconstaffroom.png" />
+<h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+		
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="staMainArea">
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="marNav">
+		<div id="thisSta"><a href="@CurrentPage.AncestorOrSelf(3).url">@CurrentPage.AncestorOrSelf(3).name</a></div>
+		<ul id="staNav1">
+
+			@*------------CONTROLS FOR LEVEL 3--This page has to be at Level 3!-------------*@
+
+			@*-----displays all children of the current page (double indented)-----*@
+			@foreach (var childpage in CurrentPage.Children)
+			{
+				<li><a href="@childpage.Url">@childpage.Name</a></li>
+			}
+	</div>
+<!-----L E F T   N A V-----E N D----->
+
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<div id="contentMarketplace">
+						
+<table id="marketplace">
+@{var marketplaceFolder = Umbraco.TypedContent(@Umbraco.Field("startNodeID").ToString());
+}
+	@{foreach (var child in marketplaceFolder.Children.OrderBy("updateDate descending"))
+		{
+		<tr>
+			<td id="marketplacePhoto">
+				<img src="/media/1906/samplephoto140x250.png" />
+			</td>
+			<td id="marketplaceDetails">
+				<h2>@child.GetProperty("marketplaceTitle").Value</h2><br />
+				@child.GetProperty("marketplaceDescription").Value<br />
+				<p><strong>£@child.GetProperty("marketplacePrice").Value</strong></p>
+			</td>
+			<td id="marketplaceContact">
+				Contact:<br />
+				@child.GetProperty("marketplacePostedBy").Value<br />
+				Tel: @child.GetProperty("marketplaceTel").Value<br />
+				Email: <a href="mailto:@child.GetProperty("marketplaceEmail").Value">@child.GetProperty("marketplaceEmail").Value</a>
+			</td>
+		</tr>									
+		}
+	}
+</table>
+
+		
+
+
+</div>
+<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+</div>
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+			

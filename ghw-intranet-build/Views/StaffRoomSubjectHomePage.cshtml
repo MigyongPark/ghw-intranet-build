@@ -1,0 +1,93 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div id="staHeadBackground">
+<img id="zonePageIcon" src="/media/1075/contentpageiconstaffroom.png" />
+<h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+		
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="staMainArea">
+
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+	<div id="staNav">
+		<div id="thisSta"><a href="@CurrentPage.url">@CurrentPage.name</a></div>
+		<ul id="staNav1">
+		@foreach (var page in CurrentPage.Children) {
+		<li><a href="@page.url">@page.name</a></li>
+		}
+		</ul>	
+	</div>
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentWide">
+			
+			@Umbraco.Field("bodyText")
+						
+@* Displays either the content as normal, or children in a grid style  *@
+	@if(@CurrentPage.changeToLandingPage==true)
+			{
+<!----DEPARTMENTS GRID START------------------------------------------------------>
+<div id="staLandingGridNarrow">	
+	@foreach (var childpage in CurrentPage.Children)
+	{
+	@*---ITEM---START---*@
+	<a href="@childpage.Url">
+	<div id="staListingItemNarrow">
+	<table border="0" cellspacing="0" cellpadding="0">
+	<tbody>
+	<tr>
+	<td id="staListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
+	</tr>
+	<tr>
+	<td id="staListingTextNarrow">@childpage.Name</td>
+	</tr>
+	</tbody>
+	</table>
+	</div>
+	</a>
+	@*---ITEM---END---*@
+	}
+</div>
+<!----DEPARTMENTS GRID END------------------------------------------------------>
+				
+			}
+				
+
+
+@*----- Optional 'See also' section----- *@
+@Html.Partial("seeAlsoSection")
+
+@Html.Partial("advertisingBanner")
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="pageInfo">
+					<div id="staPageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(4).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(4).pageOwnersPosition</div>
+					<div id="staPageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(4).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(4).subEditor</a></div>
+					<div id="staPageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>
+				<!----- P A G E   I N F O ----- E N D ----->
+
+
+
+
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+
+
+
+
+
+
+
+

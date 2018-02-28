@@ -1,0 +1,120 @@
+	body { 
+	font-size: 18px;
+	line-height:1.3;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color:#000000;
+} 
+table {
+	width:100%;
+}
+table td {
+	padding:5px;
+}
+
+img.imageLeft {
+  float: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 10px 10px 0px;
+}
+
+img.imageRight {
+  float: right;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 10px 10px;
+}
+
+table#standard {
+background-color:#ffff00;
+color:#ffffff;
+border-width: 1px 1px 1px 1px;
+border-style:solid;
+border-color:#005eb8;
+border-collapse: collapse;
+margin: 0px 0px 0px 0px;
+padding: 5px 5px 5px 5px;	
+}
+
+th#standard {
+background-color:#005eb8;
+color:#000000;
+border-width: 1px 1px 1px 1px;
+border-style:solid;
+border-color:#005eb8;
+border-collapse: collapse;
+margin: 0px 0px 0px 0px;
+padding: 5px 5px 5px 5px;	
+}
+
+
+td#standard {
+background-color:#999999;
+color:#000000;
+border-width: 1px 1px 1px 1px;
+border-style:solid;
+border-color:#005eb8;
+border-collapse: collapse;
+margin: 0px 0px 0px 0px;
+padding: 5px 5px 5px 5px;	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**umb_name:Large heading (h2)*/
+h2{font-size:24px;
+color:#005eb8;}
+
+/**umb_name:Medium heading (h3)*/
+h3{font-size:20px;
+color:#005eb8;}
+
+/**umb_name:Small heading (h4)*/
+h4{font-size:18px;
+color:#005eb8;}
+
+/**umb_name:Smallest heading (h5)*/
+h5{font-size:16px;
+color:#005eb8;}
+
+
+
+
+
+/**umb_name:Paragraph*/
+p{font-size:13px;
+color:#000000;}
+
+/**umb_name:Image right*/
+.imageRight{float: right;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 10px 10px;}
+
+/**umb_name:Image left*/
+.ImageLeft{float: left;
+margin: 0px 0px 0px 0px;
+padding: 10px 0px 0px 10px;}
+
+
+
+/**umb_name:Standard table*/
+table.standard{}
+
+/**umb_name:Standard table cell*/
+td#standard{background-color:#ffff00;}

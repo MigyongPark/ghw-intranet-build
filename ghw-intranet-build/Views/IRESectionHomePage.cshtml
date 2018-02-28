@@ -1,0 +1,59 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.IResectionHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div class="zoneHeader" id="zoneIncident">
+<img id="zonePageIcon" src="/media/1096/zonepageiconincident.png" />@Umbraco.Field("pageTitle")</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+
+	
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="ireMainArea">
+
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+	<div id="ireNav">
+		<div id="thisIre"><a href="@CurrentPage.url">@CurrentPage.name</a></div>
+		<ul id="ireNav1">
+		@foreach (var page in CurrentPage.Children) {
+		<li><a href="@page.url">@page.name</a></li>
+		}
+		</ul>	
+	</div>
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentWide">
+						
+			@Umbraco.Field("bodyText")
+
+@*----- Optional 'See also' section----- *@
+@Html.Partial("seeAlsoSection")
+
+@Html.Partial("advertisingBanner")
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="pageInfo">
+					<div id="irePageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(4).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(4).pageOwnersPosition</div>
+					<div id="irePageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(4).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(4).subEditor</a></div>
+					<div id="irePageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>
+				<!----- P A G E   I N F O ----- E N D ----->
+
+
+
+
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+
+
+
+
+

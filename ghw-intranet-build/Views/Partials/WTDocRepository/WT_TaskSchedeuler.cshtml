@@ -1,0 +1,215 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System;
+@using System.Linq;
+@using System.Net.Mail;
+@using System.Configuration;
+@using Umbraco.Core;
+@using Umbraco.Core.Models;
+@using Umbraco.Core.Services;
+	
+@{
+    var docRep = Umbraco.TypedContent(5378);      @*The Docuemnt Repository Folder *@
+    var docsInDocRep = docRep.Children;       @*The collection of documents entries *@
+}
+
+<div class="container">
+	
+    <div class="row">
+        <div class="col-xs-12">
+            
+    @foreach (var documentItem in docsInDocRep)
+    {
+        // This is mandatory, so should exist
+        var ownerId = documentItem.GetPropertyValue("owner");
+        var owner = UmbracoContext.Current.Application.Services.UserService.GetUserById(Convert.ToInt32(ownerId));
+
+        // Try to find secondary user (optional)
+        var secondaryOwnerId = documentItem.GetPropertyValue("secondaryOwner") + "";
+        var secondaryOwner = !String.IsNullOrEmpty(secondaryOwnerId)
+                                    ? UmbracoContext.Current.Application.Services.UserService.GetUserById(Convert.ToInt32(secondaryOwnerId))
+                                    : null;
+
+        var strOwner2Email = secondaryOwner == null
+                                    ? ""
+                                    : secondaryOwner.Email;
+
+        //Get value
+        //String filename = @documentItem.Name;
+        //String childsDocId = Umbraco.Content(@documentItem.Id);
+        //var childsDoc = Umbraco.Media(childsDocId.ToString());
+        String filename = Umbraco.Content(@documentItem.Id).Name;
+
+        String ownerName = owner.Name;
+        String emailTo = owner.Email;
+        String email2To = strOwner2Email;
+
+        DateTime publishDate = Umbraco.Content(@documentItem.Id).publishDate;
+        DateTime reviewDate = Umbraco.Content(@documentItem.Id).reviewDate;
+        DateTime expiryDate = Umbraco.Content(@documentItem.Id).expiryDate;
+
+
+        DateTime currentDt = DateTime.Now;
+        String strpublishDate = publishDate.ToString("yyyyMMdd");
+        String strReviewDate = reviewDate.ToString("yyyyMMdd");
+        String strExpiryDate = expiryDate.ToString("yyyyMMdd");
+        String strcurrentDt = currentDt.ToString("yyyyMMdd");
+
+        String pbDate = "";
+        String rvDate = "";
+        String epDate = "";
+
+        if (strpublishDate != "00010101")
+        {
+            pbDate = publishDate.ToString("dd/MM/yyyy");
+        }
+
+        if (strReviewDate != "00010101")
+        {
+            rvDate = reviewDate.ToString("dd/MM/yyyy");
+        }
+
+        if (strExpiryDate != "00010101")
+        {
+            epDate = expiryDate.ToString("dd/MM/yyyy");
+        }
+
+
+        string siteEditURL = "http://intranet2017/umbraco/#/content/content/edit/";
+        string siteName = "GWH Intranet";
+
+        int id = @documentItem.Id;
+
+                <div class="docList">
+
+                    @if (!String.IsNullOrEmpty(emailTo))
+                    {
+
+                        if (strReviewDate == strcurrentDt)
+                        {
+                            //Send email : reviewDate //
+                            MailMessage mail = new MailMessage();
+                            //var from = new MailAddress(Email.Text);
+                            mail.From = new MailAddress("Noreply@berkshire.nhs.uk");
+                            mail.To.Add(emailTo);
+                            mail.Subject = "A document that you are responsible for requires reviewing and a new review date added.";
+                            //mail.Subject = "Notification about Document review date " + " " + filename + " " + "on Document Library" + " ";
+                            mail.IsBodyHtml = true;
+
+                            mail.Body = "<!DOCTYPE html>";
+
+                            mail.Body += "<html>";
+                            mail.Body += "<head>";
+                            mail.Body += "<style>";
+                            mail.Body += "body {color: #000000; background: #ffffff; font-family: Arial, helvetica, sans-serif;}";
+                            mail.Body += "table, th, td {border: 1px solid #ccc; border-collapse: collapse; vertical-align: top; width:100%;}";
+                            mail.Body += "td {padding: 10px; width:60%; color: #330000}";
+                            mail.Body += "th {color: #330000; background: #e3e8ed; padding: 10px; text-align: left; width:30%;}";
+                            mail.Body += "th.emailInfo, td.emailInfo {color: #999; font-size: 80%;}";
+                            mail.Body += "h3 {padding-left: 0; font-weight: 500;}";
+                            mail.Body += "</style>";
+                            mail.Body += "</head>";
+                            mail.Body += "<body>";
+                            mail.Body += "<body>";
+
+                            mail.Body += "<h4> NB: If this review date is not modified the document with reach its expiry date and be removed automatically from the website." + siteName + "\n </h4>"
+                                    + "<br>"
+                                    + "<table>"
+                                    + "<tr><th>Document Name: </th><td>" + filename + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Owner is: </th><td>" + ownerName + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Publish Date is: </th><td>" + pbDate + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Review Date is: </th><td>" + rvDate + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Expiry Date is: </th><td>" + epDate + "</td></tr>"
+                                    + "\n"
+                                    +"</table> <br>"
+                                    + "<a href = " + siteEditURL +  id + " >Edit</a>"
+                                    + "</table>";
+                            SmtpClient smtp = new SmtpClient();
+
+                            smtp.Send(mail);
+
+                        }
+
+                    }
+
+                    @if (!String.IsNullOrEmpty(email2To))
+                    {
+                        if (strExpiryDate == strcurrentDt)
+                        {
+                            //Send email : reviewDate //
+                            MailMessage mail = new MailMessage();
+                            //var from = new MailAddress(Email.Text);
+                            mail.From = new MailAddress("Noreply@berkshire.nhs.uk");
+                            mail.To.Add(email2To);
+                            mail.Subject = "!!Expired Document Notification!!";
+                            mail.IsBodyHtml = true;
+
+                            mail.Body = "<!DOCTYPE html>";
+
+                            mail.Body += "<html>";
+                            mail.Body += "<head>";
+                            mail.Body += "<style>";
+                            mail.Body += "body {color: #000000; background: #ffffff; font-family: Arial, helvetica, sans-serif;}";
+                            mail.Body += "table, th, td {border: 1px solid #ccc; border-collapse: collapse; vertical-align: top; width:100%;}";
+                            mail.Body += "td {padding: 10px; width:60%; color: #330000}";
+                            mail.Body += "th {color: #330000; background: #e3e8ed; padding: 10px; text-align: left; width:30%;}";
+                            mail.Body += "th.emailInfo, td.emailInfo {color: #999; font-size: 80%;}";
+                            mail.Body += "h3 {padding-left: 0; font-weight: 500;}";
+                            mail.Body += "</style>";
+                            mail.Body += "</head>";
+                            mail.Body += "<body>";
+                            mail.Body += "<body>";
+
+                            mail.Body += "<h4> Please note a document has reached its Expiry date and has been removed from view from:" + siteName + "\n </h4>"
+                                    + "<br>"
+                                    + "<table>"
+                                    + "<tr><th>Document Name: </th><td>" + filename + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Owner is: </th><td>" + ownerName + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Publish Date is: </th><td>" + pbDate + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Review Date is: </th><td>" + rvDate + "</td></tr>"
+                                    + "\n"
+                                    + "<tr><th>The Document Expiry Date is: </th><td>" + epDate + "</td></tr>"
+                                    + "\n"
+                                    + "</table> <br>"
+                                    + "<a href = " + siteEditURL + id + " >Edit</a>"
+                                    + "</table>";
+
+                            SmtpClient smtp = new SmtpClient();
+
+                            smtp.Send(mail);
+
+                        }
+                    }
+
+                </div>
+    }
+    </div>
+    </div>
+</div>
+
+@*unpublished 24hours after being published *@
+@{
+    var docRep1 = Umbraco.TypedContent(5999);
+    var selection1 = docRep1.Children;
+    var cs = ApplicationContext.Current.Services.ContentService;
+
+    foreach (var item in selection1)
+    {
+        DateTime currentDt = DateTime.Now;
+        DateTime createdTime = item.CreateDate;
+        DateTime after24 = createdTime.AddHours(24);
+
+        if (after24 <= currentDt)
+        {
+            ApplicationContext.Current.Services.ContentService.UnPublish(cs.GetById(item.Id));
+        }
+    }
+}
+@*unpublished 24hours after being published *@
+		

@@ -1,0 +1,226 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.FiveHundredLivesContentsGridPage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="fiveHeadBackground"><img id="zonePageIcon" src="/media/1097/pageicon-500lives.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="fiveMainArea">
+			
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="depNav">
+		<div id="thisFive"><a href="@CurrentPage.AncestorOrSelf(2).url">@CurrentPage.AncestorOrSelf(2).name</a></div>
+		<ul id="fiveNav1">
+
+			@*-------CONTROL OF DISPLAY OF GRANDPARENT AND PARENT------*@
+			@*-----displays grandparent EXCEPT when on level 3-----*@
+			@if(@CurrentPage.Name != @CurrentPage.AncestorOrSelf(5).Name)
+			{
+			<li><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Parent.Name</a></li>
+			}
+
+
+
+			@*------------CONTROLS FOR LEVEL 3-------------*@
+			@*-----displays all siblings (indented) + self (highlighted) when on level 3----- *@
+			@if(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(3).Name)
+			{
+				foreach (var sibling in CurrentPage.Parent.Children)
+				{
+					if(@sibling.Name == @CurrentPage.Name)
+					{
+					<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+
+						@*------displays the children of the current page (indented)-----*@
+
+							foreach (var childpage in CurrentPage.Children)
+							{
+							<li id="indent20"><a href="@childpage.Url">@childpage.Name</a></li>
+							}
+					}else{
+						<li><a href="@sibling.Url">@sibling.Name</a></li>
+					}
+				}
+			}else{
+			@*------------CONTROLS FOR LEVEL 5-------------*@
+
+				@*-----displays all PARENT's siblings----- *@
+				foreach (var uncle in CurrentPage.Parent.Parent.Children)
+				{
+					if(@uncle.Name != @CurrentPage.Parent.Name)
+					{
+						<li><a href="@uncle.url">@uncle.Name</a></li>
+					}else{
+						@*----displays the parent page (highlighted)-------*@
+						<li id="self"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+
+						@*-----displays all siblings (indented) + self (highlighted)----- *@
+						foreach (var sibling in CurrentPage.Parent.Children)
+						{
+							if(@sibling.Name != @CurrentPage.Name)
+							{
+								<li id="indent20"><a href="@sibling.Url">@sibling.Name</a></li>
+							}else{
+								<li id="selfIndent20"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+							}
+						}
+					}
+				}
+			}
+
+		</ul>
+
+	</div>
+<!-----L E F T   N A V-----E N D----->				
+			
+			
+			
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentWide">
+						
+
+			<!----CONTENTS GRID START------------------------------------------------------>
+			<div class="fiveContentsGrid">
+
+				<!---ITEM---START--->
+					<a href="/500-lives/sign-up-to-safety/speak-out-on-safety/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1143/safetyvideospeakupforsafety.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">Speak Out On Safety</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->
+				
+				<!---ITEM---START--->
+					<a href="/500-lives/sign-up-to-safety/recognition-and-management-of-the-deteriorating-patient/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1144/safetyvideointroductiontonews.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">Introduction to NEWS</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->				
+				
+				<!---ITEM---START--->
+					<a href="/500-lives/sign-up-to-safety/recognition-and-management-of-the-deteriorating-patient/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1145/safetyvideodeterioratingpatient.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">Recognition and Management of the Deteriorating Patient</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->				
+				
+				<!---ITEM---START--->
+					<a href="/500-lives/sign-up-to-safety/acute-kidney-injury-aki/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1146/safetyvideoaki.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">Why Acute Kidney Injury (AKI) is important</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->
+				
+				<!---ITEM---START--->
+					<a href="/500-lives/surgical-safety-who-checklist/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1147/safetyvideosurgicalchecklist.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">Surgical Safety (WHO) Checklist</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->				
+				
+				<!---ITEM---START--->
+					<a href="/incidents-risks-emergencies/incidents/reporting-an-incident/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1148/safetyvideoincidentreporting.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">GWH Report an Incident Form</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->	
+
+				<!---ITEM---START--->
+					<a href="/departments/p/patient-safety-and-quality/natssips-and-locssips/">
+					<div id="fiveContentsGridItem">
+						<table cellpadding="0" cellspacing="0">
+						<tr>
+							<td id="fiveContentsGridIcon"><img src="/media/1149/safetyvideonatssips.png"></td>
+						</tr>
+						<tr>
+							<td id="fiveContentsGridText">NatSSIPs and LocSSIPs</td>
+						</tr>
+						</table>
+					</div>
+					</a>
+				<!---ITEM---END--->	
+			</div>
+			<!----CONTENTS GRID END------------------------------------------------------>
+
+			
+@*----- Optional 'See also' section----- *@
+@Html.Partial("seeAlsoSection")			
+			
+			
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="fiveInfo">
+					<div id="fiveInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(2).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(2).pageOwnersPosition</div>
+					<div id="fiveInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(2).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(2).subEditor</a></div>
+					<div id="fiveInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>              
+				<!----- P A G E   I N F O ----- E N D ----->
+
+				
+					
+					
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+
+
+
+
+

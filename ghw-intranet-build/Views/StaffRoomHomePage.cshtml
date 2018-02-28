@@ -1,0 +1,432 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.StaffRoomHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div class="staHeader" id="zoneStaffRoom">
+<img id="zonePageIcon" src="/media/1075/contentpageiconstaffroom.png" />
+<h1 id="zoneBlack">Staff<span id="staffRoomWhite">Room</span></h1>
+</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----content container---start----->
+<div id="staffRoomContainer">
+
+	<!----STAFFROOM GRID START------------------------------------------------------>
+	<div class="staGrid">
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/annual-leave/">
+			<div id="staSquareAnnualLeave">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1537/icon-staffroomannualleave60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Annual leave</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/departments/departments-b/brighter-futures/pop-up-shop/">
+			<div id="staSquareShop">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1527/icon-staffroompopupshop60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Atrium<br />Pop-up Shop</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/careers/">
+			<div id="staSquareTraining">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1092/icon-staffroomtraining60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Careers, training and development</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/staffroom/celebrating-staff/">
+			<div id="staSquareCelebrating">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1078/icon-staffroomcelebrating60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Celebrating<br />staff</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/departments/departments-b/brighter-futures/how-you-can-help-brighter-futures/">
+			<div id="staSquareCharitable">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1079/icon-staffroomcharitable60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Charitable<br />giving</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/staffroom/childcare-and-families/">
+			<div id="staSquareChildcare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1080/icon-staffroomchildcare60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Childcare and families</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/electronic-staff-record-esr-employee-self-service/">
+			<div id="staSquareESR">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1499/icon-staffroomesr60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Electronic Staff Record (ESR)</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->	
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/employee-partnership-forum/">
+			<div id="staSquareEPF">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1529/icon-staffroomemployeepartnershipforum60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Employee Partnership Forum</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+			<!---ITEM---START--->
+			<a href="/staffroom/equality-and-diversity/">
+			<div id="staSquareEquality">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1528/icon-staffroomequalitydiversity60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Equality and Diversity</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->	
+		
+		
+
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/freedom-to-speak-up/">
+			<div id="staSquareFreedom">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1082/icon-staffroomfreedom60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText"><span id="black">Freedom to<br />Speak Up</span></td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->		
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/grapevine/">
+			<div id="staSquareGrapevine">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1083/icon-staffroomgrapevine60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText"><span id="black">Grapevine</span></td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/great-western-harmony-choir/">
+			<div id="staSquareChoir">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1084/icon-staffroomchoir60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Great Western<br />Harmony Choir</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/staffroom/marketplace/">
+			<div id="staSquareMarketplace">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1085/icon-staffroommarketplace60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Marketplace</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/military-reservists/">
+			<div id="staSquareReservists">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1453/icon-staffroomreservists60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Military<br />Service</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		
+		<!---ITEM---START--->
+			<a href="http://intranet2017/staffroom/our-values/">
+			<div id="staSquareOurValues">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1610/icon-staffroomourvalues60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Our values</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->		
+		
+		
+		<!---ITEM---START--->
+			<a href="/essential-support-services/communications/communicating-with-staff/our-week-ahead/">
+			<div id="staSquareOurWeekAhead">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1086/icon-staffroomourweekahead60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Our Week Ahead</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="http://intranet2017/staffroom/parking-and-travel/">
+			<div id="staSquareTravel">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1093/icon-staffroomtravel60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Parking and travel</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/pensions/">
+			<div id="staSquareFinancial">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1081/icon-staffroomfinancial60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Pensions</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/staffroom/personal-security/">
+			<div id="staSquareSecurity">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1087/icon-staffroomsecurity60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Personal<br />security</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/refer-a-friend/">
+			<div id="staSquareReferAFriend">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1797/icon-staffroomreferafriend60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Refer a friend</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->		
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/shopping-and-discounts/">
+			<div id="staSquareBenefits">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1076/icon-staffroombenefits60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Shopping and discounts</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->	
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/staff-lottery/">
+			<div id="staSquareLottery">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1088/icon-staffroomlottery60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Staff<br />Lottery</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/staffroom-newspaper/">
+			<div id="staSquareMagazine">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1090/icon-staffroommagazine60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText"><span id="black">Staff</span>Room<br /><span id="black">newspaper</span></td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->	
+		
+		<!---ITEM---START--->
+			<a href="/staffroom/staff-survey/">
+			<div id="staSquareSurvey">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1089/icon-staffroomsurvey60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText"><span id="black">Staff<br />Survey</span></td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->	
+		
+	
+
+		<!---ITEM---START--->
+			<a href="/staffroom/support-health-and-wellbeing/">
+			<div id="staSquareHealth">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1091/icon-staffroomhealth60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Support,<br />health and<br />wellbeing</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+			<!---ITEM---START--->
+			<a href="/staffroom/union-representation/">
+			<div id="staSquareUnion">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="staIcon"><img src="/media/1530/icon-staffroomunion60.png"></td>
+				</tr>
+				<tr>
+					<td id="staText">Union representation</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+	</div>
+	<!----STAFFROOM GRID END------------------------------------------------------>
+
+
+
+</div>
+<!-----content container---end----->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+
+</body>
+</html>
+		
+		

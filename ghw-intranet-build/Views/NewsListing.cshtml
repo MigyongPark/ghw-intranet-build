@@ -1,0 +1,95 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.NewsListing>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+	
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews.png" /><h1 id="zoneBlack">News</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+<div class="newsMainArea">
+	
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+	<div id="newsNav">
+	<div id="thisNews"><a href="xxxxx">News</a></div>
+		<ul id="newsNav1">
+		<li><a href="xxxxx">This month</a></li>
+		<li><a href="xxxxx">This year</a></li>
+		<li><a href="xxxxx">Last year</a></li>
+		<li><a href="xxxxx">News archive</a></li>
+		</ul>
+	</div>
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+	<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+	<div id="contentNews">
+	<!---News-Column----start--->
+	<!---NEWS-LIST----START--->
+		<div id="newsNewsList">
+			<table id="newsNewsList" cellpadding="0" cellspacing="0" border="0">
+			<tr>
+				<td id="newsNewsListMain">
+					<ul id="newsNewsList">
+			@*----- sets the parent node   ----- *@
+			@{
+			var page = Umbraco.TypedContent(5747);
+			}
+
+			@*----- sets counter and then counts 7 items  ----- *@
+
+			@{
+		    int count = 1;
+
+			foreach (var child in page.Children)
+				{
+				if (count <= 7)
+					{
+					<a href="@child.Url">
+					<li id="newsNewsList">
+					@*----- image size is constrained to 133x80  ----- *@
+					<img id="newsNewsList" src="@Umbraco.TypedMedia(child.GetProperty("pageListingImage").Value).GetCropUrl(width: 132, height: 80)" alt="@child.GetProperty("pageListingImageAltText").Value" itemprop="image"><p id="indexNews">@child.Name</p>
+					</li></a>
+					}
+	  		      count = count + 1;
+				}
+			}
+
+			</ul>
+				</td>
+			</tr>
+			</table>
+
+	<!---NEWS-LIST----END--->
+
+			<!---More News Link ------- start ---->
+			<div id="moreNewsLink">More news...</div>
+			<!---More News Link ------- start ---->
+
+		</div>
+	<!---News-Column----end--->
+
+	<!---twitter feed column-----start---->
+	<div id="newsTwitterFeed">
+		<a class="twitter-timeline" href="https://twitter.com/GWH_NHS" data-widget-id="630712576284995584" width="354" height="780">Tweets by GWH_NHS</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+	</div>
+	<!-----twitter feed -----end---->
+	<!---Facebook link----start
+		<div id="facebookLink">
+		<a href="https://www.facebook.com/GWHNHS" target="_blank"><img src="imgs/facebook2.png" width="320" height="50" /></a>
+		</div>
+	---Facebook link----end---------->
+			
+	</div>
+	<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+</div>
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->	
+	

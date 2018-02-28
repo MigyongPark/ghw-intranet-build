@@ -1,0 +1,57 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "NewIntranetMaster.cshtml";
+}
+
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews.png" /><h1 id="zoneBlack">News</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="newsMainArea">
+		<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+		<div id="newsNav">
+		<div id="thisNews"><a href="/news/">Latest news</a></div>
+			<ul id="newsNav1">
+			<li>@Html.Partial("USNBlog/USN_BlogArchiveNavigation", @Model)</li>
+			</ul>
+
+		</div>
+
+		<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<!---News-Column----start--->
+			<div id="newsNewsList">
+				@Html.Partial("USNBlog/USN_BlogListing",@Model.Content)
+			</div>
+			<!---News-Column----end--->
+
+			<!---twitter feed column-----start---->
+			<div id="newsTwitterFeed">
+				<a class="twitter-timeline" href="https://twitter.com/GWH_NHS" data-widget-id="630712576284995584" width="360" height="780">Tweets by GWH_NHS</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+			</div>
+
+			<!-----twitter feed -----end---->
+			<!---Facebook link----start
+				<div id="facebookLink">
+				<a href="https://www.facebook.com/GWHNHS" target="_blank"><img src="imgs/facebook2.png" width="320" height="50" /></a>
+				</div>
+			---Facebook link----end---------->
+
+
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+
+
+

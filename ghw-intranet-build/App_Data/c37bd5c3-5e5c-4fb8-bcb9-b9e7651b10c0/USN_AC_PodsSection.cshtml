@@ -1,0 +1,205 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+@using USN.Heading.Umbraco.Models;
+@using Newtonsoft.Json.Linq;
+
+@{
+    int totalCount = Model.Content.Children.Where(x => x.IsDocumentType("USN_AC_Pod")).Count();
+
+    if (totalCount > 0)
+    {
+        string animateClass = "";
+
+        if (Model.Content.GetPropertyValue<bool>("animate"))
+        {
+            animateClass = "os-animation";
+        }
+
+        string backgroundStyle = "c5-bg";
+        string headingStyle = "c3-text";
+        string textStyle = "c3-text";
+
+        if (Model.Content.HasValue("backgroundColor"))
+        {
+            switch (Model.Content.GetProperty("backgroundColor").Value.ToString())
+            {
+                case "ed6d19":
+                    backgroundStyle = "c1-bg";
+                    headingStyle = "c5-text";
+                    textStyle = "c5-text";
+                    break;
+                case "cccccc":
+                    backgroundStyle = "c2-bg";
+                    headingStyle = "c3-text";
+                    textStyle = "c3-text";
+                    break;
+                case "181818":
+                    backgroundStyle = "c3-bg";
+                    headingStyle = "c5-text";
+                    textStyle = "c5-text";
+                    break;
+                case "f4f4f4":
+                    backgroundStyle = "c4-bg";
+                    headingStyle = "c3-text";
+                    textStyle = "c3-text";
+                    break;
+                case "ffffff":
+                    backgroundStyle = "c5-bg";
+                    headingStyle = "c3-text";
+                    textStyle = "c3-text";
+                    break;
+                case "e3e3e3":
+                    backgroundStyle = "c6-bg";
+                    headingStyle = "c3-text";
+                    textStyle = "c3-text";
+                    break;
+                default:
+                    backgroundStyle = "c5-bg";
+                    headingStyle = "c3-text";
+                    textStyle = "c3-text";
+                    break;
+            }
+        }
+
+        string buttonStyle = "c1-bg c5-text";
+
+        if (Model.Content.HasValue("buttonColor"))
+        {
+            switch (Model.Content.GetProperty("buttonColor").Value.ToString())
+            {
+                case "ed6d19":
+                    buttonStyle = "c1-bg c5-text";
+                    break;
+                case "cccccc":
+                    buttonStyle = "c2-bg c3-text";
+                    break;
+                case "181818":
+                    buttonStyle = "c3-bg c5-text";
+                    break;
+                case "f4f4f4":
+                    buttonStyle = "c4-bg c1-text";
+                    break;
+                case "ffffff":
+                    buttonStyle = "c5-bg c1-text";
+                    break;
+                case "e3e3e3":
+                    buttonStyle = "c6-bg c3-text";
+                    break;
+                default:
+                    buttonStyle = "c1-bg c5-text";
+                    break;
+            }
+        }
+
+        <section class="content apc promo-pods @backgroundStyle" id="pos_@Model.Content.Id">
+            <div class="container">
+
+                @if (Model.Content.HasValue("introductionHeading") || Model.Content.HasValue("introductionText"))
+                {
+                <!-- ROW - OVERVIEW -->
+                    <div class="row overview @animateClass" data-os-animation="fadeIn" data-os-animation-delay="0s">
+                        <div class="col-md-8 col-xs-12">
+                            @if (Model.Content.HasValue("introductionHeading"))
+                            {
+                                var heading = Model.Content.GetPropertyValue<USNHeading>("introductionHeading");
+
+                                if (heading != null && !String.IsNullOrEmpty(heading.Heading))
+                                {
+                                    @Html.Raw("<" + heading.HeadingStyle + " class=\"heading main " + headingStyle + "\">" + heading.Heading + "</" + heading.HeadingStyle + ">")
+                                }
+                            }
+                            @if (Model.Content.HasValue("introductionText"))
+                            {
+                                <div class="text @textStyle">
+                                    @Html.Raw(Model.Content.GetProperty("introductionText").Value)
+                                </div>
+                            }
+                        </div>
+                    </div>
+                <!--// ROW - OVERVIEW -->
+                }
+
+                <div class="row">
+                    @foreach (var pod in Model.Content.Children.Where(x => x.IsDocumentType("USN_AC_Pod")))
+                    {
+                        LinkInfo podLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(pod.GetPropertyValue<UrlPicker>("podLink"));
+
+
+                        <div class="item col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            @if (podLink != null)
+                            {
+                                @Html.Raw("<a href=\"" + podLink.LinkURL + "\" " + podLink.LinkTitle + " " + podLink.LinkTarget + ">")
+                            }
+
+                            @if (pod.HasValue("podImage") && Umbraco.TypedMedia(pod.GetProperty("podImage").Value) != null)
+                            {
+                                <div class="image">
+                                    <img src="@Umbraco.TypedMedia(pod.GetProperty("podImage").Value).GetCropUrl(width: 345, height: 260)" alt="@pod.GetProperty("podImageAltText").Value">
+                                </div>
+                            }
+
+                            @if (pod.HasValue("podTitle"))
+                            {
+                                <p class="heading @headingStyle">@pod.GetProperty("podTitle").Value</p>
+                            }
+
+                            @if (podLink != null)
+                            {
+                                @Html.Raw("</a>")
+                            }
+
+                            @if (pod.HasValue("podText"))
+                            {
+                                <div class="text @textStyle">@Html.Raw(pod.GetProperty("podText").Value.ToString())</div>
+                            }
+                            @if (podLink != null)
+                            {
+                                <p class="link"><a role="button" class="btn @buttonStyle" href="@podLink.LinkURL" @Html.Raw(podLink.LinkTarget) @Html.Raw(podLink.LinkTitle)>@podLink.LinkCaption@Html.Raw(podLink.LinkIcon)</a></p>
+                            }
+                        </div>
+                    }
+                </div>
+
+                @{
+                    var outroLinks = Model.Content.GetPropertyValue<JArray>("outroLinks");
+
+                    if (Model.Content.HasValue("outroText") || (outroLinks != null && Model.Content.GetPropertyValue<string>("outroLinks", true, "").Length > 2))
+                    {
+						<!-- ROW - OUTRO -->
+                        <div class="row outro @animateClass" data-os-animation="fadeIn" data-os-animation-delay="0.1s">
+                            <div class="col-md-8 col-xs-12">
+                                @if (Model.Content.HasValue("outroText"))
+                                {
+                                    <div class="text @textStyle">
+                                        @Html.Raw(Model.Content.GetProperty("outroText").Value)
+                                    </div>
+                                }
+
+                                @if (outroLinks != null && Model.Content.GetPropertyValue<string>("outroLinks", true, "").Length > 2)
+                                {
+                                    <p class="link">
+                                        @foreach (JObject link in outroLinks)
+                                        {
+                                            string linkTitle = String.Empty;
+                                            string linkURL = String.Empty;
+                                            string linkTarget = String.Empty;
+                                            string linkIcon = String.Empty;
+                                            IPublishedContent node = null;
+
+                                            linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+
+                                            <a role="button" class="btn @buttonStyle" href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)>@Html.Raw(link.Value<string>("caption"))@Html.Raw(linkIcon)</a>
+                                        }
+                                    </p>
+                                }
+
+                            </div>
+                        </div>
+						<!--// ROW - OUTRO -->
+                    }
+                }
+            </div>
+        </section>
+    }
+}

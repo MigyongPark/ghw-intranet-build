@@ -1,0 +1,1170 @@
+﻿ 2017-10-26 08:33:02,448 [P4252/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-10-26 08:33:02,542 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-26 08:33:02,573 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 35ms)
+ 2017-10-26 08:33:02,839 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-26 08:33:03,027 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 185ms)
+ 2017-10-26 08:33:03,183 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-26 08:33:03,198 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-10-26 08:33:03,198 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-26 08:33:03,277 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 86ms)
+ 2017-10-26 08:33:03,339 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-10-26 08:33:03,339 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-10-26 08:33:03,339 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-26 08:33:03,402 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 57ms)
+ 2017-10-26 08:33:03,495 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-10-26 08:33:03,495 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-10-26 08:33:03,495 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-10-26 08:33:03,495 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-10-26 08:33:06,886 [P4252/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-26 08:33:07,573 [P4252/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-26 08:33:07,573 [P4252/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-26 08:33:07,698 [P4252/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-26 08:33:08,027 [P4252/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-26 08:33:08,027 [P4252/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-26 08:33:08,042 [P4252/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-10-26 08:33:08,073 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-26 08:33:08,073 [P4252/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-10-26 08:33:08,886 [P4252/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6890ms)
+ 2017-10-26 08:33:13,464 [P4252/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-10-26 08:33:17,339 [P4252/D2/T9] INFO  umbraco.content - Load Xml from file...
+ 2017-10-26 08:33:17,526 [P4252/D2/T9] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-26 08:33:19,714 [P4252/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-26 08:33:19,729 [P4252/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-10-26 08:33:59,619 [P4252/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-26 08:33:59,635 [P4252/D2/T16] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-26 08:34:00,057 [P4252/D2/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 08:34:00,057 [P4252/D2/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-10-26 08:34:00,229 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-10-26 08:34:00,229 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-10-26 08:34:00,401 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-26 08:34:00,401 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-10-26 08:34:00,447 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 08:34:00,447 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-26 08:34:00,447 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-26 08:34:00,447 [P4252/D2/T16] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-10-26 08:34:17,697 [P4252/D2/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-25 08:34:17
+ 2017-10-26 08:51:22,584 [P4252/D2/T32] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 08:51:22,584 [P4252/D2/T32] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 08:51:22,615 [P4252/D2/T117] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 08:51:22,615 [P4252/D2/T117] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-26 08:54:54,470 [P4252/D2/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '0' has been published.
+ 2017-10-26 08:54:54,955 [P4252/D2/T89] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-10-26 08:54:54,955 [P4252/D2/T89] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 4ms)
+ 2017-10-26 08:54:59,142 [P4252/D2/T5] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 08:54:59,329 [P4252/D2/T5] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:01:49,837 [P4252/D2/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '4126' has been published.
+ 2017-10-26 09:01:50,947 [P4252/D2/T117] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'PERSONAL & PROFESSIONAL DEVELOPMENT' with Id '4120' has been published.
+ 2017-10-26 09:01:55,243 [P4252/D2/T84] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:01:55,431 [P4252/D2/T84] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:02:12,743 [P4252/D2/T112] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Traineeships' with Id '4121' has been published.
+ 2017-10-26 09:02:13,149 [P4252/D2/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-10-26 09:02:17,415 [P4252/D2/T110] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:02:17,634 [P4252/D2/T110] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:02:48,399 [P4252/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '4126' has been published.
+ 2017-10-26 09:02:52,633 [P4252/D2/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:02:52,836 [P4252/D2/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:02:58,820 [P4252/D2/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '4126' has been published.
+ 2017-10-26 09:02:58,820 [P4252/D2/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Military Reservists' with Id '3985' has been published.
+ 2017-10-26 09:02:58,820 [P4252/D2/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3885' has been published.
+ 2017-10-26 09:03:03,289 [P4252/D2/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:03:03,555 [P4252/D2/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:03:05,601 [P4252/D2/T67] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health ambassadors' with Id '4125' has been published.
+ 2017-10-26 09:03:09,804 [P4252/D2/T118] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:03:10,039 [P4252/D2/T118] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:04:08,006 [P4252/D2/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR)' with Id '0' has been published.
+ 2017-10-26 09:04:12,381 [P4252/D2/T68] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:04:12,631 [P4252/D2/T68] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:04:13,522 [P4252/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health ambassadors' with Id '4125' has been published.
+ 2017-10-26 09:04:17,787 [P4252/D2/T117] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:04:17,975 [P4252/D2/T117] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:04:32,834 [P4252/D2/T95] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health ambassadors' with Id '3848' has been unpublished.
+ 2017-10-26 09:04:33,443 [P4252/D2/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ESR (Electronic Staff Record)' with Id '0' has been published.
+ 2017-10-26 09:04:37,693 [P4252/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:04:37,896 [P4252/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:04:46,131 [P4252/D2/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Health ambassadors' with Id '4125' has been published.
+ 2017-10-26 09:04:48,381 [P4252/D2/T99] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 09:04:48,381 [P4252/D2/T99] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-26 09:04:50,381 [P4252/D2/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:04:50,552 [P4252/D2/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR)' with Id '4128' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Email [managing]' with Id '2894' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emergency Department' with Id '2535' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'EMG (Electromyography)' with Id '2563' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Endocrinology' with Id '2531' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Endoscopy' with Id '2537' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Enhanced clinical skills training' with Id '2943' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ENT (Ear, Nose and Throat)' with Id '2533' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ENT (Ear, Nose and Throat) [Emergency Department]' with Id '2789' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '2538' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment [GWH]' with Id '2878' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment and Stationery Exchange [GWH]' with Id '2844' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment Store [Community]' with Id '2903' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ESR (Electronic Staff Record)' with Id '4129' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Estates and Facilities Management' with Id '2539' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ethics and Legal [Emergency]' with Id '2790' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Executive Directors' with Id '3380' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extranet' with Id '3153' has been published.
+ 2017-10-26 09:05:05,568 [P4252/D2/T110] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Eye Clinic' with Id '2906' has been published.
+ 2017-10-26 09:05:11,552 [P4252/D2/T97] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:05:11,771 [P4252/D2/T97] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:06:04,598 [P4252/D2/T113] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'PROFESSIONAL & PERSONAL DEVELOPMENT' with Id '4120' has been published.
+ 2017-10-26 09:06:08,832 [P4252/D2/T98] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:06:09,051 [P4252/D2/T98] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:09:04,844 [P4252/D2/T114] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '0' has been published.
+ 2017-10-26 09:09:09,110 [P4252/D2/T120] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:09:09,313 [P4252/D2/T120] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:11:23,154 [P4252/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'PROFESSIONAL & PERSONAL DEVELOPMENT' with Id '4120' has been published.
+ 2017-10-26 09:11:27,420 [P4252/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:11:27,685 [P4252/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:11:29,404 [P4252/D2/T96] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '4126' has been published.
+ 2017-10-26 09:11:33,670 [P4252/D2/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:11:33,857 [P4252/D2/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:12:04,107 [P4252/D2/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '4130' has been published.
+ 2017-10-26 09:12:08,450 [P4252/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:12:08,638 [P4252/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:12:43,403 [P4252/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ESR Login' with Id '0' has been published.
+ 2017-10-26 09:12:47,621 [P4252/D2/T87] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:12:47,903 [P4252/D2/T87] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:13:53,605 [P4252/D2/T106] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'User guides' with Id '0' has been published.
+ 2017-10-26 09:13:57,854 [P4252/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:13:58,042 [P4252/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:14:14,620 [P4252/D2/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '4130' has been published.
+ 2017-10-26 09:14:18,901 [P4252/D2/T6] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:14:19,088 [P4252/D2/T6] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:14:33,119 [P4252/D2/T102] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Login' with Id '4130' has been published.
+ 2017-10-26 09:14:37,354 [P4252/D2/T76] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:14:37,588 [P4252/D2/T76] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:18:25,224 [P4252/D2/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Guide to Employee Self Service and Total Reward Statements' with Id '0' has been published.
+ 2017-10-26 09:18:29,490 [P4252/D2/T16] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:18:29,740 [P4252/D2/T16] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:19:07,958 [P4252/D2/T76] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '4126' has been published.
+ 2017-10-26 09:19:12,239 [P4252/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:19:12,427 [P4252/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:20:23,363 [P4252/D2/T105] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ORGANISATIONAL DEVELOPMENT' with Id '4108' has been published.
+ 2017-10-26 09:20:27,659 [P4252/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:20:27,863 [P4252/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:23:53,843 [P4252/D2/T18] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 09:23:58,187 [P4252/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:23:58,390 [P4252/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:25:29,576 [P4252/D2/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 09:25:33,857 [P4252/D2/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:25:34,075 [P4252/D2/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:26:34,309 [P4252/D2/T55] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Coaching service' with Id '4116' has been published.
+ 2017-10-26 09:26:38,559 [P4252/D2/T55] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:26:38,793 [P4252/D2/T55] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:26:44,137 [P4252/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Team development' with Id '4117' has been published.
+ 2017-10-26 09:26:48,433 [P4252/D2/T46] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:26:48,683 [P4252/D2/T46] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:27:00,668 [P4252/D2/T52] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mediation' with Id '4119' has been published.
+ 2017-10-26 09:27:04,933 [P4252/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:27:05,136 [P4252/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:39:35,528 [P4252/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learning and development' with Id '0' has been published.
+ 2017-10-26 09:39:39,747 [P4252/D2/T52] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:39:39,950 [P4252/D2/T52] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:40:43,730 [P4252/D2/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training' with Id '2362' has been published.
+ 2017-10-26 09:40:47,995 [P4252/D2/T12] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:40:48,261 [P4252/D2/T12] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:40:57,433 [P4252/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training' with Id '2362' has been published.
+ 2017-10-26 09:41:01,698 [P4252/D2/T131] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:41:01,917 [P4252/D2/T131] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:42:13,041 [P4252/D2/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leadership programme' with Id '0' has been published.
+ 2017-10-26 09:42:17,291 [P4252/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:42:17,572 [P4252/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:43:36,492 [P4252/D2/T124] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Preceptorship training' with Id '3740' has been unpublished.
+ 2017-10-26 09:43:40,680 [P4252/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:43:40,883 [P4252/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:43:57,711 [P4252/D2/T26] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Preceptorships' with Id '4122' has been published.
+ 2017-10-26 09:44:01,960 [P4252/D2/T27] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:44:02,179 [P4252/D2/T27] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:44:41,647 [P4252/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Preceptorships' with Id '4122' has been published.
+ 2017-10-26 09:44:45,913 [P4252/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:44:46,116 [P4252/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 09:51:34,436 [P4252/D2/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Preceptorships' with Id '4122' has been published.
+ 2017-10-26 09:51:38,655 [P4252/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 09:51:39,014 [P4252/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:00:11,317 [P4252/D2/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Logging in to Employee Self Service and Total Reward Statements' with Id '0' has been published.
+ 2017-10-26 10:00:15,567 [P4252/D2/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:00:15,801 [P4252/D2/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:10:11,962 [P4252/D2/T51] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-26 10:11:24,757 [P4252/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-26 10:11:24,757 [P4252/D2/T57] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-26 10:14:50,191 [P4252/D2/T153] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Safer recruitment training' with Id '0' has been published.
+ 2017-10-26 10:14:54,878 [P4252/D2/T154] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:14:55,128 [P4252/D2/T154] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:37:44,555 [P4252/D2/T206] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4143' has been published.
+ 2017-10-26 10:37:48,820 [P4252/D2/T154] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:37:49,117 [P4252/D2/T154] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:39:02,178 [P4252/D2/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4143' has been published.
+ 2017-10-26 10:39:02,178 [P4252/D2/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Military Reservists' with Id '3985' has been published.
+ 2017-10-26 10:39:02,178 [P4252/D2/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3885' has been published.
+ 2017-10-26 10:39:06,631 [P4252/D2/T158] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:39:06,866 [P4252/D2/T158] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:44:51,469 [P4252/D2/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4143' has been published.
+ 2017-10-26 10:44:55,750 [P4252/D2/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:44:56,062 [P4252/D2/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:45:33,171 [P4252/D2/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4143' has been published.
+ 2017-10-26 10:45:37,436 [P4252/D2/T201] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:45:37,702 [P4252/D2/T201] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:45:50,499 [P4252/D2/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4143' has been published.
+ 2017-10-26 10:45:54,795 [P4252/D2/T175] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:45:55,045 [P4252/D2/T175] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:46:41,201 [P4252/D2/T201] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 10:46:45,466 [P4252/D2/T175] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:46:45,716 [P4252/D2/T175] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:48:05,855 [P4252/D2/T159] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-26 10:48:46,745 [P4252/D2/T149] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 10:48:46,745 [P4252/D2/T149] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 10:50:00,166 [P4252/D2/T149] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-10-26 10:50:00,166 [P4252/D2/T149] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 3ms)
+ 2017-10-26 10:50:06,447 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-10-26 10:50:06,447 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-10-26 10:50:06,462 [P4252/D2/T158] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-10-26 10:50:06,525 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-10-26 10:50:06,525 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-10-26 10:50:06,525 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-10-26 10:50:06,525 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-10-26 10:50:06,525 [P4252/D2/T147] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-10-26 10:50:06,525 [P4252/D2/T15] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-10-26 10:50:06,650 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-10-26 10:50:06,650 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-10-26 10:50:06,650 [P4252/D2/T180] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-10-26 10:50:06,650 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-10-26 10:50:06,650 [P4252/D2/T191] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-10-26 10:50:06,650 [P4252/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-10-26 10:50:09,306 [P4252/D3/T12] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-10-26 10:50:09,400 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-10-26 10:50:09,416 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2017-10-26 10:50:09,587 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-10-26 10:50:09,634 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 43ms)
+ 2017-10-26 10:50:09,697 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-10-26 10:50:09,697 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-10-26 10:50:09,697 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-10-26 10:50:09,712 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 13ms)
+ 2017-10-26 10:50:09,759 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-10-26 10:50:09,759 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-10-26 10:50:09,759 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-10-26 10:50:09,759 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 9ms)
+ 2017-10-26 10:50:09,853 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-10-26 10:50:09,853 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-10-26 10:50:09,853 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-10-26 10:50:09,853 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-10-26 10:50:12,994 [P4252/D3/T12] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-26 10:50:13,603 [P4252/D3/T12] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-26 10:50:13,603 [P4252/D3/T12] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-10-26 10:50:13,665 [P4252/D3/T12] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-10-26 10:50:13,931 [P4252/D3/T12] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-10-26 10:50:13,931 [P4252/D3/T12] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-10-26 10:50:13,947 [P4252/D3/T12] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-10-26 10:50:13,978 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-10-26 10:50:13,978 [P4252/D3/T12] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-10-26 10:50:14,806 [P4252/D3/T12] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5820ms)
+ 2017-10-26 10:50:15,540 [P4252/D3/T175] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-10-26 10:50:19,275 [P4252/D3/T175] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-10-26 10:50:19,275 [P4252/D3/T175] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 2ms)
+ 2017-10-26 10:50:19,962 [P4252/D3/T180] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 10:50:19,962 [P4252/D3/T180] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-10-26 10:50:19,978 [P4252/D3/T180] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-26 10:50:19,978 [P4252/D3/T180] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-10-26 10:50:24,103 [P4252/D3/T180] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-10-26 10:50:24,103 [P4252/D3/T180] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-10-26 10:50:36,774 [P4252/D2/T184] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-10-26 10:50:46,946 [P4252/D3/T184] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '0' has been published.
+ 2017-10-26 10:50:48,196 [P4252/D3/T184] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-10-26 10:50:48,212 [P4252/D3/T184] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2017-10-26 10:50:48,259 [P4252/D3/T184] INFO  umbraco.content - Load Xml from file...
+ 2017-10-26 10:50:48,321 [P4252/D3/T184] INFO  umbraco.content - Loaded Xml from file.
+ 2017-10-26 10:50:52,477 [P4252/D3/T192] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:50:52,680 [P4252/D3/T192] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:51:18,039 [P4252/D3/T147] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-25 10:51:18
+ 2017-10-26 10:51:52,476 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation (1)' with Id '4145' has been unpublished.
+ 2017-10-26 10:51:56,710 [P4252/D3/T7] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:51:56,913 [P4252/D3/T7] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:52:06,460 [P4252/D3/T169] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-10-26 10:52:06,476 [P4252/D3/T169] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 1ms)
+ 2017-10-26 10:53:27,365 [P4252/D3/T154] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 10:53:31,646 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:53:31,818 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:54:38,770 [P4252/D3/T163] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 10:54:43,051 [P4252/D3/T184] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:54:43,192 [P4252/D3/T184] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:56:05,268 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Represented unions' with Id '0' has been published.
+ 2017-10-26 10:56:09,565 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:56:09,721 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:57:00,033 [P4252/D3/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy' with Id '0' has been published.
+ 2017-10-26 10:57:04,298 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:57:04,486 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:57:23,845 [P4252/D3/T89] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 10:57:28,110 [P4252/D3/T207] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:57:28,251 [P4252/D3/T207] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:57:57,828 [P4252/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 10:58:02,110 [P4252/D3/T158] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:58:02,281 [P4252/D3/T158] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:58:12,094 [P4252/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 10:58:16,359 [P4252/D3/T158] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:58:16,531 [P4252/D3/T158] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:58:41,640 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4143' has been published.
+ 2017-10-26 10:58:45,921 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 10:58:46,077 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 10:59:57,076 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '0' has been published.
+ 2017-10-26 10:59:59,826 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4148' has been published.
+ 2017-10-26 11:00:04,092 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:00:04,279 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:00:06,732 [P4252/D3/T181] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-10-26 11:00:06,748 [P4252/D3/T181] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 3ms)
+ 2017-10-26 11:00:12,185 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4148' has been published.
+ 2017-10-26 11:00:12,201 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care' with Id '3258' has been published.
+ 2017-10-26 11:00:12,201 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Urgent Care Centre' with Id '3356' has been published.
+ 2017-10-26 11:00:16,607 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:00:16,779 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:00:39,403 [P4252/D3/T158] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '0' has been published.
+ 2017-10-26 11:00:42,482 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4149' has been published.
+ 2017-10-26 11:00:46,747 [P4252/D3/T177] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:00:46,919 [P4252/D3/T177] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Employee Partnership Forum' with Id '4149' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Endocrinology' with Id '2531' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Endoscopy' with Id '2537' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Enhanced clinical skills training' with Id '2943' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ENT (Ear, Nose and Throat)' with Id '2533' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ENT (Ear, Nose and Throat) [Emergency Department]' with Id '2789' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '2538' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment [GWH]' with Id '2878' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment and Stationery Exchange [GWH]' with Id '2844' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment Store [Community]' with Id '2903' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ESR (Electronic Staff Record)' with Id '4129' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Estates and Facilities Management' with Id '2539' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ethics and Legal [Emergency]' with Id '2790' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Executive Directors' with Id '3380' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extranet' with Id '3153' has been published.
+ 2017-10-26 11:01:09,309 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Eye Clinic' with Id '2906' has been published.
+ 2017-10-26 11:01:14,903 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:01:15,059 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:03:20,916 [P4252/D3/T180] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:03:25,182 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:03:25,353 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:03:48,494 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:03:52,775 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:03:52,962 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:05:59,054 [P4252/D3/T183] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British Dietetic Association (BDA)' with Id '0' has been published.
+ 2017-10-26 11:06:03,335 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:06:03,522 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:06:15,975 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British Dietetic Association (BDA)' with Id '4152' has been published.
+ 2017-10-26 11:06:15,975 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy' with Id '4147' has been published.
+ 2017-10-26 11:06:20,334 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:06:20,538 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:06:33,381 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy' with Id '4147' has been published.
+ 2017-10-26 11:06:37,647 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:06:37,834 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:06:57,677 [P4252/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:07:01,943 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:07:02,130 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:07:30,646 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:07:34,958 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:07:35,130 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:07:40,520 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy (CSP)' with Id '4147' has been published.
+ 2017-10-26 11:07:44,802 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:07:45,130 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:08:51,691 [P4252/D3/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British and Irish Orthoptic Society (BIOS)' with Id '0' has been published.
+ 2017-10-26 11:08:56,206 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:08:56,441 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:09:05,659 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy (CSP)' with Id '4147' has been published.
+ 2017-10-26 11:09:09,956 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:09:10,253 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:09:59,440 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Represented unions' with Id '4146' has been published.
+ 2017-10-26 11:10:03,768 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:10:03,971 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:10:10,611 [P4252/D3/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Represented unions' with Id '4146' has been published.
+ 2017-10-26 11:10:14,892 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:10:15,064 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:10:15,330 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:10:19,564 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British and Irish Orthoptic Society (BIOS)' with Id '4155' has been published.
+ 2017-10-26 11:10:19,564 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British Dietetic Association (BDA)' with Id '4152' has been published.
+ 2017-10-26 11:10:19,564 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy (CSP)' with Id '4147' has been published.
+ 2017-10-26 11:10:19,580 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:10:19,783 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:10:23,720 [P4252/D3/T183] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Represented unions' with Id '4146' has been published.
+ 2017-10-26 11:10:27,986 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:10:28,142 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:11:51,656 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Society of Radiographers (SoR)' with Id '0' has been published.
+ 2017-10-26 11:11:55,906 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:11:56,094 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:16:53,978 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:16:58,228 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:16:58,463 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:17:42,181 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:17:46,446 [P4252/D3/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:17:46,634 [P4252/D3/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:18:08,368 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unison - the public service union' with Id '0' has been published.
+ 2017-10-26 11:18:12,602 [P4252/D3/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:18:12,789 [P4252/D3/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:19:08,976 [P4252/D3/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unite' with Id '0' has been published.
+ 2017-10-26 11:19:13,226 [P4252/D3/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:19:13,429 [P4252/D3/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:19:19,507 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:19:23,819 [P4252/D3/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:19:24,022 [P4252/D3/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:19:28,194 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:19:32,647 [P4252/D3/T180] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:19:32,866 [P4252/D3/T180] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:19:40,569 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unison' with Id '4158' has been published.
+ 2017-10-26 11:19:41,585 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:19:45,881 [P4252/D3/T177] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:19:46,053 [P4252/D3/T177] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:20:07,569 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:20:11,756 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British and Irish Orthoptic Society (BIOS)' with Id '4155' has been published.
+ 2017-10-26 11:20:11,834 [P4252/D3/T180] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:20:12,053 [P4252/D3/T180] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:20:16,053 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:20:16,225 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:20:18,318 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British and Irish Orthoptic Society (BIOS)' with Id '4155' has been published.
+ 2017-10-26 11:20:22,599 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:20:22,756 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:20:40,583 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy (CSP)' with Id '4147' has been published.
+ 2017-10-26 11:20:44,849 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:20:45,021 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:20:54,208 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Society of Radiographers (SoR)' with Id '4156' has been published.
+ 2017-10-26 11:20:58,646 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:20:58,833 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:21:16,614 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unison' with Id '4158' has been published.
+ 2017-10-26 11:21:20,880 [P4252/D3/T177] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:21:21,067 [P4252/D3/T177] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:21:25,364 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unite' with Id '4159' has been published.
+ 2017-10-26 11:21:29,645 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:21:29,833 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:23:07,456 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GMB' with Id '0' has been published.
+ 2017-10-26 11:23:11,674 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:23:11,846 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:23:17,643 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unite' with Id '4159' has been published.
+ 2017-10-26 11:23:21,893 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:23:22,065 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:24:44,469 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Royal College of Nursing' with Id '0' has been published.
+ 2017-10-26 11:24:48,719 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:24:48,891 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:26:52,889 [P4252/D3/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Royal College of Midwives (RCM)' with Id '0' has been published.
+ 2017-10-26 11:26:57,154 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:26:57,404 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:27:09,279 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Royal College of Nursing (RCN)' with Id '4161' has been published.
+ 2017-10-26 11:27:13,513 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:27:13,701 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:28:06,450 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British Medical Association (BMA)' with Id '0' has been published.
+ 2017-10-26 11:28:10,715 [P4252/D3/T168] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:28:10,919 [P4252/D3/T168] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'British Medical Association (BMA)' with Id '4164' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy (CSP)' with Id '4147' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'GMB' with Id '4160' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Royal College of Midwives (RCM)' with Id '4162' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Royal College of Nursing (RCN)' with Id '4161' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Society of Radiographers (SoR)' with Id '4156' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unison' with Id '4158' has been published.
+ 2017-10-26 11:28:32,043 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unite' with Id '4159' has been published.
+ 2017-10-26 11:28:37,027 [P4252/D3/T168] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:28:37,277 [P4252/D3/T168] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:28:40,996 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:28:45,293 [P4252/D3/T168] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:28:45,480 [P4252/D3/T168] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:28:55,246 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:28:59,465 [P4252/D3/T168] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:28:59,652 [P4252/D3/T168] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:29:31,808 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Chartered Society of Physiotherapy (CSP)' with Id '4147' has been published.
+ 2017-10-26 11:29:35,683 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:29:36,089 [P4252/D3/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:29:37,120 [P4252/D3/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:29:40,573 [P4252/D3/T13] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:29:40,964 [P4252/D3/T13] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:31:54,164 [P4252/D3/T180] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '4165' has been published.
+ 2017-10-26 11:31:58,445 [P4252/D3/T186] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:31:58,649 [P4252/D3/T186] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:32:03,024 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '4165' has been published.
+ 2017-10-26 11:32:03,024 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Military Reservists' with Id '3985' has been published.
+ 2017-10-26 11:32:03,024 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Support Services' with Id '3885' has been published.
+ 2017-10-26 11:32:03,024 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Union representation' with Id '4144' has been published.
+ 2017-10-26 11:32:07,617 [P4252/D3/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:32:07,820 [P4252/D3/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:32:49,741 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '0' has been published.
+ 2017-10-26 11:32:53,023 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity (1)' with Id '4166' has been published.
+ 2017-10-26 11:32:57,288 [P4252/D3/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:32:57,507 [P4252/D3/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity (1)' with Id '4166' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment [GWH]' with Id '2878' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment and Stationery Exchange [GWH]' with Id '2844' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equipment Store [Community]' with Id '2903' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ESR (Electronic Staff Record)' with Id '4129' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Estates and Facilities Management' with Id '2539' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Ethics and Legal [Emergency]' with Id '2790' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Executive Directors' with Id '3380' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Extranet' with Id '3153' has been published.
+ 2017-10-26 11:33:04,366 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Eye Clinic' with Id '2906' has been published.
+ 2017-10-26 11:33:09,616 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:33:09,913 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:37:34,564 [P4252/D3/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '4165' has been published.
+ 2017-10-26 11:37:38,830 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:37:39,236 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:38:57,781 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4127' has been unpublished.
+ 2017-10-26 11:39:01,937 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:39:02,187 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:39:03,422 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources' with Id '1580' has been unpublished.
+ 2017-10-26 11:39:07,828 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:39:08,031 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:39:26,843 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources (HR)' with Id '0' has been published.
+ 2017-10-26 11:39:31,077 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:39:31,437 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:40:30,248 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-10-26 11:40:34,482 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:40:34,686 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:40:38,935 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '4175' has been published.
+ 2017-10-26 11:40:38,935 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents' with Id '4067' has been published.
+ 2017-10-26 11:40:43,279 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:40:43,498 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:41:32,200 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Electronic Staff Record (ESR) - Employee Self-service' with Id '4126' has been published.
+ 2017-10-26 11:41:36,450 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:41:36,716 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:46:23,241 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:46:27,507 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:46:27,710 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:46:40,444 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Annual Leave Calculator' with Id '0' has been published.
+ 2017-10-26 11:46:44,678 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:46:44,928 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:46:49,913 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Annual Leave Calculator' with Id '4177' has been published.
+ 2017-10-26 11:46:49,913 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Starter Checklist' with Id '4071' has been published.
+ 2017-10-26 11:46:54,350 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:46:54,553 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:47:02,975 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Annual Leave Calculator' with Id '4177' has been published.
+ 2017-10-26 11:47:07,225 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:47:07,475 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:47:21,803 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:47:26,068 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:47:26,381 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:47:51,740 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:47:55,990 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:47:56,224 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:48:46,817 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire Health and Care E-Roster Request Form' with Id '0' has been published.
+ 2017-10-26 11:48:51,067 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:48:51,426 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:49:22,285 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:49:26,597 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:49:26,910 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:56:27,120 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Psychometric tests' with Id '4110' has been published.
+ 2017-10-26 11:56:31,433 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:56:31,667 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 11:59:14,352 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job evaluation' with Id '0' has been published.
+ 2017-10-26 11:59:18,601 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 11:59:18,883 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 12:00:42,069 [P4252/D3/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job Evaluation Supporting Information Form' with Id '0' has been published.
+ 2017-10-26 12:00:46,350 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 12:00:46,569 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 12:00:52,943 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Job Evaluation Supporting Information Form' with Id '4182' has been published.
+ 2017-10-26 12:00:52,943 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'New Starter Checklist' with Id '4071' has been published.
+ 2017-10-26 12:00:52,943 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire Health and Care E-Roster Request Form' with Id '4179' has been published.
+ 2017-10-26 12:00:57,443 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 12:00:58,318 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 12:08:03,248 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Room bookings' with Id '4022' has been published.
+ 2017-10-26 12:08:07,513 [P4252/D3/T150] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 12:08:07,732 [P4252/D3/T150] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 12:12:56,570 [P4252/D3/T183] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Room bookings' with Id '4022' has been published.
+ 2017-10-26 12:13:00,883 [P4252/D3/T150] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 12:13:01,101 [P4252/D3/T150] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 12:18:08,127 [P4252/D3/T180] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-26 12:40:15,539 [P4252/D3/T180] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-26 12:40:15,554 [P4252/D3/T180] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-26 12:40:39,413 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Equality and Diversity' with Id '4165' has been published.
+ 2017-10-26 12:40:43,663 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 12:40:43,898 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 12:59:50,204 [P4252/D3/T54] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-10-26 13:09:06,474 [P4252/D3/T186] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 13:09:06,474 [P4252/D3/T186] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 13:09:06,584 [P4252/D3/T168] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 13:09:06,584 [P4252/D3/T168] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-26 13:09:06,693 [P4252/D3/T171] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-10-26 13:09:06,709 [P4252/D3/T171] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 2ms)
+ 2017-10-26 13:09:29,239 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training courses and additional support' with Id '2362' has been published.
+ 2017-10-26 13:09:33,521 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:09:33,708 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:10:02,551 [P4252/D3/T189] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training' with Id '2362' has been published.
+ 2017-10-26 13:10:06,817 [P4252/D3/T183] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:10:06,973 [P4252/D3/T183] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:19:07,025 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ORGANISATIONAL DEVELOPMENT' with Id '4108' has been published.
+ 2017-10-26 13:19:11,275 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:19:11,509 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:19:56,087 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ORGANISATIONAL DEVELOPMENT' with Id '4108' has been published.
+ 2017-10-26 13:20:00,368 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:20:00,618 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:21:33,085 [P4252/D3/T182] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-10-26 13:21:33,085 [P4252/D3/T182] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-10-26 13:25:57,424 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce' with Id '0' has been published.
+ 2017-10-26 13:26:01,705 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:26:01,892 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:26:40,438 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-10-26 13:26:44,688 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:26:44,876 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:27:50,578 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ORGANISATIONAL DEVELOPMENT' with Id '4108' has been published.
+ 2017-10-26 13:27:54,859 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:27:55,109 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:28:21,311 [P4252/D3/T183] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Coaching service' with Id '4116' has been published.
+ 2017-10-26 13:28:25,577 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:28:25,764 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:32:27,229 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Elaine Middleton' with Id '0' has been published.
+ 2017-10-26 13:32:31,494 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:32:31,697 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:34:07,070 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Danny Little' with Id '0' has been published.
+ 2017-10-26 13:34:10,211 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Danny Little' with Id '4192' has been published.
+ 2017-10-26 13:34:14,492 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:34:14,726 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:35:39,490 [P4252/D3/T180] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Latoya Hulcoop' with Id '0' has been published.
+ 2017-10-26 13:35:43,772 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:35:43,990 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:37:03,598 [P4252/D3/T183] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kerry Pimble' with Id '0' has been published.
+ 2017-10-26 13:37:07,817 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:37:08,129 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:37:33,582 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Naomi Collins' with Id '0' has been published.
+ 2017-10-26 13:37:37,848 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:37:38,066 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:38:04,316 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jane Crouch' with Id '0' has been published.
+ 2017-10-26 13:38:08,597 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:38:08,831 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:38:29,253 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Francis' with Id '0' has been published.
+ 2017-10-26 13:38:33,518 [P4252/D3/T150] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:38:33,659 [P4252/D3/T150] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:38:41,034 [P4252/D3/T170] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-26 13:39:58,064 [P4252/D3/T171] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 13:39:58,064 [P4252/D3/T171] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 13:40:23,344 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Charlotte Webb' with Id '4199' has been published.
+ 2017-10-26 13:40:27,563 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:40:27,844 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:41:10,140 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FAQ' with Id '0' has been published.
+ 2017-10-26 13:41:14,390 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:41:14,625 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:41:15,953 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Coaching service' with Id '4116' has been published.
+ 2017-10-26 13:41:20,156 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:41:20,359 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:41:49,733 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Excess mileage' with Id '0' has been published.
+ 2017-10-26 13:41:53,983 [P4252/D3/T191] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:41:54,249 [P4252/D3/T191] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:43:13,310 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Claim for - rented to rented' with Id '0' has been published.
+ 2017-10-26 13:43:17,560 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:43:17,825 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:44:27,402 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Paid on the correct pay point' with Id '0' has been published.
+ 2017-10-26 13:44:31,668 [P4252/D3/T177] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:44:31,887 [P4252/D3/T177] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:46:01,838 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'No P45' with Id '0' has been published.
+ 2017-10-26 13:46:06,103 [P4252/D3/T177] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:46:06,369 [P4252/D3/T177] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:46:27,025 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce' with Id '0' has been published.
+ 2017-10-26 13:46:31,306 [P4252/D3/T180] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:46:31,525 [P4252/D3/T180] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce' with Id '4205' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medicine [Emergency Department]' with Id '2793' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medicine Monthly Rota' with Id '2559' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Meeting rooms' with Id '2941' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health' with Id '2849' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mental health and alcohol liaison [Emergency Department]' with Id '2794' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Message of the Month' with Id '2752' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Minors [Emergency Department]' with Id '2796' has been published.
+ 2017-10-26 13:46:37,243 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mortuary' with Id '2850' has been published.
+ 2017-10-26 13:46:42,243 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:46:42,478 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:46:56,415 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: M' with Id '1462' has been published.
+ 2017-10-26 13:47:01,399 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:47:01,602 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:48:30,398 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Annual leave' with Id '0' has been published.
+ 2017-10-26 13:48:34,679 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:48:34,897 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:49:17,334 [P4252/D3/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lieu days' with Id '0' has been published.
+ 2017-10-26 13:49:21,600 [P4252/D3/T205] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:49:21,850 [P4252/D3/T205] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:50:23,270 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sick' with Id '0' has been published.
+ 2017-10-26 13:50:27,598 [P4252/D3/T205] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:50:27,880 [P4252/D3/T205] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:52:15,721 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Register for locums' with Id '0' has been published.
+ 2017-10-26 13:52:19,971 [P4252/D3/T205] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:52:20,268 [P4252/D3/T205] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:53:07,939 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Register for locums' with Id '4209' has been published.
+ 2017-10-26 13:53:12,205 [P4252/D3/T150] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:53:12,470 [P4252/D3/T150] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:54:06,500 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Locum rates' with Id '0' has been published.
+ 2017-10-26 13:54:10,766 [P4252/D3/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:54:11,000 [P4252/D3/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:55:25,874 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'On call - annual leave or study' with Id '0' has been published.
+ 2017-10-26 13:55:30,186 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:55:30,405 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:57:10,841 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Parking permit' with Id '0' has been published.
+ 2017-10-26 13:57:15,044 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:57:15,341 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 13:58:58,166 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Coaching service' with Id '4116' has been published.
+ 2017-10-26 13:59:02,447 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 13:59:02,650 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:00:04,429 [P4252/D3/T180] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce Team' with Id '0' has been published.
+ 2017-10-26 14:00:08,632 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:00:08,867 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce Team' with Id '4213' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Elaine Middleton' with Id '4188' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Danny Little' with Id '4192' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Latoya Hulcoop' with Id '4194' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kerry Pimble' with Id '4195' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Naomi Collins' with Id '4196' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Jane Crouch' with Id '4197' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Amy Francis' with Id '4198' has been published.
+ 2017-10-26 14:00:14,367 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Charlotte Webb' with Id '4199' has been published.
+ 2017-10-26 14:00:19,398 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:00:19,601 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:03:17,986 [P4252/D3/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Locum Bank' with Id '0' has been published.
+ 2017-10-26 14:03:22,236 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:03:22,455 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:03:53,329 [P4252/D3/T180] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Locum Bank' with Id '4215' has been published.
+ 2017-10-26 14:03:57,891 [P4252/D3/T180] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:03:58,094 [P4252/D3/T180] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:03:59,375 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Locum Bank' with Id '4215' has been published.
+ 2017-10-26 14:04:03,657 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:04:03,875 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:04:44,093 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Locum rates' with Id '4210' has been published.
+ 2017-10-26 14:04:48,359 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:04:48,593 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:05:08,311 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'No P45' with Id '4204' has been published.
+ 2017-10-26 14:05:12,577 [P4252/D3/T166] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:05:12,811 [P4252/D3/T166] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:07:05,808 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents' with Id '0' has been published.
+ 2017-10-26 14:07:10,152 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:07:10,371 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:07:14,417 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Documents' with Id '4219' has been published.
+ 2017-10-26 14:07:14,433 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FAQ' with Id '4200' has been published.
+ 2017-10-26 14:07:14,433 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Locum Bank' with Id '4215' has been published.
+ 2017-10-26 14:07:18,933 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:07:19,136 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:09:11,290 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '0' has been published.
+ 2017-10-26 14:09:15,555 [P4252/D3/T183] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:09:15,774 [P4252/D3/T183] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:10:00,680 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation tool' with Id '4221' has been published.
+ 2017-10-26 14:10:04,945 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:10:05,164 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:10:42,241 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '4220' has been unpublished.
+ 2017-10-26 14:10:42,679 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation tool' with Id '4221' has been unpublished.
+ 2017-10-26 14:10:46,397 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:10:46,632 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:11:04,366 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Coaching service' with Id '4116' has been published.
+ 2017-10-26 14:11:08,647 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:11:08,881 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:11:38,990 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '0' has been published.
+ 2017-10-26 14:11:43,240 [P4252/D3/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:11:43,474 [P4252/D3/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:12:01,130 [P4252/D3/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Coaching service' with Id '4116' has been published.
+ 2017-10-26 14:12:05,427 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:12:05,646 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:12:13,380 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '0' has been published.
+ 2017-10-26 14:12:17,646 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:12:17,880 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:12:56,629 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '4222' has been published.
+ 2017-10-26 14:13:01,145 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:13:01,395 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:15:15,298 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '4222' has been unpublished.
+ 2017-10-26 14:15:15,627 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4223' has been unpublished.
+ 2017-10-26 14:15:19,455 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:15:19,705 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:17:03,578 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '0' has been published.
+ 2017-10-26 14:17:07,843 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:17:08,140 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:17:38,405 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation e-learning' with Id '0' has been published.
+ 2017-10-26 14:17:42,639 [P4252/D3/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:17:42,905 [P4252/D3/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:17:42,936 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation e-learning' with Id '4225' has been published.
+ 2017-10-26 14:17:47,186 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:17:47,452 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:18:13,498 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical revalidation' with Id '4224' has been published.
+ 2017-10-26 14:18:17,764 [P4252/D3/T171] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:18:18,029 [P4252/D3/T171] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:21:35,760 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Sickness reporting procedure' with Id '0' has been published.
+ 2017-10-26 14:21:39,979 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:21:40,260 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:22:05,525 [P4252/D3/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Team development' with Id '4117' has been published.
+ 2017-10-26 14:22:09,791 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:22:10,025 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:24:24,741 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Weekly pay for locums and WLI' with Id '0' has been published.
+ 2017-10-26 14:24:29,007 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:24:29,257 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:25:24,943 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Liaison' with Id '0' has been published.
+ 2017-10-26 14:25:29,209 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:25:29,459 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:25:39,005 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mediation' with Id '4119' has been published.
+ 2017-10-26 14:25:43,255 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:25:43,693 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:28:08,706 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Substantive - tax and National Insurance' with Id '0' has been published.
+ 2017-10-26 14:28:12,971 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:28:13,237 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:29:15,704 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Only bank shifts - tax and National Insurance' with Id '0' has been published.
+ 2017-10-26 14:29:19,954 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:29:20,235 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:30:33,250 [P4252/D3/T189] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Pay day and cut off day' with Id '0' has been published.
+ 2017-10-26 14:30:37,531 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:30:37,781 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:31:34,998 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact for queries' with Id '0' has been published.
+ 2017-10-26 14:31:39,248 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:31:39,498 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:32:11,638 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce' with Id '4185' has been published.
+ 2017-10-26 14:32:15,935 [P4252/D3/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:32:16,232 [P4252/D3/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:36:18,571 [P4252/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources (HR)' with Id '3893' has been published.
+ 2017-10-26 14:36:22,868 [P4252/D3/T150] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:36:23,149 [P4252/D3/T150] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:39:45,286 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Toolkits' with Id '0' has been published.
+ 2017-10-26 14:39:49,583 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:39:49,848 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:41:39,159 [P4252/D3/T148] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-26 14:42:19,158 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appraisal Toolkit' with Id '0' has been published.
+ 2017-10-26 14:42:23,439 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:42:23,689 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:42:25,798 [P4252/D3/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Toolkits' with Id '4233' has been published.
+ 2017-10-26 14:42:30,080 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:42:30,330 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:43:00,860 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '0' has been published.
+ 2017-10-26 14:43:05,079 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:43:05,329 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:43:29,516 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Guides' with Id '0' has been published.
+ 2017-10-26 14:43:33,813 [P4252/D3/T180] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:43:34,172 [P4252/D3/T180] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:43:45,859 [P4252/D3/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Appraisal Toolkit' with Id '4234' has been published.
+ 2017-10-26 14:43:50,109 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:43:50,687 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:44:46,561 [P4252/D3/T180] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Attendance Toolkit' with Id '0' has been published.
+ 2017-10-26 14:44:50,780 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:44:51,046 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:45:11,764 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Forms' with Id '0' has been published.
+ 2017-10-26 14:45:16,030 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:45:16,295 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:45:30,123 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Guides' with Id '0' has been published.
+ 2017-10-26 14:45:34,404 [P4252/D3/T168] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:45:34,685 [P4252/D3/T168] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:46:13,482 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Change Toolkit' with Id '0' has been published.
+ 2017-10-26 14:46:17,731 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:46:17,997 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:46:18,888 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Change Toolkit' with Id '4240' has been published.
+ 2017-10-26 14:46:23,106 [P4252/D3/T183] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:46:23,388 [P4252/D3/T183] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:46:36,325 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Conduct Toolkit' with Id '0' has been published.
+ 2017-10-26 14:46:40,606 [P4252/D3/T191] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:46:40,856 [P4252/D3/T191] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:47:32,668 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Family Friendly Toolkit' with Id '0' has been published.
+ 2017-10-26 14:47:36,949 [P4252/D3/T191] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:47:37,214 [P4252/D3/T191] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:47:57,026 [P4252/D3/T191] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Flexible Working Toolkit' with Id '0' has been published.
+ 2017-10-26 14:48:01,261 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:48:01,495 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:48:15,885 [P4252/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Grievance Toolkit' with Id '0' has been published.
+ 2017-10-26 14:48:20,104 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:48:20,385 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:48:32,448 [P4252/D3/T168] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 14:48:32,448 [P4252/D3/T168] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 14:48:32,760 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leave Toolkit' with Id '0' has been published.
+ 2017-10-26 14:48:37,026 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:48:37,291 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:48:54,572 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leaver Toolkit' with Id '0' has been published.
+ 2017-10-26 14:48:58,838 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:48:59,088 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:49:15,478 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Performance Toolkit' with Id '0' has been published.
+ 2017-10-26 14:49:19,712 [P4252/D3/T19] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:49:19,978 [P4252/D3/T19] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:51:05,835 [P4252/D3/T150] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Probationary Toolkit' with Id '0' has been published.
+ 2017-10-26 14:51:10,101 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:51:10,491 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:51:17,788 [P4252/D3/T147] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-25 14:51:17
+ 2017-10-26 14:51:36,757 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Redeployment Toolkit' with Id '0' has been published.
+ 2017-10-26 14:51:41,038 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:51:41,288 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:52:15,521 [P4252/D3/T173] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Toolkit' with Id '3919' has been published.
+ 2017-10-26 14:52:19,787 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:52:20,037 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:52:52,427 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment Toolkit' with Id '0' has been published.
+ 2017-10-26 14:52:56,661 [P4252/D3/T186] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:52:57,005 [P4252/D3/T186] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:53:41,645 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Retirement Toolkit' with Id '0' has been published.
+ 2017-10-26 14:53:45,910 [P4252/D3/T180] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:53:46,238 [P4252/D3/T180] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 14:53:54,004 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Recruitment Toolkit' with Id '4250' has been published.
+ 2017-10-26 14:53:54,004 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Redeployment Toolkit' with Id '4249' has been published.
+ 2017-10-26 14:53:58,395 [P4252/D3/T170] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 14:53:58,645 [P4252/D3/T170] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:01:02,574 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trade Union Agreement' with Id '0' has been published.
+ 2017-10-26 15:01:06,871 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:01:07,121 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:03:49,430 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Agreement' with Id '0' has been published.
+ 2017-10-26 15:03:53,711 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:03:53,977 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:04:17,961 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trade Union Agreement' with Id '4252' has been published.
+ 2017-10-26 15:04:22,242 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:04:22,476 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:04:58,554 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trade unions' with Id '0' has been published.
+ 2017-10-26 15:05:02,819 [P4252/D3/T119] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:05:03,085 [P4252/D3/T119] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trade unions' with Id '4257' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trainee Assistant Practitioners (TAP)' with Id '2953' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Traineeship programmes for registered nurses' with Id '2955' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training [Wiltshire Health and Care]' with Id '3682' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training courses' with Id '2684' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training toolkit' with Id '2956' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training Tracker' with Id '2724' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transfusion' with Id '2901' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Transitional Care: young people to adults' with Id '2599' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Translation' with Id '2881' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trauma [Emergency Department]' with Id '2805' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trials' with Id '3460' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust Equipment' with Id '2861' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust management' with Id '3379' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Trust-wide documents' with Id '2870' has been published.
+ 2017-10-26 15:05:13,257 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Twitter' with Id '2922' has been published.
+ 2017-10-26 15:05:19,381 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:05:19,616 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:07:46,488 [P4252/D3/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Learning and development' with Id '4136' has been published.
+ 2017-10-26 15:07:50,925 [P4252/D3/T167] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:07:51,191 [P4252/D3/T167] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:08:08,659 [P4252/D3/T54] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-10-26 15:08:08,659 [P4252/D3/T54] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-10-26 15:10:17,751 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HR' with Id '0' has been published.
+ 2017-10-26 15:10:22,016 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:10:22,282 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:10:30,250 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HR' with Id '4258' has been published.
+ 2017-10-26 15:10:30,250 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'HSDU (Hospital Sterilisation and Decontamination Unit)' with Id '2809' has been published.
+ 2017-10-26 15:10:30,250 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Human Resources' with Id '2549' has been published.
+ 2017-10-26 15:10:34,797 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:10:35,360 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:11:04,984 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '0' has been published.
+ 2017-10-26 15:11:09,234 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:11:09,500 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:12:16,639 [P4252/D3/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers' with Id '0' has been published.
+ 2017-10-26 15:12:21,076 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:12:21,326 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:12:28,701 [P4252/D3/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4259' has been published.
+ 2017-10-26 15:12:28,701 [P4252/D3/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical Workforce' with Id '4185' has been published.
+ 2017-10-26 15:12:28,701 [P4252/D3/T200] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Toolkits' with Id '4233' has been published.
+ 2017-10-26 15:12:33,170 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:12:33,436 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:14:07,043 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ACAS' with Id '0' has been published.
+ 2017-10-26 15:14:11,309 [P4252/D3/T187] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:14:11,543 [P4252/D3/T187] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:14:37,496 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers' with Id '4260' has been published.
+ 2017-10-26 15:14:41,824 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:14:42,246 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:14:50,511 [P4252/D3/T13] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Home page' with Id '4260' has been published.
+ 2017-10-26 15:14:54,792 [P4252/D3/T13] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:14:55,027 [P4252/D3/T13] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:15:18,417 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Terms and Conditions of Service' with Id '0' has been published.
+ 2017-10-26 15:15:22,667 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:15:22,901 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:15:45,557 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Careers' with Id '0' has been published.
+ 2017-10-26 15:15:49,807 [P4252/D3/T164] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:15:50,088 [P4252/D3/T164] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:16:24,025 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Careers' with Id '4263' has been published.
+ 2017-10-26 15:16:28,353 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:16:28,603 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:17:29,274 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Step into the NHS' with Id '0' has been published.
+ 2017-10-26 15:17:33,524 [P4252/D3/T189] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:17:33,758 [P4252/D3/T189] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:18:10,304 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Pay and reward' with Id '0' has been published.
+ 2017-10-26 15:18:14,570 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:18:14,835 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:18:15,492 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Pay and reward' with Id '4265' has been published.
+ 2017-10-26 15:18:19,741 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:18:19,976 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:19:25,959 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Everything you need to know about sickness absence' with Id '0' has been published.
+ 2017-10-26 15:19:30,240 [P4252/D3/T205] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:19:30,490 [P4252/D3/T205] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'ACAS' with Id '4261' has been published.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Careers' with Id '4263' has been published.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Everything you need to know about sickness absence' with Id '4266' has been published.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Home page' with Id '4260' has been published.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Pay and reward' with Id '4265' has been published.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'NHS Employers: Terms and Conditions of Service' with Id '4262' has been published.
+ 2017-10-26 15:20:16,661 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Step into the NHS' with Id '4264' has been published.
+ 2017-10-26 15:20:21,333 [P4252/D3/T164] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '4259' has been published.
+ 2017-10-26 15:20:21,505 [P4252/D3/T205] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:20:22,223 [P4252/D3/T205] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:20:25,677 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:20:25,927 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:21:42,800 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workforce Information' with Id '0' has been published.
+ 2017-10-26 15:21:47,050 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:21:47,316 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:22:21,362 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workforce Information' with Id '0' has been published.
+ 2017-10-26 15:22:25,627 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:22:25,862 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:23:35,267 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workforce Information' with Id '4267' has been published.
+ 2017-10-26 15:23:39,532 [P4252/D3/T160] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:23:39,798 [P4252/D3/T160] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:24:02,079 [P4252/D3/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '0' has been published.
+ 2017-10-26 15:24:06,313 [P4252/D3/T54] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:24:06,610 [P4252/D3/T54] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:24:52,468 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Lara Hughes' with Id '0' has been published.
+ 2017-10-26 15:24:56,687 [P4252/D3/T171] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:24:56,999 [P4252/D3/T171] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:25:38,514 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Anneka Wunsch' with Id '4271' has been published.
+ 2017-10-26 15:25:42,795 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:25:43,077 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:26:13,529 [P4252/D3/T177] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Leianne Ishmael-Walrond' with Id '4272' has been published.
+ 2017-10-26 15:26:17,795 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:26:18,139 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:26:57,435 [P4252/D3/T199] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Samantha Reynolds' with Id '0' has been published.
+ 2017-10-26 15:27:01,731 [P4252/D3/T35] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:27:02,013 [P4252/D3/T35] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:27:19,903 [P4252/D3/T170] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-26 15:29:17,166 [P4252/D3/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4274' has been published.
+ 2017-10-26 15:29:21,432 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:29:21,713 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:29:47,869 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '2017' with Id '0' has been published.
+ 2017-10-26 15:29:52,134 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:29:52,416 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:30:49,586 [P4252/D3/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '2017' with Id '4275' has been published.
+ 2017-10-26 15:30:54,414 [P4252/D3/T182] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:30:54,696 [P4252/D3/T182] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:33:19,334 [P4252/D3/T170] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 15:33:19,334 [P4252/D3/T170] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 15:33:58,052 [P4252/D3/T166] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content '2017' with Id '4275' has been published.
+ 2017-10-26 15:34:02,333 [P4252/D3/T181] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:34:02,614 [P4252/D3/T181] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:35:26,972 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '0' has been published.
+ 2017-10-26 15:35:31,269 [P4252/D3/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:35:31,565 [P4252/D3/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4276' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom' with Id '2868' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'StaffRoom [newspaper]' with Id '3089' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stepping Up (Clinical Supervision)' with Id '2864' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Stoma Care' with Id '2593' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Student placement' with Id '2720' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgery [Emergency Department]' with Id '2802' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Assessment Unit (SAU)' with Id '2594' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Surgical Safety (WHO) Checklist' with Id '3137' has been published.
+ 2017-10-26 15:35:39,940 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services' with Id '3267' has been published.
+ 2017-10-26 15:35:45,268 [P4252/D3/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:35:45,534 [P4252/D3/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:36:14,049 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '0' has been published.
+ 2017-10-26 15:36:16,783 [P4252/D3/T169] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4277' has been published.
+ 2017-10-26 15:36:21,049 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:36:21,393 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:36:25,346 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff Survey' with Id '4277' has been published.
+ 2017-10-26 15:36:25,346 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Toolkits' with Id '4233' has been published.
+ 2017-10-26 15:36:25,346 [P4252/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workforce Information' with Id '4267' has been published.
+ 2017-10-26 15:36:29,830 [P4252/D3/T169] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:36:30,142 [P4252/D3/T169] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:36:48,220 [P4252/D3/T148] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A-Z index: S' with Id '1468' has been published.
+ 2017-10-26 15:36:52,548 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:36:52,829 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:37:27,016 [P4252/D3/T186] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Basic equipment guide' with Id '3850' has been unpublished.
+ 2017-10-26 15:37:31,172 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:37:31,547 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:37:31,657 [P4252/D3/T160] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '3851' has been unpublished.
+ 2017-10-26 15:37:35,813 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:37:36,172 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:37:36,704 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Local and national news' with Id '3852' has been unpublished.
+ 2017-10-26 15:37:40,860 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:37:41,125 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:37:41,969 [P4252/D3/T167] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Policy and procedures' with Id '3853' has been unpublished.
+ 2017-10-26 15:37:45,953 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training calendar' with Id '3854' has been unpublished.
+ 2017-10-26 15:37:50,078 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:37:50,360 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:37:50,797 [P4252/D3/T205] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical device training resources' with Id '3855' has been unpublished.
+ 2017-10-26 15:37:54,953 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:37:55,297 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:38:08,609 [P4252/D3/T181] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resus documents and useful links' with Id '3995' has been published.
+ 2017-10-26 15:38:13,172 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:38:13,344 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:50:48,095 [P4252/D3/T54] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Atrium Pop-up shop' with Id '3707' has been published.
+ 2017-10-26 15:50:52,360 [P4252/D3/T171] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:50:52,657 [P4252/D3/T171] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:50:56,595 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Atrium Pop-up shop' with Id '3707' has been published.
+ 2017-10-26 15:50:56,610 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Contact' with Id '3684' has been published.
+ 2017-10-26 15:50:56,610 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Fundraising guidelines' with Id '3696' has been published.
+ 2017-10-26 15:50:56,610 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How Brighter Futures has helped you' with Id '3705' has been published.
+ 2017-10-26 15:50:56,610 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How to apply for funding' with Id '3704' has been published.
+ 2017-10-26 15:50:56,610 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'How you can help Brighter Futures' with Id '3706' has been published.
+ 2017-10-26 15:50:56,610 [P4252/D3/T170] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Links' with Id '3702' has been published.
+ 2017-10-26 15:51:01,813 [P4252/D3/T171] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 15:51:02,048 [P4252/D3/T171] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 15:52:54,045 [P4252/D3/T60] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.88.140
+ 2017-10-26 15:59:00,445 [P4252/D3/T119] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.88.140
+ 2017-10-26 15:59:00,445 [P4252/D3/T119] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.88.140
+ 2017-10-26 16:10:30,025 [P4252/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Flowtron training' with Id '0' has been published.
+ 2017-10-26 16:10:34,306 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:10:34,603 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 16:11:08,931 [P4252/D3/T168] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Suction training' with Id '0' has been published.
+ 2017-10-26 16:11:13,196 [P4252/D3/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:11:13,462 [P4252/D3/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 16:12:46,772 [P4252/D3/T119] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Medical device competency update' with Id '0' has been published.
+ 2017-10-26 16:12:51,054 [P4252/D3/T200] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:12:51,351 [P4252/D3/T200] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 16:13:45,428 [P4252/D3/T171] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'T34 ambulatory syringe driver' with Id '0' has been published.
+ 2017-10-26 16:13:49,709 [P4252/D3/T199] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:13:50,006 [P4252/D3/T199] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 16:14:56,254 [P4252/D3/T176] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'T34 ambulatory syringe driver' with Id '4282' has been published.
+ 2017-10-26 16:15:00,739 [P4252/D3/T176] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:15:01,114 [P4252/D3/T176] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 16:16:50,143 [P4252/D3/T182] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Open University' with Id '0' has been published.
+ 2017-10-26 16:16:54,408 [P4252/D3/T173] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:16:54,674 [P4252/D3/T173] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 16:18:23,922 [P4252/D3/T187] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Preparing to teach in the lifelong learning sector' with Id '3741' has been unpublished.
+ 2017-10-26 16:18:28,078 [P4252/D3/T148] INFO  umbraco.content - Save Xml to file...
+ 2017-10-26 16:18:28,360 [P4252/D3/T148] INFO  umbraco.content - Saved Xml to file.
+ 2017-10-26 18:51:17,543 [P4252/D3/T147] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-10-25 18:51:17
+ 2017-10-26 19:27:58,704 [P4252/D3/T250] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:518fdca0-6093-4be8-be79-d84bd9cd770a
+Error Number:-2,State:0,Class:11
+ 2017-10-26 21:11:37,491 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-10-26 21:11:37,491 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-10-26 21:11:37,491 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-10-26 21:11:37,491 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-10-26 21:11:37,491 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-10-26 21:11:37,491 [P4252/D3/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-10-26 21:11:37,584 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-10-26 21:11:37,584 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-10-26 21:11:37,584 [P4252/D3/T269] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-10-26 21:11:37,584 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-10-26 21:11:37,584 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-10-26 21:11:37,584 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-10-26 21:11:37,584 [P4252/D3/T276] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-10-26 21:11:37,584 [P4252/D3/T285] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-10-26 21:11:37,584 [P4252/D3/T249] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-10-26 21:12:07,646 [P4252/D3/T147] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

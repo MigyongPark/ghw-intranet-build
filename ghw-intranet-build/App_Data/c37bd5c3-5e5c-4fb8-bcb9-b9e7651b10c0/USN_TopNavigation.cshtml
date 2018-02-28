@@ -1,0 +1,94 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+@using Newtonsoft.Json.Linq;
+	
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var navigation = settingsFolder.Children.Where(x => x.IsDocumentType("USNNavigation")).First();
+
+    var topNavigation = navigation.GetPropertyValue<JArray>("topNavigation");
+
+    if ((topNavigation != null && navigation.GetPropertyValue<string>("topNavigation", true, "").Length > 2) || navigation.HasValue("loginPage"))
+    {
+    <nav class="top">
+        <ul>
+            @if ((topNavigation != null && navigation.GetPropertyValue<string>("topNavigation", true, "").Length > 2))
+            {
+
+                foreach (JObject link in topNavigation)
+                {
+                    string linkTitle = String.Empty;
+                    string linkURL = String.Empty;
+                    string linkTarget = String.Empty;
+                    string linkIcon = String.Empty;
+                    IPublishedContent node = null;
+
+                    linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+
+                    if (linkURL != String.Empty)
+                    { 
+                        <li>
+                            <a href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)>@(link.Value<string>("caption"))@Html.Raw(linkIcon)</a>      
+                        </li>
+                    }
+                }
+
+            }
+
+            @if (navigation.HasValue("loginPage") && Umbraco.TypedContent((int)navigation.GetProperty("loginPage").Value) != null)
+            { 
+                if (Umbraco.MemberIsLoggedOn())
+                {
+                    var loggedInMembersNavigation = navigation.GetPropertyValue<JArray>("loggedInMembersNavigation");
+                    
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user c1-text"></i>@Context.User.Identity.Name<i class="ion-chevron-down after"></i></a>
+                    <ul class="dropdown-menu pull-right" role="menu">
+                        @if (loggedInMembersNavigation != null && navigation.GetPropertyValue<string>("loggedInMembersNavigation", true, "").Length > 2)
+                        {
+                            foreach (JObject link in loggedInMembersNavigation)
+                            {
+                                string linkTitle = String.Empty;
+                                string linkURL = String.Empty;
+                                string linkTarget = String.Empty;
+                                string linkIcon = String.Empty;
+                                IPublishedContent node = null;
+
+                                linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+
+                                if (linkURL != String.Empty)
+                                {
+                                    <li>
+                                        <a href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)>@(link.Value<string>("caption"))@Html.Raw(linkIcon)</a>
+                                    </li>
+                                }
+                            }
+                        }
+                        <li class="divider"></li>
+                        <li><a href="@umbraco.library.NiceUrl((int)navigation.GetProperty("loginPage").Value)?signout=true">@umbraco.library.GetDictionaryItem("USN Members Navigation Logout")<i class="fa fa-sign-out c1-text after"></i></a></li>
+                    </ul>
+                </li>
+                }
+                else
+                {
+                    string navigationHeading = umbraco.library.GetDictionaryItem("USN Members Navigation Default Heading");
+
+                    if (navigation.HasValue("membersNavigationHeading"))
+                    {
+                        navigationHeading = navigation.GetProperty("membersNavigationHeading").Value.ToString();
+                    }
+                    
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-user c1-text"></i>@navigationHeading<i class="fa fa-angle-down after"></i></a>
+                        <ul class="dropdown-menu pull-right" role="menu">
+                            <li><a href="@umbraco.library.NiceUrl(Convert.ToInt32(navigation.GetProperty("loginPage").Value))"><i class="fa fa-sign-in c1-text"></i>Login</a></li>
+                        </ul>
+                    </li>
+                }
+            }
+        </ul>                                                            
+	</nav> 
+    }
+}
+

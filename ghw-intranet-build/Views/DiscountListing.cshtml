@@ -1,0 +1,135 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.DiscountListing>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+	
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div id="staHeadBackground">
+<img id="zonePageIcon" src="/media/1075/contentpageiconstaffroom.png" />
+<h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+		
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="staMainArea">
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="staNav">
+		<div id="thisSta"><a href="@CurrentPage.AncestorOrSelf(3).url">@CurrentPage.AncestorOrSelf(3).name</a></div>
+		<ul id="staNav1">
+
+			@*------------CONTROLS FOR LEVEL 4-------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 4----- *@
+			@if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(4).Name)
+				{					
+					@*-----displays all siblings (indented)----- *@
+					foreach (var sibling in CurrentPage.Parent.Children)
+					{
+						if(@sibling.Name != @CurrentPage.Name)
+						{
+							<li><a href="@sibling.Url">@sibling.Name</a></li>
+						}else{
+					@*-----displays self (highlighted)----- *@									
+							
+							<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+
+						}
+					}
+				}
+			
+
+			@*------------CONTROLS FOR LEVEL 5-------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 5----- *@
+			else if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(5).Name)
+				{	
+					@*-----displays all PARENT's siblings----- *@
+					foreach (var uncle in CurrentPage.Parent.Parent.Children)
+					{
+						if(@uncle.Name != @CurrentPage.Parent.Name)
+						{
+							<li><a href="@uncle.url">@uncle.Name</a></li>
+						}else
+						{
+							@*----displays the parent page (highlighted)-------*@
+							<li id="self"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+							@*-----displays all siblings (indented)----- *@
+								foreach (var sibling in CurrentPage.Parent.Children)
+								{
+									if(@sibling.Name != @CurrentPage.Name)
+									{
+									<li id="indent20"><a href="@sibling.Url">@sibling.Name</a></li>
+								}else
+								{
+									@*-----displays self (highlighted)----- *@									
+									<li id="selfIndent20"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+								}
+							}
+						}
+					}		
+				}
+
+		</ul>
+
+	</div>
+<!-----L E F T   N A V-----E N D----->
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentWide">
+						
+
+			
+			
+			@foreach (var item in CurrentPage.Children)
+			{
+			
+			<div id="discountItem">
+				<img class="imageRight" src="@Umbraco.Media(item.discountLogo).Url" />					
+					
+				<h2 id="discount">@item.discountName</h2>					
+										
+				<h3 id="discount">@item.discountOffer</h3>
+					
+				<p>@item.bodyText</p>
+					
+				@if (item.HasValue("discountLinkURL"))	
+				{					
+				<div id="discountLink">
+				<a id="staUsefulLink" href="@item.discountLinkURL" target="_blank">@item.linkText</a>
+				</div>
+				}	
+					
+			</div>
+				
+			}		
+			
+			
+			
+				
+				
+				
+				
+				
+
+
+
+@Html.Partial("advertisingBanner")
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="pageInfo">
+					<div id="staPageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(3).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(3).pageOwnersPosition</div>
+					<div id="staPageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(3).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(3).subEditor</a></div>
+					<div id="staPageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>
+				<!----- P A G E   I N F O ----- E N D ----->
+
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+			

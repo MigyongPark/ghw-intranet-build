@@ -1,0 +1,276 @@
+{
+  "name": "Book of Memories for Justin Griffiths",
+  "created": "2017-06-06T09:14:42.4521005+01:00",
+  "pages": [
+    {
+      "fieldSets": [
+        {
+          "caption": "",
+          "sortOrder": 0,
+          "id": "3b31834c-45fd-4aef-b0e6-2004184dfa1d",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": "",
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Justin Griffiths passed away in May.  As many of you will know, Justin had been very ill for a few weeks and had been cared for in the Critical Care Unit at UHNM",
+                  "tooltip": "",
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "bookOfCondolencesForJustinGriffiths",
+                  "id": "ffee031e-a19b-4e0b-d63e-53cabaa65c0b",
+                  "fieldTypeId": "e3fbf6c4-f46c-495e-aff8-4b3c227b4a98",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "Caption": "",
+                    "BodyText": "Justin Griffiths passed away in May.  As many of you will know, Justin had been very ill for a few weeks and had been cared for in the Critical Care Unit at UHNM"
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Para 2",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "weKnowEveryoneWillAgreeThatJustinWasAQuiteExceptionalAndSpecialPersonRespectedAndValuedByFriendsAndColleaguesAlikeHisDedicationProfessionalismAndServiceEnrichedTheLivesOfSoManyOthersColleaguesServiceUsersAndTheirFamiliesHeJoinedCombinedIn1997AsAYoungNursi",
+                  "id": "5842cefa-b378-4308-a4f9-7d9079d0cdd8",
+                  "fieldTypeId": "e3fbf6c4-f46c-495e-aff8-4b3c227b4a98",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "Caption": "",
+                    "BodyText": "We know everyone will agree that Justin was a quite exceptional and special person – respected and valued by friends and colleagues alike.  His dedication, professionalism and service, enriched the lives of so many others – colleagues, service users and their families.  He joined Combined in 1997 as a young Nursing Assistant and dedicated his whole working life to Combined Healthcare, including meeting his future wife, Nicky, whilst they worked together on Wilkins House, St Edwards Hospital.    Put simply, Justin and his family have been part of our Combined family for two decades, which only makes our sorrow at his passing all the more acute and heartfelt."
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Para 3",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "para3",
+                  "id": "ceb0d2dd-b201-48a9-9f97-b329254f98b3",
+                  "fieldTypeId": "e3fbf6c4-f46c-495e-aff8-4b3c227b4a98",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "Caption": "",
+                    "BodyText": "No mere words can replace his loss, or the loss felt by Nicky and their three young children, but we know that everyone involved with Combined Healthcare would wish us to pay tribute to a brilliant man and a much loved friend.  To that end, we have created this facility, so that colleagues and friends can share their memory of Justin with Nicky and the family.  You can choose whether or not you wish your message to be kept private for Nicky or included at a later date in a printed book of memories for the family."
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Para 4",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "para4",
+                  "id": "3c0d8e9d-757a-4660-f680-4fdb829230bc",
+                  "fieldTypeId": "e3fbf6c4-f46c-495e-aff8-4b3c227b4a98",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "Caption": "",
+                    "BodyText": "Nicky has also requested that flowers are not sent, but instead any donations are made to the UHNM Critical Care Unit.   Anyone wishing to do so can either donate online at www.uhnmcharity.org.uk/how-you-can-help/donating or over the phone on 01782 676444 or by post to UHNM Charity, Royal Stoke University Hospital, Newcastle Road, Stoke-on-Trent, ST4 6QG. Cheques should to be made payable to ‘UHNM Charity’. Please specify your donation is for the Critical Care Unit."
+                  },
+                  "preValues": []
+                }
+              ]
+            }
+          ],
+          "condition": null
+        },
+        {
+          "caption": null,
+          "sortOrder": 0,
+          "id": "00000000-0000-0000-0000-000000000000",
+          "page": "00000000-0000-0000-0000-000000000000",
+          "containers": [
+            {
+              "caption": null,
+              "width": 12,
+              "fields": [
+                {
+                  "caption": "Name",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "name",
+                  "id": "8eb355c3-ad0c-4037-8005-2c102378af24",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": null,
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Email (optional)",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "email",
+                  "id": "391d2431-5de3-4614-8da0-96f835bddc2a",
+                  "fieldTypeId": "3f92e01b-29e2-4a30-bf33-9df5580ed52c",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": false,
+                  "regex": "^[_a-z0-9-]+(\\.[_a-z0-9-]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,4})$",
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Your memory of Justin",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "comment",
+                  "id": "7259baad-caa7-46a3-b506-1ced1e749b47",
+                  "fieldTypeId": "023f09ac-1445-4bcb-b8fa-ab49f33bd046",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": "",
+                    "Placeholder": ""
+                  },
+                  "preValues": []
+                },
+                {
+                  "caption": "Do you wish your memory to be sent privately to Nicky or included in a printed book of memories to be given to the family?",
+                  "tooltip": null,
+                  "placeholder": null,
+                  "cssClass": null,
+                  "alias": "doYouWishYourMessageToBeSentPrivatelyToJustinSFamilyOrDisplayedViaThisWebsite",
+                  "id": "56c580d2-a266-4b93-e340-745ff29dfc25",
+                  "fieldTypeId": "903df9b0-a78c-11de-9fc1-db7a56d89593",
+                  "prevalueSourceId": "00000000-0000-0000-0000-000000000000",
+                  "dataSourceFieldKey": null,
+                  "mandatory": true,
+                  "regex": null,
+                  "requiredErrorMessage": null,
+                  "invalidErrorMessage": null,
+                  "condition": {
+                    "id": "00000000-0000-0000-0000-000000000000",
+                    "enabled": false,
+                    "actionType": "Show",
+                    "logicType": "All",
+                    "rules": []
+                  },
+                  "settings": {
+                    "DefaultValue": ""
+                  },
+                  "preValues": [
+                    "Include my memory in a printed book for memories for the family",
+                    "Send my memory privately to Nicky"
+                  ]
+                }
+              ]
+            }
+          ],
+          "condition": null
+        }
+      ],
+      "caption": "",
+      "sortOrder": 0,
+      "id": "00000000-0000-0000-0000-000000000000",
+      "form": "00000000-0000-0000-0000-000000000000"
+    }
+  ],
+  "id": "8ea271af-9799-4f77-9bc2-6c8c370468c9",
+  "fieldIndicationType": "MarkMandatoryFields",
+  "indicator": "*",
+  "showValidationSummary": false,
+  "hideFieldValidation": false,
+  "requiredErrorMessage": "Please provide a value for {0}",
+  "invalidErrorMessage": "Please provide a valid value for {0}",
+  "messageOnSubmit": "Thank you for your memory of Justin.  This will be passed to Nicky and family.",
+  "goToPageOnSubmit": 0,
+  "xPathOnSubmit": null,
+  "manualApproval": false,
+  "storeRecordsLocally": true,
+  "cssClass": null,
+  "disableDefaultStylesheet": false,
+  "useClientDependency": false,
+  "workflows": [],
+  "datasource": null,
+  "submitLabel": "Submit your memory of Justin",
+  "nextLabel": "Next",
+  "prevLabel": "Previous"
+}

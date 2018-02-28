@@ -1,0 +1,9 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    if (!Model.Content.GetPropertyValue<Boolean>("displayHeaderImageSection"))
+    {
+        <h1 class="heading main" itemprop="headline">@Umbraco.Field("onPageTitle", altFieldAlias: "pageName")</h1>
+    }
+    
+}

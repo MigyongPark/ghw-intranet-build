@@ -1,0 +1,50 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+
+@{
+    var homePage = @Model.Content.AncestorOrSelf(1);
+}
+<nav class="sitemap">
+    <ul class="nav">
+        <li>
+            <a href="@homePage.Url">
+                @if (homePage.HasValue("sitemapLinkText"))
+                {
+                    @Html.Raw(homePage.GetProperty("sitemapLinkText").Value)
+                }
+                else
+                {
+                    @homePage.Name
+                }
+            </a>
+            @traverse(@homePage)
+        </li>
+    </ul>
+</nav>
+
+@helper traverse(IPublishedContent node)
+{
+    var items = node.Children.Where(x => (x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage") || x.IsDocumentType("USNBlogLandingPage") || x.IsDocumentType("USNLoginPage") || x.IsDocumentType("USNSearchResultsPage")) && x.IsVisible());
+
+    if (items.Any())
+    {
+        <ul class="nav">
+            @foreach (var item in items)
+            {
+                <li class="level-@item.Level">
+                    <a href="@item.Url">
+                        @if (item.HasValue("sitemapLinkText"))
+                        {
+                            @Html.Raw(item.GetProperty("sitemapLinkText").Value)
+                        }
+                        else
+                        {
+                            @item.Name
+                        }
+                    </a>
+                    @traverse(item)
+                </li>
+            }
+        </ul>
+    }
+}

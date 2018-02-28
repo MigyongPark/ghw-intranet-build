@@ -1,0 +1,42 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+	
+@{
+    string pageLayout = "";
+
+    if (!Model.Content.HasValue("pageLayout"))
+    {
+        IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+        var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+        var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+        if (globalSettings.HasValue("defaultPageLayout"))
+        {
+            pageLayout = globalSettings.GetProperty("defaultPageLayout").Value.ToString();
+        }
+    }
+    else {
+        pageLayout = Model.Content.GetProperty("pageLayout").Value.ToString();
+    }
+
+    switch (pageLayout)
+	{
+		case "Content left, with sidebar":
+			@Html.Raw("id=\"left-col\" class=\"col-md-8 col-xs-12\"");
+			break;
+		case "Content right, with sidebar":
+			@Html.Raw("id=\"right-col\" class=\"col-sm-8 col-xs-12 pull-right\"");
+			break;
+		case "Content center, pods left, navigation right":
+			@Html.Raw("id=\"mid-col\" class=\"col-sm-6 col-sm-push-3\"");
+			break;
+		case "Content center, pods right, navigation left":
+			@Html.Raw("id=\"mid-col\" class=\"col-sm-6 col-sm-push-3\"");
+			break;
+        case "Content full width":
+			@Html.Raw("id=\"wide-col\" class=\"col-xs-12\"");
+            break;
+        default:
+			@Html.Raw("id=\"left-col\" class=\"col-sm-8 col-xs-12\"");
+			break;	
+	}	
+}

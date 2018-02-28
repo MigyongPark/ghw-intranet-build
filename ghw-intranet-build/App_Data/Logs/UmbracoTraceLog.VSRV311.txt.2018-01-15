@@ -1,0 +1,246 @@
+﻿ 2018-01-13 00:15:00,448 [P2292/D2/T621] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-12 00:15:00
+ 2018-01-13 04:14:59,951 [P2292/D2/T621] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-12 04:14:59
+ 2018-01-13 08:14:59,906 [P2292/D2/T621] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-12 08:14:59
+ 2018-01-13 10:51:30,176 [P2292/D2/T909] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-15 08:56:57,835 [P5112/D2/T25] ERROR Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Failed to build models.
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\App_Data\Models\all.generated.cs(11494): error CS1513: } expected
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResult(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetCompiledAssembly(String virtualPath)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.GetModelsAssembly(Boolean forceRebuild)
+   at Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory.EnsureModels()
+ 2018-01-15 08:56:57,835 [P5112/D2/T25] WARN  Umbraco.ModelsBuilder.Umbraco.PureLiveModelFactory - Running without models.
+ 2018-01-15 08:57:01,350 [P5112/D2/T17] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:57:01,834 [P5112/D2/T17] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 08:57:04,569 [P5112/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia Champions' with Id '5690' has been unpublished.
+ 2018-01-15 08:57:06,256 [P5112/D2/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'test1' with Id '5691' has been unpublished.
+ 2018-01-15 08:57:08,834 [P5112/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:57:09,131 [P5112/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 08:57:20,397 [P5112/D2/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia Champions' with Id '5985' has been published.
+ 2018-01-15 08:57:24,662 [P5112/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:57:24,975 [P5112/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 08:57:41,365 [P5112/D2/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia Champions contact page' with Id '0' has been published.
+ 2018-01-15 08:57:45,631 [P5112/D2/T15] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:57:45,897 [P5112/D2/T15] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 08:58:57,709 [P5112/D2/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia Champions' with Id '5985' has been published.
+ 2018-01-15 08:59:02,193 [P5112/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:59:02,474 [P5112/D2/T38] ERROR umbraco.content - Failed to save Xml to file.
+System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.SetLengthCore(Int64 value)
+   at System.IO.FileStream.BeginWriteCore(Byte[] bytes, Int32 offset, Int32 numBytes, AsyncCallback userCallback, Object stateObject)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteAttributeTextBlock(Char* pSrc, Char* pSrcEnd)
+   at System.Xml.XmlUtf8RawTextWriter.WriteString(String text)
+   at System.Xml.XmlWellFormedWriter.WriteString(String text)
+   at System.Xml.XmlAttribute.WriteContentTo(XmlWriter w)
+   at System.Xml.XmlAttribute.WriteTo(XmlWriter w)
+   at System.Xml.XmlElement.WriteStartElement(XmlWriter w)
+   at System.Xml.XmlElement.WriteElementTo(XmlWriter writer, XmlElement e)
+   at System.Xml.XmlDocument.WriteContentTo(XmlWriter xw)
+   at umbraco.content.SaveXmlToStream(XmlDocument xml, Stream writeStream)
+   at umbraco.content.SaveXmlToFile()
+ 2018-01-15 08:59:30,365 [P5112/D2/T28] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia care' with Id '2606' has been published.
+ 2018-01-15 08:59:34,662 [P5112/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:59:34,849 [P5112/D2/T38] ERROR umbraco.content - Failed to save Xml to file.
+System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.SetLengthCore(Int64 value)
+   at System.IO.FileStream.BeginWriteCore(Byte[] bytes, Int32 offset, Int32 numBytes, AsyncCallback userCallback, Object stateObject)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteCDataSection(String text)
+   at System.Xml.XmlUtf8RawTextWriter.WriteCData(String text)
+   at System.Xml.XmlWellFormedWriter.WriteCData(String text)
+   at System.Xml.XmlElement.WriteElementTo(XmlWriter writer, XmlElement e)
+   at System.Xml.XmlDocument.WriteContentTo(XmlWriter xw)
+   at umbraco.content.SaveXmlToStream(XmlDocument xml, Stream writeStream)
+   at umbraco.content.SaveXmlToFile()
+ 2018-01-15 08:59:41,740 [P5112/D2/T47] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Initiatives' with Id '5549' has been published.
+ 2018-01-15 08:59:46,021 [P5112/D2/T38] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 08:59:46,208 [P5112/D2/T38] ERROR umbraco.content - Failed to save Xml to file.
+System.IO.IOException: There is not enough space on the disk.
+
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileStream.SetLengthCore(Int64 value)
+   at System.IO.FileStream.BeginWriteCore(Byte[] bytes, Int32 offset, Int32 numBytes, AsyncCallback userCallback, Object stateObject)
+   at System.IO.FileStream.WriteCore(Byte[] buffer, Int32 offset, Int32 count)
+   at System.Xml.XmlUtf8RawTextWriter.FlushBuffer()
+   at System.Xml.XmlUtf8RawTextWriter.WriteCDataSection(String text)
+   at System.Xml.XmlUtf8RawTextWriter.WriteCData(String text)
+   at System.Xml.XmlWellFormedWriter.WriteCData(String text)
+   at System.Xml.XmlElement.WriteElementTo(XmlWriter writer, XmlElement e)
+   at System.Xml.XmlDocument.WriteContentTo(XmlWriter xw)
+   at umbraco.content.SaveXmlToStream(XmlDocument xml, Stream writeStream)
+   at umbraco.content.SaveXmlToFile()
+ 2018-01-15 09:52:19,329 [P5112/D2/T207] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-15 09:52:19,329 [P5112/D2/T207] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-15 09:52:19,360 [P5112/D2/T211] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-15 09:52:19,360 [P5112/D2/T211] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-15 10:11:53,493 [P5112/D2/T211] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-15 10:45:39,558 [P5112/D2/T192] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-15 10:53:34,196 [P5112/D2/T203] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.133.16
+ 2018-01-15 10:53:34,196 [P5112/D2/T203] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.133.16
+ 2018-01-15 10:53:34,227 [P5112/D2/T203] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-15 10:53:34,227 [P5112/D2/T203] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-15 10:58:06,179 [P5112/D2/T399] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia Champions' with Id '5985' has been published.
+ 2018-01-15 10:58:10,538 [P5112/D2/T399] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 10:58:10,819 [P5112/D2/T399] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 11:01:30,505 [P5112/D2/T359] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Useful documents' with Id '5237' has been published.
+ 2018-01-15 11:01:34,818 [P5112/D2/T399] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 11:01:35,146 [P5112/D2/T399] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 12:51:01,713 [P5112/D2/T538] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-15 12:51:01,713 [P5112/D2/T538] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-15 12:51:01,760 [P5112/D2/T540] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-15 12:51:01,760 [P5112/D2/T540] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-15 12:55:16,821 [P5112/D2/T12] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-14 12:55:16
+ 2018-01-15 13:10:36,846 [P5112/D2/T614] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-15 13:56:20,407 [P5112/D2/T722] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-15 13:56:20,407 [P5112/D2/T722] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-15 14:15:53,962 [P5112/D2/T652] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-15 14:35:00,627 [P5112/D2/T532] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2018-01-15 14:35:00,627 [P5112/D2/T532] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2018-01-15 14:54:33,041 [P5112/D2/T435] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2018-01-15 15:19:57,453 [P5112/D2/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.133.16
+ 2018-01-15 15:19:57,453 [P5112/D2/T137] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.133.16
+ 2018-01-15 15:19:57,484 [P5112/D2/T138] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-15 15:19:57,484 [P5112/D2/T138] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2018-01-15 15:20:18,359 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-15 15:20:18,359 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-15 15:20:19,406 [P5112/D2/T140] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-15 15:20:19,406 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-15 15:20:19,406 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-15 15:20:19,406 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-15 15:20:19,406 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-15 15:20:19,406 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-15 15:20:19,406 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-15 15:20:19,422 [P5112/D2/T551] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-15 15:20:19,437 [P5112/D2/T104] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-15 15:20:19,437 [P5112/D2/T446] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-15 15:20:19,469 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-15 15:20:19,469 [P5112/D2/T137] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-15 15:20:19,469 [P5112/D2/T105] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-15 15:20:35,843 [P1996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2018-01-15 15:20:35,890 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2018-01-15 15:20:35,906 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2018-01-15 15:20:36,047 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2018-01-15 15:20:36,078 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 28ms)
+ 2018-01-15 15:20:36,125 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2018-01-15 15:20:36,125 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2018-01-15 15:20:36,125 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2018-01-15 15:20:36,140 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 14ms)
+ 2018-01-15 15:20:36,187 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2018-01-15 15:20:36,187 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2018-01-15 15:20:36,187 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2018-01-15 15:20:36,203 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 15ms)
+ 2018-01-15 15:20:36,312 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2018-01-15 15:20:36,312 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2018-01-15 15:20:36,312 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2018-01-15 15:20:36,312 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2018-01-15 15:20:38,640 [P1996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-15 15:20:39,000 [P1996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-15 15:20:39,000 [P1996/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2018-01-15 15:20:39,000 [P1996/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2018-01-15 15:20:39,047 [P1996/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2018-01-15 15:20:39,250 [P1996/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2018-01-15 15:20:39,250 [P1996/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2018-01-15 15:20:39,328 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2018-01-15 15:20:39,328 [P1996/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2018-01-15 15:20:39,765 [P1996/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4080ms)
+ 2018-01-15 15:20:40,922 [P1996/D2/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2018-01-15 15:20:49,515 [P5112/D2/T140] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: HostingEnvironment
+
+_shutDownMessage=HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.Hosting.PipelineRuntime.StopProcessing()
+ 2018-01-15 15:23:02,014 [P1996/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2018-01-15 15:23:02,014 [P1996/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2018-01-15 15:23:02,014 [P1996/D2/T15] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2018-01-15 15:23:02,030 [P1996/D2/T15] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2018-01-15 15:24:01,264 [P1996/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-14 15:24:01
+ 2018-01-15 15:24:01,655 [P1996/D2/T25] INFO  umbraco.content - Load Xml from file...
+ 2018-01-15 15:24:01,748 [P1996/D2/T25] INFO  umbraco.content - Loaded Xml from file.
+ 2018-01-15 15:24:20,436 [P1996/D2/T25] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2018-01-15 15:24:20,436 [P1996/D2/T25] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2018-01-15 15:24:21,405 [P1996/D2/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia care' with Id '2606' has been published.
+ 2018-01-15 15:24:21,670 [P1996/D2/T9] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2018-01-15 15:24:21,670 [P1996/D2/T9] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2018-01-15 15:24:26,936 [P1996/D2/T30] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 15:24:27,186 [P1996/D2/T30] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 15:25:43,810 [P1996/D2/T12] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dementia care' with Id '2606' has been published.
+ 2018-01-15 15:25:48,138 [P1996/D2/T31] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 15:25:48,482 [P1996/D2/T31] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 15:26:03,873 [P1996/D2/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Useful documents' with Id '5237' has been published.
+ 2018-01-15 15:26:08,201 [P1996/D2/T35] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 15:26:08,435 [P1996/D2/T35] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 15:26:37,435 [P1996/D2/T9] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Useful documents' with Id '5237' has been published.
+ 2018-01-15 15:26:41,747 [P1996/D2/T10] INFO  umbraco.content - Save Xml to file...
+ 2018-01-15 15:26:42,013 [P1996/D2/T10] INFO  umbraco.content - Saved Xml to file.
+ 2018-01-15 15:39:31,133 [P1996/D2/T105] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.133.16
+ 2018-01-15 19:24:00,771 [P1996/D2/T18] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2018-01-14 19:24:00
+ 2018-01-15 19:56:47,353 [P1996/D2/T529] ERROR Umbraco.Web.Strategies.ServerRegistrationEventHandler - Failed to update server record in database.
+System.Data.SqlClient.SqlException (0x80131904): Timeout expired.  The timeout period elapsed prior to completion of the operation or the server is not responding. ---> System.ComponentModel.Win32Exception (0x80004005): The wait operation timed out
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniError(TdsParserStateObject stateObj, UInt32 error)
+   at System.Data.SqlClient.TdsParserStateObject.ReadSniSyncOverAsync()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadNetworkPacket()
+   at System.Data.SqlClient.TdsParserStateObject.TryPrepareBuffer()
+   at System.Data.SqlClient.TdsParserStateObject.TryReadByte(Byte& value)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at Umbraco.Core.Persistence.Database.CleanupTransaction()
+   at Umbraco.Core.Persistence.Transaction.Complete()
+   at Umbraco.Core.Persistence.LockingRepository`1.WithWriteLocked(Action`1 action, Boolean autoCommit)
+   at Umbraco.Core.Services.ServerRegistrationService.TouchServer(String serverAddress, String serverIdentity, TimeSpan staleTimeout)
+   at Umbraco.Web.Strategies.ServerRegistrationEventHandler.TouchServerTask.PerformRun()
+ClientConnectionId:65967f7e-57d6-44af-91f7-f93f79a09978
+Error Number:-2,State:0,Class:11
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2018-01-15 20:42:34,851 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2018-01-15 20:42:34,851 [P1996/D2/T532] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2018-01-15 20:42:34,851 [P1996/D2/T10] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2018-01-15 20:42:34,851 [P1996/D2/T18] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2018-01-15 20:42:34,851 [P1996/D2/T537] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2018-01-15 20:42:34,882 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2018-01-15 20:42:34,882 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2018-01-15 20:42:34,882 [P1996/D2/T719] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2018-01-15 20:43:04,975 [P1996/D2/T719] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

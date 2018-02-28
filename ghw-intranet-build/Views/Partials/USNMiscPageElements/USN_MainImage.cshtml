@@ -1,0 +1,19 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using umbraco.editorControls.userControlGrapper;	
+
+@{    
+    if (Model.Content.HasValue("mainImage") && Umbraco.TypedMedia(Model.Content.GetProperty("mainImage").Value) != null)
+    {
+        <div class="spc image">
+            <img src="@Umbraco.TypedMedia(Model.Content.GetProperty("mainImage").Value).GetCropUrl(width: 1140, height: 550)" alt="@Model.Content.GetProperty("mainImageAltText").Value" />
+			
+		@if (Model.Content.HasValue("mainImageCaption"))
+        {
+            <div class="info">
+			    <div class="text">@Model.Content.GetProperty("mainImageCaption").Value</div>
+            </div>
+        }
+		</div>           
+    }
+}

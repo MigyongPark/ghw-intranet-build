@@ -1,0 +1,106 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System;
+@using System.Linq;
+@using System.Net.Mail;
+@using BerkshireHealthCare.DMS.Settings
+
+		
+@{
+    //Get Current date//
+    string dt = DateTime.Now.ToString("yyyyMMdd");
+    //Get Document Items
+    var docsInDocRep = CurrentPage.Descendants("WTDocRepItem").OrderBy("Name");
+}
+
+<div class="container">
+	<div class="row">
+	<div class="col-xs-12">
+		
+
+	@foreach(var documentItem in docsInDocRep){
+
+
+        // This is mandatory, so should exist
+        var ownerId = documentItem.GetPropertyValue(DmsAppSettings.DocumentItemPropertyOwner);
+        var owner = UmbracoContext.Current.Application.Services.UserService.GetUserById(Convert.ToInt32(ownerId));
+
+        // Try to find secondary user (optional)
+        var secondaryOwnerId = documentItem.GetPropertyValue(DmsAppSettings.DocumentItemPropertyOwner2) + "";
+        var secondaryOwner = !String.IsNullOrEmpty(secondaryOwnerId)
+                                    ? UmbracoContext.Current.Application.Services.UserService.GetUserById(Convert.ToInt32(secondaryOwnerId))
+                                    : null;
+
+        var strOwner2Email = secondaryOwner == null
+                                    ? ""
+                                    : secondaryOwner.Email;
+        String filename = @documentItem.Name;
+        String emailTo = owner.Email;
+        String email2To = strOwner2Email;
+        DateTime reviewDate = @documentItem.reviewDate;
+        String strReviewDate = reviewDate.ToString("yyyyMMdd");
+
+
+		<div class="docList">
+			<h2><a href="@documentItem.documentPath" target="_blank">@documentItem.Name</a></h2>
+			@documentItem.docSummary
+	
+			
+		 @if (@documentItem.ownerEmail != null && !String.IsNullOrEmpty(@documentItem.ownerEmail))
+         {
+                  <h7> Owner Name :</h7> <h7>@owner.Name</h7> <br /><br />
+                  <h7> Document Path :</h7> <h7>@documentItem.documentPath</h7> <br /><br />
+                  <h7> Email1 :</h7>  <h7>@owner.Email</h7> <br /><br />
+				  <h7> Email2 :</h7> <h7>@strOwner2Email</h7><br /><br />
+                  <h7> Publish Date :</h7> <h7>@documentItem.publishDate</h7><br /><br />
+                  <h7> Review Date :</h7> <h7>@documentItem.reviewDate</h7><br /><br />
+				  <h7> Expired date :</h7> <h7>@documentItem.expiryDate</h7> <br /><br />
+				  <h7> Current Date :</h7> <h7>@dt</h7><br />
+
+             if (strReviewDate == dt) {
+
+                 try
+                 {
+                     //Send email//
+                     MailMessage mail = new MailMessage();
+                     //var from = new MailAddress(Email.Text);
+                     mail.From = new MailAddress("Noreply@berkshire.nhs.uk");
+                     mail.To.Add(emailTo);
+                     mail.Subject = "Notification about Document review date " + " " + filename + " " + "on Document Library" + " " ;
+                     mail.IsBodyHtml = false;
+
+                     mail.Body = "Hi admin" + "" + "\n"
+                         + "\n"
+                         + "This is an automated mail to inform you that the document" + "" + "\n"
+                         + "\n"
+                         + filename + "Reviewd date until Today  on 'Documents Library'" + "\n"
+                         + "\n"
+                         + "\n"
+                         + "Name: " + filename + "\n"
+                         + "\n"
+                         + "Current Date: " + dt + "\n"
+                         + "\n"
+                         + "review Date: " + dt + "\n"
+                         + "\n";
+
+                     SmtpClient smtp = new SmtpClient();
+
+                     smtp.Send(mail);
+
+                 }
+                 catch(Exception ex)
+                 {
+
+                 }
+
+             }
+
+         }else{
+					<h7>No email</h7>
+                }
+		
+		</div>
+	}
+	</div>
+	</div>	
+</div>
+		

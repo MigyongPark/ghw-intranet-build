@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.IncidentsAndEmergencies>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div class="zoneHeader" id="zoneIncident">
+<img id="zonePageIcon" src="/media/1096/zonepageiconincident.png" />Incidents, risks, emergencies</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+		<iframe id="incident" width="980" height="400" src="http://safeguard/safeguard/" frameborder="0"></iframe>
+	
+		<div id="incidentLink"><a href="http://intranet2017/departments/p/patient-safety-and-quality/incident-notification-and-risk-register/" target="_blank">How to fill in the form</a></div>
+
+	<div class="zoneHeader" id="zoneIncident"><img id="zonePageIcon" src="/media/1096/zonepageiconincident.png" />Emergencies</div>
+
+		<!----Emergencies---content---start--->
+		<div id="contentEmergencies">
+
+			<h3 id="emergencies">For all medical and security emergencies phone 2222</h3>
+
+		<!----Emergencies---content---end--->		
+		
+		</div>
+
+	</div>
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->
+
+</body>
+</html>

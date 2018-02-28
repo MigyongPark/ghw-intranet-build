@@ -1,0 +1,81 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "NewIntranetMaster.cshtml";
+}
+
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews.png" /><h1 id="zoneBlack">News</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="newsMainArea">
+		<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+		<div id="newsNav">
+		<div id="thisNews"><a href="/news/">News</a></div>
+				<ul id="newsNav1">
+						@if				
+							(@CurrentPage.Name != @CurrentPage.AncestorOrSelf(3).Name)
+							{
+								<li>@Html.Partial("USNBlog/USN_BlogArchiveNavigation", @Model)</li>
+							}else
+							{
+							<li>
+								<ul id="listingYear">
+									<li class="inactive"><a href="/news/" class="newsTopStoryLink">All news stories</a></li>
+								</ul>
+									
+							</li>	
+									
+							}
+				</ul>			
+		</div>		
+		<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentNews">
+		
+			<!---News-Article-Column----start--->
+			<div id="newsArticleColumn">
+		
+				<!-----headline container---start----->
+				<div id="newsHeadlineContainer">
+					<h2 id="newsHeadline">@Umbraco.Field("pageTitle")</h2>
+				</div>
+				<!-----headline container---end----->
+		
+				<!----article body start----->
+				<p>@Umbraco.Field("bodyText")</p>
+				<!----article body end----->
+		
+			<div id="postedInfo">
+				<p>First published: @CurrentPage.createDate.ToString("dd MMMM yyyy")<br />
+				Last updated: @CurrentPage.updateDate.ToString("dd MMMM yyyy")</p>		
+			</div>				
+				
+				</div>							
+			<!---News-Article-Column----end--->
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->	
+		

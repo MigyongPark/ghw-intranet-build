@@ -1,0 +1,156 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+@using USN.Heading.Umbraco.Models;
+
+@{
+    string headingSource = String.Empty;
+    string text = String.Empty;
+    string animateClass = String.Empty;
+
+    LinkInfo outroLink;
+
+    outroLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(Model.Content.GetPropertyValue<UrlPicker>("link"));
+
+    if (Model.Content.HasValue("heading"))
+    {
+        var heading = Model.Content.GetPropertyValue<USNHeading>("heading");
+
+        if (heading != null && !String.IsNullOrEmpty(heading.Heading))
+        {
+            headingSource = "<" + heading.HeadingStyle + " class=\"heading main {0} {1}\" data-os-animation=\"fadeInUp\" data-os-animation-delay=\"0.1s\">" + heading.Heading + "</" + heading.HeadingStyle + ">";
+        }
+    }
+
+    if (Model.Content.HasValue("text"))
+    {
+        text = Model.Content.GetProperty("text").Value.ToString();
+    }
+
+    if (Model.Content.GetPropertyValue<bool>("animate"))
+    {
+        animateClass = "os-animation";
+    }
+
+    string backgroundStyle = "c5-bg";
+    string headingStyle = "c3-text";
+    string textStyle = "c3-text";
+
+    if (Model.Content.HasValue("backgroundColor"))
+    {
+        switch (Model.Content.GetProperty("backgroundColor").Value.ToString())
+        {
+            case "ed6d19":
+                backgroundStyle = "c1-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "cccccc":
+                backgroundStyle = "c2-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "181818":
+                backgroundStyle = "c3-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "f4f4f4":
+                backgroundStyle = "c4-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "ffffff":
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "e3e3e3":
+                backgroundStyle = "c6-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            default:
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+        }
+    }
+
+    string buttonStyle = "c1-bg c5-text";
+
+    if (Model.Content.HasValue("buttonColor"))
+    {
+        switch (Model.Content.GetProperty("buttonColor").Value.ToString())
+        {
+            case "ed6d19":
+                buttonStyle = "c1-bg c5-text";
+                break;
+            case "cccccc":
+                buttonStyle = "c2-bg c3-text";
+                break;
+            case "181818":
+                buttonStyle = "c3-bg c5-text";
+                break;
+            case "f4f4f4":
+                buttonStyle = "c4-bg c1-text";
+                break;
+            case "ffffff":
+                buttonStyle = "c5-bg c1-text";
+                break;
+            case "e3e3e3":
+                buttonStyle = "c6-bg c3-text";
+                break;
+            default:
+                buttonStyle = "c1-bg c5-text";
+                break;
+        }
+    }
+
+    if (outroLink != null || text != String.Empty || headingSource != String.Empty)
+    {
+        <section class="content apc cta-strip @backgroundStyle" id="pos_@Model.Content.Id">
+            <div class="container">
+
+                @if (headingSource != String.Empty)
+                {
+                    <!-- ROW -->
+                    <div class="row">
+
+                        <div class="col-md-8 col-xs-12">
+
+                            @Html.Raw(String.Format(headingSource, headingStyle, animateClass))
+
+                        </div>
+
+                    </div>
+                    <!--// ROW -->
+                }
+
+                <!-- ROW -->
+                <div class="row">
+                    @if (text != String.Empty)
+                    {
+                        <div class="col-md-8 col-xs-12">
+                            <div class="text @textStyle @animateClass" data-os-animation="fadeInUp" data-os-animation-delay="0.2s">
+                                @Html.Raw(text)
+                            </div>
+                        </div>
+                    }
+                    @if (outroLink != null)
+                    {
+                        <div class="col-md-3 col-md-offset-1 col-xs-12">
+
+                            <p class="link @animateClass"><a class="btn btn-block @buttonStyle" href="@outroLink.LinkURL" @Html.Raw(outroLink.LinkTarget) @Html.Raw(outroLink.LinkTitle)>@outroLink.LinkCaption@Html.Raw(outroLink.LinkIcon)</a></p>
+
+                        </div>
+                    }
+
+                </div>
+                <!--// ROW -->
+
+            </div>
+        </section>
+    }
+}

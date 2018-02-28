@@ -1,0 +1,144 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBlog;
+@using System.Globalization;
+
+@{
+    if (!Model.Content.GetPropertyValue<bool>("hideBreadcrumb"))
+    {
+        <section class="breadcrumb-trail c5-bg">
+            <div class="container">
+
+                <!-- ROW -->
+                <div class="row">
+                    <nav class="col-xs-12">
+                        <ol>
+                            @if (Model.Content.IsDocumentType("USNStandardPageBlogPost") || Model.Content.IsDocumentType("USNAdvancedPageBlogPost"))
+                            {
+                                //Start blog breadcrumb 4 levels lower than blog post
+                                int blogLevel = Model.Content.Level - 4;
+
+                                foreach (var level in Model.Content.Ancestors().Where(x => x.Level <= blogLevel).OrderBy("Level"))
+                                {
+                                    string breadcrumbLinkText = "";
+
+                                    if (level.HasValue("breadcrumbLinkText"))
+                                    {
+                                        breadcrumbLinkText = level.GetProperty("breadcrumbLinkText").Value.ToString();
+                                    }
+                                    else
+                                    {
+                                        breadcrumbLinkText = level.Name;
+                                    }
+
+                                    string itemProp = "";
+
+                                    if (level.Level != 1)
+                                    {
+                                        itemProp = "itemprop=\"child\"";
+                                    }
+
+                                    <li id="br_@level.Level" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" @Html.Raw(itemProp) itemref="br_@(level.Level + 1)"><a href="@level.Url" itemprop="url"><span itemprop="title">@breadcrumbLinkText</span></a></li>
+
+                                }
+                            }
+                            else
+                            {
+                                foreach (var level in Model.Content.Ancestors().Where("Visible").OrderBy("Level"))
+                                {
+                                    string breadcrumbLinkText = "";
+
+                                    if (level.HasValue("breadcrumbLinkText"))
+                                    {
+                                        breadcrumbLinkText = level.GetProperty("breadcrumbLinkText").Value.ToString();
+                                    }
+                                    else
+                                    {
+                                        breadcrumbLinkText = level.Name;
+                                    }
+
+                                    string itemProp = "";
+
+                                    if (level.Level != 1)
+                                    {
+                                        itemProp = "itemprop=\"child\"";
+                                    }
+
+                                    <li id="br_@level.Level" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" @Html.Raw(itemProp) itemref="br_@(level.Level + 1)"><a href="@level.Url" itemprop="url"><span itemprop="title">@breadcrumbLinkText</span></a></li>
+
+                                }
+                            }
+
+                            @{
+                                string breadcrumbLinkTextPage = "";
+
+                                if (Model.Content.HasValue("breadcrumbLinkText"))
+                                {
+                                    breadcrumbLinkTextPage = Model.Content.GetProperty("breadcrumbLinkText").Value.ToString();
+                                }
+                                else
+                                {
+                                    breadcrumbLinkTextPage = Model.Content.Name;
+                                }
+
+                                if (Model.Content.IsDocumentType("USNBlogLandingPage"))
+                                {
+                                    if (!String.IsNullOrEmpty(Request.QueryString["category"]))
+                                    {
+                                        <li id="br_@Model.Content.Level" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="br_@(Model.Content.Level + 1)"><a href="@Model.Content.Url" itemprop="url"><span itemprop="title">@breadcrumbLinkTextPage</span></a></li>
+
+                                        //Get Parent category node
+                                        var currentCategory = Umbraco.TypedContent(Convert.ToInt32(Request.QueryString["category"]));
+
+                                        int categoryCountID = 1;
+
+                                        foreach (var catNode in currentCategory.Ancestors().Where(x => x.DocumentTypeAlias == "USNBlogCategory").OrderBy(x => x.Level))
+                                        {
+
+                                            var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+                                            string categoryURL = landing.Url + "?category=" + catNode.Id;
+
+                                            <li id="br_@(Model.Content.Level + categoryCountID)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="br_@(Model.Content.Level + categoryCountID + 1)"><a href="@categoryURL" itemprop="url"><span itemprop="title">@catNode.Name</span></a></li>
+
+                                            categoryCountID += 1;
+                                        }
+
+                                        <li id="br_@(Model.Content.Level + categoryCountID)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="child"><span itemprop="title">@currentCategory.Name</span></li>
+                                    }
+                                    else if (!String.IsNullOrEmpty(Request.QueryString["year"]) && String.IsNullOrEmpty(Request.QueryString["month"]))
+                                    {
+                                        <li id="br_@(Model.Content.Level)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="br_@(Model.Content.Level + 1)"><a href="@Model.Content.Url" itemprop="url"><span itemprop="title">@breadcrumbLinkTextPage</span></a></li>
+                                        <li id="br_@(Model.Content.Level + 1)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="child"><span itemprop="title">@Request.QueryString["year"]</span></li>
+                                    }
+                                    else if (!String.IsNullOrEmpty(Request.QueryString["year"]) && !String.IsNullOrEmpty(Request.QueryString["month"]))
+                                    {
+                                        var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+                                        string archiveURL = landing.Url + "?year=" + Request.QueryString["year"];
+
+                                        string monthName = CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(Convert.ToInt32(Request.QueryString["month"]));
+
+                                        <li id="br_@(Model.Content.Level)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="br_@(Model.Content.Level + 1)"><a href="@Model.Content.Url" itemprop="url"><span itemprop="title">@breadcrumbLinkTextPage</span></a></li>
+                                        <li id="br_@(Model.Content.Level + 1)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child" itemref="br_@(Model.Content.Level + 2)"><a href="@archiveURL" itemprop="url"><span itemprop="title">@Request.QueryString["year"]</span></a></li>
+                                        <li id="br_@(Model.Content.Level + 2)" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" itemprop="child"><span itemprop="title">@monthName</span></li>
+                                    }
+                                    else
+                                    {
+                                        <li id="br_@Model.Content.Level" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="child"><span itemprop="title">@breadcrumbLinkTextPage</span></li>
+                                    }
+
+                                }
+                                else
+                                {
+                                    <li id="br_@Model.Content.Level" itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="active" itemprop="child"><span itemprop="title">@breadcrumbLinkTextPage</span></li>
+                                }
+                            }
+                        </ol>
+                    </nav>
+                </div>
+                <!--// ROW -->
+            </div>
+        </section>
+    }
+}

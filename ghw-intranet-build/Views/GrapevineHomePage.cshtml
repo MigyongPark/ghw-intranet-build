@@ -1,0 +1,85 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.GrapevineHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="grapevineHeadBackground"><img id="contentPageIcon" src="/media/1904/zonepageicongrapevine.png" /><h1 id="zoneWhite">Grapevine</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="grapevineMainArea">
+		
+		<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+		<div id="newsNav">
+		<div id="thisNews">Grapevine</div>
+			<ul id="newsNav1">
+			@*------------CONTROLS FOR LEVEL 3-(this page has to be level 3!)------------*@
+			@*-----displays all children of the current page (double indented)-----*@
+			@foreach (var childpage in CurrentPage.Children)
+			{
+			<li><a href="@childpage.Url">@childpage.Name</a></li>
+			}
+			</ul>
+	</div>
+<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+		
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<div id="contentNews">
+		
+<!---News-Article-Column----start--->
+<div id="grapevineItemColumn">
+				
+	@{var grapevineFolder = Umbraco.TypedContent(@Umbraco.Field("startNodeID").ToString());
+		}
+			@{foreach (var child in grapevineFolder.Children.OrderBy("updateDate descending"))
+				{				
+				<a id="speechBubbleLink" href="@child.Url">					
+				@*<!---ITEM (SPEECH BUBBLE)---START--->*@
+					<table id="grapevineBig" cellpadding="0" cellspacing="0">				
+						<tr>
+							<td id="grapevineMainBig">
+								<ul id="grapevineMainBig">
+									<li id="grapevineMainBig">
+										<div class="speechBubbleBig">
+											<h2 id="grapevine">@child.Name</h2>
+											Full details...											
+										</div>
+									</li>
+								</ul>	
+							</td>
+						</tr>			
+					</table>
+				@*<!---ITEM (SPEECH BUBBLE)---END--->*@	
+				</a>
+				}
+			}
+</div>							
+
+<!---News-Article-Column----end--->
+	
+				<!---twitter feed column-----start---->
+			<div id="newsTwitterFeed">
+				<a class="twitter-timeline" href="https://twitter.com/GWH_NHS" data-widget-id="630712576284995584" width="360" height="780">Tweets by GWH_NHS</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+			</div>
+
+			<!-----twitter feed -----end---->
+			<!---Facebook link----start
+				<div id="facebookLink">
+				<a href="https://www.facebook.com/GWHNHS" target="_blank"><img src="imgs/facebook2.png" width="320" height="50" /></a>
+				</div>
+			---Facebook link----end---------->
+	
+</div>
+<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+</div>
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->

@@ -1,0 +1,33 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+	Layout = null;
+}
+ 
+<!-- CONTENT -->
+<section class="content">
+
+    <!-- CONTAINER -->
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- CONTENT COL -->
+
+			
+				@Umbraco.Field("bodyText")
+
+		
+                @Html.Partial("WTDocRepository/showDocsInChildren", @Model.Content)
+
+			</div>
+            <!--// CONTENT COL -->
+
+        </div>
+        <!--// ROW -->
+    
+    </div>
+    <!--// CONTAINER -->
+
+</section>
+<!--// CONTENT -->

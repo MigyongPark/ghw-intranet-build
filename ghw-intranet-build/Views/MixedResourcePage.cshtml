@@ -1,0 +1,247 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.MixedResourcePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="departmentsHeadBackground"><img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+	
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="departmentsMainArea">
+
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="depNav">
+		<div id="thisDep"><a href="@CurrentPage.AncestorOrSelf(4).url">@CurrentPage.AncestorOrSelf(4).name</a></div>
+		<ul id="depNav1">
+
+			@*------------CONTROLS FOR LEVEL 5-------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 5----- *@
+			@if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(5).Name)
+				{
+					@*-----displays all siblings (indented)----- *@
+					foreach (var sibling in CurrentPage.Parent.Children)
+					{
+						if(@sibling.Name != @CurrentPage.Name)
+						{
+							<li><a href="@sibling.Url">@sibling.Name</a></li>
+						}else{
+							
+					@*-----displays self (highlighted)----- *@
+
+							<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+							
+						}
+					}
+				}
+
+			@*------------CONTROLS FOR LEVEL 6-------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 6----- *@
+			else if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(6).Name)
+				{
+					@*-----displays all PARENT's siblings----- *@
+					foreach (var uncle in CurrentPage.Parent.Parent.Children)
+					{
+						if(@uncle.Name != @CurrentPage.Parent.Name)
+						{
+							<li><a href="@uncle.url">@uncle.Name</a></li>
+						}else
+						{
+							@*----displays the parent page (highlighted)-------*@
+							<li id="self"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+							@*-----displays all siblings (indented)----- *@
+								foreach (var sibling in CurrentPage.Parent.Children)
+								{
+									if(@sibling.Name != @CurrentPage.Name)
+									{										
+										@*-----STOPS siblings being shown if limitNavigation is ticked----- *@
+										if (@CurrentPage.limitNavigation!=true)
+										{
+										<li id="indent20"><a href="@sibling.Url">@sibling.Name</a></li>
+										}
+								}else
+								{
+									@*-----displays self (highlighted)----- *@
+									<li id="selfIndent20"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+									
+								}
+							}
+						}
+					}
+				}else
+			if(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(7).Name)
+			{
+			@*------------CONTROLS FOR WHEN ON LEVEL 7-------------*@
+			@*-----displays all GRANDPARENT's siblings----- *@
+
+			foreach (var greatUncle in CurrentPage.Parent.Parent.Parent.Children)
+			{
+
+				if (@greatUncle.Name != @CurrentPage.Parent.Parent.Name)
+				{
+				<li><a href="@greatUncle.url">@greatUncle.Name</a></li>
+				}else{
+				<li id="self"><a href="@CurrentPage.Parent.Parent.url">@CurrentPage.Parent.Parent.Name</a></li>
+
+				foreach (var uncle in CurrentPage.Parent.Parent.Children)
+				{
+					if(@uncle.Name != @CurrentPage.Parent.Name)
+					{
+						
+						@*-----STOPS parents' siblings being shown if limitNavigation is ticked----- *@
+						if (@CurrentPage.limitNavigation!=true)
+						{	
+						
+						<li id="indent20"><a href="@uncle.url">@uncle.Name</a></li>
+							
+						}
+														
+					}else{
+						@*----displays the parent page (highlighted)-------*@
+						<li id="selfIndent20"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+
+						@*-----displays all siblings (indented) + self (highlighted)----- *@
+						foreach (var sibling in CurrentPage.Parent.Children)
+						{
+							if(@sibling.Name != @CurrentPage.Name)
+							{
+								<li id="indent40"><a href="@sibling.Url">@sibling.Name</a></li>
+								}else
+								{
+									<li id="selfIndent40"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+										
+										}
+									}
+								}
+							}
+						}
+					}
+				}else
+			if(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(8).Name)
+			{
+			@*------------CONTROLS FOR WHEN ON LEVEL 8-------------*@
+				
+			@*-----displays all GREAT GRANDPARENT's siblings!----- *@
+
+			foreach (var greatGreatUncle in CurrentPage.Parent.Parent.Parent.Parent.Children)
+			{
+				if (@greatGreatUncle.Name != @CurrentPage.Parent.Parent.Parent.Name)
+				{
+				<li><a href="@greatGreatUncle.url">@greatGreatUncle.Name</a></li>
+				}else{
+				<li id="self"><a href="@CurrentPage.Parent.Parent.Parent.url">@CurrentPage.Parent.Parent.Parent.Name</a></li>
+				
+				@*-----displays all GRANDPARENT's siblings----- *@
+
+				<li id="selfIndent20"><a href="@CurrentPage.Parent.Parent.url">@CurrentPage.Parent.Parent.Name</a></li>
+
+				foreach (var uncle in CurrentPage.Parent.Parent.Children)
+				{
+					if(@uncle.Name != @CurrentPage.Parent.Name)
+					{
+						@*-----STOPS parents' siblings being shown if limitNavigation is ticked----- *@
+						if (@CurrentPage.limitNavigation!=true)
+						{	
+						<li id="indent20"><a href="@uncle.url">@uncle.Name</a></li>
+						}							
+					}else{
+						@*----displays the parent page (highlighted)-------*@
+						<li id="selfIndent40"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+
+						@*-----displays all siblings (indented) + self (highlighted)----- *@
+						foreach (var sibling in CurrentPage.Parent.Children)
+						{
+							if(@sibling.Name != @CurrentPage.Name)
+							{
+								<li id="indent60"><a href="@sibling.Url">@sibling.Name</a></li>
+								}else
+								{
+									<li id="selfIndent60"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+										
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		</ul>
+
+	</div>
+<!-----L E F T   N A V-----E N D----->
+
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<div id="contentWide">
+			
+	@*------optional introduction------*@
+	@if(@CurrentPage.addMixedResourceIntro==true)
+	{
+	<div id="depIntroduction">
+	@Umbraco.Field("bodyText")
+	</div>
+	<br />
+	}
+				
+	@*-------------------listing start----------------------*@
+
+	@*---documents---*@
+	<div id="documentsListing">
+	<ul id="documentsListing">
+	@foreach (var item in CurrentPage.Children)
+	{					
+		if (item.HasValue("documentName"))	
+		{
+		<li id="documentsListing">	
+		<div id="depDocumentName"><a href="@Umbraco.Media(item.documentAddress).Url" target="_blank">@item.documentName</a></div>
+		<div id="documentDescription">@item.documentDescription</div>			
+		</li>	
+		}
+	}
+	</ul>
+	</div>
+					
+	@*---external links---*@
+					
+	<div id="depUsefulLinkList">
+	<ul id="depUsefulLinkList">
+	@foreach (var item in CurrentPage.Children)
+	{
+		if (item.HasValue("linkText"))
+		{					
+		<li id="depUsefulLinkList">
+		<div id="depUsefulLink">
+			<a id="depUsefulLink" href="@item.linkURL" target="_blank">@item.linkText</a>
+		</div>
+			<div id="documentDescription">@item.linkDescription</div>				
+		</li>	
+		}					
+	}
+	</ul>
+	</div>				
+	@*---------------------listing end------------------------*@	
+
+	@*----- optional 'See also' section----- *@
+	@Html.Partial("seeAlsoSection")
+
+	@Html.Partial("advertisingBanner")
+
+	<!----- P A G E   I N F O ----- S T A R T ----->
+	<div id="pageInfo">
+	<div id="pageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(4).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(4).pageOwnersPosition</div>
+	<div id="pageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(4).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(4).subEditor</a></div>
+	<div id="pageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+	</div>
+	<!----- P A G E   I N F O ----- E N D ----->
+					
+	</div>
+	<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+</div>
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->

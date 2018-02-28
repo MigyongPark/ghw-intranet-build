@@ -1,0 +1,97 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBlog;
+@using System.Globalization;
+
+@{
+    var currentYear = -1;
+    var currentMonth = -1;
+
+    var nodes = USNPostService.Instance.GetPosts(Model.Content).ToList();
+
+    var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+    int year = 0;
+    int month = 0;
+
+    if (!String.IsNullOrEmpty(Request.QueryString["year"]))
+    {
+        year = Convert.ToInt32(Request.QueryString["year"]);
+    }
+
+    if (!String.IsNullOrEmpty(Request.QueryString["month"]))
+    {
+        month = Convert.ToInt32(Request.QueryString["month"]);
+    }
+
+            <ul id="listingYear">
+                @for (int i = 0; i < nodes.Count(); i++)
+                {
+                    var node = nodes[i];
+
+                    var date = DateTime.Parse(node.GetProperty("postDate").Value.ToString());
+
+                    if (currentYear == date.Year) { continue; }
+
+                    currentYear = date.Year;
+
+                    string monthClass = "";
+                    string yearClass = "";
+
+                    if (currentYear == year)
+                    {
+                        yearClass = "active";
+                    }
+                    else
+                    {
+                        yearClass = "inactive";
+                    }
+                    <li class="@yearClass">
+                        <a href="@landing.Url?year=@currentYear" rel="NOINDEX, FOLLOW">@currentYear</a>
+                        @if (year == currentYear)
+                        {
+                            <ul id="listingMonth">
+                                @for (int j = i; j < nodes.Count(); j++)
+                                {
+                                    node = nodes[j];
+                                    date = DateTime.Parse(node.GetProperty("postDate").Value.ToString());
+
+                                    if (date.Year != currentYear) { break; }
+                                    if (date.Month == currentMonth) { continue; }
+
+                                    currentMonth = date.Month;
+
+                                    if (currentMonth == month && currentYear == year)
+                                    {
+                                        monthClass = "active";
+                                    <li class="@monthClass">
+                                        <a href="@landing.Url?year=@currentYear&month=@currentMonth" rel="NOINDEX, FOLLOW">@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(currentMonth)</a>
+                                    </li>
+									
+										@* sets start point (parent) for navigation *@
+										{
+										var currentNode = Umbraco.TypedContent("currentMonth.selectedNode");
+										@* displays all the children [this doesn't work - needs amending to show the children - i.e. individual news articles]
+										foreach (var childpage in currentNode.Children)
+										{
+										<li id="indent20"><a href="@landing.Url?year=@currentYear&month=@currentMonth" rel="NOINDEX, FOLLOW">@childpage.Name</a></li>
+										}	 *@								
+										}	
+										
+                                    }
+                                    else
+                                    {
+                                        monthClass = "inactive";
+                                    <li class="@monthClass">
+                                        <a href="@landing.Url?year=@currentYear&month=@currentMonth" rel="NOINDEX, FOLLOW">@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(currentMonth)</a>
+                                    </li>										
+                                    }
+
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+
+}

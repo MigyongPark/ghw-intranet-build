@@ -1,0 +1,44 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBusinessLogic;
+
+@{
+    if (Model.Content.HasValue("podVideo"))
+    {
+        string title = String.Empty;
+        string footer = String.Empty;
+        
+        string videoURLOriginal = Model.Content.GetProperty("podVideo").Value.ToString().Trim();
+
+        if (Model.Content.HasValue("lightWindowTitle"))
+        {
+            title = "data-title=\"" + Model.Content.GetProperty("lightWindowTitle").Value.ToString() + "\"";
+        }
+
+        if (Model.Content.HasValue("lightWindowFooter"))
+        {
+            footer = "data-footer=\"" + Model.Content.GetProperty("lightWindowFooter").Value.ToString() + "\"";
+        }
+
+        string videoURLModified = String.Empty;
+        string videoImage = String.Empty;
+        string dataRemote = String.Empty;
+
+        videoImage = USNVideoHelper.GetVideoInfo(videoURLOriginal, out videoURLModified, out dataRemote);
+
+        if (Model.Content.HasValue("podThumbnailImage") && Umbraco.TypedMedia(Model.Content.GetProperty("podThumbnailImage").Value) != null)
+        {
+            videoImage = Umbraco.TypedMedia(Model.Content.GetProperty("podThumbnailImage").Value).GetCropUrl(width: 400, height: 300);
+        }
+
+        <div class="item video-pod">
+            <div class="image video">
+                <a href="@videoURLModified" @Html.Raw(title) @Html.Raw(footer) data-toggle="lightbox" @Html.Raw(dataRemote)>
+                    <img class="lazyload" src="@videoImage" alt="@Model.Content.GetProperty("thumbnailImageAltText").Value">
+                    <div class="overlayicon ion-ios-play"></div>
+                </a>
+            </div>
+        </div>
+    }
+
+}

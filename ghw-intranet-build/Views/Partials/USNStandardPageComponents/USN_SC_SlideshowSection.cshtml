@@ -1,0 +1,53 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    string anchorID = String.Empty;
+
+    if (Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_SlideshowImage")).Count() > 0)
+    {
+        @* Add div for column width on Andvanced Pages *@
+        if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+        {
+            if (Model.Content.HasValue("width") && Model.Content.GetProperty("width").Value.ToString() == "Centered")
+            {
+                @Html.Raw("<div id=\"mid-col\" class=\"col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\">")
+            }
+            else
+            {
+                @Html.Raw("<div id=\"wide-col\" class=\"col-xs-12\">")
+            }
+        }
+        else
+        {
+            anchorID = "id=\"pos_" + Model.Content.Id + "\" ";
+        }
+
+        <!-- PAGE COMPONENT SLIDESHOW -->
+        <div class="spc slideshow" @Html.Raw(anchorID)>
+            @foreach (var slideshowItem in Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_SlideshowImage")).OrderBy("SortOrder"))
+            {
+                if (slideshowItem.HasValue("slideshowImage") && Umbraco.TypedMedia(slideshowItem.GetProperty("slideshowImage").Value) != null)
+                {
+                    <div class="item">
+                        <div class="image">
+                            <img src="@Umbraco.TypedMedia(slideshowItem.GetProperty("slideshowImage").Value).GetCropUrl(width: 1140, height:550)" alt="@slideshowItem.GetProperty("slideshowImageAltText").Value">
+                        </div>
+                        @if (slideshowItem.HasValue("slideshowImageCaption"))
+                        {
+                        <div class="info">
+                            <div class="text">@slideshowItem.GetProperty("slideshowImageCaption").Value</div>
+                        </div>
+                        }
+                    </div>
+                }
+            }
+        </div>
+        <!--// PAGE COMPONENT SLIDESHOW -->
+
+        @* Close div for column width on Advanced Pages *@
+        if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+        {
+            @Html.Raw("</div>")
+        }
+    }
+}

@@ -1,0 +1,114 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using Newtonsoft.Json.Linq;
+
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var navigation = settingsFolder.Children.Where(x => x.IsDocumentType("USNNavigation")).First();
+
+    var mainNavigation = navigation.GetPropertyValue<JArray>("mainNavigation");
+
+    if (mainNavigation != null && navigation.GetPropertyValue<string>("mainNavigation", true, "").Length > 2)
+    {
+        <nav class="main">
+            <ul>
+                @foreach (JObject link in mainNavigation)
+                {
+                    string linkTitle = String.Empty;
+                    string linkURL = String.Empty;
+                    string linkTarget = String.Empty;
+                    string linkIcon = String.Empty;
+                    IPublishedContent node = null;
+
+                    linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+                    
+                    //Display nav link for Umbraco Content Page
+                    if (node != null && node.IsVisible())
+                    {
+                        var selected = Array.IndexOf(Model.Content.Path.Split(','), node.Id.ToString()) >= 0 ? " class=\"active\"" : "";
+
+                        if (node.IsDocumentType("USNHomepage") && !Model.Content.IsDocumentType("USNHomepage"))
+                        {
+                            selected = "";
+                        }
+
+                        var subPages = node.Children.Where(x => (x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage") || x.IsDocumentType("USNBlogLandingPage") || x.IsDocumentType("USNLoginPage") || x.IsDocumentType("USNSearchResultsPage")) && x.IsVisible());
+
+                        string subPageClass = "";
+
+                        if (subPages.Count() > 0 && !node.IsDocumentType("USNHomepage") && navigation.GetPropertyValue<bool>("displaySubPages"))
+                        {
+                            subPageClass = " class=\"has-child\"";
+                        }
+
+                        <li @Html.Raw(subPageClass)>
+                            <a href="@linkURL" @Html.Raw(selected) @Html.Raw(linkTitle) @Html.Raw(linkTarget)>
+                                <span>
+                                    @(link.Value<string>("caption"))@Html.Raw(linkIcon)
+                                </span>
+                            </a>
+                            @if (subPageClass != String.Empty)
+                            {
+                                <i class="ion-chevron-down"></i>
+                            }
+                            @if (subPages.Count() > 0 && navigation.GetPropertyValue<bool>("displaySubPages") && !node.IsDocumentType("USNHomepage"))
+                            {
+                                @SubPages(subPages)
+                            }
+                        </li>
+                    }
+                    //Display nav link for external link
+                    else if (node == null && linkURL != String.Empty)
+                    { 
+                        <li>
+                            <a href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)><span>@(link.Value<string>("caption"))@Html.Raw(linkIcon)</span></a>                                       
+		                </li>
+                    }
+                }
+            </ul>
+        </nav>
+    }
+}
+
+@helper SubPages(IEnumerable<IPublishedContent> pages)
+{
+    <ul>
+        @foreach (var node in pages)
+        {
+            string selected = Array.IndexOf(Model.Content.Path.Split(','), node.Id.ToString()) >= 0 ? " class=\"active\"" : "";
+
+            var subPages = node.Children.Where(x => (x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage") || x.IsDocumentType("USNBlogLandingPage") || x.IsDocumentType("USNLoginPage") || x.IsDocumentType("USNSearchResultsPage")) && x.IsVisible());
+
+            string subPageClass = "";
+
+            if (subPages.Count() > 0)
+            {
+                subPageClass = " class=\"has-child\"";
+            }
+
+            <li @Html.Raw(subPageClass)>
+                <a @Html.Raw(selected) href="@node.Url()">
+                    <span>
+                        @if (node.HasValue("subNavigationLinkText"))
+                        {
+                            @node.GetProperty("subNavigationLinkText").Value;
+                        }
+                        else
+                        {
+                            @node.Name
+                        }
+                    </span>
+                </a>
+                @if (subPageClass != String.Empty)
+                {
+                    <i class="ion-chevron-down hidden-lg hidden-md hidden-sm"></i><i class="ion-chevron-right hidden-xs"></i>
+                }
+                @if (subPages.Count() > 0)
+                {
+                    @SubPages(subPages)
+                }
+            </li>
+        }
+    </ul>
+}

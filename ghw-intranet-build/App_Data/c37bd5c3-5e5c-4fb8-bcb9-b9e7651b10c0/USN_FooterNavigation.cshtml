@@ -1,0 +1,34 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using Newtonsoft.Json.Linq;
+	
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var navigation = settingsFolder.Children.Where(x => x.IsDocumentType("USNNavigation")).First();
+
+    var footerNavigation = navigation.GetPropertyValue<JArray>("footerNavigation");
+
+    //Check for null since JArray will fail if internal page has been added with no node selected
+    if (footerNavigation != null && navigation.GetPropertyValue<string>("footerNavigation", true, "").Length > 2)
+    {
+        foreach (JObject link in footerNavigation)
+        {
+            string linkTitle = String.Empty;
+            string linkURL = String.Empty;
+            string linkTarget = String.Empty;
+            string linkIcon = String.Empty;
+            IPublishedContent node = null;
+
+            linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+
+            if (linkURL!= String.Empty)
+            { 
+		    <li>
+                <a href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)>@(link.Value<string>("caption"))@Html.Raw(linkIcon)</a>                                       
+		    </li>
+            }
+        }    
+    }                                                      
+
+}

@@ -1,0 +1,97 @@
+﻿@model ContentAPI.Models.CommentFormViewModel
+
+@{ 
+
+    string userName = @System.Web.HttpContext.Current.User.Identity.Name;
+    // string userName = @"BERKSHIRE\ParkM";
+}
+
+@if (TempData["success"] == null)
+{
+    using (Html.BeginUmbracoForm<ContentAPI.Controllers.CommentFormSurfaceController>("HandleFormSubmit"))
+    {
+        <div class="newsletter form ajax-wrap">
+            <div class="inner c4-bg has-borders c6-borders">
+                <div class="w3-border-bottom w3-border-red">
+                    <h1>Word of Mouth Form</h1>
+                </div>
+                <div class="comment">
+                    <p>Post your message using the form below.</p>
+                </div>
+                    <p> Messages will need to automatically unpublished 24 hours after being published.</p>
+
+                    <div class="row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Summary" class="control-label">
+                                Message summary<em class="mandatory">*</em>
+                            </label>
+                            @Html.TextBoxFor(m => m.Summary, new {  @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Summary)
+                            <label class="right-text"> Max char count 60.</label>
+                        </div>
+
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Message" class="control-label">
+                                Message<em class="mandatory">*</em>
+                            </label>
+                            <div class="editor-field">
+                                @Html.TextAreaFor(m => m.Message, new { @class = "form-control" })
+                                @Html.ValidationMessageFor(m => m.Message)
+                            </div>
+                            <label class="right-text"> Maximum word count:approx 500 words.</label>
+                        </div>
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Posted" class="control-label">
+                                Posted by Name
+                            </label>
+                            @Html.TextBoxFor(m => m.Postedby, new { @Value = userName, @readonly = true, @class = "form-control" })
+             
+                        </div>
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Ward" class="control-label">
+                                Ward/Department
+                            </label>
+                            @Html.TextBoxFor(m => m.Ward, new { @class = "form-control" })
+                            @*@Html.ValidationMessageFor(m => m.Ward)*@
+                        </div>
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Site" class="control-label">
+                                Site
+                            </label>
+                            @Html.TextBoxFor(m => m.Site, new { @class = "form-control" })
+                            @*@Html.ValidationMessageFor(m => m.Site)*@
+                        </div>
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Telephone" class="control-label">
+                                Phone no
+                            </label>
+                            @Html.TextBoxFor(m => m.PhoneNo, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.PhoneNo)
+                        </div>
+
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Email" class="control-label">
+                                Email address
+                            </label>
+                            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(m => m.Email)
+                        </div>
+
+                    </div>
+    
+      
+                    <button id="contact-submit" type="submit" class="btn">Send</button>
+          
+            </div>
+        </div>
+    }
+}
+else
+{
+    <p>Thanks for your comment</p>
+}

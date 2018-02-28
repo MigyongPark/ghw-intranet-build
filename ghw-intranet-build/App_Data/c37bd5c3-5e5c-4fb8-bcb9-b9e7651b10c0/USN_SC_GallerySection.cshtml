@@ -1,0 +1,154 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBusinessLogic;
+@using USN.UrlPicker.Umbraco.Models;
+
+@{
+    string anchorID = String.Empty;
+
+    @* Add div for column width on Advanced Pages *@
+    if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+    {
+        if (Model.Content.HasValue("width") && Model.Content.GetProperty("width").Value.ToString() == "Centered")
+        {
+            @Html.Raw("<div id=\"mid-col\" class=\"col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\">")
+        }
+        else
+        {
+            @Html.Raw("<div id=\"wide-col\" class=\"col-xs-12\">")
+        }
+    }
+    else
+    {
+        anchorID = "id=\"pos_" + Model.Content.Id + "\" ";
+    }
+
+    <!-- PAGE COMPONENT GALLERY -->
+    <div class="spc gallery" @Html.Raw(anchorID)>
+        <div class="row">
+            @foreach (var galleryItem in Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_GalleryImage") || x.IsDocumentType("USN_SC_GalleryVideo")).OrderBy("SortOrder"))
+            {
+                string lightWindow = String.Empty;
+                string title = String.Empty;
+                string footer = String.Empty;
+
+                if (galleryItem.IsDocumentType("USN_SC_GalleryImage"))
+                {
+                    if (!galleryItem.GetPropertyValue<bool>("disableLightWindow"))
+                    {
+                        lightWindow = " data-toggle=\"lightbox\" data-type=\"image\" data-gallery=\"galleryname-" + Model.Content.Id + "\"";
+
+                        if (galleryItem.HasValue("lightWindowTitle"))
+                        {
+                            title = "data-title=\"" + galleryItem.GetProperty("lightWindowTitle").Value.ToString() + "\"";
+                        }
+
+                        if (galleryItem.HasValue("lightWindowFooter"))
+                        {
+                            footer = "data-footer=\"" + galleryItem.GetProperty("lightWindowFooter").Value.ToString() + "\"";
+                        }
+                    }
+
+                    if (galleryItem.HasValue("lightWindowImage") && Umbraco.TypedMedia(galleryItem.GetProperty("lightWindowImage").Value) != null)
+                    {
+
+                        string linkURL = String.Empty;
+                        string linkTitle = String.Empty;
+                        string linkTarget = String.Empty;
+
+                        if (galleryItem.GetPropertyValue<bool>("disableLightWindow") && galleryItem.HasValue("imageLink"))
+                        {
+                            LinkInfo imageLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(galleryItem.GetPropertyValue<UrlPicker>("imageLink"));
+
+                            if (imageLink != null)
+                            {
+                                linkURL = imageLink.LinkURL;
+                                linkTitle = imageLink.LinkTitle;
+                                linkTarget = imageLink.LinkTarget;
+                            }
+                        }
+                        else
+                        {
+                            linkURL = Umbraco.TypedMedia(galleryItem.GetProperty("lightWindowImage").Value).Url;
+                        }
+
+                        <div class="item col-md-4 col-xs-6">
+                            <div class="image">
+                                @if (linkURL != String.Empty)
+                                {
+                                    @Html.Raw("<a href=\"" + linkURL + "\" " + title + " " + footer + " target=\"" + linkTarget + "\" " + lightWindow + " >")
+                                }
+                                <img src="@Umbraco.TypedMedia(galleryItem.GetProperty("lightWindowImage").Value).GetCropUrl(width: 400, height: 300)" alt="@galleryItem.GetProperty("thumbnailImageAltText").Value">
+                                @if (lightWindow != String.Empty)
+                                {
+                                    <div class="overlayicon ion-arrow-expand"></div>
+                                }
+                                else if (linkURL != String.Empty && linkTarget != String.Empty)
+                                {
+                                    <div class="overlayicon ion-android-open"></div>
+                                }
+                                else if (linkURL != String.Empty && linkTarget == String.Empty)
+                                {
+                                    <div class="overlayicon ion-link"></div>
+                                }
+                                @if (linkURL != String.Empty)
+                                {
+                                    @Html.Raw("</a>")
+                                }
+                            </div>
+                        </div>
+                    }
+                }
+
+                else
+                {
+                    if (galleryItem.HasValue("galleryVideo"))
+                    {
+                        string videoURLOriginal = galleryItem.GetProperty("galleryVideo").Value.ToString().Trim();
+
+                        if (galleryItem.HasValue("lightWindowTitle"))
+                        {
+                            title = "data-title=\"" + galleryItem.GetProperty("lightWindowTitle").Value.ToString() + "\"";
+                        }
+
+                        if (galleryItem.HasValue("lightWindowFooter"))
+                        {
+                            footer = "data-footer=\"" + galleryItem.GetProperty("lightWindowFooter").Value.ToString() + "\"";
+                        }
+
+                        string videoURLModified = "";
+                        string videoImage = "";
+                        string dataRemote = "";
+
+                        videoImage = USNVideoHelper.GetVideoInfo(videoURLOriginal, out videoURLModified, out dataRemote);
+
+                        if (galleryItem.HasValue("galleryThumbnailImage") && Umbraco.TypedMedia(galleryItem.GetProperty("galleryThumbnailImage").Value) != null)
+                        {
+                            videoImage = Umbraco.TypedMedia(galleryItem.GetProperty("galleryThumbnailImage").Value).GetCropUrl(width: 400, height: 300);
+                        }
+
+                        if (videoImage != String.Empty)
+                        {
+                            <div class="item video col-md-4 col-xs-6">
+                                <div class="image">
+                                    <a href="@videoURLModified" @Html.Raw(title) @Html.Raw(footer) data-toggle="lightbox" @Html.Raw(dataRemote) data-gallery="galleryname-@Model.Content.Id">
+                                        <img src="@videoImage" alt="@galleryItem.GetProperty("thumbnailImageAltText").Value">
+                                        <div class="overlayicon ion-ios-play"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        }
+                    }
+
+                }
+            }
+        </div>
+    </div>
+    <!--// PAGE COMPONENT GALLERY -->
+
+    @* Close div for column width on Advanced Pages *@
+    if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+    {
+        @Html.Raw("</div>")
+    }
+}

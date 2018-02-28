@@ -1,0 +1,55 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+
+    if (globalSettings.HasValue("websiteLogo") && Umbraco.TypedMedia(globalSettings.GetProperty("websiteLogo").Value) != null)
+    {
+        var websiteLogo = Umbraco.TypedMedia(globalSettings.GetProperty("websiteLogo").Value);
+
+        int originalWidth = websiteLogo.GetPropertyValue<int>("umbracoWidth");
+        int originalHeight = websiteLogo.GetPropertyValue<int>("umbracoHeight");
+        int smallWidth = originalWidth;
+        int smallHeight = originalHeight;
+
+        if (originalHeight > 60)
+        {
+            //get new width
+            smallWidth = (60 * originalWidth) / originalHeight;
+            smallHeight = 60;
+        }
+
+        string smallLogo = websiteLogo.Url + "?width=" + smallWidth + "&height=" + smallHeight;
+        string retinaLogo = websiteLogo.Url + "?width=" + smallWidth + "&height=" + smallHeight;
+        
+    <style>
+        #site,
+        header {
+	        right:auto; left:auto;
+	        max-width:1500px; margin:0 auto;
+	    }
+
+        header #logo {
+	        width: @Html.Raw(smallWidth)px; 
+            height: @Html.Raw(smallHeight)px;
+	    }
+
+        header #logo a {
+            width: @Html.Raw(smallWidth)px;
+            height: @Html.Raw(smallHeight)px;
+            background-image: url('@smallLogo');
+            background-repeat:no-repeat; background-position:center;
+        }
+
+        @@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5), only screen and (-webkit-min-device-pixel-ratio : 2), only screen and (min-device-pixel-ratio : 2) {
+            header #logo a {
+                background-image: url('@websiteLogo.Url');
+                background-size: @Html.Raw(smallWidth)px @Html.Raw(smallHeight)px;
+            }
+        }
+    </style>
+    }
+}

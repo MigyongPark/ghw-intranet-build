@@ -1,0 +1,132 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoViewPage<USNStarterKit.USNModels.USNContactFormViewModel>
+
+@using USN.Heading.Umbraco.Models;
+
+@using (Ajax.BeginForm("HandleContactSubmit", "USNContactFormSurface", new AjaxOptions
+{
+    HttpMethod = "POST",
+    InsertionMode = InsertionMode.Replace,
+    UpdateTargetId = "ContactFormContainer" + @Model.CurrentNodeID,
+    LoadingElementId = "ContactAjaxLoading" + @Model.CurrentNodeID
+}))
+{
+    var currentNode = Umbraco.TypedContent(Model.CurrentNodeID);
+
+    IPublishedContent homeNode = currentNode.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+    var containerID = "ContactFormContainer" + Model.CurrentNodeID;
+    var ajaxLoadingID = "ContactAjaxLoading" + Model.CurrentNodeID;
+    var errorID = "ContactError" + Model.CurrentNodeID;
+  
+
+    @Html.Hidden("CurrentNodeID", Model.CurrentNodeID)
+    @Html.AntiForgeryToken()
+
+    if (currentNode.Parent.Parent.IsDocumentType("USNHomepage") || currentNode.Parent.Parent.IsDocumentType("USNAdvancedPage"))
+    {
+        if (currentNode.HasValue("width") && currentNode.GetProperty("width").Value.ToString() == "Centered")
+        {
+            @Html.Raw("<div id=\"mid-col\" class=\"col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\"><div class=\"spc forms\">")
+        }
+        else
+        {
+            @Html.Raw("<div id=\"wide-col\" class=\"col-xs-12\"><div class=\"spc forms\">")
+        }
+    }
+
+
+    <div class="contact form ajax-wrap">
+        <div class="inner c5-bg has-borders c6-borders">
+            @if (currentNode.HasValue("contactFormHeading"))
+            {
+                var contactFormHeading = currentNode.GetPropertyValue<USNHeading>("contactFormHeading");
+
+                if (contactFormHeading != null && !String.IsNullOrEmpty(contactFormHeading.Heading))
+                {
+                    @Html.Raw("<" + contactFormHeading.HeadingStyle + " class=\"heading main\">")
+                    @contactFormHeading.Heading
+                    @Html.Raw("</" + contactFormHeading.HeadingStyle + ">")
+                }
+       
+            }
+
+            @if (currentNode.HasValue("contactFormIntroduction"))
+            {
+                @Html.Raw(currentNode.GetProperty("contactFormIntroduction").Value)
+            }
+            <div id="@containerID">
+                <div class="alert alert-danger alert-dismissible fade in" id="@errorID" style="display:none">
+                </div>
+                <fieldset>
+                    <!-- ROW -->
+                    <div class="row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="FirstName" class="control-label">
+                                @umbraco.library.GetDictionaryItem("USN Form First Name Label") <em class="req">*</em>
+                            </label>
+                            @Html.TextBoxFor(x => Model.FirstName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => Model.FirstName, umbraco.library.GetDictionaryItem("USN Form First Name Validation"))
+                        </div>
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="LastName" class="control-label">
+                                @umbraco.library.GetDictionaryItem("USN Form Last Name Label") <em class="req">*</em>
+                            </label>
+                            @Html.TextBoxFor(x => Model.LastName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(x => Model.LastName, umbraco.library.GetDictionaryItem("USN Form Last Name Validation"))
+                        </div>
+                    </div>
+                    <!--// ROW -->
+                    <!-- ROW -->
+                    <div class="row">
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Email" class="control-label">
+                                @umbraco.library.GetDictionaryItem("USN Form Email Address Label") <em class="req">*</em>
+                            </label>
+                            @Html.TextBoxFor(x => Model.Email, new { autocapitalize = "off", @class = "form-control" })
+                            @Html.ValidationMessageFor(x => Model.Email, umbraco.library.GetDictionaryItem("USN Form Email Address Validation"))
+                        </div>
+                        <div class="form-group col-md-6 col-xs-12">
+                            <label for="Telephone" class="control-label">
+                                @umbraco.library.GetDictionaryItem("USN Form Telephone Label")
+                            </label>
+                            @Html.TextBoxFor(x => Model.Telephone, new { @type = "tel", @class = "form-control" })
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="Message" class="control-label">
+                            @umbraco.library.GetDictionaryItem("USN Form Message Label")
+                        </label>
+                        @Html.TextAreaFor(model => model.Message, new { rows = 5, @class = "form-control" })
+                    </div>
+
+                    @if (globalSettings.HasValue("emailMarketingPlatform") && globalSettings.HasValue("newsletterAPIKey") && (globalSettings.HasValue("defaultNewsletterSubscriberListID") || currentNode.HasValue("newsletterSubscriberListID")))
+                    {
+                        <div class="checkbox">
+                            <label for="NewsletterSignup">@Html.CheckBoxFor(x => Model.NewsletterSignup ) @umbraco.library.GetDictionaryItem("USN Form Newsletter Signup Label")</label>
+                        </div>
+                    }
+                </fieldset>
+                <fieldset class="buttons">
+                    <button class="btn c1-bg c5-text" type="submit">
+                        <span>@currentNode.GetProperty("contactFormButtonText").Value</span>
+                    </button>
+                </fieldset>
+                <div class="ajax-loading" id="@ajaxLoadingID" style="display:none">
+                    <div class="loading">
+                        <span class="message">@umbraco.library.GetDictionaryItem("USN Contact Form Sending Message")</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    if (currentNode.Parent.Parent.IsDocumentType("USNHomepage") || currentNode.Parent.Parent.IsDocumentType("USNAdvancedPage"))
+    {
+        @Html.Raw("</div></div>")
+
+    }
+}

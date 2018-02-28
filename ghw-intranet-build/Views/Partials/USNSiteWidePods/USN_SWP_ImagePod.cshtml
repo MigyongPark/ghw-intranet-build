@@ -1,0 +1,75 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+
+@{
+    if (Model.Content.HasValue("lightWindowImage") && Umbraco.TypedMedia(Model.Content.GetProperty("lightWindowImage").Value) != null)
+    {
+        string lightWindow = String.Empty;
+        string title = String.Empty;
+        string footer = String.Empty;
+
+        if (!Model.Content.GetPropertyValue<bool>("disableLightWindow"))
+        {
+            lightWindow = " data-toggle=\"lightbox\" data-type=\"image\" ";
+
+            if (Model.Content.HasValue("lightWindowTitle"))
+            {
+                title = "data-title=\"" + Model.Content.GetProperty("lightWindowTitle").Value.ToString() + "\"";
+            }
+
+            if (Model.Content.HasValue("lightWindowFooter"))
+            {
+                footer = "data-footer=\"" + Model.Content.GetProperty("lightWindowFooter").Value.ToString() + "\"";
+            }
+        }
+        
+        string linkURL = String.Empty;
+        string linkTitle = String.Empty;
+        string linkTarget = String.Empty;
+
+        if (Model.Content.GetPropertyValue<bool>("disableLightWindow") && Model.Content.HasValue("imageLink"))
+        {
+            LinkInfo imageLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(Model.Content.GetPropertyValue<UrlPicker>("imageLink"));
+            
+            if(imageLink != null)
+            { 
+                linkURL = imageLink.LinkURL;
+                linkTitle = imageLink.LinkTitle;
+                linkTarget = imageLink.LinkTarget;
+            } 
+        }
+        else
+        {
+            linkURL = Umbraco.TypedMedia(Model.Content.GetProperty("lightWindowImage").Value).Url;
+        }
+
+        <div class="item image-pod">
+            <div class="image">
+                @if (linkURL != String.Empty)
+                {
+                    @Html.Raw("<a href=\"" + linkURL + "\" " + title + " " + footer + " target=\"" + linkTarget + "\" " + lightWindow + " >")
+                }
+                <img src="@Umbraco.TypedMedia(Model.Content.GetProperty("lightWindowImage").Value).GetCropUrl(width: 400, height: 300)" alt="@Model.Content.GetProperty("thumbnailImageAltText").Value">
+                @if (lightWindow != String.Empty)
+                {
+                    <div class="overlayicon ion-arrow-expand"></div>
+                }
+                else if (linkURL != String.Empty && linkTarget != String.Empty)
+                {
+                    <div class="overlayicon ion-android-open"></div>
+                }
+                else if (linkURL != String.Empty && linkTarget == String.Empty)
+                {
+                    <div class="overlayicon ion-link"></div>
+                }
+                @if (linkURL != String.Empty)
+                {
+                    @Html.Raw("</a>")
+                }
+            </div>
+        </div>
+
+    }
+
+}

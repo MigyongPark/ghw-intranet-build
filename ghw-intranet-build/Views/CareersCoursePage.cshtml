@@ -1,0 +1,149 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.CareersCoursePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="careersHeadBackground"><img id="zonePageIcon" src="/media/1071/contentpageiconcareers.png" /><h1 id="zoneWhite">Training course: @Umbraco.Field("pageTitle")</h1></div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="carMainArea">
+		
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="carNav">
+		<div id="thisCar"><a href="@CurrentPage.AncestorOrSelf(4).url">@CurrentPage.AncestorOrSelf(4).name</a></div>
+		<ul id="carNav1">
+
+
+			@*------------CONTROLS FOR LEVEL 5-------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 4----- *@
+			@if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(5).Name)
+				{					
+					@*-----displays all siblings (indented)----- *@
+					foreach (var sibling in CurrentPage.Parent.Children)
+					{
+						if(@sibling.Name != @CurrentPage.Name)
+						{
+							<li><a href="@sibling.Url">@sibling.Name</a></li>
+						}else{
+					@*-----displays self (highlighted)----- *@									
+							
+							<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+						}
+					}
+				}
+			
+
+			@*------------CONTROLS FOR LEVEL 6-------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 6----- *@
+			else if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(6).Name)
+				{	
+					@*----displays the parent page (highlighted)-------*@
+					<li id="self"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+					@*-----displays all siblings (indented)----- *@
+					foreach (var sibling in CurrentPage.Parent.Children)
+					{
+					if(@sibling.Name != @CurrentPage.Name)
+					{
+						<li id="indent20"><a href="@sibling.Url">@sibling.Name</a></li>
+						}else
+						{
+					@*-----displays self (highlighted)----- *@									
+					<li id="selfIndent20"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+								}
+							}
+						}
+					}		
+				}
+
+		</ul>
+
+	</div>
+<!-----L E F T   N A V-----E N D----->
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentWide">
+
+			<!-----left column start----->
+			<div id="courseColumnLeft">		
+				<div id="courseDetailsContainer">
+					<div id="courseDetailsQ">Who it's for</div>
+					<div id="courseDetailsA">@Umbraco.Field("bodyText")</div>
+				</div>
+
+				<div id="courseDetailsContainer"> 
+					<div id="courseDetailsQ">Aim of the course</div>
+					<div id="courseDetailsA">@Umbraco.Field("courseAim")</div>
+				</div>			
+			
+				<div id="courseDetailsContainer"> 
+					<div id="courseDetailsQ">Content and structure</div>
+					<div id="courseDetailsA">@Umbraco.Field("contentAndStructure")</div>
+				</div>				
+
+				@if(@CurrentPage.hideOtherInformation==false)
+				{
+				<div id="courseDetailsContainer"> 
+					<div id="courseDetailsQ">Other information</div>
+					<div id="courseDetailsA">@Umbraco.Field("otherInformation")</div>
+				</div>
+				}
+			</div>
+			<!-----left column end----->
+			
+			<!-----right column start----->
+			<div id="courseColumnRight">
+				<div id="courseDateInfoContainer">
+					<div id="courseDateInfoTitle">Course date(s) and venue(s)</div>
+				</div>			
+				<div id="courseDateInfoHolder">			
+					@foreach (var item in CurrentPage.Children)
+					{
+					<div id="courseDateInfoItemTop">						
+						<strong>@item.courseStart.ToString("dddd, d MMMM yyyy")</strong>
+					</div>
+					<div id="courseDateInfoItemBottom">		
+						@item.courseStart.ToString("h.mm")@item.courseStart.ToString("tt").ToLower()-@item.courseFinish.ToString("h.mm")@item.courseFinish.ToString("tt").ToLower()
+						<p>@item.courseVenue</p>
+					</div>
+					}
+				</div>
+			
+				<div id="howToApplyContainer"> 
+					<div id="courseDetailsQ">How to apply</div>
+					<div id="courseDetailsA">@Umbraco.Field("howToApply")</div>
+				</div>
+			</div>
+					
+
+					
+			<!-----right column end----->			
+
+@*----- Optional 'See also' section----- *@
+@Html.Partial("seeAlsoSection")
+
+@Html.Partial("advertisingBanner")
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="pageInfo">
+					<div id="carPageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(3).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(3).pageOwnersPosition</div>
+					<div id="carPageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(3).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(3).subEditor</a></div>
+					<div id="carPageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>
+				<!----- P A G E   I N F O ----- E N D ----->
+
+
+
+
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+			

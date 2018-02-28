@@ -1,0 +1,83 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+
+@{
+    string anchorID = String.Empty;
+
+    if (Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_ResourceItem")).Count() > 0)
+    {
+        @* Add div for column width on Andvanced Pages *@
+        if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+        {
+            if (Model.Content.HasValue("width") && Model.Content.GetProperty("width").Value.ToString() == "Centered")
+            {
+                @Html.Raw("<div id=\"mid-col\" class=\"col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\">")
+            }
+            else
+            {
+                @Html.Raw("<div id=\"wide-col\" class=\"col-xs-12\">")
+            }
+        }
+        else
+        {
+            anchorID = "id=\"pos_" + Model.Content.Id + "\" ";
+        }
+
+		<!-- PAGE COMPONENT RESOURCES -->
+        <div class="spc resources" @Html.Raw(anchorID)>
+            <div class="list-group">
+                @foreach (var item in Model.Content.Children.Where(x => x.IsDocumentType("USN_SC_ResourceItem")).OrderBy("SortOrder"))
+                {
+                    string note = "";
+                    string iconClass = "";
+
+                    LinkInfo attachement = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(item.GetPropertyValue<UrlPicker>("attachement"));
+
+                    if (attachement != null)
+                    {
+                        switch (attachement.LinkType)
+                        {
+                            case UrlPicker.UrlPickerTypes.Url:
+                                iconClass = "ion-android-open pull-right after c1-text";
+                                note = umbraco.library.GetDictionaryItem("USN Resources Component External Web Link") + " - " + attachement.LinkURL;
+                                break;
+                            case UrlPicker.UrlPickerTypes.Content:
+                                iconClass = "ion-link pull-right after c1-text";
+                                break;
+                            case UrlPicker.UrlPickerTypes.Media:
+                                iconClass = "ion-android-arrow-down pull-right after c1-text";
+                                string fullPathU = Server.MapPath("/") + attachement.LinkURL;
+                                FileInfo finfoU = new FileInfo(fullPathU);
+                                long fileInMBU = finfoU.Length / 1024;
+
+                                string fileSizeU = fileInMBU.ToString() + "KB";
+                                note = umbraco.library.GetDictionaryItem("USN Resources Component File Size") + ": " + fileSizeU;
+                                break;
+                        }
+                        <a href="@attachement.LinkURL" @Html.Raw(attachement.LinkTitle) @Html.Raw(attachement.LinkTarget) class="item list-group-item">
+                            <p class="heading">@item.Name<i class="@iconClass"></i></p>
+
+                            @if (item.HasValue("optionalAdditionalInformation"))
+                            {
+                                <div class="text">@Html.Raw(item.GetProperty("optionalAdditionalInformation").Value)</div>
+                            }
+
+                            @if (note != String.Empty)
+                            {
+                                <div class="size">@note</div>
+                            }
+                        </a>
+                    }
+                }
+            </div>
+        </div>
+
+        @* Close div for column width on Advanced Pages *@
+        if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+        {
+            @Html.Raw("</div>")
+        }
+    }
+	<!--// PAGE COMPONENT RESOURCES -->
+}

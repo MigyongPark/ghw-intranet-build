@@ -1,0 +1,114 @@
+﻿ 2017-11-14 08:41:03,318 [P9872/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-14 08:41:03,396 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-14 08:41:03,427 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 35ms)
+ 2017-11-14 08:41:03,614 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-14 08:41:03,786 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 165ms)
+ 2017-11-14 08:41:03,942 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-14 08:41:03,942 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-11-14 08:41:03,942 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-14 08:41:04,021 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 79ms)
+ 2017-11-14 08:41:04,083 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-14 08:41:04,083 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-14 08:41:04,083 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-14 08:41:04,130 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 47ms)
+ 2017-11-14 08:41:04,224 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-14 08:41:04,224 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-14 08:41:04,224 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-14 08:41:04,224 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-14 08:41:07,286 [P9872/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-14 08:41:07,942 [P9872/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-14 08:41:07,942 [P9872/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-14 08:41:08,052 [P9872/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-14 08:41:08,364 [P9872/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-14 08:41:08,364 [P9872/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-14 08:41:08,380 [P9872/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-14 08:41:08,411 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-14 08:41:08,411 [P9872/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-14 08:41:09,224 [P9872/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6239ms)
+ 2017-11-14 08:41:13,645 [P9872/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-14 08:41:16,833 [P9872/D2/T7] INFO  umbraco.content - Load Xml from file...
+ 2017-11-14 08:41:17,005 [P9872/D2/T7] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-14 08:41:19,083 [P9872/D2/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-14 08:41:19,083 [P9872/D2/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-11-14 08:42:17,160 [P9872/D2/T13] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-13 08:42:17
+ 2017-11-14 08:43:13,909 [P9872/D2/T7] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2017-11-14 08:43:14,252 [P9872/D2/T23] ERROR Umbraco.Core.Security.AuthenticationExtensions - The current identity cannot be converted to Umbraco.Core.Security.UmbracoBackOfficeIdentity
+System.InvalidOperationException: Cannot create a Umbraco.Core.Security.UmbracoBackOfficeIdentity from System.Security.Claims.ClaimsIdentity since the required claim http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier is missing
+   at Umbraco.Core.Security.UmbracoBackOfficeIdentity.FromClaimsIdentity(ClaimsIdentity identity)
+   at Umbraco.Core.Security.AuthenticationExtensions.GetCurrentIdentity(HttpContextBase http, Boolean authenticateRequestIfNotFound)
+ 2017-11-14 08:43:28,908 [P9872/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.91.59
+ 2017-11-14 08:43:28,908 [P9872/D2/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.91.59
+ 2017-11-14 08:43:29,362 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-14 08:43:29,362 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-14 08:43:29,627 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-14 08:43:29,627 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-14 08:43:29,846 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-14 08:43:29,846 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-11-14 08:43:29,862 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-14 08:43:29,862 [P9872/D2/T18] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-14 08:43:30,252 [P9872/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-14 08:43:30,252 [P9872/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-14 08:45:08,453 [P9872/D2/T23] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workbooks' with Id '0' has been published.
+ 2017-11-14 08:45:09,735 [P9872/D2/T23] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-14 08:45:09,735 [P9872/D2/T23] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-14 08:45:13,922 [P9872/D2/T5] INFO  umbraco.content - Save Xml to file...
+ 2017-11-14 08:45:14,656 [P9872/D2/T5] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-14 08:45:30,187 [P9872/D2/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Workbooks (1)' with Id '5249' has been unpublished.
+ 2017-11-14 08:45:34,437 [P9872/D2/T36] INFO  umbraco.content - Save Xml to file...
+ 2017-11-14 08:45:34,750 [P9872/D2/T36] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-14 08:46:07,624 [P9872/D2/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Bereavement study STILL RUNNING?' with Id '3847' has been unpublished.
+ 2017-11-14 08:46:11,796 [P9872/D2/T20] INFO  umbraco.content - Save Xml to file...
+ 2017-11-14 08:46:12,093 [P9872/D2/T20] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-14 09:03:00,511 [P9872/D2/T115] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.91.59
+ 2017-11-14 09:06:52,397 [P9872/D2/T100] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.91.59
+ 2017-11-14 09:06:52,397 [P9872/D2/T99] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.91.59
+ 2017-11-14 09:06:52,397 [P9872/D2/T100] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.91.59
+ 2017-11-14 09:06:52,397 [P9872/D2/T99] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.91.59
+ 2017-11-14 09:06:52,538 [P9872/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username JasmineVickers from IP address 192.168.91.59
+ 2017-11-14 09:06:52,538 [P9872/D2/T86] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: JasmineVickers logged in from IP address 192.168.91.59
+ 2017-11-14 09:06:54,913 [P9872/D2/T87] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-14 09:06:54,913 [P9872/D2/T87] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-11-14 09:07:56,708 [P9872/D2/T87] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire health and care information' with Id '0' has been published.
+ 2017-11-14 09:08:01,005 [P9872/D2/T28] INFO  umbraco.content - Save Xml to file...
+ 2017-11-14 09:08:01,349 [P9872/D2/T28] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-14 09:08:59,832 [P9872/D2/T100] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon community services' with Id '5251' has been published.
+ 2017-11-14 09:09:04,098 [P9872/D2/T100] INFO  umbraco.content - Save Xml to file...
+ 2017-11-14 09:09:04,441 [P9872/D2/T100] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-14 09:42:49,512 [P9872/D2/T168] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: JasmineVickers, IP Address: 192.168.91.59
+ 2017-11-14 11:48:37,539 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-14 11:48:37,539 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-14 11:48:37,555 [P9872/D2/T490] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-14 11:48:37,601 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-14 11:48:37,601 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-14 11:48:37,601 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-14 11:48:37,601 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-14 11:48:37,601 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-14 11:48:37,601 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-14 11:48:37,601 [P9872/D2/T13] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-14 11:48:37,601 [P9872/D2/T544] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-14 11:48:37,601 [P9872/D2/T480] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-14 11:48:37,711 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-14 11:48:37,711 [P9872/D2/T440] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-14 11:48:37,711 [P9872/D2/T543] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-14 11:49:07,851 [P9872/D2/T541] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

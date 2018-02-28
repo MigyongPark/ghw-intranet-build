@@ -1,0 +1,81 @@
+﻿@using BerkshireHealthCare.DMS.Settings
+@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@{
+    //Get Current date//
+    //string currentDt = DateTime.Now.ToString("yyyyMMdd");
+    var docRep = Umbraco.TypedContent(5378);      @* The Docuemnt Repository Folder *@
+    var docsInRepository = docRep.Children;             @* The collection of documents entries *@
+}
+
+        <div class="row">
+            <div class="col-xs-12">
+
+                @foreach (var documentItem in docsInRepository)
+                {
+                    var childsDocId = Umbraco.Content(@documentItem.Id).DocumentPath;
+                    var childsDoc = Umbraco.Media(childsDocId.ToString());
+
+                    // This is mandatory, so should exist
+                    var ownerId             = documentItem.GetPropertyValue(DmsAppSettings.DocumentItemPropertyOwner);
+                    var owner               = UmbracoContext.Current.Application.Services.UserService.GetUserById(Convert.ToInt32(ownerId));
+
+                    // Try to find secondary user (optional)
+                    var secondaryOwnerId    = documentItem.GetPropertyValue(DmsAppSettings.DocumentItemPropertyOwner2) + "";
+                    var secondaryOwner      = !String.IsNullOrEmpty(secondaryOwnerId)
+                                                ? UmbracoContext.Current.Application.Services.UserService.GetUserById(Convert.ToInt32(secondaryOwnerId))
+                                                : null;
+
+                    var strOwner2Email      = secondaryOwner == null
+                                                ? ""
+                                                : secondaryOwner.Email;
+                    String path = @childsDoc.Url;
+
+                    String filename = Umbraco.Content(@documentItem.Id).Name;
+                    String ownerName = owner.Name;
+                    DateTime currentDt = DateTime.Now;
+                    DateTime expiryDate = Umbraco.Content(@documentItem.Id).expiryDate;
+                    DateTime reviewDate = Umbraco.Content(@documentItem.Id).reviewDate;
+                    DateTime publishDate = Umbraco.Content(@documentItem.Id).publishDate;
+
+                    String strExpiryDate = expiryDate.ToString("yyyyMMdd");
+                    String email1 = owner.Email;
+                    String email2 = strOwner2Email;
+
+
+                     <div class="docList">
+
+                     @if (CurrentPage.Name == @documentItem.Name)
+                     {
+                        if (expiryDate <= currentDt)
+                        {
+                            Response.Redirect("~/expiredError.html");
+                                 @*<h2><a href="~/expiredError.html" target="_blank">@documentItem.Name</a></h2>*@
+                                 @*<h7> Owner Name :</h7> <h7>@ownerName</h7> <br /><br />
+                                 <h7> Document Path :</h7> <h7>@childsDoc.Url</h7> <br /><br />
+                                 <h7> Email1 :</h7>  <h7>@email1</h7> <br /><br />
+                                 <h7> Email2 :</h7> <h7>@email2</h7><br /><br />
+                                 <h7> Publish Date :</h7> <h7>@publishDate</h7><br /><br />
+                                 <h7> Review Date :</h7> <h7>@reviewDate</h7><br /><br />
+                                 <h7> Expired date :</h7> <h7>@expiryDate</h7> <br /><br />*@
+                         }
+                         else
+                         {
+                             //Document Link
+                             Response.Redirect(path);
+                             <h2><a href="@childsDoc.Url" target="_blank">@documentItem.Name</a></h2>
+
+                                <h7> Owner Name :</h7> <h7>@ownerName</h7> <br /><br />
+                                <h7> Document Path :</h7> <h7>@childsDoc.Url</h7> <br /><br />
+                                <h7> Email1 :</h7>  <h7>@email1</h7> <br /><br />
+                                <h7> Email2 :</h7> <h7>@email2</h7><br /><br />
+                                <h7> Publish Date :</h7> <h7>@publishDate</h7><br /><br />
+                                <h7> Review Date :</h7> <h7>@reviewDate</h7><br /><br />
+                                <h7> Expired date :</h7> <h7>@expiryDate</h7> <br /><br />
+                         }
+                     }
+                    </div>
+                }
+            </div>
+        </div>
+

@@ -1,0 +1,60 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.IRehomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div class="zoneHeader" id="zoneIncident">
+<img id="zonePageIcon" src="/media/1096/zonepageiconincident.png" />Incidents, risks, emergencies</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+	
+	<!----INCIDENTS, RISKS, EMERGENCIES GRID START------------------------------------------------------>
+	<div class="ireGrid">
+
+		<!---ITEM---START--->
+			<a href="/incidents-risks-emergencies/incidents/">
+			<div id="ireSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="ireIcon"><img src="/media/1548/icon-ire60.png" /></td>
+				</tr>
+				<tr>
+					<td id="ireText">Incidents</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/incidents-risks-emergencies/risks/">
+			<div id="ireSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="ireIcon"><img src="/media/1548/icon-ire60.png" /></td>
+				</tr>
+				<tr>
+					<td id="ireText">Risks</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+		
+		<!---ITEM---START--->
+			<a href="/incidents-risks-emergencies/emergencies/">
+			<div id="ireSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="ireIcon"><img src="/media/1548/icon-ire60.png" /></td>
+				</tr>
+				<tr>
+					<td id="ireText">Emergencies</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->		
+
+	</div>
+	<!----INCIDENTS, RISKS, EMERGENCIES GRID END------------------------------------------------------>

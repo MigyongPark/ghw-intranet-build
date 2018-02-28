@@ -1,0 +1,688 @@
+﻿ 2017-11-30 08:54:43,714 [P4932/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-30 08:54:43,933 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-30 08:54:43,995 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Hash determined (took 60ms)
+ 2017-11-30 08:54:44,230 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-30 08:54:44,370 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 127ms)
+ 2017-11-30 08:54:44,448 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-30 08:54:44,448 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-11-30 08:54:44,448 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-30 08:54:44,448 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 2ms)
+ 2017-11-30 08:54:44,589 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-30 08:54:44,589 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-30 08:54:44,589 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-30 08:54:44,589 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 8ms)
+ 2017-11-30 08:54:44,855 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-30 08:54:44,855 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-30 08:54:44,855 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-30 08:54:44,855 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-11-30 08:54:49,120 [P4932/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 08:54:50,667 [P4932/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 08:54:50,683 [P4932/D2/T1] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-30 08:54:50,698 [P4932/D2/T1] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 08:54:50,823 [P4932/D2/T1] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-30 08:54:51,401 [P4932/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-30 08:54:51,401 [P4932/D2/T1] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-30 08:54:51,495 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-30 08:54:51,495 [P4932/D2/T1] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-30 08:54:52,776 [P4932/D2/T1] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 10233ms)
+ 2017-11-30 08:54:53,761 [P4932/D2/T10] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 08:54:53,870 [P4932/D2/T8] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 08:54:55,339 [P4932/D2/T10] INFO  umbraco.content - Load Xml from file...
+ 2017-11-30 08:54:55,698 [P4932/D2/T10] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-30 08:54:59,667 [P4932/D2/T10] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-30 08:54:59,667 [P4932/D2/T10] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-30 08:55:12,823 [P4932/D3/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-30 08:55:12,886 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-30 08:55:12,901 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2017-11-30 08:55:13,854 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-30 08:55:13,901 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 38ms)
+ 2017-11-30 08:55:13,964 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-30 08:55:13,964 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2017-11-30 08:55:13,964 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-30 08:55:13,979 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 3ms)
+ 2017-11-30 08:55:14,011 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-30 08:55:14,011 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-30 08:55:14,011 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-30 08:55:14,026 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 8ms)
+ 2017-11-30 08:55:14,104 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-30 08:55:14,104 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-30 08:55:14,104 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-30 08:55:14,104 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 1ms)
+ 2017-11-30 08:55:17,120 [P4932/D3/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 08:55:17,745 [P4932/D3/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 08:55:17,761 [P4932/D3/T26] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-30 08:55:17,761 [P4932/D3/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 08:55:17,839 [P4932/D3/T26] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-30 08:55:18,089 [P4932/D3/T26] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-30 08:55:18,089 [P4932/D3/T26] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-30 08:55:18,136 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-30 08:55:18,151 [P4932/D3/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-30 08:55:18,964 [P4932/D3/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 6472ms)
+ 2017-11-30 08:55:19,386 [P4932/D3/T11] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 08:55:19,386 [P4932/D3/T27] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 08:55:21,245 [P4932/D3/T11] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-30 08:55:21,245 [P4932/D3/T11] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-30 08:55:24,011 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating (immediate)
+ 2017-11-30 08:55:24,011 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Cancelling tasks
+ 2017-11-30 08:55:24,136 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks cancelled, terminated
+ 2017-11-30 08:55:24,136 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating (immediate)
+ 2017-11-30 08:55:24,136 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Cancelling tasks
+ 2017-11-30 08:55:24,245 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks cancelled, terminated
+ 2017-11-30 08:55:24,245 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating (immediate)
+ 2017-11-30 08:55:24,245 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Cancelling tasks
+ 2017-11-30 08:55:24,354 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks cancelled, terminated
+ 2017-11-30 08:55:24,354 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating (immediate)
+ 2017-11-30 08:55:24,354 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Cancelling tasks
+ 2017-11-30 08:55:24,464 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks cancelled, terminated
+ 2017-11-30 08:55:24,464 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating (immediate)
+ 2017-11-30 08:55:24,464 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Cancelling tasks
+ 2017-11-30 08:55:24,573 [P4932/D2/T6] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks cancelled, terminated
+ 2017-11-30 08:55:24,573 [P4932/D2/T17] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: BuildManagerChange
+
+_shutDownMessage=Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\58cc86dd\f5e83518\hash\hash.web
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.BuildManager.OnWebHashFileChange(Object sender, FileChangeEvent e)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-30 08:56:20,588 [P4932/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-29 08:56:20
+ 2017-11-30 08:56:21,260 [P4932/D3/T16] INFO  umbraco.content - Load Xml from file...
+ 2017-11-30 08:56:21,354 [P4932/D3/T16] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-30 09:29:51,435 [P4932/D3/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 09:29:51,451 [P4932/D3/T7] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 09:29:52,216 [P4932/D3/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-30 09:29:52,263 [P4932/D3/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 41ms)
+ 2017-11-30 09:29:52,497 [P4932/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-30 09:29:52,497 [P4932/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-30 09:29:52,576 [P4932/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-30 09:29:52,576 [P4932/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-11-30 09:29:52,591 [P4932/D3/T5] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-30 09:29:52,591 [P4932/D3/T5] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-11-30 09:29:52,701 [P4932/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-30 09:29:52,701 [P4932/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-30 09:31:05,966 [P4932/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'A quick guide to... Job Evaluation' with Id '3956' has been published.
+ 2017-11-30 09:31:06,638 [P4932/D3/T35] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-30 09:31:06,638 [P4932/D3/T35] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 2ms)
+ 2017-11-30 09:31:11,450 [P4932/D3/T34] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 09:31:11,966 [P4932/D3/T34] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:06:31,290 [P4932/D3/T11] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 10:06:36,305 [P4932/D3/T43] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 10:28:09,809 [P4932/D3/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 10:28:09,809 [P4932/D3/T11] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 10:40:42,616 [P4932/D3/T7] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-30 10:40:42,694 [P4932/D3/T7] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 91ms)
+ 2017-11-30 10:41:50,741 [P4932/D3/T19] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care 2' with Id '0' has been published.
+ 2017-11-30 10:41:55,131 [P4932/D3/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:41:55,428 [P4932/D3/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:42:13,491 [P4932/D3/T38] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Mr Adam Brooks' with Id '2984' has been published.
+ 2017-11-30 10:42:17,803 [P4932/D3/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:42:18,100 [P4932/D3/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:43:33,771 [P4932/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care 2' with Id '5590' has been published.
+ 2017-11-30 10:43:33,771 [P4932/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Podiatry [community]' with Id '3344' has been published.
+ 2017-11-30 10:43:33,771 [P4932/D3/T35] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Programme Management Office (PMO)' with Id '1598' has been published.
+ 2017-11-30 10:43:38,365 [P4932/D3/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:43:38,709 [P4932/D3/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:47:34,832 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-30 10:47:34,832 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-30 10:47:34,832 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-30 10:47:34,832 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-30 10:47:34,832 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-30 10:47:34,832 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-30 10:47:34,848 [P4932/D3/T29] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-30 10:47:34,848 [P4932/D3/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-30 10:47:34,848 [P4932/D3/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-30 10:47:34,848 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-30 10:47:34,848 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-30 10:47:34,848 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-30 10:47:34,848 [P4932/D3/T56] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-30 10:47:34,848 [P4932/D3/T62] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-30 10:47:34,848 [P4932/D3/T43] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-30 10:47:39,317 [P4932/D4/T46] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-30 10:47:39,379 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-30 10:47:39,411 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2017-11-30 10:47:39,567 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-30 10:47:39,614 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 53ms)
+ 2017-11-30 10:47:39,692 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-30 10:47:39,707 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 3ms)
+ 2017-11-30 10:47:39,707 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-30 10:47:39,707 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-11-30 10:47:39,739 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-30 10:47:39,754 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 4ms)
+ 2017-11-30 10:47:39,754 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-30 10:47:39,786 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 35ms)
+ 2017-11-30 10:47:39,864 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-30 10:47:39,864 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-30 10:47:39,864 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-30 10:47:39,864 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-30 10:47:42,676 [P4932/D4/T46] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 10:47:43,332 [P4932/D4/T46] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 10:47:43,348 [P4932/D4/T46] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-30 10:47:43,348 [P4932/D4/T46] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 10:47:43,410 [P4932/D4/T46] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-30 10:47:43,723 [P4932/D4/T46] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-30 10:47:43,723 [P4932/D4/T46] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-30 10:47:43,770 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-30 10:47:43,770 [P4932/D4/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 3ms)
+ 2017-11-30 10:47:44,629 [P4932/D4/T46] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5633ms)
+ 2017-11-30 10:47:45,723 [P4932/D4/T43] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 10:47:54,473 [P4932/D4/T43] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IAction
+ 2017-11-30 10:47:54,489 [P4932/D4/T43] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IAction, found 0 (took 1ms)
+ 2017-11-30 10:47:55,426 [P4932/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-30 10:47:55,426 [P4932/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-30 10:47:55,426 [P4932/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-30 10:47:55,426 [P4932/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-30 10:47:57,410 [P4932/D4/T20] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-30 10:47:57,410 [P4932/D4/T20] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-30 10:48:04,879 [P4932/D3/T18] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+CONFIG change
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\58cc86dd\f5e83518\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-30 10:48:32,988 [P4932/D4/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care 3' with Id '0' has been published.
+ 2017-11-30 10:48:34,191 [P4932/D4/T33] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-30 10:48:34,191 [P4932/D4/T33] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-30 10:48:34,238 [P4932/D4/T33] INFO  umbraco.content - Load Xml from file...
+ 2017-11-30 10:48:34,316 [P4932/D4/T33] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-30 10:48:38,473 [P4932/D4/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:48:38,676 [P4932/D4/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:48:45,332 [P4932/D4/T56] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-30 10:48:45,332 [P4932/D4/T56] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-30 10:48:49,879 [P4932/D4/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care 3' with Id '5591' has been published.
+ 2017-11-30 10:48:49,879 [P4932/D4/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Podiatry [community]' with Id '3344' has been published.
+ 2017-11-30 10:48:49,879 [P4932/D4/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Programme Management Office (PMO)' with Id '1598' has been published.
+ 2017-11-30 10:48:52,941 [P4932/D4/T16] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-29 10:48:52
+ 2017-11-30 10:48:54,519 [P4932/D4/T42] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:48:54,801 [P4932/D4/T42] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:49:20,082 [P4932/D4/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emily Beardshall' with Id '3159' has been published.
+ 2017-11-30 10:49:24,347 [P4932/D4/T41] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:49:24,707 [P4932/D4/T41] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:55:27,986 [P4932/D4/T27] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Emily Beardshall' with Id '3159' has been published.
+ 2017-11-30 10:55:32,298 [P4932/D4/T41] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:55:32,564 [P4932/D4/T41] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:55:48,392 [P4932/D4/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care 3' with Id '5591' has been unpublished.
+ 2017-11-30 10:55:52,548 [P4932/D4/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 10:55:52,845 [P4932/D4/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 10:55:56,517 [P4932/D4/T41] ERROR Umbraco.Core.UmbracoApplicationBase - An unhandled exception occurred
+System.Web.HttpCompileException (0x80004005): d:\build2016\docs\docs-21sep17\Views\TeamContactPage.cshtml(42): error CS1525: Invalid expression term 'else'
+   at System.Web.Compilation.AssemblyBuilder.Compile()
+   at System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   at System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   at System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   at System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Umbraco.Core.Profiling.ProfilingView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+ 2017-11-30 10:56:25,454 [P4932/D4/T31] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-30 10:56:25,454 [P4932/D4/T31] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 3ms)
+ 2017-11-30 11:00:45,452 [P4932/D4/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Siobhan Heeley' with Id '3182' has been published.
+ 2017-11-30 11:00:49,765 [P4932/D4/T8] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:00:49,968 [P4932/D4/T8] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:01:04,468 [P4932/D4/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tania Currie' with Id '3183' has been published.
+ 2017-11-30 11:01:08,765 [P4932/D4/T81] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:01:08,999 [P4932/D4/T81] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:01:25,249 [P4932/D4/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Laura Carruthers' with Id '3186' has been published.
+ 2017-11-30 11:01:29,546 [P4932/D4/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:01:29,811 [P4932/D4/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:01:45,343 [P4932/D4/T81] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Will Chapman' with Id '3187' has been published.
+ 2017-11-30 11:01:49,639 [P4932/D4/T78] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:01:49,905 [P4932/D4/T78] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:02:02,686 [P4932/D4/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Traci Parfect' with Id '3188' has been published.
+ 2017-11-30 11:02:06,999 [P4932/D4/T37] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:02:07,249 [P4932/D4/T37] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:02:25,795 [P4932/D4/T56] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Julian Phillips' with Id '3189' has been published.
+ 2017-11-30 11:02:30,077 [P4932/D4/T45] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:02:30,452 [P4932/D4/T45] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:02:55,748 [P4932/D4/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Juliet Whitfield' with Id '3190' has been published.
+ 2017-11-30 11:03:00,077 [P4932/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:03:00,311 [P4932/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:03:17,155 [P4932/D4/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Rick Windas' with Id '3191' has been unpublished.
+ 2017-11-30 11:03:21,326 [P4932/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:03:21,592 [P4932/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:03:26,498 [P4932/D4/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care' with Id '2977' has been unpublished.
+ 2017-11-30 11:03:30,670 [P4932/D4/T56] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:03:31,092 [P4932/D4/T56] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:03:39,436 [P4932/D4/T14] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care 2' with Id '5590' has been published.
+ 2017-11-30 11:03:43,732 [P4932/D4/T14] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:03:43,998 [P4932/D4/T14] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:03:53,436 [P4932/D4/T8] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care' with Id '5590' has been published.
+ 2017-11-30 11:03:57,779 [P4932/D4/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:03:58,076 [P4932/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:16:24,071 [P4932/D4/T77] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diagnostics and Outpatients (D&O) OLD' with Id '3251' has been published.
+ 2017-11-30 11:16:28,415 [P4932/D4/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:16:28,728 [P4932/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:16:43,790 [P4932/D4/T36] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diagnostics and Outpatients (D&O)' with Id '0' has been published.
+ 2017-11-30 11:16:48,087 [P4932/D4/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:16:48,368 [P4932/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:18:47,774 [P4932/D4/T15] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dr Helen Jones' with Id '0' has been published.
+ 2017-11-30 11:18:52,133 [P4932/D4/T33] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:18:52,383 [P4932/D4/T33] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:30:20,660 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-30 11:30:20,660 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-30 11:30:20,660 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-30 11:30:20,660 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-30 11:30:20,660 [P4932/D4/T82] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-30 11:30:20,660 [P4932/D4/T17] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-30 11:30:20,707 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-30 11:30:20,707 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-30 11:30:20,707 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-30 11:30:20,707 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-30 11:30:20,707 [P4932/D4/T81] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-30 11:30:20,722 [P4932/D4/T16] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-30 11:30:20,722 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-30 11:30:20,722 [P4932/D4/T45] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-30 11:30:20,722 [P4932/D4/T20] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-30 11:30:32,707 [P4932/D5/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-30 11:30:32,800 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-30 11:30:32,832 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Hash determined (took 21ms)
+ 2017-11-30 11:30:32,972 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-30 11:30:33,019 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 44ms)
+ 2017-11-30 11:30:33,082 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-30 11:30:33,097 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 4ms)
+ 2017-11-30 11:30:33,097 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-30 11:30:33,097 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 5ms)
+ 2017-11-30 11:30:33,144 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-30 11:30:33,144 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-30 11:30:33,144 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-30 11:30:33,160 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 17ms)
+ 2017-11-30 11:30:33,238 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-30 11:30:33,238 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-30 11:30:33,238 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-30 11:30:33,238 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-30 11:30:36,128 [P4932/D5/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 11:30:36,863 [P4932/D5/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 11:30:36,878 [P4932/D5/T26] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-30 11:30:36,878 [P4932/D5/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 11:30:36,957 [P4932/D5/T26] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-30 11:30:37,253 [P4932/D5/T26] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-30 11:30:37,253 [P4932/D5/T26] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-30 11:30:37,316 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-30 11:30:37,316 [P4932/D5/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 6ms)
+ 2017-11-30 11:30:38,332 [P4932/D5/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 5955ms)
+ 2017-11-30 11:30:39,238 [P4932/D5/T9] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 11:30:45,675 [P4932/D5/T82] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-30 11:30:45,675 [P4932/D5/T82] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-30 11:30:45,675 [P4932/D5/T82] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-30 11:30:45,675 [P4932/D5/T82] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-30 11:30:47,988 [P4932/D5/T17] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-30 11:30:47,988 [P4932/D5/T17] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-30 11:30:50,831 [P4932/D4/T45] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+CONFIG change
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-30 11:30:52,160 [P4932/D5/T52] INFO  umbraco.content - Load Xml from file...
+ 2017-11-30 11:30:52,425 [P4932/D5/T52] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-30 11:31:11,331 [P4932/D5/T29] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dr Helen Jones' with Id '5593' has been published.
+ 2017-11-30 11:31:11,659 [P4932/D5/T29] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-30 11:31:11,659 [P4932/D5/T29] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-30 11:31:16,347 [P4932/D5/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:31:16,581 [P4932/D5/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:31:45,065 [P4932/D5/T33] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-29 11:31:45
+ 2017-11-30 11:32:28,206 [P4932/D5/T80] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Judith Ratledge' with Id '0' has been published.
+ 2017-11-30 11:32:32,643 [P4932/D5/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:32:32,909 [P4932/D5/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:33:43,627 [P4932/D5/T39] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Susan Manktelow' with Id '0' has been published.
+ 2017-11-30 11:33:47,940 [P4932/D5/T52] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:33:48,158 [P4932/D5/T52] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:34:19,377 [P4932/D5/T7] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Alison Koster' with Id '0' has been published.
+ 2017-11-30 11:34:23,643 [P4932/D5/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:34:23,861 [P4932/D5/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:38:20,204 [P4932/D5/T71] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diagnostics and Outpatients (D&O) OLD' with Id '3251' has been unpublished.
+ 2017-11-30 11:38:24,500 [P4932/D5/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:38:25,000 [P4932/D5/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:38:25,547 [P4932/D5/T71] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-30 11:38:25,563 [P4932/D5/T71] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 13ms)
+ 2017-11-30 11:38:30,078 [P4932/D5/T71] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diagnostics and Outpatients (D&O)' with Id '5592' has been published.
+ 2017-11-30 11:38:34,500 [P4932/D5/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:38:35,110 [P4932/D5/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:40:34,656 [P4932/D5/T75] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services OLD' with Id '3266' has been published.
+ 2017-11-30 11:40:38,953 [P4932/D5/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:40:39,218 [P4932/D5/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:41:02,187 [P4932/D5/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services' with Id '0' has been published.
+ 2017-11-30 11:41:06,452 [P4932/D5/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:41:06,702 [P4932/D5/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:41:36,171 [P4932/D5/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Nerissa Vaughan' with Id '0' has been published.
+ 2017-11-30 11:41:40,452 [P4932/D5/T62] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:41:40,655 [P4932/D5/T62] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:42:09,624 [P4932/D5/T71] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Kevin McNamara' with Id '0' has been published.
+ 2017-11-30 11:42:13,905 [P4932/D5/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:42:14,124 [P4932/D5/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:42:25,858 [P4932/D5/T42] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services OLD' with Id '3266' has been unpublished.
+ 2017-11-30 11:42:30,061 [P4932/D5/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:42:30,296 [P4932/D5/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:47:32,606 [P4932/D5/T69] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care OLD' with Id '3257' has been published.
+ 2017-11-30 11:47:36,950 [P4932/D5/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:47:37,216 [P4932/D5/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:47:56,044 [P4932/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care' with Id '0' has been published.
+ 2017-11-30 11:48:00,856 [P4932/D5/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:48:01,184 [P4932/D5/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:48:38,418 [P4932/D5/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dr Tobenna Onyirioha' with Id '0' has been published.
+ 2017-11-30 11:48:42,746 [P4932/D5/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:48:43,153 [P4932/D5/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:49:07,793 [P4932/D5/T79] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Simon Barson' with Id '0' has been published.
+ 2017-11-30 11:49:12,121 [P4932/D5/T44] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:49:12,356 [P4932/D5/T44] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:49:34,855 [P4932/D5/T31] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Caroline Wretham' with Id '0' has been published.
+ 2017-11-30 11:49:39,277 [P4932/D5/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:49:39,527 [P4932/D5/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:50:01,012 [P4932/D5/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Robin Jones' with Id '0' has been published.
+ 2017-11-30 11:50:05,262 [P4932/D5/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:50:05,512 [P4932/D5/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:50:09,980 [P4932/D5/T44] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Robin Jones' with Id '5614' has been published.
+ 2017-11-30 11:50:14,277 [P4932/D5/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:50:14,527 [P4932/D5/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:50:16,027 [P4932/D5/T11] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care OLD' with Id '3257' has been unpublished.
+ 2017-11-30 11:50:20,230 [P4932/D5/T31] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:50:20,465 [P4932/D5/T31] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:50:25,090 [P4932/D5/T78] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care' with Id '5610' has been published.
+ 2017-11-30 11:50:29,402 [P4932/D5/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:50:29,730 [P4932/D5/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:50:34,386 [P4932/D5/T44] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-30 11:50:43,605 [P4932/D5/T44] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-30 11:50:58,746 [P4932/D5/T29] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-30 11:51:44,620 [P4932/D5/T41] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Women's, Children's & Sexual Health OLD' with Id '3262' has been published.
+ 2017-11-30 11:51:48,948 [P4932/D5/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:51:49,308 [P4932/D5/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:51:59,730 [P4932/D5/T32] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Women's, Children's & Sexual Health' with Id '0' has been published.
+ 2017-11-30 11:52:04,120 [P4932/D5/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:52:04,401 [P4932/D5/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:56:27,790 [P4932/D5/T10] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Teresa Harding' with Id '0' has been published.
+ 2017-11-30 11:56:32,087 [P4932/D5/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:56:32,509 [P4932/D5/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:57:06,071 [P4932/D5/T51] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Christina Rattigan' with Id '0' has been published.
+ 2017-11-30 11:57:10,478 [P4932/D5/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:57:11,009 [P4932/D5/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 11:57:57,524 [P4932/D5/T68] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Christina Rattigan' with Id '5620' has been published.
+ 2017-11-30 11:58:01,883 [P4932/D5/T11] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 11:58:02,337 [P4932/D5/T11] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:02:39,975 [P4932/D5/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Women's, Children's & Sexual Health OLD' with Id '3262' has been unpublished.
+ 2017-11-30 12:02:44,179 [P4932/D5/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:02:44,460 [P4932/D5/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:03:19,225 [P4932/D5/T65] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Planned Care' with Id '3192' has been published.
+ 2017-11-30 12:03:24,319 [P4932/D5/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:03:24,850 [P4932/D5/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:03:44,600 [P4932/D5/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care' with Id '3258' has been published.
+ 2017-11-30 12:03:48,881 [P4932/D5/T30] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:03:49,225 [P4932/D5/T30] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:04:02,709 [P4932/D5/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Unscheduled Care' with Id '3258' has been published.
+ 2017-11-30 12:04:07,131 [P4932/D5/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:04:07,569 [P4932/D5/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:04:24,178 [P4932/D5/T86] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Women's, Children's & Sexual Health' with Id '3263' has been published.
+ 2017-11-30 12:04:28,506 [P4932/D5/T25] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:04:29,740 [P4932/D5/T25] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:04:29,865 [P4932/D5/T34] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Women's, Children's & Sexual Health' with Id '3263' has been published.
+ 2017-11-30 12:04:34,522 [P4932/D5/T86] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:04:34,959 [P4932/D5/T86] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:11:14,347 [P4932/D5/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diagnostics and Outpatients (D&O)' with Id '3260' has been published.
+ 2017-11-30 12:11:18,691 [P4932/D5/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:11:19,097 [P4932/D5/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:22:10,577 [P4932/D5/T63] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 12:35:15,166 [P4932/D5/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 12:35:15,182 [P4932/D5/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 12:35:45,197 [P4932/D5/T5] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'D&O (Diagnostics and Outpatients)' with Id '3259' has been published.
+ 2017-11-30 12:35:49,510 [P4932/D5/T25] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:35:49,806 [P4932/D5/T25] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:36:48,509 [P4932/D5/T62] WARN  Umbraco.Web.UmbracoModule - Status code is 404 yet TrySkipIisCustomErrors is false - IIS will take over.
+ 2017-11-30 12:37:11,759 [P4932/D5/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Swindon Community Health Services' with Id '3267' has been published.
+ 2017-11-30 12:37:16,103 [P4932/D5/T25] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:37:16,415 [P4932/D5/T25] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:38:11,915 [P4932/D5/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Health [Swindon Community Health Services]' with Id '3268' has been published.
+ 2017-11-30 12:38:16,196 [P4932/D5/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:38:16,493 [P4932/D5/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:38:30,649 [P4932/D5/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dental Service' with Id '2522' has been published.
+ 2017-11-30 12:38:30,649 [P4932/D5/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Dermatology' with Id '3321' has been published.
+ 2017-11-30 12:38:30,649 [P4932/D5/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Equipment Store' with Id '2523' has been published.
+ 2017-11-30 12:38:30,649 [P4932/D5/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Health [Swindon Community Health Services]' with Id '3268' has been published.
+ 2017-11-30 12:38:35,712 [P4932/D5/T60] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 12:38:36,055 [P4932/D5/T60] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 12:54:54,643 [P4932/D5/T63] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 12:57:46,829 [P4932/D5/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 12:57:46,829 [P4932/D5/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 13:00:48,188 [P4932/D5/T63] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-30 13:00:48,250 [P4932/D5/T63] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 63ms)
+ 2017-11-30 13:01:05,609 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-30 13:01:05,609 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-30 13:01:05,609 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-30 13:01:05,625 [P4932/D5/T61] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-30 13:01:05,625 [P4932/D5/T44] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-30 13:01:05,625 [P4932/D5/T88] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-30 13:01:05,625 [P4932/D5/T33] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-30 13:01:05,625 [P4932/D5/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-30 13:01:05,625 [P4932/D5/T50] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-30 13:01:19,687 [P4932/D6/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.3 application starting on VSRV311
+ 2017-11-30 13:01:19,719 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-11-30 13:01:19,750 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2017-11-30 13:01:19,844 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-11-30 13:01:19,875 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 21ms)
+ 2017-11-30 13:01:19,922 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-11-30 13:01:19,922 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-11-30 13:01:19,922 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-11-30 13:01:19,937 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 6ms)
+ 2017-11-30 13:01:19,969 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-11-30 13:01:19,969 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 2ms)
+ 2017-11-30 13:01:19,969 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-11-30 13:01:19,984 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 18ms)
+ 2017-11-30 13:01:20,047 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-11-30 13:01:20,047 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 1ms)
+ 2017-11-30 13:01:20,047 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-11-30 13:01:20,047 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-11-30 13:01:22,344 [P4932/D6/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 13:01:22,703 [P4932/D6/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 13:01:22,703 [P4932/D6/T26] INFO  Umbraco.Forms.Core.Cache.CacheEventHandler - Initializing Umbraco Forms Events to trigger Cache Refreshers
+ 2017-11-30 13:01:22,703 [P4932/D6/T26] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-11-30 13:01:22,750 [P4932/D6/T26] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-11-30 13:01:22,969 [P4932/D6/T26] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-11-30 13:01:22,969 [P4932/D6/T26] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-11-30 13:01:23,015 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-11-30 13:01:23,015 [P4932/D6/T26] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 2ms)
+ 2017-11-30 13:01:23,422 [P4932/D6/T26] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 3912ms)
+ 2017-11-30 13:01:24,187 [P4932/D6/T70] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://intranet2017:80/umbraco (UmbracoModule request)
+ 2017-11-30 13:01:31,859 [P4932/D6/T70] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-11-30 13:01:31,859 [P4932/D6/T70] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 2ms)
+ 2017-11-30 13:01:32,468 [P4932/D6/T70] INFO  umbraco.content - Load Xml from file...
+ 2017-11-30 13:01:32,687 [P4932/D6/T70] INFO  umbraco.content - Loaded Xml from file.
+ 2017-11-30 13:01:35,718 [P4932/D5/T88] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: MaxRecompilationsReached
+
+_shutDownMessage=Recompilation limit of 15 reached
+HostingEnvironment initiated shutdown
+Change in C:\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary ASP.NET Files\root\58cc86dd\f5e83518\hash\hash.web
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.Compilation.DiskBuildResultCache.ShutdownCallBack(Object state)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()
+ 2017-11-30 13:02:04,250 [P4932/D6/T45] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire Health and Care' with Id '3365' has been published.
+ 2017-11-30 13:02:04,390 [P4932/D6/T45] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ICacheRefresher
+ 2017-11-30 13:02:04,390 [P4932/D6/T45] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ICacheRefresher, found 0 (took 1ms)
+ 2017-11-30 13:02:09,578 [P4932/D6/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 13:02:09,937 [P4932/D6/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 13:02:29,718 [P4932/D6/T86] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-29 13:02:29
+ 2017-11-30 13:03:03,655 [P4932/D6/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire Health and Care' with Id '3365' has been published.
+ 2017-11-30 13:03:08,468 [P4932/D6/T5] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 13:03:08,905 [P4932/D6/T5] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 13:03:20,093 [P4932/D6/T62] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-11-30 13:03:20,093 [P4932/D6/T62] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 1ms)
+ 2017-11-30 13:03:31,561 [P4932/D6/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-11-30 13:03:31,561 [P4932/D6/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 1ms)
+ 2017-11-30 13:03:31,561 [P4932/D6/T50] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-11-30 13:03:31,561 [P4932/D6/T50] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-11-30 13:04:29,967 [P4932/D6/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Editors.IEditorValidator
+ 2017-11-30 13:04:29,967 [P4932/D6/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Editors.IEditorValidator, found 0 (took 2ms)
+ 2017-11-30 13:05:27,873 [P4932/D6/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wiltshire Health and Care' with Id '3365' has been published.
+ 2017-11-30 13:05:32,186 [P4932/D6/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 13:05:32,498 [P4932/D6/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 13:17:18,197 [P4932/D6/T25] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 13:39:22,173 [P4932/D6/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 13:39:22,188 [P4932/D6/T5] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 13:58:57,775 [P4932/D6/T84] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 14:59:05,642 [P4932/D6/T112] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 14:59:05,642 [P4932/D6/T112] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 15:18:42,947 [P4932/D6/T59] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: BrianCarter, IP Address: 192.168.161.127
+ 2017-11-30 15:54:23,683 [P4932/D6/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username BrianCarter from IP address 192.168.161.127
+ 2017-11-30 15:54:23,683 [P4932/D6/T45] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: BrianCarter logged in from IP address 192.168.161.127
+ 2017-11-30 15:56:31,761 [P4932/D6/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'About Wiltshire Health and Care' with Id '3580' has been published.
+ 2017-11-30 15:56:36,136 [P4932/D6/T43] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:56:36,511 [P4932/D6/T43] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:56:39,557 [P4932/D6/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'FAQs' with Id '3619' has been published.
+ 2017-11-30 15:56:43,932 [P4932/D6/T107] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:56:44,401 [P4932/D6/T107] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:56:47,917 [P4932/D6/T59] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Our vision' with Id '3655' has been published.
+ 2017-11-30 15:56:52,214 [P4932/D6/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:56:52,948 [P4932/D6/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:56:59,010 [P4932/D6/T5] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Services' with Id '3649' has been published.
+ 2017-11-30 15:57:03,385 [P4932/D6/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:03,823 [P4932/D6/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:11,026 [P4932/D6/T53] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Staff ID cards' with Id '3648' has been published.
+ 2017-11-30 15:57:15,370 [P4932/D6/T61] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:15,792 [P4932/D6/T61] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:18,370 [P4932/D6/T25] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Inpatients' with Id '3579' has been published.
+ 2017-11-30 15:57:22,667 [P4932/D6/T5] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:23,338 [P4932/D6/T5] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:26,901 [P4932/D6/T108] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Services Patient Record' with Id '3602' has been published.
+ 2017-11-30 15:57:31,276 [P4932/D6/T106] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:31,807 [P4932/D6/T106] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:34,573 [P4932/D6/T112] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Team for People with Learning Disabilities (CTPLD)' with Id '3603' has been published.
+ 2017-11-30 15:57:38,979 [P4932/D6/T111] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:39,416 [P4932/D6/T111] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:41,182 [P4932/D6/T88] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Community Teams' with Id '3604' has been published.
+ 2017-11-30 15:57:45,526 [P4932/D6/T112] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:46,026 [P4932/D6/T112] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:49,198 [P4932/D6/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Continence Team' with Id '3606' has been published.
+ 2017-11-30 15:57:53,448 [P4932/D6/T108] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:57:53,948 [P4932/D6/T108] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:57:55,994 [P4932/D6/T109] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Diabetes' with Id '3607' has been published.
+ 2017-11-30 15:58:00,307 [P4932/D6/T88] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:01,073 [P4932/D6/T88] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:02,557 [P4932/D6/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Dietetics' with Id '3608' has been published.
+ 2017-11-30 15:58:06,963 [P4932/D6/T30] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:07,479 [P4932/D6/T30] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:09,307 [P4932/D6/T62] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Finance' with Id '3609' has been published.
+ 2017-11-30 15:58:13,651 [P4932/D6/T30] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:14,166 [P4932/D6/T30] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:17,354 [P4932/D6/T111] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'IR1 Incident form and Risk Register' with Id '3610' has been published.
+ 2017-11-30 15:58:21,666 [P4932/D6/T106] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:22,104 [P4932/D6/T106] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:25,072 [P4932/D6/T60] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Orthotics (Community)' with Id '3611' has been published.
+ 2017-11-30 15:58:29,385 [P4932/D6/T106] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:29,854 [P4932/D6/T106] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:34,072 [P4932/D6/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Patient Safety and Quality' with Id '3612' has been published.
+ 2017-11-30 15:58:38,525 [P4932/D6/T106] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:39,088 [P4932/D6/T106] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:41,229 [P4932/D6/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Physiotherapy (Outpatients)' with Id '3613' has been published.
+ 2017-11-30 15:58:45,557 [P4932/D6/T53] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:46,244 [P4932/D6/T53] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:48,135 [P4932/D6/T50] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Podiatry' with Id '3614' has been published.
+ 2017-11-30 15:58:52,432 [P4932/D6/T65] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:58:52,979 [P4932/D6/T65] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:58:56,447 [P4932/D6/T63] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Resources' with Id '3592' has been published.
+ 2017-11-30 15:59:00,760 [P4932/D6/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:59:01,307 [P4932/D6/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:59:03,603 [P4932/D6/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Respiratory Team and Oxygen Service' with Id '3615' has been published.
+ 2017-11-30 15:59:07,978 [P4932/D6/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:59:08,463 [P4932/D6/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:59:10,150 [P4932/D6/T85] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Speech and Language Therapy for Adults and Adults with Learning Disability (Community)' with Id '3616' has been published.
+ 2017-11-30 15:59:14,525 [P4932/D6/T89] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:59:15,181 [P4932/D6/T89] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:59:16,931 [P4932/D6/T61] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Tissue Viability and Lymphoedema' with Id '3617' has been published.
+ 2017-11-30 15:59:21,228 [P4932/D6/T5] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:59:21,635 [P4932/D6/T5] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:59:23,916 [P4932/D6/T33] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Training' with Id '3618' has been published.
+ 2017-11-30 15:59:28,260 [P4932/D6/T63] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:59:29,197 [P4932/D6/T63] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 15:59:30,572 [P4932/D6/T70] INFO  Umbraco.Core.Publishing.PublishingStrategy - Content 'Wheelchair Service' with Id '3605' has been published.
+ 2017-11-30 15:59:34,869 [P4932/D6/T50] INFO  umbraco.content - Save Xml to file...
+ 2017-11-30 15:59:35,306 [P4932/D6/T50] INFO  umbraco.content - Saved Xml to file.
+ 2017-11-30 17:02:29,673 [P4932/D6/T86] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-11-29 17:02:29
+ 2017-11-30 19:06:31,752 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2017-11-30 19:06:31,752 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2017-11-30 19:06:31,767 [P4932/D6/T8] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2017-11-30 19:06:31,783 [P4932/D6/T68] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2017-11-30 19:06:31,783 [P4932/D6/T84] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2017-11-30 19:06:31,783 [P4932/D6/T5] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2017-11-30 19:06:31,783 [P4932/D6/T111] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2017-11-30 19:06:31,783 [P4932/D6/T86] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2017-11-30 19:07:01,914 [P4932/D6/T68] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=CONFIG change
+HostingEnvironment initiated shutdown
+HostingEnvironment caused shutdown
+
+_shutDownStack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   at System.Web.HttpRuntime.ShutdownAppDomain(String stackTrace)
+   at System.Web.HttpRuntime.OnConfigChange(String message)
+   at System.Configuration.BaseConfigurationRecord.OnStreamChanged(String streamname)
+   at System.Web.DirectoryMonitor.FireNotifications()
+   at System.Web.Util.WorkItem.CallCallbackWithAssert(WorkItemCallback callback)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+   at System.Threading.QueueUserWorkItemCallback.System.Threading.IThreadPoolWorkItem.ExecuteWorkItem()
+   at System.Threading.ThreadPoolWorkQueue.Dispatch()

@@ -1,0 +1,54 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@using System;
+@using System.Linq;
+@using System.Net.Mail;
+@{
+    var docsInDocRep = CurrentPage.Descendants("WTDocRepItem").OrderBy("Name");
+    var categoriesInDocRep = CurrentPage.Descendants("WTDocRepCategory").OrderBy("Name");
+
+    //Get Current date//
+    //string currentDt = DateTime.Now.ToString("yyyyMMdd");
+    var docRep = Umbraco.TypedContent(5378);      @* The Docuemnt Repository Folder *@
+    var docsInRepository = docRep.Children;             @* The collection of documents entries *@
+
+}
+
+<div class="container">
+	@{   
+        var selection = Umbraco.Content(5378).Children.Where("Visible").OrderBy("CreateDate desc");
+	}
+
+
+	<ul class="summary-list">
+		@foreach (var item in selection){
+
+            DateTime currentDt = DateTime.Now;
+            DateTime expiryDate = Umbraco.Content(@item.Id).expiryDate;
+            String strExpiryDate = expiryDate.ToString("yyyyMMdd");
+
+            //DateTime dtCurrent = Convert.ToDateTime(currentDt);
+            //DateTime dtExpiryDate = Convert.ToDateTime(strExpiryDate);
+
+            var childsDocId = Umbraco.Content(@item.Id).DocumentPath;
+            var childsDoc = Umbraco.Media(childsDocId.ToString());
+
+			<li>
+               
+
+               @if (expiryDate <= currentDt)
+               {
+                   //Document Link
+                <h2><a href="~/expiredError.html" target="_blank" >@item.Name</a></h2>
+               }
+               else
+               {
+                @*<h2><a href="@item.Url">@item.Name</a></h2>*@
+               <h2><a href="@childsDoc.Url">@item.Name</a></h2>
+               }
+
+			</li>
+		}
+	</ul>
+</div>
+		
+

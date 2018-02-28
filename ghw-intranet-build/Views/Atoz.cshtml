@@ -1,0 +1,75 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.AtozA>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+
+
+	<!--- A - Z --- L I N K S --- S T A R T --->
+	<div id="atozLetterLinks">
+		@Umbraco.Field("atozHTMLletters")	
+		<div id="search">
+			<div class="site-search">
+            	<label class="control-label hidden" for="email">Search</label>
+               	<input type="text" class="form-control" id="search_field" name="search_field" placeholder='Search'>
+	
+				<button type="submit" class="searchButton"><img src="/media/1836/searchicon20x20.png"></button>	
+			</div>								
+								
+		</div>
+	</div>
+	<!--- A - Z --- L I N K S --- E N D --->
+	
+	<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="atozHeadBackground"><h1 id="atoz">A-Z index</h1></div>
+	<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="atozMainArea">
+
+		<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+
+		@if (CurrentPage.numberOfColumns == 1)
+		{
+		<div id="atozContent">
+			<ul class="atozItem1Column">		
+				@foreach (var item in CurrentPage.Children)
+				{	
+					<li class="atozItem"><a href="@item.url" class="atozItem">@item.Name</a></li>
+				}
+			</ul>
+		</div>		
+		}else if (CurrentPage.numberOfColumns == 2){	
+		
+		<div id="atozContent">
+			<ul class="atozItem2Column">		
+				@foreach (var item in CurrentPage.Children)
+				{	
+					<li class="atozItem"><a href="@item.url" class="atozItem">@item.Name</a></li>
+				}
+			</ul>
+		</div>
+		}else if (CurrentPage.numberOfColumns == 3){	
+		
+		<div id="atozContent">
+			<ul class="atozItem3Column">		
+				@foreach (var item in CurrentPage.Children)
+				{	
+					<li class="atozItem"><a href="@item.url" class="atozItem">@item.Name</a></li>
+				}
+			</ul>
+		</div>
+		}
+
+
+
+        @*<p>@CurrentPage.radio</p>*@
+ 
+
+		<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!----------------------- M A I N   A R E A   C O N T A I N E R   ---   E N D ------------->
+
+</div>
+<!----- P A G E   C O N T A I N E R --- E N D ----->

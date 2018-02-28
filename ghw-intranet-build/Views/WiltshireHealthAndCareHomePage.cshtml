@@ -1,0 +1,65 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.WiltshireHealthAndCareHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="departmentsHeadBackground"><img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+	
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="departmentsMainArea">
+
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+	<div id="depNav">
+		<div id="thisDep"><a href="@CurrentPage.url">@CurrentPage.name</a></div>
+		<ul id="depNav1">
+		@foreach (var page in CurrentPage.Children) {
+		<li><a href="@page.url">@page.name</a></li>
+		}
+		</ul>
+	</div>
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<div id="contentWide">
+
+@Umbraco.Field("bodyText")
+
+@*-----'See also' section----- *@
+@if(@CurrentPage.addSeeAlsoSection==true)
+{
+	<div id="seeAlsoWrapper">
+		<div id="seeAlso">
+			<h2 id="seeAlso">See also</h2>
+			<ul id="seeAlso">
+			@foreach (var item in @CurrentPage.seeAlso)
+			{
+			<li id="seeAlso"><a id="seeAlso" href="@item.Url">@item.Name</a></li>
+			}
+			</ul>
+		</div>
+	</div>	
+}
+
+<!----- P A G E   I N F O ----- S T A R T ----->
+	<div id="pageInfo">
+		<div id="pageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.pageOwner<text>,</text><br />@CurrentPage.pageOwnersPosition</div>
+		<div id="pageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.subEditor</a></div>
+		<div id="pageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+	</div>
+<!----- P A G E   I N F O ----- E N D ----->					
+					
+</div>
+<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+</div>
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+
+
+
+

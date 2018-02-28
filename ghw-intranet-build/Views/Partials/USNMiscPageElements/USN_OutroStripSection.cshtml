@@ -1,0 +1,206 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USN.UrlPicker.Umbraco.Models;
+@using USN.Heading.Umbraco.Models;
+
+@{
+    IPublishedContent homeNode = Model.Content.AncestorOrSelf(1);
+    var settingsFolder = Umbraco.TypedContent(homeNode.GetProperty("websiteConfigurationNode").Value);
+    var globalSettings = settingsFolder.Children.Where(x => x.IsDocumentType("USNGlobalSettings")).First();
+
+    string headingSource = String.Empty;
+    string text = String.Empty;
+    string backgroundColor = String.Empty;
+    string buttonColor = String.Empty;
+    string animateClass = String.Empty;
+    
+    LinkInfo outroLink; 
+
+    if(!Model.Content.GetPropertyValue<Boolean>("hideOutroStripSection"))
+    {
+        if (Model.Content.GetPropertyValue<Boolean>("overrideDefaultOutroStripSection"))
+        {
+            outroLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(Model.Content.GetPropertyValue<UrlPicker>("outroLink"));
+
+            if (Model.Content.HasValue("outroHeading"))
+            {
+                var heading = Model.Content.GetPropertyValue<USNHeading>("outroHeading");
+
+                if (heading != null && !String.IsNullOrEmpty(heading.Heading))
+                {
+                    headingSource = "<" + heading.HeadingStyle + " class=\"heading main {0} {1}\" data-os-animation=\"fadeInUp\" data-os-animation-delay=\"0.1s\">" + heading.Heading + "</" + heading.HeadingStyle + ">";
+                }
+            }
+            
+            if (Model.Content.HasValue("outroText"))
+            {
+                text = Model.Content.GetProperty("outroText").Value.ToString();
+            }
+
+            if (Model.Content.HasValue("outroBackgroundColor"))
+            {
+                backgroundColor = Model.Content.GetProperty("outroBackgroundColor").Value.ToString();
+            }
+
+            if (Model.Content.HasValue("outroButtonColor"))
+            {
+                buttonColor = Model.Content.GetProperty("outroButtonColor").Value.ToString();
+            }
+
+            if (Model.Content.GetPropertyValue<bool>("outroAnimate"))
+            {
+                animateClass = "os-animation";
+            }
+        }
+        else
+        {
+            outroLink = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromUrlPicker(globalSettings.GetPropertyValue<UrlPicker>("outroDefaultLink"));
+
+            if (globalSettings.HasValue("outroDefaultHeading"))
+            {
+                var heading = globalSettings.GetPropertyValue<USNHeading>("outroDefaultHeading");
+
+                if (heading != null && !String.IsNullOrEmpty(heading.Heading))
+                {
+                    headingSource = "<" + heading.HeadingStyle + " class=\"heading main {0} {1}\" data-os-animation=\"fadeInUp\" data-os-animation-delay=\"0.1s\">" + heading.Heading + "</" + heading.HeadingStyle + ">";
+                }
+            }
+            
+            if (globalSettings.HasValue("outroDefaultText"))
+            {
+                text = globalSettings.GetProperty("outroDefaultText").Value.ToString();
+            }
+
+            if (globalSettings.HasValue("outroDefaultBackgroundColor"))
+            {
+                backgroundColor = globalSettings.GetProperty("outroDefaultBackgroundColor").Value.ToString();
+            }
+
+            if (globalSettings.HasValue("outroDefaultButtonColor"))
+            {
+                buttonColor = globalSettings.GetProperty("outroDefaultButtonColor").Value.ToString();
+            }
+
+            if (globalSettings.GetPropertyValue<bool>("outroDefaultAnimate"))
+            {
+                animateClass = "os-animation";
+            }
+        }
+
+        string backgroundStyle = "c5-bg";
+        string headingStyle = "c3-text";
+        string textStyle = "c3-text";
+
+        switch (backgroundColor)
+        {
+            case "ed6d19":
+                backgroundStyle = "c1-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "cccccc":
+                backgroundStyle = "c2-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "181818":
+                backgroundStyle = "c3-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "f4f4f4":
+                backgroundStyle = "c4-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "ffffff":
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "e3e3e3":
+                backgroundStyle = "c6-bg";
+                headingStyle = "c3-text";
+                textStyle = "c5-text";
+                break;
+            default:
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+        }
+
+        string buttonStyle = "c1-bg c5-text";
+
+        switch (buttonColor)
+        {
+            case "ed6d19":
+                buttonStyle = "c1-bg c5-text";
+                break;
+            case "cccccc":
+                buttonStyle = "c2-bg c3-text";
+                break;
+            case "181818":
+                buttonStyle = "c3-bg c5-text";
+                break;
+            case "f4f4f4":
+                buttonStyle = "c4-bg c3-text";
+                break;
+            case "ffffff":
+                buttonStyle = "c5-bg c1-text";
+                break;
+            case "e3e3e3":
+                buttonStyle = "c6-bg c5-text";
+                break;
+            default:
+                buttonStyle = "c1-bg c5-text";
+                break;
+        }
+
+        if (outroLink != null || text != String.Empty || headingSource != String.Empty)
+        {
+        <section class="content apc cta-strip @backgroundStyle">
+            <div class="container">
+
+                @if (headingSource != String.Empty)
+                { 
+                <!-- ROW -->
+                <div class="row">
+
+                    <div class="col-md-8 col-xs-12">
+
+                        @Html.Raw(String.Format(headingSource, headingStyle, animateClass))
+
+                    </div>
+
+                </div>
+                <!--// ROW -->
+                }
+
+                <!-- ROW -->
+                <div class="row">
+                    @if (text != String.Empty)
+                    {
+                        <div class="col-md-8 col-xs-12">
+                            <div class="text @textStyle @animateClass" data-os-animation="fadeInUp" data-os-animation-delay="0.2s">
+                                @Html.Raw(text)
+                            </div>
+                        </div>
+                    }
+                    @if (outroLink != null)
+                    { 
+                        <div class="col-md-3 col-md-offset-1 col-xs-12">
+
+                            <p class="link @animateClass"><a class="btn btn-block @buttonStyle" href="@outroLink.LinkURL" @Html.Raw(outroLink.LinkTarget) @Html.Raw(outroLink.LinkTitle)>@outroLink.LinkCaption@Html.Raw(outroLink.LinkIcon)</a></p>
+
+                        </div>
+                    }
+
+                </div>
+                <!--// ROW -->
+
+            </div>
+        </section>
+        }
+    }
+}

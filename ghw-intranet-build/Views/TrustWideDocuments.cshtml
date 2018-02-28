@@ -1,0 +1,61 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.TrustWideDocuments>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+<div class="truHeader" id="zoneDocuments">
+<img id="zonePageIcon" src="/media/1094/zonepageicontrustwidedocuments.png" />Trust-wide documents</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+	
+	<!----TRUST-WIDE DOCUMENTS GRID START------------------------------------------------------>
+	<div class="truGrid">
+
+		<!---ITEM---START--->
+			<a href="/trust-wide-documents/irespond/">
+			<div id="truSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="truIcon"><img src="/media/1095/icon60arrowblack.png" /></td>
+				</tr>
+				<tr>
+					<td id="truText">iRespond</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/trust-wide-documents/patient-information-leaflets/">
+			<div id="truSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="truIcon"><img src="/media/1095/icon60arrowblack.png" /></td>
+				</tr>
+				<tr>
+					<td id="truText">Patient Information Leaflets</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+		<!---ITEM---START--->
+			<a href="/trust-wide-documents/policies-and-procedures/">
+			<div id="truSquare">
+				<table cellpadding="0" cellspacing="0">
+				<tr>
+					<td id="truIcon"><img src="/media/1095/icon60arrowblack.png" /></td>
+				</tr>
+				<tr>
+					<td id="truText">Policies and Procedures</td>
+				</tr>
+				</table>
+			</div>
+			</a>
+		<!---ITEM---END--->
+
+	</div>
+	<!----TRUST-WIDE DOCUMENTS GRID END------------------------------------------------------>

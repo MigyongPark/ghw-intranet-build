@@ -1,0 +1,95 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBusinessLogic;
+@using USNStarterKit.USNBlog;
+@using USN.UrlPicker.Umbraco.Models;
+
+@{
+    LinkInfo linkToListing = USNUrlHelper.GetSingleUrlFromUrlPicker(Model.Content.GetPropertyValue<UrlPicker>("linkToListing"));
+
+    if (linkToListing != null && Model.Content.HasValue("pagesToDisplay"))
+    {
+        int pagesDisplayCount = Convert.ToInt32(Model.Content.GetProperty("pagesToDisplay").Value);
+
+        if (linkToListing.LinkUmbracoNode.IsDocumentType("USNBlogLandingPage"))
+        {
+            IEnumerable<IPublishedContent> posts = USNPostService.Instance.GetPosts(linkToListing.LinkUmbracoNode);
+
+            var nodes = posts.Take(pagesDisplayCount).ToList();
+
+            if (nodes.Count() > 0)
+            {
+                <div class="item listing-pod has-borders c6-borders">
+                    <div class="inner">
+
+                        @if (Model.Content.HasValue("podTitle"))
+                        {
+                            <p class="heading">@Model.Content.GetProperty("podTitle").Value</p>
+                        }
+
+                        <div class="listing blog short">
+                            
+                            @foreach (var node in nodes)
+                            {
+                                <div class="item" itemscope itemtype="http://schema.org/BlogPosting">
+                                    @{
+                                        string postName = String.Empty;
+
+                                        if (node.HasValue("onPageTitle"))
+                                        {
+                                            postName = node.GetProperty("onPageTitle").Value.ToString();
+                                        }
+                                        else
+                                        {
+                                            postName = node.Name;
+                                        }
+                                    }
+                                    <p class="heading" itemprop="name headline"><a href="@node.Url" itemprop="url">@postName</a></p>
+                                    
+                                    <div class="meta">
+                                        <div>
+                                            <time itemprop="datePublished"><span class="date">@node.GetProperty("postDate").Value.ToString().FormatDateTime("dd MMM yyyy")</span></time>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <p class="link"><a class="btn btn-sm c1-bg c5-text" href="@linkToListing.LinkURL" @Html.Raw(linkToListing.LinkTarget) @Html.Raw(linkToListing.LinkTitle)>@linkToListing.LinkCaption@Html.Raw(linkToListing.LinkIcon)</a></p>
+                    </div>
+                </div>
+            }
+        }
+        else if (linkToListing.LinkUmbracoNode.Children.Where(x => x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")).Count() > 0)
+        {
+            <div class="item listing-pod has-borders c6-borders">
+                <div class="inner">
+                    @if (Model.Content.HasValue("podTitle"))
+                    {
+                        <p class="heading">@Model.Content.GetProperty("podTitle").Value</p>
+                    }
+                    <div class="listing">
+
+                        @foreach (var item in linkToListing.LinkUmbracoNode.Children.Where(x => x.IsDocumentType("USNStandardPage") || x.IsDocumentType("USNAdvancedPage")).OrderBy("SortOrder").Take(pagesDisplayCount))
+                        {
+                            <div class="item"> 
+                                <p class="heading">
+                                    <a href="@item.Url">
+                                        @if (item.HasValue("subPageListingLinkText"))
+                                        {
+                                            @item.GetProperty("subPageListingLinkText").Value.ToString()
+                                        }
+                                        else
+                                        {
+                                            @item.Name
+                                        }
+                                    </a>
+                                </p>      
+                            </div>
+                        }
+                    </div>
+                    <p class="link"><a class="btn btn-sm c1-bg c5-text" href="@linkToListing.LinkURL" @Html.Raw(linkToListing.LinkTarget) @Html.Raw(linkToListing.LinkTitle)>@linkToListing.LinkCaption@Html.Raw(linkToListing.LinkIcon)</a></p>
+                </div>
+            </div>
+        }
+    }
+}

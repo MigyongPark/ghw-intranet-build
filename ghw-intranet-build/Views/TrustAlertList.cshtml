@@ -1,0 +1,122 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.TrustAlertList>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}
+@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="departmentsHeadBackground"><img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+	
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="departmentsMainArea">
+
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="depNav">
+		<div id="thisDep"><a href="@CurrentPage.AncestorOrSelf(4).url">@CurrentPage.AncestorOrSelf(4).name</a></div>
+		<ul id="depNav1">
+
+			@*-------CONTROL OF DISPLAY OF GRANDPARENT AND PARENT------*@
+			@*-----displays grandparent EXCEPT when on level 6-----*@
+			@if(@CurrentPage.Name != @CurrentPage.AncestorOrSelf(6).Name)
+			{
+			<li><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Parent.Name</a></li>
+			}
+
+
+
+			@*------------CONTROLS FOR LEVEL 5-------------*@
+			@*-----displays all siblings (indented) + self (highlighted) when on level 5----- *@
+			@if(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(5).Name)
+			{
+				foreach (var sibling in CurrentPage.Parent.Children)
+				{
+					if(@sibling.Name == @CurrentPage.Name)
+					{
+					<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+
+					}else{
+						<li><a href="@sibling.Url">@sibling.Name</a></li>
+					}
+				}
+			}else{
+			@*------------CONTROLS FOR LEVEL 6-------------*@
+				
+				@*-----displays all PARENT's siblings----- *@
+				foreach (var uncle in CurrentPage.Parent.Parent.Children)
+				{
+					if(@uncle.Name != @CurrentPage.Parent.Name)	
+					{
+						<li><a href="@uncle.url">@uncle.Name</a></li>
+					}else{
+						@*----displays the parent page (highlighted)-------*@
+						<li id="self"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
+							
+						@*-----displays all siblings (indented) + self (highlighted)----- *@
+						foreach (var sibling in CurrentPage.Parent.Children)
+						{
+							if(@sibling.Name != @CurrentPage.Name)
+							{
+								<li id="indent20"><a href="@sibling.Url">@sibling.Name</a></li>	
+							}else{
+								<li id="selfIndent20"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>	
+							}							
+						}
+					}	
+				}			
+			}		
+
+		</ul>
+
+	</div>
+<!-----L E F T   N A V-----E N D----->
+
+			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+			<div id="contentWide">
+
+			
+				<table id="alertItem" cellpadding="0" cellspacing="0">
+				<tr>
+				<th id="alertItemFirst">Type</th>
+				<th id="alertItem">Subject</th>
+				<th id="alertItem">Alert details</th>
+				<th id="alertItem">Issue date</th>					
+				</tr>			
+			
+				@foreach (var item in CurrentPage.Children)
+				{
+				<tr>
+				<td id="alertItemImage"><img src="@Umbraco.Media(item.alertItemImage).Url" /></td>
+				<td id="alertItemTitle">@item.alertItemTitle</td>
+				<td id="alertItemLink"><a href="@Umbraco.Media(item.alertItemLink).Url" target="_blank">Details of this alert</a></td>
+				<td id="alertItemDate">@item.alertItemDate.ToString("dd/MM/yyyy")</td>					
+				</tr>					
+				}
+				</table>				
+				
+
+				@Html.Partial("advertisingBanner")
+
+				<!----- P A G E   I N F O ----- S T A R T ----->
+				<div id="pageInfo">
+					<div id="pageInfoOwner"><strong>Content owner:</strong><br />@CurrentPage.AncestorOrSelf(4).pageOwner<text>,</text><br />@CurrentPage.AncestorOrSelf(4).pageOwnersPosition</div>
+					<div id="pageInfoEditor"><strong>Report a problem with this page to:</strong><br /><a id="pageInfoEditor" href="mailto:@CurrentPage.AncestorOrSelf(4).subEditor?subject=Intranet%20problem&amp;body=Hi%0A%0APage%20title%3A%20(@Umbraco.Field("pageName"))%0A%0AI%27ve%20noticed%20this%20problem%3A%0A%0A">@CurrentPage.AncestorOrSelf(4).subEditor</a></div>
+					<div id="pageInfoLastUpdated"><strong>Last updated:</strong><br />@CurrentPage.updateDate.ToString("dd MMMM yyyy")</div>
+				</div>
+				<!----- P A G E   I N F O ----- E N D ----->
+
+					
+					
+					
+			</div>
+			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+	</div>
+	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+
+
+
+
+

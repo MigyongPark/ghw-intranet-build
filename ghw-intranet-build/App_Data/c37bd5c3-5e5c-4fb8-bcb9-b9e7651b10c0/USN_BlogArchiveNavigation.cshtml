@@ -1,0 +1,87 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBlog;
+@using System.Globalization;
+
+@{
+    var currentYear = -1;
+    var currentMonth = -1;
+
+    var nodes = USNPostService.Instance.GetPosts(Model.Content).ToList();
+
+    var landing = USNDataService.Instance.GetLanding(Model.Content);
+
+    int year = 0;
+    int month = 0;
+
+    if (!String.IsNullOrEmpty(Request.QueryString["year"]))
+    {
+        year = Convert.ToInt32(Request.QueryString["year"]);
+    }
+
+    if (!String.IsNullOrEmpty(Request.QueryString["month"]))
+    {
+        month = Convert.ToInt32(Request.QueryString["month"]);
+    }
+	<!-- SUB - FILTER -->
+	<nav class="sub filter has-borders c6-borders">
+		<p class="heading inner"><a href="@landing.Url">@umbraco.library.GetDictionaryItem("USN Blog All Posts")</a></p>
+        <div class="inner">
+            <ul>
+                @for (int i = 0; i < nodes.Count(); i++)
+                {
+                    var node = nodes[i];
+
+                    var date = DateTime.Parse(node.GetProperty("postDate").Value.ToString());
+
+                    if (currentYear == date.Year) { continue; }
+
+                    currentYear = date.Year;
+
+                    string monthClass = "";
+                    string yearClass = "";
+
+                    if (currentYear == year)
+                    {
+                        yearClass = "active";
+                    }
+                    else
+                    {
+                        yearClass = "";
+                    }
+                    <li class="@yearClass">
+                        <a href="@landing.Url?year=@currentYear" rel="NOINDEX, FOLLOW">@currentYear</a>
+                        @if (year == currentYear)
+                        {
+                            <ul>
+                                @for (int j = i; j < nodes.Count(); j++)
+                                {
+                                    node = nodes[j];
+                                    date = DateTime.Parse(node.GetProperty("postDate").Value.ToString());
+
+                                    if (date.Year != currentYear) { break; }
+                                    if (date.Month == currentMonth) { continue; }
+
+                                    currentMonth = date.Month;
+
+                                    if (currentMonth == month && currentYear == year)
+                                    {
+                                        monthClass = "active";
+                                    }
+                                    else
+                                    {
+                                        monthClass = "";
+                                    }
+                                    <li class="@monthClass">
+                                        <a href="@landing.Url?year=@currentYear&month=@currentMonth" rel="NOINDEX, FOLLOW">@CultureInfo.CurrentCulture.DateTimeFormat.GetMonthName(currentMonth)</a>
+                                    </li>
+                                }
+                            </ul>
+                        }
+                    </li>
+                }
+            </ul>
+        </div>
+	</nav>
+	<!--// SUB - FILTER -->
+}

@@ -1,0 +1,65 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using Newtonsoft.Json.Linq;
+
+@{
+    string anchorID = String.Empty;
+
+    @* Add div for column width on Andvanced Pages *@
+    if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+    {
+        if (Model.Content.HasValue("width") && Model.Content.GetProperty("width").Value.ToString() == "Centered")
+        {
+            @Html.Raw("<div id=\"mid-col\" class=\"col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12\">")
+        }
+        else
+        {
+            @Html.Raw("<div id=\"wide-col\" class=\"col-xs-12\">")
+        }
+    }
+    else
+    {
+        anchorID = "id=\"pos_" + Model.Content.Id + "\" ";
+    }
+
+    var groupLinks = Model.Content.GetPropertyValue<JArray>("groupLinks");
+
+    <!-- PAGE COMPONENT QUICK LINKS -->
+    if (groupLinks != null && Model.Content.GetPropertyValue<string>("groupLinks", true, "").Length > 2)
+    {
+        <div class="spc quick-links has-borders c6-borders" @Html.Raw(anchorID)>
+            <div class="inner">
+                <nav>
+                    <ul class="row">
+                        @foreach (JObject link in groupLinks)
+                        {
+                            string linkTitle = String.Empty;
+                            string linkURL = String.Empty;
+                            string linkTarget = String.Empty;
+                            string linkIcon = String.Empty;
+                            IPublishedContent node = null;
+
+                            linkURL = USNStarterKit.USNBusinessLogic.USNUrlHelper.GetSingleUrlFromJObject(link, out linkTitle, out linkTarget, out linkIcon, out node);
+
+                            if (linkURL != String.Empty)
+                            {
+                                <li class="col-md-4 col-xs-6">
+                                    <a href="@linkURL" @Html.Raw(linkTarget) @Html.Raw(linkTitle)>
+                                        @(link.Value<string>("caption"))@Html.Raw(linkIcon)
+                                    </a>
+                                </li>
+                            }
+                        }
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    }
+    <!--// PAGE COMPONENT QUICK LINKS -->
+
+    @* Close div for column width on Advanced Pages *@
+    if (!Model.Content.Parent.Parent.IsDocumentType("USNStandardPage") && !Model.Content.Parent.Parent.IsDocumentType("USNStandardPageBlogPost"))
+    {
+        @Html.Raw("</div>")
+    }
+}

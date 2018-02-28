@@ -1,0 +1,45 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "USNMaster.cshtml";
+}
+
+@Html.Partial("USNAdvancedPageComponents/USN_AdvancedPageComponents", @Model.Content)	
+
+
+<!-- CONTENT -->
+<section class="content apc standard-components">
+    <div class="container">
+
+        <!-- ROW -->
+        <div class="row">
+
+            <!-- MID COL -->
+            <div id="mid-col" class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+
+                <!-- META -->
+                @Html.Partial("USNBlog/USN_BlogMeta", @Model.Content)
+                <!--// META -->
+                <!-- AUTHOR BIO -->
+                @Html.Partial("USNBlog/USN_BlogAuthorship", @Model.Content)
+                <!--// AUTHOR BIO -->
+                <!-- PAGINATION  -->
+                @Html.Partial("USNBlog/USN_BlogPostPreviousNext", @Model.Content)
+                <!--// PAGINATION -->
+                <!-- COMMENTS -->
+                @Html.Partial("USNBlog/USN_BlogComments", @Model.Content)
+                <!--// COMMENTS -->
+
+            </div>
+            <!--// MID COL -->
+
+        </div>
+        <!--// ROW -->
+
+    </div>
+</section>
+<!--// CONTENT -->
+	
+@section BodyTag
+{
+    @Html.Raw(" class=\"advanced-page\"")
+}

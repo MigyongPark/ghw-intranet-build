@@ -1,0 +1,205 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+
+@using USNStarterKit.USNBusinessLogic;
+@using USN.UrlPicker.Umbraco.Models;
+@using USN.Heading.Umbraco.Models;
+
+@{
+    string firstDivClass = "col-md-6 col-xs-12 pull-right";
+    string secondDivClass = "col-md-5 col-xs-12 pull-left";
+
+    string animateClass = String.Empty;
+    string imageFadeInDirection = "fadeInRight";
+
+    if (Model.Content.GetPropertyValue<bool>("animate"))
+    {
+        animateClass = "os-animation";
+    }
+
+    bool addSpacing = false;
+    string wideClass = "wide";
+
+    if (Model.Content.GetPropertyValue<bool>("addSpacingAroundImage"))
+    {
+        addSpacing = true;
+        wideClass = String.Empty;
+    }
+
+
+    string backgroundStyle = "c5-bg";
+    string headingStyle = "c3-text";
+    string textStyle = "c3-text";
+
+    if (Model.Content.HasValue("backgroundColor"))
+    {
+        switch (Model.Content.GetProperty("backgroundColor").Value.ToString())
+        {
+            case "ed6d19":
+                backgroundStyle = "c1-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "cccccc":
+                backgroundStyle = "c2-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "181818":
+                backgroundStyle = "c3-bg";
+                headingStyle = "c5-text";
+                textStyle = "c5-text";
+                break;
+            case "f4f4f4":
+                backgroundStyle = "c4-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "ffffff":
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            case "e3e3e3":
+                backgroundStyle = "c6-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+            default:
+                backgroundStyle = "c5-bg";
+                headingStyle = "c3-text";
+                textStyle = "c3-text";
+                break;
+        }
+    }
+
+    string buttonStyle = "c1-bg c5-text";
+
+    if (Model.Content.HasValue("buttonColor"))
+    {
+        switch (Model.Content.GetProperty("buttonColor").Value.ToString())
+        {
+            case "ed6d19":
+                buttonStyle = "c1-bg c5-text";
+                break;
+            case "cccccc":
+                buttonStyle = "c2-bg c3-text";
+                break;
+            case "181818":
+                buttonStyle = "c3-bg c5-text";
+                break;
+            case "f4f4f4":
+                buttonStyle = "c4-bg c1-text";
+                break;
+            case "ffffff":
+                buttonStyle = "c5-bg c3-text";
+                break;
+            case "e3e3e3":
+                buttonStyle = "c6-bg c5-text";
+                break;
+            default:
+                buttonStyle = "c1-bg c5-text";
+                break;
+        }
+    }
+
+    if (Model.Content.HasValue("textSectionPosition") && Model.Content.GetProperty("textSectionPosition").Value.ToString() == "Right")
+    {
+        firstDivClass = "col-md-6 col-xs-12 pull-left";
+        secondDivClass = "col-md-5 col-xs-12 pull-right";
+        imageFadeInDirection = "fadeInLeft";
+    }
+
+    string image = "";
+    string videoURLModified = "";
+    string dataRemote = "";
+    string title = "";
+
+    if (Model.Content.HasValue("video"))
+    {
+        string videoURLOriginal = Model.Content.GetProperty("video").Value.ToString().Trim();
+
+        if (Model.Content.HasValue("lightwindowText"))
+        {
+            title = "data-title=\"" + Model.Content.GetProperty("lightwindowText").Value.ToString() + "\"";
+        }
+
+        image = USNVideoHelper.GetVideoInfo(videoURLOriginal, out videoURLModified, out dataRemote);
+    }
+
+    if (Model.Content.HasValue("image") && Umbraco.TypedMedia(Model.Content.GetProperty("image").Value) != null)
+    {
+        image = @Umbraco.TypedMedia(Model.Content.GetProperty("image").Value).GetCropUrl(width: 800, height: 600);
+    }
+
+
+    <section class="content apc text-with-image-or-video @wideClass @backgroundStyle" id="pos_@Model.Content.Id">
+
+        @if (addSpacing)
+        {
+            @Html.Raw("<div class=\"container\"><div class=\"row\">")
+        }
+
+        <div class="@firstDivClass @animateClass" data-os-animation="@imageFadeInDirection" data-os-animation-delay="0">
+            @if (image != String.Empty)
+            {
+                <div class="image video">
+                    @if (videoURLModified != String.Empty)
+                    {
+                        @Html.Raw(String.Format("<a href=\"{0}\" {1} data-toggle=\"lightbox\" {2}>", videoURLModified, title, dataRemote))
+                    }
+
+                    <img alt="@Model.Content.GetProperty("imageAltText").Value" src="@image">
+
+                    @if (videoURLModified != String.Empty)
+                    {
+                        @Html.Raw("<div class=\"overlayicon ion-ios-play\"></div></a>")
+                    }
+                </div>
+            }
+        </div>
+
+        @if (!addSpacing)
+        {
+            @Html.Raw("<div class=\"container\"><div class=\"row\">")
+        }
+
+        <div class="item @secondDivClass @animateClass" data-os-animation="fadeIn" data-os-animation-delay="0">
+            <!-- INFO -->
+            <div class="info">
+
+                @if (Model.Content.HasValue("heading"))
+                {
+                    var heading = Model.Content.GetPropertyValue<USNHeading>("heading");
+
+                    if (heading != null && !String.IsNullOrEmpty(heading.Heading))
+                    {
+                        @Html.Raw("<" + heading.HeadingStyle + " class=\"heading main " + headingStyle + "\">")
+                        @heading.Heading
+                        @Html.Raw("</" + heading.HeadingStyle + ">")
+                    }
+                }
+                @if (Model.Content.HasValue("text"))
+                {
+                    <div class="text @textStyle">
+                        @Html.Raw(Model.Content.GetProperty("text").Value)
+                    </div>
+                }
+                @{
+                    LinkInfo link = USNUrlHelper.GetSingleUrlFromUrlPicker(Model.Content.GetPropertyValue<UrlPicker>("link"));
+
+                    if (link != null)
+                    {
+                        <p class="link"><a class="btn @buttonStyle" href="@link.LinkURL" @Html.Raw(link.LinkTarget) @Html.Raw(link.LinkTitle)>@link.LinkCaption@Html.Raw(link.LinkIcon)</a></p>
+                    }
+                }
+
+            </div>
+            <!--// INFO -->
+        </div>
+
+        @Html.Raw("</div></div>")
+
+
+    </section>
+
+}

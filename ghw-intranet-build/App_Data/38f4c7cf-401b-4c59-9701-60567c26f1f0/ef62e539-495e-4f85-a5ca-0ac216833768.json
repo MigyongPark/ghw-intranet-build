@@ -1,0 +1,16 @@
+{
+  "id": "ef62e539-495e-4f85-a5ca-0ac216833768",
+  "name": "Send email to webteam@berkshire.nhs.uk",
+  "form": "705afed9-50db-43ec-b445-b9ffd05afb22",
+  "active": true,
+  "workflowTypeId": "e96badd7-05be-4978-b8d9-b3d733de70a5",
+  "executesOn": "Submitted",
+  "settings": {
+    "Email": "webteam@berkshire.nhs.uk",
+    "SenderEmail": "",
+    "Subject": "The Form '{form_name}' was submitted",
+    "Message": "The Form '{form_name} was submitted, this is the list of values it contained. You can turn this email off under workflows in Umbraco Forms.",
+    "Attachment": ""
+  },
+  "sortOrder": 1
+}
