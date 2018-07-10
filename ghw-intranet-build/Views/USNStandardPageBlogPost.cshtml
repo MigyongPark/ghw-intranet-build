@@ -5,8 +5,8 @@
 
 @Html.Partial("atozButtons")
 <!----- P A G E   H E A D I N G ------------- S T A R T ------->
-	<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews.png" /><h1 id="zoneBlack">News</h1>
-	</div>
+<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews3.png" /><h1 id="zoneBlack">News</h1>
+</div>
 <!----- P A G E   H E A D I N G ------------- E N D ------->
 
 	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
@@ -14,24 +14,103 @@
 		<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
 		<div id="newsNav">
 		<div id="thisNews"><a href="/news/">News</a></div>
-				<ul id="newsNav1">
-						@if				
-							(@CurrentPage.Name != @CurrentPage.AncestorOrSelf(3).Name)
-							{
-								<li>@Html.Partial("USNBlog/USN_BlogArchiveNavigation", @Model)</li>
-							}else
-							{
-							<li>
-								<ul id="listingYear">
-									<li class="inactive"><a href="/news/" class="newsTopStoryLink">All news stories</a></li>
-								</ul>
-									
-							</li>	
-									
-							}
-				</ul>			
-		</div>		
-		<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+			<ul id="newsNav1">
+				@if				
+					(@CurrentPage.Name != @CurrentPage.AncestorOrSelf(3).Name)
+					{
+						<li>@Html.Partial("USNBlog/USN_BlogArchiveNavigation", @Model)</li>
+					}else
+					{
+					<li>
+						<ul id="listingYear">
+							<li class="inactive"><a href="/news/" class="newsTopStoryLink">All news stories</a></li>
+						</ul>
+							
+					</li>	
+				
+					}
+			</ul>
+			<div id="thisNews"><a href="/services/departments-c/communications/communication-channels/">Channels</a></div>
+			<ul id="newsNav1">
+		
+				<!-----Behind the Headlines----->	
+				<a id="channel" href="/services/departments-c/communications/communication-channels/behind-the-headlines/" />
+				<li>
+				<table id="channelOuter">
+					<tr>
+						<td id="channelImage"><img src="/media/1941/channeliconbehindtheheadlines30.png" /></td>
+						<td id="channelText">Behind the Headlines</td>
+					</tr>
+				</table>
+				</li>
+				</a>
+
+				<!-----Hot News----->	
+				<a id="channel" href="/services/departments-c/communications/communication-channels/hot-news/" />
+				<li>
+				<table id="channelOuter">
+					<tr>
+						<td id="channelImage"><img src="/media/1945/channeliconhotnews30.png" /></td>
+						<td id="channelText">Hot News</td>
+					</tr>
+				</table>
+				</li>
+				</a>
+		
+				<!-----Message of the Month----->	
+				<a id="channel" href="/services/departments-c/communications/communication-channels/message-of-the-month/" />
+				<li>
+				<table id="channelOuter">
+					<tr>
+						<td id="channelImage"><img src="/media/1943/channeliconmessageofthemonth30.png" /></td>
+						<td id="channelText">Message of the Month</td>
+					</tr>
+				</table>
+				</li>
+				</a>
+		
+				<!-----News in Brief----->	
+				<a id="channel" href="/services/departments-c/communications/communication-channels/news-in-brief/" />
+				<li>
+				<table id="channelOuter">
+					<tr>
+						<td id="channelImage"><img src="/media/1942/channeliconnewsinbrief30.png" /></td>
+						<td id="channelText">News in Brief</td>
+					</tr>
+				</table>
+				</li>
+				</a>
+		
+				<!-----Our Week Ahead----->		
+				<a id="channel" href="/services/departments-c/communications/communication-channels/our-week-ahead/" />
+				<li>
+				<table id="channelOuter">
+					<tr>
+						<td id="channelImage"><img src="/media/1940/channeliconourweekahead30.png" /></td>
+						<td id="channelText">Our Week Ahead</td>
+					</tr>
+				</table>
+				</li>
+				</a>		
+		
+				<!-----Spotlight----->		
+				<a id="channel" href="/services/departments-c/communications/communication-channels/spotlight/" />
+				<li>
+				<table id="channelOuter">
+					<tr>
+						<td id="channelImage"><img src="/media/1935/channeliconspotlight30.png" /></td>
+						<td id="channelText">Spotlight</td>
+					</tr>
+				</table>
+				</li>
+				</a>		
+		
+
+			</ul>		
+		</div>
+				
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+				
 			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
 			<div id="contentNews">
 		

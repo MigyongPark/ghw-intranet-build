@@ -6,8 +6,8 @@
 @Html.Partial("atozButtons")
 <!----- P A G E   H E A D I N G ------------- S T A R T ------->
 	<div id="departmentsHeadBackground">
-	<img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" />
-	<h1 id="zoneWhite">Departments and services</h1>
+	<img id="zonePageIcon" src="/media/1070/zonepageiconsupport.png" />
+	<h1 id="zoneWhite">Services</h1>
 	</div>
 <!----- P A G E   H E A D I N G ------------- E N D ------->
 	
@@ -17,22 +17,49 @@
 <div id="depListingGrid">	
 	@foreach (var childpage in CurrentPage.Children)
 	{
-	@*---ITEM---START---*@
-	<a href="@childpage.Url">
-	<div id="depListingItem">
-	<table border="0" cellspacing="0" cellpadding="0">
-	<tbody>
-	<tr>
-	<td id="depListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
-	</tr>
-	<tr>
-	<td id="depListingText">@childpage.Name</td>
-	</tr>
-	</tbody>
-	</table>
-	</div>
-	</a>
-	@*---ITEM---END---*@
+	
+		@* opens external links in a new window *@				
+		if (childpage.IsDocumentType("externalLink", true))
+		{ 
+	
+		@*---ITEM---START---*@
+		<a href="@childpage.Url" target="_blank">
+		<div id="depListingItem">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tbody>
+		<tr>
+		<td id="depListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
+		</tr>
+		<tr>
+		<td id="depListingText">@childpage.Name</td>
+		</tr>
+		</tbody>
+		</table>
+		</div>
+		</a>
+		@*---ITEM---END---*@
+		
+		}else{
+
+		@*---ITEM---START---*@
+		<a href="@childpage.Url">
+		<div id="depListingItem">
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tbody>
+		<tr>
+		<td id="depListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
+		</tr>
+		<tr>
+		<td id="depListingText">@childpage.Name</td>
+		</tr>
+		</tbody>
+		</table>
+		</div>
+		</a>
+		@*---ITEM---END---*@
+		
+		}
+		
 	}
 </div>
 <!----DEPARTMENTS LETTER LISTING GRID ---------END--------------->

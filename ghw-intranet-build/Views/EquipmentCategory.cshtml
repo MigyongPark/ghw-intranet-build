@@ -34,7 +34,7 @@
 					@*-----displays self (highlighted)----- *@
 
 							<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
-							
+
 						}
 					}
 				}
@@ -65,7 +65,7 @@
 								{
 									@*-----displays self (highlighted)----- *@
 									<li id="selfIndent20"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
-									
+
 								}
 							}
 						}
@@ -103,7 +103,7 @@
 								}else
 								{
 									<li id="selfIndent40"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
-										
+
 										}
 									}
 								}
@@ -148,11 +148,14 @@
 				<div id="equipmentDetailsQ">Minor Equipment Request Form required?</div>
 				<div id="equipmentDetailsA">@item.equipmentForm</div>
 			</div>
+			
+			@if (item.HasValue("equipmentNotes"))
+			{
 			<div id="equipmentDetailsContainerDouble">
 				<div id="equipmentDetailsQ">Notes</div>
 				<div id="equipmentDetailsA">@item.equipmentNotes</div>
 			</div>
-
+			}
 		</div>
 		@*-----left column end-----*@
 

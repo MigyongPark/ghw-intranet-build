@@ -5,11 +5,11 @@
 }
 @Html.Partial("atozButtons")
 <!----- P A G E   H E A D I N G ------------- S T A R T ------->
-	<div id="departmentsHeadBackground"><img id="zonePageIcon" src="/media/1044/zonepageicondepartments.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	<div id="departmentsHeadBackground"><img id="zonePageIcon" src="/media/1070/zonepageiconsupport.png" /><h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
 	</div>
 <!----- P A G E   H E A D I N G ------------- E N D ------->
 
-	
+
 	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
 	<div class="departmentsMainArea">
 
@@ -39,7 +39,7 @@
 						}else{
 					@*-----displays self (highlighted)----- *@
 					<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
-							
+
 						}
 					}
 				}
@@ -64,7 +64,7 @@
 								foreach (var sibling in CurrentPage.Parent.Children)
 								{
 									if(@sibling.Name != @CurrentPage.Name)
-									{										
+									{
 										@*-----STOPS siblings being shown if limitNavigation is ticked----- *@
 										if (@CurrentPage.limitNavigation!=true)
 										{
@@ -97,17 +97,17 @@
 				{
 					if(@uncle.Name != @CurrentPage.Parent.Name)
 					{
-						
+
 						@*-----STOPS parents' siblings being shown if limitNavigation is ticked----- *@
 						if (@CurrentPage.limitNavigation!=true)
-						{	
-						
+						{
+
 						<li id="indent20"><a href="@uncle.url">@uncle.Name</a></li>
-							
+
 						}
-							
-							
-							
+
+
+
 					}else{
 						@*----displays the parent page (highlighted)-------*@
 						<li id="selfIndent20"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
@@ -121,7 +121,7 @@
 								}else
 								{
 									<li id="selfIndent40"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
-										
+
 										}
 									}
 								}
@@ -132,7 +132,7 @@
 			if(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(8).Name)
 			{
 			@*------------CONTROLS FOR WHEN ON LEVEL 8-------------*@
-				
+
 			@*-----displays all GREAT GRANDPARENT's siblings!----- *@
 
 			foreach (var greatGreatUncle in CurrentPage.Parent.Parent.Parent.Parent.Children)
@@ -142,7 +142,7 @@
 				<li><a href="@greatGreatUncle.url">@greatGreatUncle.Name</a></li>
 				}else{
 				<li id="self"><a href="@CurrentPage.Parent.Parent.Parent.url">@CurrentPage.Parent.Parent.Parent.Name</a></li>
-				
+
 				@*-----displays all GRANDPARENT's siblings----- *@
 
 				<li id="selfIndent20"><a href="@CurrentPage.Parent.Parent.url">@CurrentPage.Parent.Parent.Name</a></li>
@@ -153,9 +153,9 @@
 					{
 						@*-----STOPS parents' siblings being shown if limitNavigation is ticked----- *@
 						if (@CurrentPage.limitNavigation!=true)
-						{	
+						{
 						<li id="indent20"><a href="@uncle.url">@uncle.Name</a></li>
-						}							
+						}
 					}else{
 						@*----displays the parent page (highlighted)-------*@
 						<li id="selfIndent40"><a href="@CurrentPage.Parent.Url">@CurrentPage.Parent.Name</a></li>
@@ -169,7 +169,7 @@
 								}else
 								{
 									<li id="selfIndent60"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
-										
+
 										}
 									}
 								}
@@ -186,7 +186,7 @@
 <!-----L E F T   N A V-----E N D----->
 			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
 			<div id="contentWide">
-				
+
 				<table id="teamMember" cellpadding="0" cellspacing="0">
 				@foreach (var item in CurrentPage.Children)
 				{
@@ -194,9 +194,10 @@
 				<td id="teamMemberPhoto"><img src="@Umbraco.Media(item.teamMemberPhoto).Url" width="80" /></td>
 				<td id="teamMemberName">@item.teamMemberName</td>
 				<td id="teamMemberJobTitle">@item.teamMemberJobTitle</td>
-				<td id="teamMemberDetailsLink"><a href="@item.teamMemberDetailsLink" target="_blank">Contact details for @item.teamMemberName</a></td>
-				</tr>					
-				}
+				<td id="teamMemberDetailsLink"><a href="@item.teamMemberDetailsLink" target="_blank" onclick="return popitup('@item.teamMemberDetailsLink')">Contact details for @item.teamMemberName</a></td>
+				</tr>
+				}				
+				
 				</table>
 
 @*----- Optional 'See also' section----- *@
@@ -212,9 +213,9 @@
 				</div>
 				<!----- P A G E   I N F O ----- E N D ----->
 
-					
-					
-					
+
+
+
 			</div>
 			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
 

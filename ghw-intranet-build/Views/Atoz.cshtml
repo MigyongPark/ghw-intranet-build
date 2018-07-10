@@ -3,8 +3,6 @@
 @{
 	Layout = "NewIntranetMaster.cshtml";
 }
-
-
 	<!--- A - Z --- L I N K S --- S T A R T --->
 	<div id="atozLetterLinks">
 		@Umbraco.Field("atozHTMLletters")	
@@ -35,7 +33,13 @@
 			<ul class="atozItem1Column">		
 				@foreach (var item in CurrentPage.Children)
 				{	
+					@* opens external links in a new window *@				
+					if (item.IsDocumentType("externalLink", true))
+					{    
+					<li class="atozItem"><a href="@item.url" class="atozItem" target="_blank">@item.Name</a></li>
+					}else{	
 					<li class="atozItem"><a href="@item.url" class="atozItem">@item.Name</a></li>
+					}					
 				}
 			</ul>
 		</div>		
@@ -45,7 +49,13 @@
 			<ul class="atozItem2Column">		
 				@foreach (var item in CurrentPage.Children)
 				{	
+					@* opens external links in a new window *@				
+					if (item.IsDocumentType("externalLink", true))
+					{    
+					<li class="atozItem"><a href="@item.url" class="atozItem" target="_blank">@item.Name</a></li>
+					}else{	
 					<li class="atozItem"><a href="@item.url" class="atozItem">@item.Name</a></li>
+					}					
 				}
 			</ul>
 		</div>
@@ -55,7 +65,13 @@
 			<ul class="atozItem3Column">		
 				@foreach (var item in CurrentPage.Children)
 				{	
+					@* opens external links in a new window *@				
+					if (item.IsDocumentType("externalLink", true))
+					{    
+					<li class="atozItem"><a href="@item.url" class="atozItem" target="_blank">@item.Name</a></li>
+					}else{	
 					<li class="atozItem"><a href="@item.url" class="atozItem">@item.Name</a></li>
+					}					
 				}
 			</ul>
 		</div>

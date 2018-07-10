@@ -1,0 +1,87 @@
+﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage<ContentModels.HelpHomePage>
+@using ContentModels = Umbraco.Web.PublishedContentModels;
+@{
+	Layout = "NewIntranetMaster.cshtml";
+}@Html.Partial("atozButtons")
+<!----- P A G E   H E A D I N G ------------- S T A R T ------->
+	<div id="helpHeadBackground">
+	<img id="zonePageIcon" src="/media/2051/zonepageiconhelp.png" />
+	<h1 id="zoneWhite">@Umbraco.Field("pageTitle")</h1>
+	</div>
+<!----- P A G E   H E A D I N G ------------- E N D ------->
+
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+	<div class="helpMainArea">
+
+<!-----L E F T   N A V-----S T A R T----->
+	<div id="helpNav">
+		<div id="thisHelp"><a href="@CurrentPage.AncestorOrSelf(2).url">@CurrentPage.AncestorOrSelf(2).name</a></div>
+		<ul id="helpNav1">
+
+			@*------------CONTROLS FOR LEVEL 2 (Help Home page)-------------*@
+			@if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(2).Name)
+				{
+				@*-----displays all children of the current page-----*@
+				foreach (var childpage in CurrentPage.Children)
+				{
+					<li><a href="@childpage.Url">@childpage.Name</a></li>
+				}
+				}else{
+
+			@*------------CONTROLS FOR LEVEL 3 (Help pages) -------------*@
+			@*-----displays all siblings (indented) + self (indented and highlighted) when on level 3----- *@
+			if
+				(@CurrentPage.Name == @CurrentPage.AncestorOrSelf(3).Name)
+				{
+					@*-----displays all siblings (indented)----- *@
+					foreach (var sibling in CurrentPage.Parent.Children)
+					{
+						if(@sibling.Name != @CurrentPage.Name)
+						{
+							<li><a href="@sibling.Url">@sibling.Name</a></li>
+						}else{
+					@*-----displays self (highlighted)----- *@
+
+							<li id="self"><a href="@CurrentPage.url">@CurrentPage.Name</a></li>
+						}
+					}
+				}
+				}
+
+	</ul>
+	</div>
+<!-----L E F T   N A V-----E N D----->
+
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<div id="contentWide">
+
+	<!----HELP GRID START------------------------------------------------------>
+	<div id="helpLandingGridNarrow">
+		@foreach (var childpage in CurrentPage.Children)
+		{
+			@*---ITEM---START---*@
+			<a href="@childpage.Url">
+				<div id="helpListingItemNarrow">
+					<table border="0" cellspacing="0" cellpadding="0">
+					<tbody>
+					<tr>
+					<td id="helpListingIcon"><img src="/media/1051/zonearrow40.png" alt="" /></td>
+					</tr>
+					<tr>
+					<td id="helpListingTextNarrow">@childpage.Name</td>
+					</tr>
+					</tbody>
+					</table>
+				</div>
+			</a>
+			@*---ITEM---END---*@
+		}
+	</div>
+	<!----HELP GRID END------------------------------------------------------>
+
+</div>
+<!----- H E L P   P A G E   C O N T A I N E R --- END ----->
+
+</body>
+</html>

@@ -75,6 +75,12 @@
 
 			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
 			<div id="contentWide">
+			
+				@*--------optional introduction--------*@
+				@if(@CurrentPage.addIntroduction==true)
+				{
+				@Umbraco.Field("bodyText")
+				}
 
 			
 				<table id="alertItem" cellpadding="0" cellspacing="0">

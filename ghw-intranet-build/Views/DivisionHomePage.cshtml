@@ -26,84 +26,7 @@
 				{
 				@Umbraco.Field("intro")
 				}
-			
-
-			<table id="divisionPeople" cellpadding="0" cellspacing="0">
-				<tr>
-				@if (CurrentPage.HasValue("person1Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person1Photo).Url" /><br />
-					<strong>@CurrentPage.person1Name</strong><br />
-					@CurrentPage.person1Position
-				</td>
-				}
-
-				@if (CurrentPage.HasValue("person2Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person2Photo).Url" /><br />
-					<strong>@CurrentPage.person2Name</strong><br />
-					@CurrentPage.person2Position
-				</td>
-				}
-
-				@if (CurrentPage.HasValue("person3Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person3Photo).Url" /><br />
-					<strong>@CurrentPage.person3Name</strong><br />
-					@CurrentPage.person3Position
-				</td>
-				}
-
-				@if (CurrentPage.HasValue("person4Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person4Photo).Url" /><br />
-					<strong>@CurrentPage.person4Name</strong><br />
-					@CurrentPage.person4Position
-				</td>
-				}
-
-				@if (CurrentPage.HasValue("person5Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person5Photo).Url" /><br />
-					<strong>@CurrentPage.person5Name</strong><br />
-					@CurrentPage.person5Position
-				</td>
-				}
-
-				</tr><tr>
-
-				@if (CurrentPage.HasValue("person6Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person6Photo).Url" /><br />
-					<strong>@CurrentPage.person6Name</strong><br />
-					@CurrentPage.person6Position
-				</td>
-				}
-
-				@if (CurrentPage.HasValue("person7Name"))
-				{
-				<td id="divisionPeople">
-					<img src="@Umbraco.Media(CurrentPage.person7Photo).Url" /><br />
-					<strong>@CurrentPage.person7Name</strong><br />
-					@CurrentPage.person7Position
-				</td>
-				}
-				</tr>
-				</table>
 					
-				@*------optional outro------*@
-				@if(@CurrentPage.addOutro==true)
-				{
-				@Umbraco.Field("outro")
-				}
-					
-				<h2>Key contacts</h2>
 				
 				<table id="teamMember" cellpadding="0" cellspacing="0">
 				@foreach (var item in CurrentPage.Children)
@@ -116,6 +39,12 @@
 				</tr>					
 				}
 				</table>
+					
+				@*------optional outro------*@
+				@if(@CurrentPage.addOutro==true)
+				{
+				@Umbraco.Field("outro")
+				}
 					
 			@*-----Optional 'See also' section----- *@
 			@if(@CurrentPage.addSeeAlsoSection==true)

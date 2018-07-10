@@ -1,41 +1,54 @@
 ﻿@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
 @{
-    Layout = null;
+	Layout = null;
 }
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
-
+	
 <head>
-    <title>@Umbraco.Field("pageName")</title>
-
-    <link rel="stylesheet" href="/css/index.css" media="screen" />
-    <link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css' />
-    <link rel="shortcut icon" href="/media/1047/favicon3.png" type="image/png" />
-    <!-- WEB FONT -->
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" />
-
+<title>@Umbraco.Field("pageName")</title>
+	
+<link rel="stylesheet" href="/css/index.css" media="screen">
+<link href='https://fonts.googleapis.com/css?family=Coming+Soon' rel='stylesheet' type='text/css'>
+<link rel="shortcut icon" href="/media/1047/favicon6.png" type="image/png" />
+	
+<!-----set up to force link to find a colleague to open in a window 1000x650
+activated in Team Contact Page template----->
+<script language="javascript" type="text/javascript">
+<!--
+function popitup(url) {
+    newwindow=window.open(url,'name','height=650,width=1000');
+    if (window.focus) {newwindow.focus()}
+    return false;
+}
+// -->
+</script>
+	
 </head>
 <body>
-    <!----- Z O N E   P A G E   C O N T A I N E R --- S T A R T ----->
-    <div class="zonePageContainer">
-        <!----- L I N K   B A R --- S T A R T ----->
-        <div id="linkBar">
-            <a id="linkBar" href="/"><div id="linkBarHome"><img src="/media/1034/tinyiconhome.png" /></div></a>
-            <a id="linkBar" href="/departments-and-services/"><div id="linkBarDepartments"><img src="/media/1920/tinyicon-services.png" /><br />Services</div></a>
-            <a id="linkBar" href="/clinical-systems/"><div id="linkBarClinical"><img src="/media/1039/tinyicon-clinical.png" /><br />Clinical<br />systems<br /></div></a>
-            <a id="linkBar" href="/patient-support/"><div id="linkBarSupport"><img src="/media/1919/tinyicon-support.png" /><br />Patient support<br /></div></a>
-            <a id="linkBar" href="/incidents-risks-emergencies/"><div id="linkBarIncident"><img src="/media/1918/tinyicon-incident2.png" /><br />Emergencies, incidents, risks</div></a>
-            <a id="linkBar" href="/find-a-colleague/"><div id="linkBarColleague"><img src="/media/1038/tinyicon-colleague.png" /><br />Find a<br />colleague</div></a>
-            <a id="linkBar" href="/trust-wide-documents/"><div id="linkBarTrustWideDocuments"><img src="/media/1042/tinyicon-trustwidedocuments.png" /><br />Trust-wide<br />documents</div></a>
-            <a id="linkBar" href="/news/"><div id="linkBarNews"><img src="/media/1041/tinyicon-news.png" /><br />News</div></a>
-            <a id="linkBar" href="/staffroom/"><div id="linkBarStaff"><img src="/media/1040/tinyicon-staffroom.png" /><br />Staff area</div></a>
-            <a id="linkBar" href="/careers/"><div id="linkBarCareers"><img src="/media/1037/tinyicon-careers.png" /><br />Careers and training</div></a>
-        </div>
-        <!----- L I N K   B A R --- E N D ----->
-        @RenderBody()
 
-    </div>
-    <!----- Z O N E   P A G E   C O N T A I N E R --- E N D ----->
+<!----- Z O N E   P A G E   C O N T A I N E R --- S T A R T ----->
+<div class="zonePageContainer">
 
+	<!----- L I N K   B A R --- S T A R T ----->
+	<div id="linkBar">
+		<a id="linkBar" href="/" title="Home"><div id="linkBarHome"><img src="/media/2057/tinyicon-home.png" /></div></a>
+		<a id="linkBar" href="/departments-and-services/" title="Services"><div id="linkBarDepartments"><img src="/media/1920/tinyicon-services.png" /><br />Services</div></a>		
+		<a id="linkBar" href="/clinical-systems/" title="Clynical systems"><div id="linkBarClinical"><img src="/media/1039/tinyicon-clinical.png" /><br />Clinical<br />systems<br /></div></a>		
+		<a id="linkBar" href="/patient-support/" title="Patient support"><div id="linkBarSupport"><img src="/media/1919/tinyicon-support.png" /><br />Patient support<br /></div></a>		
+		<a id="linkBar" href="/incidents-risks-emergencies/" title="Emergencies, incidents, risks"><div id="linkBarIncident"><img src="/media/1918/tinyicon-incident2.png" /><br />Emergencies, incidents, risks</div></a>		
+		<a id="linkBar" href="/find-a-colleague/" title="Find a colleague"><div id="linkBarColleague"><img src="/media/1038/tinyicon-colleague.png" /><br />Find a<br />colleague</div></a>		
+		<a id="linkBar" href="/trust-wide-documents/" title="Trust-wide documents"><div id="linkBarTrustWideDocuments"><img src="/media/2056/tinyicon-trustwidedocuments12.png" /><br />Trust-wide<br />documents</div></a>		
+		<a id="linkBar" href="/news/" title="News"><div id="linkBarNews"><img src="/media/1041/tinyicon-news2.png" /><br />News</div></a>		
+		<a id="linkBar" href="/staffroom/" title="Staff area"><div id="linkBarStaff"><img src="/media/1040/tinyicon-staffroom.png" /><br />Staff area</div></a>		
+		<a id="linkBar" href="/careers/" title="Careers and training"><div id="linkBarCareers"><img src="/media/1037/tinyicon-careers.png" /><br />Careers and training</div></a>
+	</div>
+	<!----- L I N K   B A R --- E N D ----->
+
+@RenderBody()	
+	
+</div>
+<!----- Z O N E   P A G E   C O N T A I N E R --- E N D ----->	
+	
 </body>
 </html>

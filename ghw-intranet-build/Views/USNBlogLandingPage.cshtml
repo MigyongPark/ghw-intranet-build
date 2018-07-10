@@ -5,49 +5,157 @@
 
 @Html.Partial("atozButtons")
 <!----- P A G E   H E A D I N G ------------- S T A R T ------->
-	<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews.png" /><h1 id="zoneBlack">News</h1>
+	<div id="newsHeadBackground"><img id="contentPageIcon" src="/media/1068/zonepageiconnews3.png" /><h1 id="zoneBlack">News</h1>
 	</div>
 <!----- P A G E   H E A D I N G ------------- E N D ------->
 
-	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
-	<div class="newsMainArea">
-		<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
-		<div id="newsNav">
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   S T A R T------------->
+<div class="newsMainArea">
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ S T A R T ------>
+	<div id="newsNav">
 		<div id="thisNews"><a href="/news/">Latest news</a></div>
-			<ul id="newsNav1">
+		<ul id="newsNav1">
 			<li>@Html.Partial("USNBlog/USN_BlogArchiveNavigation", @Model)</li>
-			</ul>
+		</ul>
+		<div id="thisNews"><a href="/services/departments-c/communications/communication-channels/">Channels</a></div>
+		<ul id="newsNav1">
+		
+			<!-----Behind the Headlines----->	
+			<a id="channel" href="/services/departments-c/communications/communication-channels/behind-the-headlines/" />
+			<li>
+			<table id="channelOuter">
+				<tr>
+					<td id="channelImage"><img src="/media/1941/channeliconbehindtheheadlines30.png" /></td>
+					<td id="channelText">Behind the Headlines</td>
+				</tr>
+			</table>
+			</li>
+			</a>
+			<!-----Hot News----->	
+			<a id="channel" href="/services/departments-c/communications/communication-channels/hot-news/" />
+			<li>
+			<table id="channelOuter">
+				<tr>
+					<td id="channelImage"><img src="/media/1945/channeliconhotnews30.png" /></td>
+					<td id="channelText">Hot News</td>
+				</tr>
+			</table>
+			</li>
+			</a>
+	
+			<!-----Message of the Month----->	
+			<a id="channel" href="/services/departments-c/communications/communication-channels/message-of-the-month/" />
+			<li>
+			<table id="channelOuter">
+				<tr>
+					<td id="channelImage"><img src="/media/1943/channeliconmessageofthemonth30.png" /></td>
+					<td id="channelText">Message of the Month</td>
+				</tr>
+			</table>
+			</li>
+			</a>
+	
+			<!-----News in Brief----->	
+			<a id="channel" href="/services/departments-c/communications/communication-channels/news-in-brief/" />
+			<li>
+			<table id="channelOuter">
+				<tr>
+					<td id="channelImage"><img src="/media/1942/channeliconnewsinbrief30.png" /></td>
+					<td id="channelText">News in Brief</td>
+				</tr>
+			</table>
+			</li>
+			</a>
+	
+			<!-----Our Week Ahead----->		
+			<a id="channel" href="/staff-area/our-week-ahead/" />
+			<li>
+			<table id="channelOuter">
+				<tr>
+					<td id="channelImage"><img src="/media/1940/channeliconourweekahead30.png" /></td>
+					<td id="channelText">Our Week Ahead</td>
+				</tr>
+			</table>
+			</li>
+			</a>		
+	
+			<!-----Spotlight----->		
+			<a id="channel" href="/services/departments-c/communications/communication-channels/spotlight/" />
+			<li>
+			<table id="channelOuter">
+				<tr>
+					<td id="channelImage"><img src="/media/1935/channeliconspotlight30.png" /></td>
+					<td id="channelText">Spotlight</td>
+				</tr>
+			</table>
+			</li>
+			</a>		
 
-		</div>
-
-		<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
-
-			<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
-			<!---News-Column----start--->
-			<div id="newsNewsList">
-				@Html.Partial("USNBlog/USN_BlogListing",@Model.Content)
-			</div>
-			<!---News-Column----end--->
-
-			<!---twitter feed column-----start---->
-			<div id="newsTwitterFeed">
-				<a class="twitter-timeline" href="https://twitter.com/GWH_NHS" data-widget-id="630712576284995584" width="360" height="780">Tweets by GWH_NHS</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-
-			</div>
-
-			<!-----twitter feed -----end---->
-			<!---Facebook link----start
-				<div id="facebookLink">
-				<a href="https://www.facebook.com/GWHNHS" target="_blank"><img src="imgs/facebook2.png" width="320" height="50" /></a>
-				</div>
-			---Facebook link----end---------->
-
-
-			<!---------------------------------C O N T E N T   E N D--------------------------------------------->
-
+		</ul>		
 	</div>
-	<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
+		
+	<!-------- L E F T   N A V I G A T I O N   B A R ------ E N D ------>
+
+<!---------------------------------C O N T E N T   S T A R T---------------------------------------------->
+<!---News-Column----start--->
+<div id="newsNewsList">
+		
+@*-------- TOP STORY ITEM ---------*@
+@* checks whether to show the top story or not - only shows if level 2 page *@
+	
+	@*----- sets the 'News top story' folder location ---- *@
+	@{
+		var topStoryFolder = Umbraco.TypedContent(@Umbraco.Field("topStoryFolder").ToString());
+	}
+	
+		@foreach (var child in topStoryFolder.Children.OrderBy("updateDate descending"))
+		{						
+			<a href="@child.Url">
+			<div id="linkContainer">
+				@*----- image size is constrained to 130 x 75 -----*@
+					<div id="newsListIcon">
+						<img src="@Umbraco.TypedMedia(child.GetProperty("pageListingImage").Value).GetCropUrl(width: 130, height: 75)" alt="@child.GetProperty("pageListingImageAltText").Value" itemprop="image">
+					</div>
+					<div id="newsListText">
+						<h2 id="newsNews">@child.Name</h2>
+					</div>
+			</div>
+			</a>			
+			}	
+
+@* REST OF THE NEWS ITEMS (in chronological order) *@
+		
+@Html.Partial("USNBlog/USN_BlogListing",@Model.Content)
+	
+</div>
+<!---News-Column----end--->
+
+<!---twitter feed column-----start---->
+<div id="newsTwitterFeed">
+	<a class="twitter-timeline" href="https://twitter.com/GWH_NHS" data-widget-id="630712576284995584" width="360" height="780">Tweets by GWH_NHS</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div>
+
+<!-----twitter feed -----end---->
+<!---Facebook link----start----->
+
+<div id="facebookLink">
+	<a href="https://www.facebook.com/GWHNHS" target="_blank" title="The Trust Facebook account"/>	
+		<table>
+			<tr>
+				<td><img src="/media/1910/icon-facebook40a.png" title="Trust Facebook account" /></td>
+				<td>Check out the Trust's Facebook account too!</td>
+			</tr>
+		</table>
+	</a>	
+</div>
+
+<!-----Facebook link----end---------->
+
+<!---------------------------------C O N T E N T   E N D--------------------------------------------->
+
+</div>
+<!-----------------------M A I N   A R E A   C O N T A I N E R   ---   E N D------------->
 
 </div>
 <!----- P A G E   C O N T A I N E R --- E N D ----->
